@@ -3,6 +3,7 @@ import {createRoot} from 'react-dom/client'
 import {Activity,ArrowDown,ArrowRight,ArrowUpRight,ChartNoAxesCombined,Check,Crosshair,Flame,Link2,Map,Plus,Shield,Sparkles,Swords,Users,Waves,Wind,X} from 'lucide-react'
 import {BattleMap} from './map.jsx'
 import {DraftBoard,HeroCatalog,DraftAnalysis,HeroSheet,targetName} from './draft.jsx'
+import {CounterPick} from './matchup.jsx'
 import {HeroIntel} from './hero-intel.jsx'
 import {db,homeUrl,rpc,fetchRoom} from './backend.js'
 import rawHeroes from './heroes.json'
@@ -10,7 +11,7 @@ import {LANES,SOURCE,PATCH,UPCOMING,defaultProfiles,fresh,occupied,selectHero,an
 import './styles.css'
 const ICONS={slayer:Shield,jungle:Flame,mid:Sparkles,dragon:Crosshair,roam:Waves}
 const allHeroes=rawHeroes
-const tabs=[['draft','ดราฟต์',Swords],['team','ผู้เล่น',Users],['map','แผนที่',Map],['meta','เมต้า',ChartNoAxesCombined]]
+const tabs=[['draft','ดราฟต์',Swords],['counter','เคาน์เตอร์',Crosshair],['team','ผู้เล่น',Users],['map','แผนที่',Map],['meta','เมต้า',ChartNoAxesCombined]]
 const read=(key,alt)=>{try{return JSON.parse(localStorage.getItem(key))??alt}catch{return alt}}
 const store=(key,value)=>localStorage.setItem(key,JSON.stringify(value))
 const asDate=d=>new Intl.DateTimeFormat('th-TH',{year:'numeric',month:'short',day:'numeric',timeZone:'Asia/Bangkok'}).format(new Date(d+'T12:00:00+07:00'))
@@ -25,7 +26,7 @@ function App(){
  const [page,setPage]=useState('draft'),[practice,setPractice]=useState(()=>read('rw-state-1',fresh())),[practicePlayers,setPracticePlayers]=useState(()=>read('rw-players-1',defaultProfiles()))
  const [session,setSession]=useState(null),[room,setRoom]=useState(null),[profiles,setProfiles]=useState([])
  const [roomId,setRoomId]=useState(params.get('room')||null),[invite,setInvite]=useState(params.get('invite')||null)
- const [online,setOnline]=useState(false),[notice,setNotice]=useState(null),[roomOpen,setRoomOpen]=useState(false)
+ const [online,setOnline]=useState(false),[peers,setPeers]=useState(0),[notice,setNotice]=useState(null),[roomOpen,setRoomOpen]=useState(false)
  const [target,setTarget]=useState({side:'blue',lane:'slayer',ban:false}),[filter,setFilter]=useState('slayer'),[search,setSearch]=useState(''),[focus,setFocus]=useState(null),[preview,setPreview]=useState(null)
  const [editSlot,setEditSlot]=useState(1),[motion,setMotion]=useState(()=>read('rw-motion',true))
  const [pending,setPending]=useState(false),[ai,setAi]=useState(null),[aiBusy,setAiBusy]=useState(false)
@@ -61,17 +62,22 @@ function App(){
  function setFreshRoom(next){if(!roomRef.current||roomRef.current.id!==next.id||next.revision>=roomRef.current.revision){roomRef.current=next;setRoom(next)}}
  async function load(id){const d=await fetchRoom(id);setFreshRoom(d.room);setProfiles(d.profiles);return d}
  useEffect(()=>{
-   if(!db||!session||!roomId||invite)return
-   let current=true
-   load(roomId).catch(()=>{if(current)tell('เปิดห้องไม่ได้ โปรดตรวจว่าลงชื่อเข้าใช้บัญชีที่ได้รับเชิญ',true)})
-   const reload=()=>{if(current)load(roomId).catch(()=>{if(current)setOnline(false)})}
-   const channel=db.channel('war-room-'+roomId)
-     .on('postgres_changes',{event:'UPDATE',schema:'public',table:'war_rooms',filter:'id=eq.'+roomId},reload)
-     .on('postgres_changes',{event:'UPDATE',schema:'public',table:'war_profiles',filter:'room_id=eq.'+roomId},reload)
-     .subscribe(status=>{if(current){setOnline(status==='SUBSCRIBED');if(status==='SUBSCRIBED')reload()}})
-   const poll=setInterval(reload,12000)
-   return()=>{current=false;clearInterval(poll);db.removeChannel(channel)}
- },[roomId,session?.user.id,invite])
+    if(!db||!session||!roomId||invite)return
+    let current=true
+    load(roomId).catch(()=>{if(current)tell('เปิดห้องไม่ได้ โปรดตรวจว่าลงชื่อเข้าใช้บัญชีที่ได้รับเชิญ',true)})
+    const reload=()=>{if(current)load(roomId).catch(()=>{if(current)setOnline(false)})}
+    const channel=db.channel('war-room-'+roomId,{config:{presence:{key:session.user.id}}})
+      .on('postgres_changes',{event:'UPDATE',schema:'public',table:'war_rooms',filter:'id=eq.'+roomId},reload)
+      .on('postgres_changes',{event:'UPDATE',schema:'public',table:'war_profiles',filter:'room_id=eq.'+roomId},reload)
+      .on('presence',{event:'sync'},()=>{if(current)setPeers(Object.keys(channel.presenceState()).length)})
+      .subscribe(status=>{
+        if(!current)return
+        setOnline(status==='SUBSCRIBED')
+        if(status==='SUBSCRIBED'){reload();channel.track({at:new Date().toISOString()})}
+      })
+    const poll=setInterval(reload,12000)
+    return()=>{current=false;clearInterval(poll);db.removeChannel(channel);setPeers(0)}
+  },[roomId,session?.user.id,invite])
  useEffect(()=>{if(!session||!invite||!db)return;setRoomOpen(true)},[session,invite])
  useEffect(()=>{if(roomOpen&&!authDialog.current?.open)authDialog.current?.showModal();if(!roomOpen&&authDialog.current?.open)authDialog.current.close()},[roomOpen])
  useEffect(()=>{aiRequest.current++;setAi(null);setAiBusy(false)},[selected,state.blue,state.red,state.bans,state.meta])
@@ -221,6 +227,7 @@ function App(){
       </div>
       <HeroSheet open={sheetOpen} stage={sheetStage} context={targetName(target)} side={target.side} onClose={()=>closePicker()} onBack={()=>setSheetStage('catalog')} renderCatalog={()=> <HeroCatalog {...catalogProps} compact/>} renderAnalysis={headingRef=> <DraftAnalysis {...analysisProps} compact headingRef={headingRef}/>}/>
     </>}
+    {page==='counter'&&<CounterPick heroes={heroes} state={state} byId={byId} Portrait={Portrait} display={display} onIntel={showIntel} stamp={stamp} asDate={asDate} room={room} online={online} peers={peers} profiles={profiles}/>}
     {page==='team'&&<Team players={players} heroes={heroes} byId={byId} save={saveProfile} coach={coach} session={session} room={room} slot={editSlot} setSlot={setEditSlot} makeInvite={createInvite} copy={copyLink} tell={tell}/>}
     {page==='map'&&<BattleMap state={state} apply={apply} coach={coach&&!pending}/>}
     {page==='meta'&&<section className="panel meta-panel">
@@ -231,7 +238,7 @@ function App(){
     </section>}
     <footer><span>RoV War Room · เครื่องมือวางแผนทีม ไม่ใช่บริการทางการของ Garena</span><a href="https://www.rov.in.th/patch-notes/beta55" rel="noreferrer" target="_blank">ภาพและแพตช์อ้างอิง <ArrowUpRight size={13}/></a></footer>
    </main>
-   <HeroIntel hero={byId.get(intelHero)} onClose={()=>setIntelHero(null)} onBrowse={showIntel} heroes={heroes} groups={intelGroups} stamp={stamp} byId={byId} Portrait={Portrait} display={display} asDate={asDate}/>
+   <HeroIntel hero={byId.get(intelHero)} onClose={()=>setIntelHero(null)} onBrowse={showIntel} heroes={heroes} groups={intelGroups} stamp={stamp} byId={byId} Portrait={Portrait} display={display} asDate={asDate} enemy={Object.values(state.red).filter(Boolean)}/>
    {notice&&<div className={'toast '+(notice.error?'error':'')} role={notice.error?'alert':'status'}>{notice.error?<Activity size={18}/>:<Check size={18}/>}<span>{notice.message}</span><button className="btn icon" onClick={()=>setNotice(null)} aria-label="ปิดข้อความ"><X size={15}/></button></div>}
    <dialog ref={authDialog} onClose={()=>setRoomOpen(false)} onClick={e=>{if(e.target===e.currentTarget)setRoomOpen(false)}}><RoomModal close={()=>setRoomOpen(false)} session={session} db={db} room={room} invite={invite} copy={copyLink} login={emailLogin} create={makeRoom} join={joinRoom} tell={tell} signOut={async()=>{const {error}=await db.auth.signOut();if(error){tell(error.message,true);return}setRoom(null);setProfiles([]);setRoomId(null);setInvite(null);setOnline(false);roomRef.current=null;history.replaceState({},'',homeUrl());tell('ออกจากห้องออนไลน์แล้ว')}}/></dialog>
  </div>
