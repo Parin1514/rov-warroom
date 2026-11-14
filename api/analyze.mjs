@@ -36,7 +36,8 @@ export default async function handler(req,res){
    if(!quota.data)return reply(res,429,{error:'รออย่างน้อย 20 วินาทีระหว่างการวิเคราะห์'})
    const s=room.state,stamp=s.meta||SOURCE,heroes=withMeta(catalog,s.meta)
    const focus=heroes.find(h=>h.id===body.focus)||null
-   const enemyIds=[...Object.values(s.red),...s.bans.red].filter(Boolean)
+   const asked=Array.isArray(body.enemy)?body.enemy.filter(id=>catalog.some(h=>h.id===id)).slice(0,5):[]
+   const enemyIds=asked.length?asked:[...Object.values(s.red),...s.bans.red].filter(Boolean)
    const enemyHeroes=enemyIds.map(id=>heroes.find(h=>h.id===id)).filter(Boolean)
    const matchup=focus?{
      tags:heroTags[focus.id]||{},

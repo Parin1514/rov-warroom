@@ -111,6 +111,10 @@ export function recommendItems(hero,enemyHeroes=[],limit=6){
   return rows.sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name)).slice(0,limit)
 }
 
-// Items a hero's own verified build already contains.
-export const baseItems=build=>(build?.items||[]).filter(i=>byName.has(i.name))
+// Items a hero's own verified build already contains. The source data repeats an
+// item in one build (natalya), and one item cannot fill two slots, so dedupe.
+export const baseItems=build=>{
+  const seen=new Set()
+  return (build?.items||[]).filter(i=>byName.has(i.name)&&!seen.has(i.name)&&seen.add(i.name))
+}
 export {items,byName}

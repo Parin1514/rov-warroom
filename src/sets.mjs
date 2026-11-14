@@ -1,11 +1,12 @@
-// Selectable item sets. The base set comes from the verified Garena build in
-// hero-details.json; the alternative sets are rule-derived replacements for the
-// last two slots, so every set is 6 items and nothing is invented.
+// Selectable item sets. The base set is the verified Garena build from
+// hero-details.json; every other set is that verified core plus items the rule
+// engine picked for one purpose, so nothing is invented and every set fills 6
+// slots. One set per purpose keeps the tabs meaningful instead of near-duplicates.
 import {recommendItems,baseItems,byName,threatProfile} from './items.mjs'
 
 const MAX=6
 
-// Keep the core of the verified build, swap the tail for rule-derived answers.
+// Keep the verified core, then fill from one purpose's answers.
 function mix(base,answers,keep){
   const kept=base.slice(0,keep)
   const used=new Set(kept.map(i=>i.name))
@@ -13,23 +14,39 @@ function mix(base,answers,keep){
   return [...kept,...fill].slice(0,MAX)
 }
 
+// Purposes in priority order: each with at least two answers becomes a tab.
+const PURPOSES=[
+  {id:'fight',cat:null,keep:4,name:'ชุดปะทะตามดราฟต์',why:'คงแกนชุดเดิม 4 ชิ้นแล้วเติมไอเทมที่ตอบภัยคุกคามของอีกฝั่ง'},
+  {id:'hold',cat:'กัน',keep:3,name:'ชุดตั้งรับ',why:'เน้นไอเทมกันและคุมจังหวะสำหรับเกมที่ต้องรอจังหวะ'},
+  {id:'pierce',cat:'เจาะ',keep:3,name:'ชุดเจาะตัวหนา',why:'เน้นเจาะเกราะเมื่ออีกฝั่งมีแนวหน้าที่ต้องเจาะ'},
+  {id:'shut',cat:'ตอบโต้',keep:3,name:'ชุดตัดการฟื้นฟู',why:'เน้นไอเทมลดการฟื้นฟูและการตามเก็บเป้าหมายที่หนีเก่ง'},
+  {id:'boost',cat:'บูสต์',keep:3,name:'ชุดเร่งดาเมจ',why:'เน้นไอเทมเพิ่มดาเมจเมื่อทีมต้องปิดเกมเร็ว'},
+  {id:'move',cat:'เคลื่อนที่',keep:3,name:'ชุดหมุนแผนที่',why:'เน้นความเร็วและการหมุนแผนที่เมื่อต้องแย่งจังหวะทั้งแมตช์'},
+  {id:'stall',cat:'คุม',keep:3,name:'ชุดตรึงเป้าหมาย',why:'เน้นไอเทมชะลอและควบคุมสำหรับไฟต์ที่ต้องยื้อ'}
+]
+
 export function buildSets(hero,enemyHeroes=[],baseBuild=null,tags={}){
   if(!hero)return []
+  // Accept hero objects or bare ids: a lineup of ids must still read as threats.
+  const enemies=enemyHeroes.map(e=>typeof e==='string'?{id:e}:e).filter(Boolean)
   const base=baseItems(baseBuild)
-  const answers=recommendItems({...hero,...tags},enemyHeroes,10)
-  const threat=threatProfile(enemyHeroes)
+  const answers=recommendItems({...hero,...tags},enemies,40)
+  const threat=threatProfile(enemies)
   const sets=[]
 
   if(base.length){
     sets.push({id:'base',name:'ชุดอ้างอิง Garena',items:base,why:'ชุดที่แหล่งอ้างอิงเผยแพร่ ไม่ได้ปรับตามคู่แข่ง'})
   }
-  if(answers.length){
-    sets.push({id:'fight',name:'ชุดปะทะตามดราฟต์',items:mix(base,answers,4),why:'คงแกนชุดเดิม 4 ชิ้นแล้วเติมไอเทมที่ตอบภัยคุกคามของอีกฝั่ง'})
-    const def=answers.filter(i=>i.cat==='กัน'||i.cat==='คุม')
-    if(def.length>2)sets.push({id:'hold',name:'ชุดตั้งรับ',items:mix(base,def,3),why:'เน้นไอเทมกันและคุมจังหวะสำหรับเกมที่ต้องรอจังหวะ'})
-    const pen=answers.filter(i=>i.cat==='เจาะ'||i.cat==='ตอบโต้')
-    if(pen.length>2)sets.push({id:'pierce',name:'ชุดเจาะตัวหนา',items:mix(base,pen,3),why:'เน้นเจาะเกราะและตัดการฟื้นฟูเมื่ออีกฝั่งมีแนวหน้าหรือตัวฮีล'})
-  }else if(base.length){
+  for(const p of PURPOSES){
+    const pool=p.cat?answers.filter(i=>i.cat===p.cat):answers
+    if(pool.length<2)continue
+    const items=mix(base,pool,p.keep)
+    if(items.length<3)continue
+    // Skip a purpose that ends up with exactly the same six items as an earlier tab.
+    if(sets.some(s=>s.items.map(i=>i.name).join('|')===items.map(i=>i.name).join('|')))continue
+    sets.push({id:p.id,name:p.name,items,why:p.why})
+  }
+  if(!answers.length&&base.length&&sets.length===1){
     sets.push({id:'alt',name:'ชุดเดิมทั้งชุด',items:base,why:'ไม่มีภัยคุกคามที่เข้าเงื่อนไข จึงคงชุดอ้างอิงไว้'})
   }
 

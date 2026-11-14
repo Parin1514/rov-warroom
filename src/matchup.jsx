@@ -45,7 +45,7 @@ export function ItemSets({sets,hero,lane,onCopy,copied}){
  </div>
 }
 
-export function CounterPick({heroes,state,byId,Portrait,display,onIntel,stamp,asDate,room,online,peers,profiles}){
+export function CounterPick({heroes,state,byId,Portrait,display,onIntel,stamp,asDate,room,online,peers,profiles,onAi}){
  const [enemy,setEnemy]=useState(()=>Object.values(state.red).filter(Boolean).slice(0,3))
  const [query,setQuery]=useState('')
  const [lane,setLane]=useState('all')
@@ -53,6 +53,7 @@ export function CounterPick({heroes,state,byId,Portrait,display,onIntel,stamp,as
  const [mode,setMode]=useState('answers')
  const [copied,setCopied]=useState(false)
  const [details,setDetails]=useState(null)
+ const [ai,setAi]=useState(null),[aiBusy,setAiBusy]=useState(false)
  // Lazy: hero-details.json stays in its own chunk, loaded on first item-set request.
  useEffect(()=>{let live=true;import('./hero-details.json').then(m=>{if(live)setDetails(m.default)},()=>{}) ;return()=>{live=false}},[])
 
@@ -78,6 +79,12 @@ export function CounterPick({heroes,state,byId,Portrait,display,onIntel,stamp,as
 
  async function copySet(text){
    try{await navigator.clipboard.writeText(text);setCopied(true);setTimeout(()=>setCopied(false),2200)}catch{setCopied(false)}
+ }
+ async function askAi(){
+   if(!selected)return
+   setAiBusy(true);setAi(null)
+   try{const text=await onAi(selected.id,enemy);if(text)setAi(text)}
+   finally{setAiBusy(false)}
  }
  const search=query.trim().toLowerCase()
  const candidates=search?heroes.filter(h=>display(h).toLowerCase().includes(search)&&!enemy.includes(h.id)).slice(0,9):[]
@@ -171,6 +178,9 @@ export function CounterPick({heroes,state,byId,Portrait,display,onIntel,stamp,as
         <h3><Sparkles size={15}/> ชุดไอเทมที่เลือกได้</h3>
         <ItemSets sets={sets} hero={selected} lane={laneLabel(selected.lane)} onCopy={copySet} copied={copied}/>
         <small className="footnote">ชุดอ้างอิงจากคลังข้อมูล · ชุดอื่นสลับชิ้นท้ายตามแท็กสกิลและภัยคุกคาม ไม่ใช่สถิติไอเทมรายคู่</small>
+        {onAi&&(room?<button className="btn ai-button" disabled={aiBusy} onClick={askAi}><Sparkles size={16}/>{aiBusy?'กำลังวิเคราะห์…':'ให้ AI อธิบายชุดนี้'}</button>
+          :<small className="footnote">AI ใช้ได้เมื่อเปิดห้องออนไลน์และตั้งค่า 9Router แล้ว</small>)}
+        {ai&&<div className="ai-result"><b>ข้อเสนอจาก AI</b><p>{ai}</p></div>}
       </div>
     </div>
   </div>}

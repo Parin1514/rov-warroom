@@ -196,16 +196,17 @@ function App(){
    }catch(e){tell(e instanceof SyntaxError?'ปุ่มดึงสถิติใช้บน Vercel หรือ vercel dev และยังนำเข้า JSON ได้':e.message,true)}
    finally{setMetaBusy(false)}
  }
- async function requestAi(){
-   if(!room||!session){tell('ต้องเข้าห้องออนไลน์ก่อนใช้ 9Router',true);return}
+ async function requestAi(focusId=selected,enemyIds=null){
+   if(!room||!session){tell('ต้องเข้าห้องออนไลน์ก่อนใช้ 9Router',true);return null}
    const request=++aiRequest.current
    setAiBusy(true);setAi(null)
    try{
-    const r=await fetch('/api/analyze',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+session.access_token},body:JSON.stringify({roomId:room.id,focus:selected})})
+    const r=await fetch('/api/analyze',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+session.access_token},body:JSON.stringify({roomId:room.id,focus:focusId,enemy:enemyIds||undefined})})
     const payload=await r.json()
     if(!r.ok)throw new Error(payload.error||'ติดต่อ 9Router ไม่สำเร็จ')
     if(request===aiRequest.current)setAi(payload.text)
-   }catch(e){if(request===aiRequest.current)tell(e instanceof SyntaxError?'ยังไม่มี API 9Router ในสภาพแวดล้อมนี้':e.message,true)}finally{if(request===aiRequest.current)setAiBusy(false)}
+    return payload.text
+   }catch(e){if(request===aiRequest.current)tell(e instanceof SyntaxError?'ยังไม่มี API 9Router ในสภาพแวดล้อมนี้':e.message,true);return null}finally{if(request===aiRequest.current)setAiBusy(false)}
  }
  const showIntel=id=>{if(byId.has(id))setIntelHero(id)}
  const intelGroups=useMemo(()=>intelHero?analyze(intelHero===selected?previewState:state,intelHero,heroes,intelHero===selected?perspective:undefined):null,[intelHero,selected,previewState,state,heroes,perspective])
@@ -227,7 +228,7 @@ function App(){
       </div>
       <HeroSheet open={sheetOpen} stage={sheetStage} context={targetName(target)} side={target.side} onClose={()=>closePicker()} onBack={()=>setSheetStage('catalog')} renderCatalog={()=> <HeroCatalog {...catalogProps} compact/>} renderAnalysis={headingRef=> <DraftAnalysis {...analysisProps} compact headingRef={headingRef}/>}/>
     </>}
-    {page==='counter'&&<CounterPick heroes={heroes} state={state} byId={byId} Portrait={Portrait} display={display} onIntel={showIntel} stamp={stamp} asDate={asDate} room={room} online={online} peers={peers} profiles={profiles}/>}
+    {page==='counter'&&<CounterPick heroes={heroes} state={state} byId={byId} Portrait={Portrait} display={display} onIntel={showIntel} stamp={stamp} asDate={asDate} room={room} online={online} peers={peers} profiles={profiles} onAi={requestAi}/>}
     {page==='team'&&<Team players={players} heroes={heroes} byId={byId} save={saveProfile} coach={coach} session={session} room={room} slot={editSlot} setSlot={setEditSlot} makeInvite={createInvite} copy={copyLink} tell={tell}/>}
     {page==='map'&&<BattleMap state={state} apply={apply} coach={coach&&!pending}/>}
     {page==='meta'&&<section className="panel meta-panel">
