@@ -84,12 +84,58 @@ export function HeroCatalog({heroes,state,target,coach,filter,setFilter,search,s
    </div>
  </section>
 }
-export function DraftAnalysis({hero,groups,stamp,coach,pending,canConfirm,blocked,confirmLabel,confirmed,preview,ai,aiBusy,room,onIntel,onConfirm,onAi,byId,Portrait,display,asDate,compact=false,headingRef}){
+export function DraftAnalysis({hero,groups,stamp,coach,pending,canConfirm,blocked,confirmLabel,confirmed,preview,ai,aiBusy,room,onIntel,onConfirm,onAi,byId,Portrait,display,asDate,compact=false,headingRef,teamAnalysis}){
  const [group,setGroup]=React.useState('all')
  const rows=id=>groups.rules.filter(r=>r.kind===id)
  const emptyText=!hero?'เลือกฮีโร่จากคลังเพื่อดูคำแนะนำ':'ยังไม่มีคำแนะนำในหมวดนี้'
+ const isBlue=!teamAnalysis||teamAnalysis.side==='blue'
  return <section className={compact?'picker-analysis':'panel analysis-panel'} aria-label="วิเคราะห์ก่อนล็อก">
-  {!compact&&<header className="section-head"><div><h2><Activity/> วิเคราะห์ก่อนล็อก</h2><p>ดูคู่เล่นและตัวแก้ทางก่อนยืนยัน</p></div></header>}
+  {!compact&&<header className="section-head"><div><h2><Activity/> วิเคราะห์ก่อนล็อก</h2><p>ดูจุดเน้น จุดแข็ง จุดอ่อน และตัวแก้ทาง</p></div></header>}
+
+  {teamAnalysis&&teamAnalysis.count>0&&(
+    <div className={'team-draft-card '+(isBlue?'blue-team':'red-team')}>
+      <div className="team-draft-top">
+        <div className="team-draft-meta">
+          <span className="team-badge-tag">{isBlue?'ดราฟต์ทีมเรา':'ดราฟต์คู่แข่ง'} · {teamAnalysis.count}/5 ตัว</span>
+          {teamAnalysis.focus&&<h3 className="team-draft-title">{teamAnalysis.focus.title}</h3>}
+        </div>
+        {teamAnalysis.focus?.tag&&<span className="team-pill">{teamAnalysis.focus.tag}</span>}
+      </div>
+      {teamAnalysis.focus?.desc&&<p className="team-draft-desc">{teamAnalysis.focus.desc}</p>}
+
+      <div className="team-analysis-columns">
+        {teamAnalysis.strengths.length>0&&(
+          <div className="team-column strengths">
+            <h4 className="col-heading"><Shield size={13}/> จุดแข็ง ({teamAnalysis.strengths.length})</h4>
+            <ul className="team-fact-list">
+              {teamAnalysis.strengths.map((s,idx)=>(
+                <li key={idx}>
+                  <b>{s.title}</b>
+                  <p>{s.desc}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {teamAnalysis.weaknesses.length>0&&(
+          <div className="team-column weaknesses">
+            <h4 className="col-heading"><Crosshair size={13}/> จุดอ่อน ({teamAnalysis.weaknesses.length})</h4>
+            <ul className="team-fact-list">
+              {teamAnalysis.weaknesses.map((w,idx)=>(
+                <li key={idx}>
+                  <b>{w.title}</b>
+                  <p>{w.desc}</p>
+                  {w.fix&&<span className="fix-note">แนวทางแก้: {w.fix}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </div>
+  )}
+
   {hero?<div className="focus-hero"><Portrait hero={hero} size="lg"/><div><b ref={headingRef} tabIndex={compact?-1:undefined}>{display(hero)}</b><small>{laneName(hero.lane)===hero.role?hero.role:laneName(hero.lane)+' · '+hero.role}</small></div>{confirmed&&<span className="locked-label"><Check size={13}/> อยู่ในดราฟต์</span>}</div>:<div className="analysis-empty"><Swords size={20}/><p>{emptyText}</p></div>}
   {hero&&<button className="btn intel-open esport-hover" onClick={()=>onIntel(hero.id)}><BookOpen size={16}/> รายละเอียดฮีโร่และบิลด์</button>}
   {coach&&preview&&<div className="confirm-box">

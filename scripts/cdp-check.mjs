@@ -56,6 +56,25 @@ try{
  await waitFor("document.querySelectorAll('nav button').length>0",'nav')
  out.title=await ev('document.title')
  out.nav=await ev("Array.from(document.querySelectorAll('nav button')).map(b=>b.textContent.trim())")
+ // 1. Draft Team Analysis check on Draft page
+ await ev(`(()=>{
+   window.confirm=()=>true;
+   Array.from(document.querySelectorAll('button')).find(b=>b.textContent.includes('ลองดราฟต์ตัวอย่าง'))?.click();
+ })()`)
+ await sleep(600)
+ out.draftFocus=await ev("document.querySelector('.team-draft-title')?.textContent")
+ out.draftStrengths=await ev("Array.from(document.querySelectorAll('.team-column.strengths li b')).map(x=>x.textContent)")
+ out.draftWeaknesses=await ev("Array.from(document.querySelectorAll('.team-column.weaknesses li b')).map(x=>x.textContent)")
+ // 2. Check Florentino factual skill description in Intel modal
+ await ev("Array.from(document.querySelectorAll('.slot-pick')).find(b=>b.textContent.includes('Florentino'))?.click()")
+ await sleep(400)
+ await ev("document.querySelector('.btn.intel-open')?.click()")
+ await sleep(700)
+ out.intelSkillFact=await ev("document.querySelector('.skill-fact-desc')?.textContent")
+ out.intelSkillName=await ev("document.querySelector('.skill-preview-head b')?.textContent")
+ await ev("document.querySelector('.intel-top .btn')?.click()")
+ await sleep(400)
+ // 3. Navigate to Counter page
  await ev("Array.from(document.querySelectorAll('nav button')).find(b=>b.textContent.includes('เคาน์เตอร์')).click()")
  await waitFor("!!document.querySelector('.counter-panel')",'counter panel')
  out.counterPanel=true
@@ -96,6 +115,8 @@ try{
  await ev("document.querySelector('.pair-self .btn')?.click()")
  await sleep(900)
  out.intelOpen=await ev("!!document.querySelector('.intel-shell')")
+ out.intelSkillFact=await ev("document.querySelector('.skill-fact-desc')?.textContent")
+ out.intelSkillName=await ev("document.querySelector('.skill-preview-head b')?.textContent")
  out.intelSets=await ev("Array.from(document.querySelectorAll('.intel-sets .intel-build b')).map(x=>x.textContent)")
  out.intelItems=await ev("Array.from(document.querySelectorAll('#intel-items .intel-tile b')).map(x=>x.textContent)")
  out.intelMatch=await ev("Array.from(document.querySelectorAll('.intel-rail section:nth-child(2) .intel-match b')).map(x=>x.textContent)")

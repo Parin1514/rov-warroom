@@ -605,3 +605,167 @@ dialog::backdrop{background:#080b13c9}
 .pool-match-row b{font-size:.76rem;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pool-match-row small{display:block;font-size:.71rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pool-match-row.weak small{color:#f09f8e}
+
+/* Team Draft Analysis (Focus, Strengths, Weaknesses) */
+.team-draft-card{
+  border:1px solid var(--weakline);
+  border-radius:10px;
+  padding:12px 14px;
+  margin-bottom:12px;
+  background:linear-gradient(180deg,#1e2633 0%,#151c27 100%);
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.team-draft-card.blue-team{
+  border-color:rgba(74,134,232,0.45);
+  box-shadow:0 0 16px rgba(74,134,232,0.08);
+}
+.team-draft-card.red-team{
+  border-color:rgba(235,94,85,0.45);
+  box-shadow:0 0 16px rgba(235,94,85,0.08);
+}
+.team-draft-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:8px;
+}
+.team-draft-meta{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+}
+.team-badge-tag{
+  font-size:.69rem;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  font-weight:700;
+  color:var(--muted);
+}
+.blue-team .team-badge-tag{color:var(--blue)}
+.red-team .team-badge-tag{color:var(--coral)}
+.team-draft-title{
+  font-size:.96rem;
+  font-weight:700;
+  color:var(--text);
+  margin:0;
+  line-height:1.25;
+}
+.team-pill{
+  font-size:.68rem;
+  padding:2px 8px;
+  border-radius:12px;
+  background:#263445;
+  color:#94b8e6;
+  white-space:nowrap;
+  font-weight:600;
+  border:1px solid rgba(148,184,230,0.3);
+}
+.team-draft-desc{
+  font-size:.78rem;
+  line-height:1.45;
+  color:#b8c7db;
+  margin:0;
+}
+.team-analysis-columns{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:9px;
+}
+@media(min-width:600px){
+  .team-analysis-columns{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+.team-column{
+  border-radius:8px;
+  padding:9px 11px;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  border:1px solid transparent;
+}
+.team-column.strengths{
+  background:rgba(39,174,96,0.08);
+  border-color:rgba(39,174,96,0.3);
+}
+.team-column.weaknesses{
+  background:rgba(235,94,85,0.08);
+  border-color:rgba(235,94,85,0.3);
+}
+.col-heading{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-size:.78rem;
+  font-weight:700;
+  margin:0;
+}
+.team-column.strengths .col-heading{color:#2ecc71}
+.team-column.weaknesses .col-heading{color:#ff7675}
+.team-fact-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+}
+.team-fact-list li{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  font-size:.73rem;
+  line-height:1.35;
+}
+.team-fact-list li b{
+  color:var(--text);
+  font-size:.75rem;
+}
+.team-fact-list li p{
+  margin:0;
+  color:#cbd5e1;
+}
+.fix-note{
+  display:inline-block;
+  margin-top:2px;
+  font-size:.69rem;
+  color:#ffd166;
+  background:rgba(255,209,102,0.12);
+  padding:1px 6px;
+  border-radius:4px;
+}
+
+/* Factual skill descriptions in intel modal */
+.skill-preview-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:8px;
+  margin-bottom:4px;
+}
+.skill-slot-tag{
+  font-size:.7rem;
+  padding:1px 7px;
+  border-radius:10px;
+  background:#202b3c;
+  color:#94b8e6;
+  border:1px solid rgba(148,184,230,0.25);
+}
+.skill-fact-desc{
+  font-size:.82rem;
+  line-height:1.45;
+  color:#e2e8f0;
+  background:#141a24;
+  padding:7px 10px;
+  border-radius:6px;
+  border-left:3px solid #4a86e8;
+  margin:4px 0 6px 0;
+}
+.skill-tip-desc{
+  font-size:.78rem;
+  line-height:1.4;
+  color:#94a3b8;
+  margin:0 0 6px 0;
+}

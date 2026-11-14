@@ -8,6 +8,8 @@ import {HeroIntel} from './hero-intel.jsx'
 import {db,homeUrl,rpc,fetchRoom} from './backend.js'
 import rawHeroes from './heroes.json'
 import {LANES,SOURCE,PATCH,UPCOMING,defaultProfiles,fresh,occupied,selectHero,analyze,parseMeta,withMeta,comfortFor,parsePool,POOL_MAX} from './domain.mjs'
+import {analyzeTeamDraft} from './team-analysis.mjs'
+import heroTags from './hero-tags.json' with {type:'json'}
 import './styles.css'
 const ICONS={slayer:Shield,jungle:Flame,mid:Sparkles,dragon:Crosshair,roam:Waves}
 const allHeroes=rawHeroes
@@ -33,6 +35,8 @@ function App(){
  const [sheetOpen,setSheetOpen]=useState(false),[sheetStage,setSheetStage]=useState('catalog'),[bannerVisible,setBannerVisible]=useState(true)
  const [intelHero,setIntelHero]=useState(null)
  const [sort,setSort]=useState('ban'),[metaInput,setMetaInput]=useState(false),[metaBusy,setMetaBusy]=useState(false)
+ const [details,setDetails]=useState({})
+ useEffect(()=>{let live=true;import('./hero-details.json').then(m=>{if(live)setDetails(m.default||{})},()=>{});return()=>{live=false}},[])
  const catalogHeading=useRef(null),banner=useRef(null),pickerTrigger=useRef(null),authDialog=useRef(null),busy=useRef(false),roomRef=useRef(null),aiRequest=useRef(0)
  const tell=(message,error=false)=>setNotice({message,error,id:Date.now()})
  const state=room?.state??practice
@@ -49,6 +53,14 @@ function App(){
  },[state,preview,target,coach])
  const perspective=target.ban||(!preview&&focus&&focus!==currentPick)?undefined:target.side
  const analysis=useMemo(()=>analyze(previewState,selected,heroes,perspective),[previewState,selected,heroes,perspective])
+ const teamAnalysis=useMemo(()=>{
+   const teamSide=target.side||'blue'
+   const teamLanes=previewState[teamSide]||{}
+   const teamIds=Object.values(teamLanes).filter(Boolean)
+   const enemySide=teamSide==='blue'?'red':'blue'
+   const enemyIds=Object.values(previewState[enemySide]||{}).filter(Boolean)
+   return {side:teamSide,...analyzeTeamDraft(teamIds,enemyIds,{byId,details,tags:heroTags})}
+ },[previewState,target.side,byId,details])
  const stamp=state.meta||SOURCE
  const slotComfort=useMemo(()=>target.side==='blue'&&!target.ban?comfortFor(players,target.lane,byId):[],[target,players,byId])
  const unavailable=preview&&occupied(state,preview,target.ban?null:target)
@@ -211,7 +223,7 @@ function App(){
  const showIntel=id=>{if(byId.has(id))setIntelHero(id)}
  const intelGroups=useMemo(()=>intelHero?analyze(intelHero===selected?previewState:state,intelHero,heroes,intelHero===selected?perspective:undefined):null,[intelHero,selected,previewState,state,heroes,perspective])
  const catalogProps={heroes,state,target,coach,filter,setFilter,search,setSearch,focused:selected,comfortGroups:slotComfort,onPreview:previewHero,onIntel:showIntel,Portrait,display}
- const analysisProps={hero:byId.get(selected),groups:analysis,stamp,coach,pending,canConfirm:!!preview&&!blocked,blocked,confirmLabel:currentPick&&!samePick&&!target.ban?'ยืนยันเปลี่ยนตัว':confirmLabel,confirmed:!!selected&&!preview&&occupied(state,selected),preview,ai,aiBusy,room,onIntel:showIntel,onConfirm:confirmPick,onAi:requestAi,byId,Portrait,display,asDate}
+ const analysisProps={hero:byId.get(selected),groups:analysis,stamp,coach,pending,canConfirm:!!preview&&!blocked,blocked,confirmLabel:currentPick&&!samePick&&!target.ban?'ยืนยันเปลี่ยนตัว':confirmLabel,confirmed:!!selected&&!preview&&occupied(state,selected),preview,ai,aiBusy,room,onIntel:showIntel,onConfirm:confirmPick,onAi:requestAi,byId,Portrait,display,asDate,teamAnalysis}
  return <div className={'app'+(!motion?' reduce-motion':'')}>
    <header className="top"><div className="top-inner"><a className="wordmark" href={homeUrl()}><span className="brand-icon"><Swords size={20}/></span><span>RoV <b>WAR ROOM</b></span></a><nav aria-label="หน้าหลัก">{tabs.map(([id,name,Icon])=><button key={id} type="button" aria-current={page===id?'page':undefined} onClick={()=>{if(id!==page){setSheetOpen(false);setPreview(null);setPage(id)}}}><Icon size={17}/>{name}</button>)}</nav><button className="btn room-button" onClick={()=>setRoomOpen(true)}><Link2 size={16}/><span>{room?'ห้องทีม':'ห้องออนไลน์'}</span></button></div></header>
    <main>
@@ -245,7 +257,6 @@ function App(){
  </div>
 }
 import {poolReport,verdict,BANDS} from './matchup.mjs'
-import heroTags from './hero-tags.json' with {type:'json'}
 
 function Team({players,heroes,byId,save,coach,session,room,slot,setSlot,makeInvite,copy,tell}){
  const p=players.find(x=>x.slot===slot)

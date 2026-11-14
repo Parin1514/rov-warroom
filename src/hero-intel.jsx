@@ -4,6 +4,7 @@ import {LANES} from './domain.mjs'
 import {recommendItems} from './items.mjs'
 import {rank,verdict,counterScore} from './matchup.mjs'
 import {buildSets,setToText} from './sets.mjs'
+import {describeSkill} from './team-analysis.mjs'
 import heroTags from './hero-tags.json' with {type:'json'}
 
 let dossierPromise
@@ -147,7 +148,7 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
        <section className="intel-abilities" id="intel-skills"><h3 tabIndex={-1}><Zap/> สกิลและลำดับอัป</h3>
         {hero.id==='hayate'?<div className="ability-priority"><span>ลำดับความสำคัญ</span><ol className="ability-steps">{HAYATE_ORDER.steps.map((step,i)=><li key={step}><b>{i+1}</b> {step}</li>)}</ol><a href={HAYATE_ORDER.url} target="_blank" rel="noreferrer">คู่มืออ้างอิง <ArrowUpRight size={12}/></a></div>:<p className="intel-empty">ยังไม่มีลำดับอัปที่ตรวจสอบได้ แสดงสกิลตามช่องในเกม</p>}
         {skills.length?<><div className="skill-tabs" role="group" aria-label="เลือกสกิล">{skills.map((x,i)=><IconTile key={i} item={{name:tagsFor(x,i),icon:x.icon}} fallback={Zap} active={skill===i} onSelect={()=>setSkill(i)}/>)}</div>
-        <div className="skill-preview" key={currentSkill.name+skill}><b>{currentSkill.name}</b>{SKILL_SUMMARY[hero.id]?.[skill]&&<p>{SKILL_SUMMARY[hero.id][skill]}</p>}<div>{currentSkill.tags?.map(t=><span key={t}>{t}</span>)}{currentSkill.cooldown&&<span>คูลดาวน์ {currentSkill.cooldown}</span>}{currentSkill.cost&&<span>ทรัพยากร {currentSkill.cost}</span>}</div><a href={d.guide} target="_blank" rel="noreferrer">อ่านกลไกและตัวเลขเต็ม <ArrowUpRight size={13}/></a></div></>:<p className="intel-empty">ยังไม่มีข้อมูลสกิลในเว็บนี้ เปิดแหล่งข้อมูลฮีโร่ด้านล่างได้</p>}
+        <div className="skill-preview" key={currentSkill.name+skill}><div className="skill-preview-head"><b>{currentSkill.name}</b><span className="skill-slot-tag">{tagsFor(currentSkill,skill)}</span></div><p className="skill-fact-desc">{describeSkill(currentSkill)}</p>{SKILL_SUMMARY[hero.id]?.[skill]&&<p className="skill-tip-desc">{SKILL_SUMMARY[hero.id][skill]}</p>}<div>{currentSkill.tags?.map(t=><span key={t}>{t}</span>)}{currentSkill.cooldown&&<span>คูลดาวน์ {currentSkill.cooldown}</span>}{currentSkill.cost&&<span>ทรัพยากร {currentSkill.cost}</span>}</div><a href={d.guide} target="_blank" rel="noreferrer">อ่านกลไกและตัวเลขเต็ม <ArrowUpRight size={13}/></a></div></>:<p className="intel-empty">ยังไม่มีข้อมูลสกิลในเว็บนี้ เปิดแหล่งข้อมูลฮีโร่ด้านล่างได้</p>}
        </section>
       </div>
       <div className="intel-gear">
