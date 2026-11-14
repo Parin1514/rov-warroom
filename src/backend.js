@@ -10,7 +10,7 @@ export async function rpc(name,params={}){
 export async function fetchRoom(id){
  const [room,players]=await Promise.all([
    db.from('war_rooms').select('id,name,owner_id,state,revision').eq('id',id).single(),
-   db.from('war_profiles').select('slot,member_id,name,lane,pool').eq('room_id',id).order('slot')
+   db.from('war_profiles').select('slot,member_id,name,lane,lane2,pool').eq('room_id',id).order('slot')
  ])
  if(room.error)throw room.error
  if(players.error)throw players.error

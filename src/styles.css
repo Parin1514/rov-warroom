@@ -571,3 +571,37 @@ dialog::backdrop{background:#080b13c9}
 .playbook-items .counter-chip{font-size:.73rem;animation:none}
 .playbook-items .counter-chip img{width:20px;height:20px;border-radius:4px}
 .playbook .footnote{margin-top:0}
+
+/* Player profile: backup lane, grid picker, strong/weak analysis */
+.pool-lane-badge{display:inline-block;padding:1px 6px;border-radius:4px;background:#2a3a52;color:#9ec2ff;font-size:.7rem;margin-left:4px;font-weight:600}
+.comfort-role-badge{color:var(--gold);font-size:.74rem;font-weight:500;margin-left:4px}
+.pool-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.pool-picker{margin-top:14px;background:#17202c;border:1px solid #2b394e;border-radius:9px;padding:10px}
+.pool-picker-bar{display:grid;gap:8px;margin-bottom:9px}
+.pool-picker-bar>span{font-size:.78rem;color:#e4d3b0}
+.pool-picker-bar .filters{margin-bottom:0}
+.pool-grid{max-height:280px}
+.hero-tile-text{min-width:0;display:grid;gap:1px}
+.hero-tile-text strong,.hero-tile-text small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hero-tile-text small{color:var(--muted);font-size:.71rem}
+.hero-tile.selected .hero-tile-text strong{color:var(--gold)}
+
+/* Strong/Weak pool analysis */
+.pool-analysis{margin-top:18px;border-top:1px solid var(--weakline);padding-top:14px;display:grid;gap:10px}
+.pool-analysis h4{display:flex;align-items:center;gap:6px;font-size:.85rem;color:#e4d3b0;margin:0}
+.pool-analysis h4 svg{color:var(--gold)}
+.pool-analysis-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:11px}
+.pool-lane-card{background:#18202d;border:1px solid #28374a;border-radius:9px;padding:10px;display:grid;gap:8px}
+.pool-lane-head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #28374a;padding-bottom:5px}
+.pool-lane-head b{font-size:.85rem;color:var(--gold)}
+.pool-lane-head small{color:var(--muted);font-size:.73rem}
+.pool-lane-section{display:grid;gap:5px}
+.pool-lane-section>small{font-size:.73rem;font-weight:700;letter-spacing:.02em}
+.pool-lane-section.strong>small{color:#76cfa7}
+.pool-lane-section.weak>small{color:#e08b78}
+.pool-match-row{display:grid;grid-template-columns:28px minmax(0,1fr);align-items:center;gap:7px;background:#1f2a3a;border:1px solid #2f3e54;border-radius:7px;padding:4px 6px}
+.pool-match-row.weak{background:#2a2124;border-color:#52383c}
+.pool-match-row>div{min-width:0}
+.pool-match-row b{font-size:.76rem;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pool-match-row small{display:block;font-size:.71rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pool-match-row.weak small{color:#f09f8e}

@@ -90,3 +90,29 @@ test('item picks change with the enemy lineup',()=>{
  const vsSquishy=recommendItems(h2('hayate'),squishy,6).map(r=>r.name)
  assert.notDeepEqual(vsTank,vsSquishy)
 })
+
+import {poolReport} from '../src/matchup.mjs'
+
+test('poolReport surfaces strong counters and uncovered threats in the lane',()=>{
+  const entries=[{id:'florentino',lane:'slayer'},{id:'omen',lane:'slayer'}]
+  const r=poolReport(entries,heroes,tags,5)
+  assert.equal(r.length,1)
+  assert.equal(r[0].lane,'slayer')
+  assert.equal(r[0].mine.length,2)
+  assert.ok(r[0].faced>20)
+  assert.ok(r[0].covered>=1,'expected at least 1 strong counter')
+  for(const s of r[0].strong){
+    assert.ok(s.best.score>=24)
+    assert.ok(entries.some(e=>e.id===s.best.hero.id))
+  }
+  for(const w of r[0].weak){
+    assert.ok(w.beatsUs.length>=1)
+  }
+})
+
+test('poolReport handles multi-lane entries separately',()=>{
+  const entries=[{id:'florentino',lane:'slayer'},{id:'yue',lane:'mid'}]
+  const r=poolReport(entries,heroes,tags,5)
+  assert.equal(r.length,2)
+  assert.deepEqual(r.map(x=>x.lane).sort(),['mid','slayer'])
+})

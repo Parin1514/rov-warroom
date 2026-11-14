@@ -93,3 +93,36 @@ test('hero dossier data covers the roster with traceable sources and known Hayat
  assert.equal(all.hayate.builds[0].items.length,6)
  assert(all.hayate.garena==='https://www.rov.in.th/hero/hayate')
 })
+
+import {parsePool,comfortFor,POOL_MAX} from '../src/domain.mjs'
+
+test('default profiles have 5 slots and lane2 field',()=>{
+  const p=defaultProfiles()
+  assert.equal(p.length,5)
+  assert.equal(p[0].lane2,null)
+})
+
+test('parsePool supports heroId@lane and bare heroId legacy',()=>{
+  const byId=new Map([['yue',{id:'yue',lane:'mid'}],['florentino',{id:'florentino',lane:'slayer'}]])
+  const parsed=parsePool(['yue@roam','florentino','unknown','yue@roam'],byId)
+  assert.deepEqual(parsed,[
+    {id:'yue',lane:'roam',key:'yue@roam'},
+    {id:'florentino',lane:'slayer',key:'florentino@slayer'}
+  ])
+})
+
+test('comfortFor prioritizes main-lane over alt-lane, filters by lane',()=>{
+  const byId=new Map([['florentino',{id:'florentino',lane:'slayer'}],['omen',{id:'omen',lane:'slayer'}]])
+  const players=[
+    {slot:1,name:'P1',lane:'jungle',lane2:'slayer',pool:['omen@slayer']},
+    {slot:2,name:'P2',lane:'slayer',lane2:null,pool:['florentino@slayer']}
+  ]
+  const c=comfortFor(players,'slayer',byId)
+  assert.equal(c.length,2)
+  assert.equal(c[0].role,'main')
+  assert.equal(c[0].player.slot,2)
+  assert.deepEqual(c[0].ids,['florentino'])
+  assert.equal(c[1].role,'alt')
+  assert.equal(c[1].player.slot,1)
+  assert.deepEqual(c[1].ids,['omen'])
+})

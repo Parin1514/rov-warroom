@@ -18,7 +18,29 @@ export const OBJECTIVES=[
   {id:'blue-away',name:'บัฟฟ้า · ฝั่งคู่แข่ง',short:'ฟ้า',x:80,y:38,seconds:null,type:'blue'},
   {id:'red-away',name:'บัฟแดง · ฝั่งคู่แข่ง',short:'แดง',x:58,y:18,seconds:null,type:'red'}
 ]
-export const defaultProfiles=()=>LANES.map((l,i)=>({slot:i+1,name:'',lane:l.id,pool:[],member_id:null}))
+export const defaultProfiles=()=>LANES.map((l,i)=>({slot:i+1,name:'',lane:l.id,lane2:null,pool:[],member_id:null}))
+// Pool entries are "heroId@lane" = the lane the player plays that hero in, so a
+// mid hero can sit in a roam pool. Bare ids (older saves) use the hero's own lane.
+export const POOL_MAX=20
+export function parsePool(pool,byId){
+  const out=[],seen=new Set()
+  for(const raw of pool||[]){
+    const [id,l]=String(raw).split('@')
+    const lane=LANES.some(x=>x.id===l)?l:byId.get(id)?.lane
+    const key=id+'@'+lane
+    if(!lane||!byId.has(id)||seen.has(key))continue
+    seen.add(key);out.push({id,lane,key})
+  }
+  return out
+}
+// Comfort heroes for one draft lane: the main-lane player first, then anyone
+// who lists it as their backup lane. Only heroes bound to that lane count.
+export function comfortFor(players,lane,byId){
+  return players.flatMap(p=>{
+    const role=p.lane===lane?'main':p.lane2===lane?'alt':null
+    return role?[{player:p,role,ids:parsePool(p.pool,byId).filter(e=>e.lane===lane).map(e=>e.id)}]:[]
+  }).sort((a,b)=>(a.role==='main'?0:1)-(b.role==='main'?0:1))
+}
 export const fresh=()=>({blue:{},red:{},bans:{blue:[],red:[]},opponents:{},notes:'',startedAt:null,objectives:{},durations:{},meta:null})
 export const heroGroup=id=>id?.startsWith('flowborn-')?'flowborn':id
 export function occupied(state,id,except){

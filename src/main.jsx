@@ -1,13 +1,13 @@
 import React,{useEffect,useMemo,useRef,useState} from 'react'
 import {createRoot} from 'react-dom/client'
-import {Activity,ArrowDown,ArrowRight,ArrowUpRight,ChartNoAxesCombined,Check,Crosshair,Flame,Link2,Map,Plus,Shield,Sparkles,Swords,Users,Waves,Wind,X} from 'lucide-react'
+import {Activity,ArrowDown,ArrowRight,ArrowUpRight,ChartNoAxesCombined,Check,Crosshair,Flame,Link2,Map,Plus,Search,Shield,Sparkles,Swords,Users,Waves,Wind,X} from 'lucide-react'
 import {BattleMap} from './map.jsx'
 import {DraftBoard,HeroCatalog,DraftAnalysis,HeroSheet,targetName} from './draft.jsx'
 import {CounterPick} from './matchup.jsx'
 import {HeroIntel} from './hero-intel.jsx'
 import {db,homeUrl,rpc,fetchRoom} from './backend.js'
 import rawHeroes from './heroes.json'
-import {LANES,SOURCE,PATCH,UPCOMING,defaultProfiles,fresh,occupied,selectHero,analyze,parseMeta,withMeta} from './domain.mjs'
+import {LANES,SOURCE,PATCH,UPCOMING,defaultProfiles,fresh,occupied,selectHero,analyze,parseMeta,withMeta,comfortFor,parsePool,POOL_MAX} from './domain.mjs'
 import './styles.css'
 const ICONS={slayer:Shield,jungle:Flame,mid:Sparkles,dragon:Crosshair,roam:Waves}
 const allHeroes=rawHeroes
@@ -50,7 +50,7 @@ function App(){
  const perspective=target.ban||(!preview&&focus&&focus!==currentPick)?undefined:target.side
  const analysis=useMemo(()=>analyze(previewState,selected,heroes,perspective),[previewState,selected,heroes,perspective])
  const stamp=state.meta||SOURCE
- const slotPlayer=target.side==='blue'&&!target.ban?players.find(p=>p.lane===target.lane):null
+ const slotComfort=useMemo(()=>target.side==='blue'&&!target.ban?comfortFor(players,target.lane,byId):[],[target,players,byId])
  const unavailable=preview&&occupied(state,preview,target.ban?null:target)
  const samePick=preview&&preview===currentPick
  const bansFull=target.ban&&state.bans[target.side].length>=6
@@ -152,7 +152,7 @@ function App(){
  }
  async function saveProfile(payload){
    try{
-    if(room){await rpc('war_save_profile',{p_room:room.id,p_slot:payload.slot,p_name:payload.name,p_lane:payload.lane,p_pool:payload.pool});await load(room.id)}
+    if(room){await rpc('war_save_profile',{p_room:room.id,p_slot:payload.slot,p_name:payload.name,p_lane:payload.lane,p_lane2:payload.lane2||null,p_pool:payload.pool});await load(room.id)}
     else {const next=practicePlayers.map(p=>p.slot===payload.slot?payload:p);store('rw-players-1',next);setPracticePlayers(next)}
     tell('บันทึกโปรไฟล์แล้ว')
    }catch(e){tell(e.message,true)}
@@ -210,7 +210,7 @@ function App(){
  }
  const showIntel=id=>{if(byId.has(id))setIntelHero(id)}
  const intelGroups=useMemo(()=>intelHero?analyze(intelHero===selected?previewState:state,intelHero,heroes,intelHero===selected?perspective:undefined):null,[intelHero,selected,previewState,state,heroes,perspective])
- const catalogProps={heroes,state,target,coach,filter,setFilter,search,setSearch,focused:selected,player:slotPlayer,onPreview:previewHero,onIntel:showIntel,Portrait,display}
+ const catalogProps={heroes,state,target,coach,filter,setFilter,search,setSearch,focused:selected,comfortGroups:slotComfort,onPreview:previewHero,onIntel:showIntel,Portrait,display}
  const analysisProps={hero:byId.get(selected),groups:analysis,stamp,coach,pending,canConfirm:!!preview&&!blocked,blocked,confirmLabel:currentPick&&!samePick&&!target.ban?'ยืนยันเปลี่ยนตัว':confirmLabel,confirmed:!!selected&&!preview&&occupied(state,selected),preview,ai,aiBusy,room,onIntel:showIntel,onConfirm:confirmPick,onAi:requestAi,byId,Portrait,display,asDate}
  return <div className={'app'+(!motion?' reduce-motion':'')}>
    <header className="top"><div className="top-inner"><a className="wordmark" href={homeUrl()}><span className="brand-icon"><Swords size={20}/></span><span>RoV <b>WAR ROOM</b></span></a><nav aria-label="หน้าหลัก">{tabs.map(([id,name,Icon])=><button key={id} type="button" aria-current={page===id?'page':undefined} onClick={()=>{if(id!==page){setSheetOpen(false);setPreview(null);setPage(id)}}}><Icon size={17}/>{name}</button>)}</nav><button className="btn room-button" onClick={()=>setRoomOpen(true)}><Link2 size={16}/><span>{room?'ห้องทีม':'ห้องออนไลน์'}</span></button></div></header>
@@ -244,25 +244,115 @@ function App(){
    <dialog ref={authDialog} onClose={()=>setRoomOpen(false)} onClick={e=>{if(e.target===e.currentTarget)setRoomOpen(false)}}><RoomModal close={()=>setRoomOpen(false)} session={session} db={db} room={room} invite={invite} copy={copyLink} login={emailLogin} create={makeRoom} join={joinRoom} tell={tell} signOut={async()=>{const {error}=await db.auth.signOut();if(error){tell(error.message,true);return}setRoom(null);setProfiles([]);setRoomId(null);setInvite(null);setOnline(false);roomRef.current=null;history.replaceState({},'',homeUrl());tell('ออกจากห้องออนไลน์แล้ว')}}/></dialog>
  </div>
 }
+import {poolReport,verdict,BANDS} from './matchup.mjs'
+import heroTags from './hero-tags.json' with {type:'json'}
+
 function Team({players,heroes,byId,save,coach,session,room,slot,setSlot,makeInvite,copy,tell}){
  const p=players.find(x=>x.slot===slot)
- return <section className="panel team-panel"><header className="section-head"><div><h2><Users/> โปรไฟล์ผู้เล่น</h2><p>จัดตำแหน่งผู้เล่น 5 คน และให้แต่ละคนเลือกฮีโร่ที่มั่นใจ</p></div><span className="draft-count">{players.filter(x=>x.name).length}/5</span></header>
-   <div className="team-layout"><div className="player-list">{players.map(p=>{const lane=LANES.find(l=>l.id===p.lane);const Icon=ICONS[p.lane];return <button key={p.slot} className={'player-tab '+(slot===p.slot?'selected':'')} aria-pressed={slot===p.slot} onClick={()=>setSlot(p.slot)}><span className="player-icon"><Icon size={19}/></span><span><b>{p.name||'ผู้เล่น '+p.slot}</b><small>{lane.label} · {p.pool.length} ฮีโร่</small></span><ArrowRight size={16}/></button>})}</div>
+ return <section className="panel team-panel"><header className="section-head"><div><h2><Users/> โปรไฟล์ผู้เล่น</h2><p>จัดตำแหน่งผู้เล่น 5 คน ระบุเลนหลัก/เลนสำรอง และเลือกฮีโร่ถนัดแยกตามเลน</p></div><span className="draft-count">{players.filter(x=>x.name).length}/5</span></header>
+   <div className="team-layout"><div className="player-list">{players.map(p=>{
+     const lane=LANES.find(l=>l.id===p.lane),lane2=LANES.find(l=>l.id===p.lane2)
+     const Icon=ICONS[p.lane],entries=parsePool(p.pool,byId)
+     return <button key={p.slot} className={'player-tab '+(slot===p.slot?'selected':'')} aria-pressed={slot===p.slot} onClick={()=>setSlot(p.slot)}><span className="player-icon"><Icon size={19}/></span><span><b>{p.name||'ผู้เล่น '+p.slot}</b><small>{lane.label}{lane2?' / '+lane2.label:''} · {entries.length} ฮีโร่</small></span><ArrowRight size={16}/></button>
+   })}</div>
    {p&&<Profile key={p.slot+':'+JSON.stringify(p)} p={p} coach={coach} canEdit={coach||p.member_id===session?.user.id} heroes={heroes} byId={byId} save={save} room={room} makeInvite={makeInvite} copy={copy} tell={tell}/>}
    </div>
  </section>
 }
+
+function PoolAnalysis({entries,heroes,byId}){
+  const reports=useMemo(()=>poolReport(entries,heroes,heroTags),[entries,heroes])
+  if(!entries.length)return null
+  return <div className="pool-analysis">
+    <h4><Activity size={15}/> วิเคราะห์ตัวเก่ง/อ่อน ที่จะเจอในแต่ละเลน</h4>
+    <p className="footnote">อิงจากฮีโร่ที่ผู้เล่นคนนี้เลือกใช้ในเลนนั้น เทียบกับฮีโร่ทั้งหมดในเลนเดียวกัน · เก่ง = เรามีตัวเคาน์เตอร์ชัด (≥+{BANDS.good}) · อ่อน = อีกฝั่งชนะตัวเราและเราไม่มีตัวแก้ทาง</p>
+    <div className="pool-analysis-grid">{reports.map(r=>{
+      const l=LANES.find(x=>x.id===r.lane)
+      return <div className="pool-lane-card" key={r.lane}>
+        <div className="pool-lane-head"><b>{l?.label||r.lane}</b><small>ใช้ {r.mine.length} ตัว · รับมือได้ {r.covered}/{r.faced} ตัวในเลน</small></div>
+        <div className="pool-lane-section strong">
+          <small>ตัวที่คุมได้ดี ({r.strong.length})</small>
+          {r.strong.length?r.strong.map(s=><div key={s.hero.id} className="pool-match-row">
+            <Portrait hero={s.hero} size="sm"/>
+            <div><b>{display(s.hero)}</b><small>แก้ทางด้วย {display(s.best.hero)} (+{s.best.score})</small></div>
+          </div>):<p className="group-empty">ยังไม่มีตัวที่ได้เปรียบชัด</p>}
+        </div>
+        <div className="pool-lane-section weak">
+          <small>ตัวที่ต้องระวัง/ยังขาดตัวแก้ ({r.weak.length}{r.weakTotal>r.weak.length?' จาก '+r.weakTotal:''})</small>
+          {r.weak.length?r.weak.map(w=><div key={w.hero.id} className="pool-match-row weak">
+            <Portrait hero={w.hero} size="sm"/>
+            <div><b>{display(w.hero)}</b><small>ชนะ {w.beatsUs.map(display).join(', ')}</small></div>
+          </div>):<p className="group-empty">คลังฮีโร่ในเลนนี้ครอบคลุมดีแล้ว</p>}
+        </div>
+      </div>
+    })}</div>
+  </div>
+}
+
 function Profile({p,coach,canEdit,heroes,byId,save,room,makeInvite,copy,tell}){
- const [name,setName]=useState(p.name),[lane,setLane]=useState(p.lane),[pool,setPool]=useState(p.pool),[hero,setHero]=useState('')
- const [link,setLink]=useState(''),[busy,setBusy]=useState(false),[inviteBusy,setInviteBusy]=useState(false)
- const opts=heroes.slice().sort((a,b)=>a.name.localeCompare(b.name)).filter(h=>!pool.includes(h.id))
+ const [name,setName]=useState(p.name),[lane,setLane]=useState(p.lane),[lane2,setLane2]=useState(p.lane2||'')
+ const [pool,setPool]=useState(p.pool)
+ const [pickerLane,setPickerLane]=useState(p.lane)
+ const [q,setQ]=useState('')
+ const [busy,setBusy]=useState(false),[inviteBusy,setInviteBusy]=useState(false)
+ const entries=useMemo(()=>parsePool(pool,byId),[pool,byId])
+ const poolKeys=useMemo(()=>new Set(entries.map(e=>e.key)),[entries])
+ const activeLanes=[lane,lane2].filter(Boolean)
+ const search=q.trim().toLowerCase()
+ const gridHeroes=useMemo(()=>heroes.filter(h=>(pickerLane==='all'||h.lane===pickerLane)&&(!search||display(h).toLowerCase().includes(search))),[heroes,pickerLane,search])
+
+ function toggle(h,targetLane){
+   if(!canEdit)return
+   const bound=targetLane==='all'?h.lane:targetLane
+   const key=h.id+'@'+bound
+   if(poolKeys.has(key))setPool(pool.filter(raw=>{const [i,l]=String(raw).split('@');return !(i===h.id&&(l||byId.get(i)?.lane)===bound)}))
+   else {
+     if(entries.length>=POOL_MAX){tell('ฮีโร่ถนัดเลือกได้สูงสุด '+POOL_MAX+' รายการ',true);return}
+     setPool([...pool,key])
+   }
+ }
  return <div className="profile">
   <h3>{p.name||'ผู้เล่น '+p.slot}</h3>
   {!canEdit&&<p>โปรไฟล์นี้แก้ได้โดยเจ้าของช่องหรือโค้ช</p>}
-  <form onSubmit={async e=>{e.preventDefault();setBusy(true);try{await save({...p,name:name.trim(),lane,pool})}finally{setBusy(false)}}}>
-   <div className="profile-fields"><label>ชื่อผู้เล่น<input disabled={!canEdit} placeholder="ชื่อที่ใช้เรียกในทีม" value={name} maxLength="32" onChange={e=>setName(e.target.value)}/></label><label>เลนหลัก<select value={lane} disabled={!canEdit} onChange={e=>setLane(e.target.value)}>{LANES.map(l=><option key={l.id} value={l.id}>{l.label}</option>)}</select></label></div>
-   <div className="pool"><b>ฮีโร่ถนัด</b><p>เพิ่มได้สูงสุด 20 รายการ เลือกข้ามเลนได้</p><div className="pool-tokens">{pool.map(id=><span className="pool-token" key={id}><Portrait hero={byId.get(id)} size="sm"/>{display(byId.get(id))}{canEdit&&<button type="button" className="btn icon" aria-label={'เอา '+display(byId.get(id))+' ออกจากฮีโร่ถนัด'} onClick={()=>setPool(pool.filter(i=>i!==id))}><X size={14}/></button>}</span>)}</div>
-   {canEdit&&<div className="pick-pool"><label><span className="sr">เลือกฮีโร่ถนัด</span><select value={hero} onChange={e=>setHero(e.target.value)}><option value="">เลือกฮีโร่ถนัด</option>{opts.map(h=><option key={h.id} value={h.id}>{display(h)} · {LANES.find(l=>l.id===h.lane).label}</option>)}</select></label><button type="button" className="btn" disabled={!hero||pool.length>=20} onClick={()=>{setPool([...pool,hero]);setHero('')}}><Plus size={16}/> เพิ่ม</button></div>}</div>
+  <form onSubmit={async e=>{e.preventDefault();setBusy(true);try{await save({...p,name:name.trim(),lane,lane2:lane2||null,pool})}finally{setBusy(false)}}}>
+   <div className="profile-fields">
+     <label>ชื่อผู้เล่น<input disabled={!canEdit} placeholder="ชื่อที่ใช้เรียกในทีม" value={name} maxLength="32" onChange={e=>setName(e.target.value)}/></label>
+     <label>เลนหลัก<select value={lane} disabled={!canEdit} onChange={e=>{const next=e.target.value;setLane(next);if(lane2===next)setLane2('')}}>{LANES.map(l=><option key={l.id} value={l.id}>{l.label}</option>)}</select></label>
+     <label>เลนสำรอง (ไม่บังคับ)<select value={lane2} disabled={!canEdit} onChange={e=>setLane2(e.target.value)}><option value="">— ไม่มีเลนสำรอง —</option>{LANES.filter(l=>l.id!==lane).map(l=><option key={l.id} value={l.id}>{l.label}</option>)}</select></label>
+   </div>
+
+   <div className="pool">
+     <div className="pool-head">
+       <div><b>ฮีโร่ถนัดที่เลือกไว้ ({entries.length}/{POOL_MAX})</b><p>ฮีโร่จะผูกกับเลนที่เลือกด้านล่าง เพื่อนำไปแสดงในดราฟต์และวิเคราะห์ตัวเก่ง/อ่อน</p></div>
+     </div>
+     <div className="pool-tokens">
+       {entries.length?entries.map(e=>{
+         const h=byId.get(e.id),l=LANES.find(x=>x.id===e.lane)
+         return <span className="pool-token" key={e.key}><Portrait hero={h} size="sm"/><span>{display(h)} <small className="pool-lane-badge">{l?.label}</small></span>{canEdit&&<button type="button" className="btn icon" aria-label={'เอา '+display(h)+' ('+l?.label+') ออก'} onClick={()=>toggle(h,e.lane)}><X size={14}/></button>}</span>
+       }):<p className="group-empty">ยังไม่มีฮีโร่ถนัด กดเลือกจากตารางด้านล่าง</p>}
+     </div>
+
+     {canEdit&&<div className="pool-picker">
+       <div className="pool-picker-bar">
+         <span><b>เลือกฮีโร่ลงเลน:</b></span>
+         <div className="filters" role="group" aria-label="เลือกเลนที่จะบันทึกฮีโร่">
+           {[...activeLanes.map(id=>LANES.find(l=>l.id===id)),...LANES.filter(l=>!activeLanes.includes(l.id)),{id:'all',label:'ทุกเลน'}].filter(Boolean).map(l=><button key={l.id} type="button" className={'chip '+(pickerLane===l.id?'selected':'')} aria-pressed={pickerLane===l.id} onClick={()=>setPickerLane(l.id)}>{l.label}{activeLanes.includes(l.id)?' (ของผู้เล่น)':''}</button>)}
+         </div>
+         <label className="search"><Search size={15}/><span className="sr">ค้นหาฮีโร่</span><input type="search" value={q} onChange={e=>setQ(e.target.value)} placeholder="ค้นหาฮีโร่ที่จะเพิ่ม"/></label>
+       </div>
+       <div className="catalog-grid pool-grid" role="group" aria-label="ตารางฮีโร่ให้กดเลือก">{gridHeroes.map(h=>{
+         const bound=pickerLane==='all'?h.lane:pickerLane
+         const selected=poolKeys.has(h.id+'@'+bound)
+         const l=LANES.find(x=>x.id===bound)
+         return <button key={h.id} type="button" aria-pressed={selected} className={'hero-tile esport-hover '+(selected?'selected ':'')} onClick={()=>toggle(h,bound)}>
+           <Portrait hero={h}/><span className="hero-tile-text"><strong>{display(h)}</strong><small>{selected?'✓ ถนัด '+l?.label:LANES.find(x=>x.id===h.lane)?.label}</small></span>
+         </button>
+       })}</div>
+     </div>}
+   </div>
+
+   <PoolAnalysis entries={entries} heroes={heroes} byId={byId}/>
+
    {canEdit&&<button className="btn primary" disabled={busy}>{busy?'กำลังบันทึก…':'บันทึกโปรไฟล์'}</button>}
   </form>
   {coach&&room&&<div className="invites"><h4>เชิญเข้าช่องผู้เล่น</h4>{p.member_id?<p>ผู้เล่นรับสิทธิ์ช่องนี้แล้ว</p>:<><p>ลิงก์ใช้ครั้งเดียวและหมดอายุใน 7 วัน ส่งให้ผู้เล่นช่องนี้โดยตรง</p><button className="btn" disabled={inviteBusy} onClick={async()=>{setInviteBusy(true);try{const url=await makeInvite(p.slot);setLink(url);await copy(url)}catch(e){tell(e.message,true)}finally{setInviteBusy(false)}}}><Link2 size={16}/>{inviteBusy?'กำลังสร้าง…':'สร้างและคัดลอกลิงก์เชิญ'}</button>{link&&<input aria-label="ลิงก์เชิญ" readOnly value={link} onFocus={e=>e.target.select()}/>}</>}</div>}

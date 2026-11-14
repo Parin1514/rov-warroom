@@ -45,13 +45,11 @@ export function DraftBoard({state,players,byId,target,coach,pending,onChoose,onC
    </details>
  </section>
 }
-export function HeroCatalog({heroes,state,target,coach,filter,setFilter,search,setSearch,focused,player,onPreview,onIntel,Portrait,display,headingRef,inputRef,compact=false}){
- const pool=player?.pool||[]
- const poolSet=new Set(pool)
+export function HeroCatalog({heroes,state,target,coach,filter,setFilter,search,setSearch,focused,comfortGroups=[],onPreview,onIntel,Portrait,display,headingRef,inputRef,compact=false}){
+ const allComfortIds=new Set(comfortGroups.flatMap(g=>g.ids))
  const q=search.trim().toLowerCase()
  const match=h=>!q||display(h).toLowerCase().includes(q)
- const comfort=heroes.filter(h=>poolSet.has(h.id)&&match(h))
- const rest=heroes.filter(h=>!poolSet.has(h.id)&&(filter==='all'||h.lane===filter)&&match(h))
+ const rest=heroes.filter(h=>!allComfortIds.has(h.id)&&(filter==='all'||h.lane===filter)&&match(h))
  const context=targetName(target)
  const laneHeading=filter==='all'?'ฮีโร่ทุกเลน':filter==='jungle'?'ฮีโร่ป่า':filter==='roam'?'ฮีโร่โรม':'ฮีโร่เลน'+laneName(filter)
  const inputId=compact?'sheet-hero-search':'hero-search'
@@ -72,10 +70,14 @@ export function HeroCatalog({heroes,state,target,coach,filter,setFilter,search,s
     {[...LANES.map(l=>[l.id,l.label]),['all','ดูทุกเลน']].map(([id,title])=><button key={id} type="button" className={'chip '+(id===filter?'selected':'')} aria-pressed={id===filter} onClick={()=>setFilter(id)}>{title}</button>)}
    </div>
    <div className="catalog-scroll">
-    {player&&<div className="hero-group comfort-group">
-     <h3><Star size={14}/> ตัวถนัด{player.name?'ของ '+player.name:''}</h3>
-     {comfort.length?tiles(comfort):<p className="group-empty">{pool.length?'ไม่พบตัวถนัดที่ตรงกับคำค้น':'ยังไม่มีฮีโร่ถนัด เพิ่มได้ที่แท็บผู้เล่น'}</p>}
-    </div>}
+    {comfortGroups.map(g=>{
+      const list=heroes.filter(h=>g.ids.includes(h.id)&&match(h))
+      const tag=g.role==='main'?'เลนหลัก':'เลนสำรอง'
+      return <div className="hero-group comfort-group" key={g.player.slot+':'+g.role}>
+        <h3><Star size={14}/> ตัวถนัด: {g.player.name||'ผู้เล่น '+g.player.slot} <small className="comfort-role-badge">({tag})</small> <span>{list.length}</span></h3>
+        {list.length?tiles(list):<p className="group-empty">{g.ids.length?'ไม่พบตัวที่ตรงกับคำค้น':'ยังไม่ได้เลือกฮีโร่ถนัดสำหรับเลนนี้'}</p>}
+      </div>
+    })}
     <div className="hero-group"><h3>{laneHeading} <span>{rest.length}</span></h3>
      {rest.length?tiles(rest):<p className="group-empty">ไม่พบฮีโร่ในรายการนี้ ลองเปลี่ยนคำค้นหรือกดดูทุกเลน</p>}
     </div>

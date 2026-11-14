@@ -73,3 +73,27 @@ export function answersTo(enemyIds,pool,heroes,tags,limit=6){
     return {hero:h,score,detail:detail.filter(d=>d.score>0).sort((x,y)=>y.score-x.score)}
   }).filter(r=>r.score>0).sort((x,y)=>y.score-x.score).slice(0,limit)
 }
+
+// A player's comfort pool vs the heroes they will meet in each lane they play.
+// entries: [{id,lane}] (lane = where the player uses that hero). "Faced" = heroes
+// listed in that lane, i.e. the lane opponent. strong = we hold a clear answer;
+// weak = it beats one of ours and nothing in the pool answers it. Ties go to
+// the higher ranked pick rate, since those are the ones met first.
+export function poolReport(entries,heroes,tags,limit=5){
+  const byId=new Map(heroes.map(h=>[h.id,h])),T=h=>({...h,...tags[h.id]})
+  const pick=h=>h.pick??0
+  return [...new Set(entries.map(e=>e.lane))].map(lane=>{
+    const mine=entries.filter(e=>e.lane===lane).map(e=>byId.get(e.id)).filter(Boolean)
+    const own=new Set(mine.map(h=>h.id))
+    const faced=heroes.filter(h=>h.lane===lane&&!own.has(h.id))
+    const rows=faced.map(e=>{
+      const vs=mine.map(m=>({hero:m,...counterScore(T(m),T(e))})).sort((a,b)=>b.score-a.score)
+      return {hero:e,best:vs[0],worst:vs[vs.length-1],beatsUs:vs.filter(v=>v.score<=BANDS.lose).map(v=>v.hero)}
+    })
+    const strong=rows.filter(r=>r.best.score>=BANDS.good)
+      .sort((a,b)=>b.best.score-a.best.score||pick(b.hero)-pick(a.hero))
+    const weak=rows.filter(r=>r.best.score<BANDS.good&&r.beatsUs.length)
+      .sort((a,b)=>b.beatsUs.length-a.beatsUs.length||a.best.score-b.best.score||pick(b.hero)-pick(a.hero))
+    return {lane,mine,faced:faced.length,covered:strong.length,strong:strong.slice(0,limit),weak:weak.slice(0,limit),weakTotal:weak.length}
+  })
+}
