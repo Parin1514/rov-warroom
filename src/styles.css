@@ -548,3 +548,26 @@ dialog::backdrop{background:#080b13c9}
 }
 @keyframes slot-focus{0%{background:#2b2a29}60%{background:#3a3226}100%{background:transparent}}
 .reduce-motion .draft-workspace .slot.active .slot-pick{animation:none!important}
+/* Playbook: how to beat each enemy */
+.playbook-wrap{background:#1b2331;border:1px solid #2c394d;border-radius:9px;padding:10px;min-width:0}
+.playbook-wrap h3{display:flex;align-items:center;gap:6px;font-size:.82rem;margin-bottom:7px;color:#e4d3b0}
+.playbook-wrap h3 svg{color:var(--gold)}
+.playbook{display:grid;gap:8px}
+.playbook-plan{display:flex;gap:9px;align-items:flex-start;background:#222c3b;border:1px solid #33415a;border-left:3px solid #8a96aa;border-radius:8px;padding:8px;animation:intel-content .22s ease-out}
+.playbook-plan.win,.playbook-plan.good{border-left-color:#59b98e}
+.playbook-plan.lose,.playbook-plan.bad{border-left-color:#c9705f}
+.playbook-plan>div{min-width:0}
+.playbook-plan b{font-size:.78rem}
+.playbook-plan p{margin:2px 0 0;font-size:.8rem;overflow-wrap:anywhere}
+.playbook-phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px;margin:0}
+.playbook-phases>div{background:#202938;border:1px solid #2e3c50;border-radius:8px;padding:7px 9px;min-width:0}
+.playbook-phases>div.avoid{border-color:#5a3a36;background:#2a2124}
+.playbook-phases dt{font-size:.72rem;font-weight:700;color:var(--gold);margin-bottom:3px}
+.playbook-phases .avoid dt{color:#e08b78}
+.playbook-phases dd{margin:0 0 4px;font-size:.77rem;line-height:1.45;overflow-wrap:anywhere;padding-left:10px;position:relative}
+.playbook-phases dd::before{content:"";position:absolute;left:0;top:.6em;width:4px;height:4px;border-radius:50%;background:currentColor;opacity:.5}
+.playbook-items{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.playbook-items>small{color:var(--muted);font-size:.72rem;margin-right:2px}
+.playbook-items .counter-chip{font-size:.73rem;animation:none}
+.playbook-items .counter-chip img{width:20px;height:20px;border-radius:4px}
+.playbook .footnote{margin-top:0}

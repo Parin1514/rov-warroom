@@ -4,3 +4,5 @@ dist/
 .env*
 !.env.example
 .impeccable/questions/
+# Generated (5 MB): node scripts/build-guide-seed.mjs
+supabase/seed_counter_guides.sql

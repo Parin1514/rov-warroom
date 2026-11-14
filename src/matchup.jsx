@@ -4,9 +4,41 @@ import {LANES} from './domain.mjs'
 import {counterScore,rank,verdict,answersTo,BANDS} from './matchup.mjs'
 import {threatProfile,byName} from './items.mjs'
 import {buildSets,setToText} from './sets.mjs'
+import {playbook} from './playbook.mjs'
 import heroTags from './hero-tags.json' with {type:'json'}
 
 const laneLabel=id=>LANES.find(l=>l.id===id)?.label||id
+const PHASES=[['early','ต้นเกม'],['mid','กลางเกม'],['late','ท้ายเกม'],['fight','ตอนไฟต์'],['avoid','ระวัง']]
+
+// How-to-beat plan, one tab per enemy. Same function as the DB seed
+// (scripts/build-guide-seed.mjs), so screen and table never disagree.
+function Playbook({me,enemies,details,display,Portrait}){
+ const [focus,setFocus]=useState(null)
+ const target=enemies.find(e=>e.id===focus)||enemies[0]
+ const plan=useMemo(()=>target?playbook(me,target,{details:details||{},tags:heroTags,display}):null,[me,target,details,display])
+ if(!enemies.length)return <p className="group-empty">เพิ่มฮีโร่ศัตรูด้านบน เพื่อดูแผนรับมือรายตัว</p>
+ if(!plan)return null
+ return <div className="playbook">
+   <div className="sets-tabs" role="group" aria-label="เลือกศัตรูที่จะดูแผน">
+     {enemies.map(e=><button key={e.id} type="button" className={'chip '+(e.id===target.id?'selected':'')} aria-pressed={e.id===target.id} onClick={()=>setFocus(e.id)}>vs {display(e)}</button>)}
+   </div>
+   <div className={'playbook-plan '+plan.band} key={target.id}>
+     <Portrait hero={target} size="sm"/>
+     <div><b>{plan.label} · คะแนน {plan.score}</b><p>{plan.plan}</p></div>
+   </div>
+   {!details&&<small className="footnote">กำลังโหลดข้อมูลสกิล แผนจะระบุชื่อสกิลเมื่อโหลดเสร็จ</small>}
+   <dl className="playbook-phases">
+     {PHASES.filter(([id])=>plan.phases[id].length).map(([id,t])=><div key={id} className={id==='avoid'?'avoid':''}>
+       <dt>{t}</dt>{plan.phases[id].map((l,i)=><dd key={i}>{l}</dd>)}
+     </div>)}
+   </dl>
+   {plan.items.length>0&&<div className="playbook-items"><small>ไอเทมรับมือ</small>
+     {plan.items.map(i=><span key={i.name} className="counter-chip" title={i.why}>{i.icon?<img src={i.icon} alt="" loading="lazy"/>:<Gem size={13}/>}{i.name}</span>)}
+   </div>}
+   {plan.missing.map(m=><small key={m} className="footnote">{m}</small>)}
+   <small className="footnote">แผนสร้างจากกฎแท็กสกิลและชื่อ/คูลดาวน์สกิลในคลังข้อมูล ไม่ใช่สถิติรายคู่ · ใช้เป็นจุดเริ่ม แล้วให้โค้ชปรับตามที่ทีมเจอจริง</small>
+ </div>
+}
 const withTags=h=>h?{...h,...heroTags[h.id]}:null
 
 function ScoreBar({score}){
@@ -182,6 +214,10 @@ export function CounterPick({heroes,state,byId,Portrait,display,onIntel,stamp,as
           :<small className="footnote">AI ใช้ได้เมื่อเปิดห้องออนไลน์และตั้งค่า 9Router แล้ว</small>)}
         {ai&&<div className="ai-result"><b>ข้อเสนอจาก AI</b><p>{ai}</p></div>}
       </div>
+    </div>
+    <div className="playbook-wrap">
+      <h3><Swords size={15}/> แผนรับมือ: {display(selected)} ชนะแต่ละตัวยังไง</h3>
+      <Playbook me={selected} enemies={enemyHeroes} details={details} display={display} Portrait={Portrait}/>
     </div>
   </div>}
 

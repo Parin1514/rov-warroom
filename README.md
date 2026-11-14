@@ -31,7 +31,9 @@ Hover ใช้แสงกวาด ขอบ และภาพขยายเ
 
 ## เปิดห้องออนไลน์บน Vercel
 
-1. สร้าง Supabase โปรเจกต์ใหม่สำหรับแอปนี้ แนะนำ Singapore สำหรับทีมในไทย จากนั้นรัน `supabase/migrations/202611130001_war_room.sql` ด้วย Supabase CLI หรือ SQL Editor
+1. สร้าง Supabase โปรเจกต์ใหม่สำหรับแอปนี้ แนะนำ Singapore สำหรับทีมในไทย จากนั้น `npx supabase link --project-ref <ref>` และ `npx supabase db push` เพื่อรันทุกไฟล์ใน `supabase/migrations/` ตามลำดับ
+   - แผนรับมือรายคู่ (`war_counter_guides`): `node scripts/build-guide-seed.mjs` สร้าง `supabase/seed_counter_guides.sql` (ไม่อยู่ใน git) แล้วรันไฟล์นี้ใน SQL Editor หรือ Management API ไฟล์ลบเฉพาะแถว `source='rule'` ก่อนเพิ่มใหม่ โน้ตโค้ช (`source='coach'`) ไม่ถูกแตะ
+   - หน้าเคาน์เตอร์คำนวณแผนเดียวกันในเบราว์เซอร์จาก `src/playbook.mjs` ตารางนี้มีไว้ให้ AI/overlay อ่านและให้โค้ชเขียนทับผ่าน `war_save_guide`
 2. เปิด Email Auth แล้วตั้ง Site URL และ Redirect URLs เป็นโดเมนของเว็บ เช่น `https://<ชื่อโปรเจกต์>.vercel.app` ตามสภาพแวดล้อมที่ใช้จริง ตั้ง SMTP ของทีมเมื่อจะส่งลิงก์ให้ผู้เล่นจริง และตรวจว่าเทมเพลต magic link มีลิงก์ยืนยัน
 3. สร้างโปรเจกต์ Vercel จากโฟลเดอร์นี้โดยเลือก Vite ตั้ง `VITE_SUPABASE_URL` และ `VITE_SUPABASE_PUBLISHABLE_KEY` ตาม `.env.example` แล้ว deploy ใหม่ ค่าคีย์นี้ต้องเป็น publishable key ไม่ใช่ service role key
 4. โค้ชกด **ห้องออนไลน์** และลงชื่อด้วยอีเมล จากนั้นสร้างห้อง เปิดแท็บ **ผู้เล่น** เพื่อสร้างลิงก์แยกให้แต่ละช่อง ผู้รับต้องลงชื่อและกดรับคำเชิญ ลิงก์ใช้ได้ครั้งเดียวและหมดอายุใน 7 วัน
