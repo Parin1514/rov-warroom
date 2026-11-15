@@ -2,9 +2,10 @@ import React,{useEffect,useMemo,useRef,useState} from 'react'
 import {Activity,ArrowUpRight,BookOpen,ChevronRight,Copy,Crosshair,Gem,Layers3,Shield,Sparkles,Swords,X,Zap} from 'lucide-react'
 import {LANES} from './domain.mjs'
 import {recommendItems} from './items.mjs'
-import {rank,verdict,counterScore} from './matchup.mjs'
+import {rank} from './matchup.mjs'
 import {buildSets,setToText} from './sets.mjs'
 import {describeSkill} from './team-analysis.mjs'
+import {playbook} from './playbook.mjs'
 import heroTags from './hero-tags.json' with {type:'json'}
 
 let dossierPromise
@@ -39,6 +40,25 @@ function IconTile({item,fallback,active,onSelect,note}){
  return <button type="button" className={'intel-tile esport-hover'+(active?' active':'')} onClick={onSelect} aria-pressed={active} title={item.name}>
   <IntelIcon item={item} fallback={fallback}/><span><b>{item.name}</b>{note&&<small>{note}</small>}</span>
  </button>
+}
+function MatchupNotes({rows,positive,hero,data,byId,display,onBrowse}){
+ return rows.map(row=>{
+  const opponent=row.hero||byId.get(row.id)
+  if(!opponent)return null
+  const plan=playbook(hero,opponent,{details:data,tags:heroTags,display})
+  const reasons=row.why?(Array.isArray(row.why)?row.why:[row.why]):positive?plan.why:plan.against
+  return <details className="intel-matchup-note" key={opponent.id}>
+   <summary>{display(opponent)} · {positive?'ได้เปรียบตามเงื่อนไข':'ต้องระวัง'}</summary>
+   <p>{reasons.join(' · ')}</p>
+   <p><b>วิธีเล่น:</b> {row.play||[...plan.phases.early,...plan.phases.mid,...plan.phases.fight].slice(0,2).join(' · ')}</p>
+   <p><b>ข้อจำกัด:</b> {row.avoid||plan.phases.avoid.slice(0,2).join(' · ')||'ขึ้นกับเงิน เลเวล คูลดาวน์ และเพื่อนร่วมทีม ไม่รับประกันผลดวล'}</p>
+   {row.scope&&<p>{row.scope}</p>}
+   <div className="intel-sources"><span>{row.id?'วิเคราะห์กลไกรายคู่':'ประเมินอัตโนมัติจากแท็ก'}</span>
+    {(row.sources||[data[hero.id]?.guide,data[opponent.id]?.guide]).filter(Boolean).map((url,i)=><a key={url} href={url} target="_blank" rel="noreferrer">หลักฐานสกิล {i+1}</a>)}
+    <button type="button" className="btn" onClick={()=>onBrowse(opponent.id)}>ดู {display(opponent)}</button>
+   </div>
+  </details>
+ })
 }
 function Sources({d,stamp,asDate}){
  return <div className="intel-sources"><span>แหล่งข้อมูล</span>
@@ -83,7 +103,8 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
    return buildSets(hero,enemyHeroes,data[hero.id]?.builds?.[0],heroTags[hero.id]||{})
  },[hero,enemy,byId,data])
  const activeSet=dSets[setIndex]||dSets[0]
- const shownItems=activeSet?activeSet.items:(activeBuild?.items||[])
+ const shownItems=activeSet?.items||[]
+ const matchRows=d?.matchups||matchup
  const pickEntry=(type,item,extra)=>setHighlight({type,item,extra})
  const identity=[laneFor(hero),hero?.role,d?.specialty].filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i).join(' · ')
  function jump(id){const el=body.current?.querySelector('#'+id);if(el){el.scrollIntoView({block:'start'});el.querySelector('h3')?.focus({preventScroll:true})}}
@@ -115,7 +136,7 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
     </div>
     {!data&&!failed&&<div className="intel-loading" role="status">กำลังโหลดรายละเอียดฮีโร่…</div>}
     {failed&&<div className="intel-loading" role="alert">โหลดข้อมูลไม่สำเร็จ <button className="btn" onClick={()=>setTryCount(x=>x+1)}>ลองใหม่</button></div>}
-    {data&&<nav className="intel-jumps" aria-label="ส่วนของรายละเอียดฮีโร่">{[['intel-builds','บิลด์'],['intel-runes','รูน'],['intel-skills','สกิล'],['intel-items','ไอเทม']].map(([id,t])=><button key={id} type="button" onClick={()=>jump(id)}>{t}</button>)}</nav>}
+    {data&&<nav className="intel-jumps" aria-label="ส่วนของรายละเอียดฮีโร่">{[['intel-items','บิลด์'],['intel-matchups','ชนะ/แพ้ทาง'],['intel-runes','รูน'],['intel-skills','สกิล']].map(([id,t])=><button key={id} type="button" onClick={()=>jump(id)}>{t}</button>)}</nav>}
     {data&&<div className="intel-grid">
       <aside className="intel-rail">
        <section><h3><Layers3/> ชุดไอเทม</h3>
@@ -126,19 +147,23 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
         {shortlist.length?shortlist.map(r=><button key={r.kind+r.id} className="intel-match esport-hover" onClick={()=>onBrowse(r.id)} title={r.reason}><Portrait hero={byId.get(r.id)} size="sm"/><span><b>{display(byId.get(r.id))}</b><small className={'kind '+r.kind}>{KIND[r.kind]}</small></span><ChevronRight size={15}/></button>):<p className="intel-empty">ยังไม่มีคำแนะนำเฉพาะคู่สำหรับดราฟต์นี้</p>}
        </section>
        <section><h3><Crosshair/> ชนะทาง / แพ้ทาง</h3>
-        {matchup&&(matchup.beats.length||matchup.loses.length)?<>
-          {matchup.beats.slice(0,3).map(r=><button key={'b'+r.hero.id} className="intel-match esport-hover" onClick={()=>onBrowse(r.hero.id)} title={r.why[0]}>
-            <Portrait hero={r.hero} size="sm"/><span><b>{display(r.hero)}</b><small className="kind pair">ชนะทาง · {verdict(r.score).label}</small></span><span className={'tag-score '+verdict(r.score).id}>{r.score}</span></button>)}
-          {matchup.loses.slice(0,3).map(r=><button key={'l'+r.hero.id} className="intel-match esport-hover" onClick={()=>onBrowse(r.hero.id)} title={r.against[0]}>
-            <Portrait hero={r.hero} size="sm"/><span><b>{display(r.hero)}</b><small className="kind risk">แพ้ทาง · {verdict(-r.score).label}</small></span><span className={'tag-score '+verdict(-r.score).id}>{r.score}</span></button>)}
-          <a className="intel-more" href="#counter">ดูตารางเคาน์เตอร์ทั้งหมด</a>
-        </>:<p className="intel-empty">ไม่พบคู่ที่ชัดเจนจากแท็กสกิลของฮีโร่นี้</p>}
+        <p className="intel-empty">การอนุมานจากสกิล ไม่ใช่อัตราชนะรายคู่หรือผลเลนที่รับประกัน</p>
+        <button type="button" className="btn" onClick={()=>jump('intel-matchups')}>อ่านเหตุผลและวิธีเล่นรายคู่</button>
        </section>
        <section><label className="intel-search">ค้นหาฮีโร่อื่น<input type="search" placeholder="เช่น Hayate" value={heroQuery} onChange={e=>setHeroQuery(e.target.value)}/></label>
         {visibleHeroes.map(h=><button key={h.id} className="intel-match esport-hover" onClick={()=>onBrowse(h.id)}><Portrait hero={h} size="sm"/><span><b>{display(h)}</b><small>{laneFor(h)}</small></span><ChevronRight size={15}/></button>)}
        </section>
       </aside>
       <div className="intel-core">
+       <section id="intel-matchups"><h3 tabIndex={-1}><Crosshair/> ชนะทาง / แพ้ทางแบบละเอียด</h3>
+        <p className="intel-empty">[การอนุมาน] {d.matchups?'วิเคราะห์กลไกรายคู่จากแหล่งสกิล':'ประเมินอัตโนมัติจากแท็กสกิล — ยังไม่มีบทวิเคราะห์ที่ตรวจรายคู่'} ไม่ใช่สถิติชนะจริง การเลือกเลน เงิน และทีมอาจกลับผลได้</p>
+        <h4>มีเครื่องมือรับมือ</h4>
+        <MatchupNotes rows={matchRows?.beats||[]} positive hero={hero} data={data} byId={byId} display={display} onBrowse={onBrowse}/>
+        {!matchRows?.beats?.length&&<p className="intel-empty">หลักฐานไม่พอระบุคู่ที่ได้เปรียบ</p>}
+        <h4>คู่ที่ต้องระวัง</h4>
+        <MatchupNotes rows={matchRows?.loses||[]} hero={hero} data={data} byId={byId} display={display} onBrowse={onBrowse}/>
+        {!matchRows?.loses?.length&&<p className="intel-empty">หลักฐานไม่พอระบุคู่ที่เสียเปรียบ ไม่ได้แปลว่าไม่มีตัวแก้ทาง</p>}
+       </section>
        <section id="intel-runes"><h3 tabIndex={-1}><Gem/> รูน</h3><div className="intel-runes">
         {d.runes?.length?d.runes.map((x,i)=><div className={'rune-color '+x.color} key={i}><IconTile item={x} note={({red:'รูนแดง',purple:'รูนม่วง',green:'รูนเขียว'})[x.color]} active={highlight?.item===x} onSelect={()=>pickEntry('รูน',x)}/></div>):<p className="intel-empty">ไม่พบชุดรูนที่ยืนยันได้</p>}
        </div></section>
@@ -154,7 +179,9 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
       <div className="intel-gear">
        <section><h3><Activity/> สกิลชาเลนเจอร์</h3>{d.spells?.length?d.spells.map((x,i)=><IconTile item={x} key={i} fallback={Zap} active={highlight?.item===x} onSelect={()=>pickEntry('สกิลชาเลนเจอร์',x)}/>):<p className="intel-empty">ยังไม่มีชุดที่ยืนยันได้</p>}</section>
        <section id="intel-items"><h3 tabIndex={-1}><Swords/> ไอเทมในชุดที่เลือก</h3>
-        {shownItems.length?<div className="intel-item-list">{shownItems.map((x,i)=><IconTile key={i} item={x} note={'ชิ้นที่ '+(i+1)} fallback={Swords} active={highlight?.item===x} onSelect={()=>pickEntry('ไอเทมในชุด',x,'ลำดับที่ '+(i+1)+' ตามชุดที่แหล่งอ้างอิงแสดง ปรับตามรูปเกมได้')}/>)}</div>:<p className="intel-empty">ยังไม่มีรายการไอเทมที่ยืนยันได้</p>}
+        <p className="intel-empty">[ข้อเท็จจริง] {activeBuild?.review?`ตรวจรายการไอเทม ${activeBuild.review.checkedAt} · ${activeBuild.review.patch}`:'หน้าแนะนำ Garena ไม่ระบุแพตช์ของบิลด์ — ยังไม่ยืนยันว่าเป็นชุดล่าสุด'}</p>
+        {activeBuild?.review?.sources?.map(url=><a className="intel-item-source" key={url} href={url} target="_blank" rel="noreferrer">แหล่งตรวจแพตช์</a>)}
+        {shownItems.length?<div className="intel-item-list">{shownItems.map((x,i)=><IconTile key={i} item={x} note={'ชิ้นที่ '+(i+1)} fallback={Swords} active={highlight?.item===x} onSelect={()=>pickEntry('ไอเทมในชุด',x,'ลำดับที่ '+(i+1)+' ของชุดที่เลือก ปรับตามรูปเกมได้ ไม่ใช่ลำดับซื้อที่ตายตัว')}/>)}</div>:<p className="intel-empty">ยังไม่มีรายการไอเทมที่ยืนยันได้</p>}
         {activeSet&&<p className="intel-empty">{activeSet.why}</p>}
        </section>
        <section><h3><Shield/> ไอเทมตามสถานการณ์</h3>

@@ -14,6 +14,13 @@ const byId=new Map(heroes.map(h=>[h.id,h]))
 const opts={details:det,tags}
 const all=()=>heroes.flatMap(a=>heroes.filter(b=>b.id!==a.id).map(b=>[a,b]))
 
+test('playbooks label inference and do not turn tag scores into lane or late-game guarantees',()=>{
+  const p=playbook(byId.get('hayate'),byId.get('taara'),opts)
+  assert.equal(p.kind,'heuristic')
+  assert(p.phases.late.every(s=>!s.includes('ได้เปรียบเหมือนเดิม')))
+  assert(!p.plan.includes('เปิดไฟต์ใส่'))
+})
+
 test('no plan for self or missing heroes',()=>{
   const h=heroes[0]
   assert.equal(playbook(h,h,opts),null)

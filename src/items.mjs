@@ -1,6 +1,7 @@
-// Item recommendation engine. Catalogue is the 53 items that appear in the
-// verified Garena builds (src/items.json). Rules map verified hero tags and
-// role to the item effect an analyst would pick; no win-rate claim is made.
+// Rule-derived item advice, not measured build performance. Legacy Garena
+// builds are not patch verification. Only reviewed effects are recommended.
+// Effect sources: https://rovguide.com/th/items/<slug>; Beta55 for Mail of Pain.
+// ponytail: no auto-recommended jungle/support upgrades without explicit role selection.
 import tags from './hero-tags.json' with {type:'json'}
 import items from './items.json' with {type:'json'}
 
@@ -9,57 +10,28 @@ const HAS=name=>byName.has(name)
 
 // name, roles that should consider it, tags it answers, why, category.
 const RULES=[
-  {name:'Glided Greaves',roles:['แทงค์','ไฟต์เตอร์','แอสซาซิน'],for:['cc'],cat:'กัน',why:'ลดเวลาถูกควบคุม ใช้เมื่ออีกฝั่งมีสกิลควบคุมหลายช่อง'},
-  {name:'Medallion of Troy',roles:['แทงค์','ไฟต์เตอร์','ซัพพอร์ต'],for:['magic'],cat:'กัน',why:'เพิ่มความต้านทานเวทและลดเวลาติดสถานะ เหมาะกับทีมที่เจอเวทหนัก'},
-  {name:'The Aegis',roles:['แทงค์','ซัพพอร์ต'],for:['magic'],cat:'กัน',why:'โล่กันเวทให้เพื่อนใกล้ตัว ใช้เมื่ออีกฝั่งมีเมจทำดาเมจหลัก'},
-  {name:"Hyoga's Edge",roles:['แครี่','ไฟต์เตอร์','แอสซาซิน'],for:['tanky'],cat:'เจาะ',why:'ตัดความเร็วเคลื่อนที่และเกราะ ช่วยให้ทีมตามตัวหนาได้ทัน'},
-  {name:'Spear of Longinus',roles:['ไฟต์เตอร์','แครี่'],for:['tanky'],cat:'เจาะ',why:'ลดเกราะเป้าหมายซ้ำ ๆ เหมาะกับตัวที่ต้องเจาะแนวหน้า'},
-  {name:'Muramasa',roles:['แครี่','แอสซาซิน','ไฟต์เตอร์'],for:['tanky','dash'],cat:'เจาะ',why:'เจาะเกราะเป้าหมายที่หนาที่สุดในไฟต์'},
-  {name:'Staff of Nuul',roles:['เมจ'],for:['tanky','mitigate'],cat:'เจาะ',why:'ลดความต้านทานเวทของเป้าหมาย เหมาะกับเมจที่ต้องเจอตัวหนา'},
-  {name:'Frost Cape',roles:['แทงค์','ไฟต์เตอร์'],for:['dash','phys'],cat:'คุม',why:'สร้างพื้นที่ชะลอ ช่วยหยุดตัวที่ต้องวิ่งเข้าหา'},
-  {name:'Mail of Pain',roles:['แทงค์','ไฟต์เตอร์'],for:['phys'],cat:'กัน',why:'สะท้อนดาเมจกายภาพ ใช้เมื่ออีกฝั่งพึ่งดาเมจกายภาพ'},
-  {name:"Gaia's Standard",roles:['แทงค์','ไฟต์เตอร์'],for:['magic'],cat:'กัน',why:'ฟื้นฟูเมื่อรับดาเมจเวท เหมาะกับการโดนเมจกดดันต่อเนื่อง'},
-  {name:'Curse of Death',roles:['เมจ','ซัพพอร์ต'],for:['heal'],cat:'ตอบโต้',why:'ลดการฟื้นฟูของเป้าหมาย ใช้เมื่ออีกฝั่งมีตัวฮีลหรือฟื้นฟูสูง'},
-  {name:'Blade of Eternity',roles:['แครี่','แอสซาซิน','เมจ'],for:['burst','dive'],cat:'กัน',why:'กันจังหวะเบิร์สต์ด้วยโล่ชั่วคราว ใช้เมื่ออีกฝั่งปิดงานเร็ว'},
-  {name:'Death Sickle',roles:['แครี่','แอสซาซิน'],for:['burst','dive'],cat:'กัน',why:'เผื่อจังหวะรอดจากดาเมจปิดงานและกลับเข้าไฟต์'},
-  {name:'Arctic Orb',roles:['เมจ','ซัพพอร์ต','แครี่'],for:['cc','burst'],cat:'กัน',why:'ปลดสถานะและลดดาเมจช่วงสั้น เหมาะกับตัวที่ถูกจับเป็นเป้าหมายแรก'},
-  {name:'Rock Shield',roles:['แทงค์','ไฟต์เตอร์','ซัพพอร์ต'],for:['poke','magic'],cat:'กัน',why:'ดูดดาเมจและให้โล่ ใช้เมื่อโดนโปะก่อนเริ่มไฟต์'},
-  {name:"Hercules's Madness",roles:['แทงค์','ไฟต์เตอร์'],for:['burst','phys'],cat:'กัน',why:'เพิ่มความทนทานระหว่างไฟต์ยาว เหมาะกับแนวหน้าที่ปะทะต่อเนื่อง'},
-  {name:'Leviathan',roles:['แทงค์'],for:['tanky'],cat:'บูสต์',why:'เสริมพลังเมื่อปะทะหลายเป้าหมาย เหมาะกับแนวหน้า'},
-  {name:'Omni Arms',roles:['ไฟต์เตอร์','แครี่'],for:['heal','sustain'],cat:'บูสต์',why:'เสริมการฟื้นฟูหลังใช้สกิล เหมาะกับตัวที่ฟื้นฟูต่อเนื่อง'},
-  {name:"Rhea's Blessing",roles:['ซัพพอร์ต','เมจ'],for:['heal','sustain'],cat:'บูสต์',why:'เพิ่มผลการรักษาและการฟื้นฟูให้ตัวเองและเพื่อน'},
-  {name:"Hermes' Select",roles:['ซัพพอร์ต','แทงค์'],for:['roam'],cat:'เคลื่อนที่',why:'เพิ่มความเร็วเคลื่อนที่และช่วยหมุนแผนที่เร็วขึ้น'},
-  {name:'Sonic Boots',roles:['แครี่','เมจ'],for:['poke','kite'],cat:'เคลื่อนที่',why:'เพิ่มความเร็วโจมตีและเคลื่อนที่ เหมาะกับตัวยิงระยะไกล'},
-  {name:'War Boots',roles:['แทงค์','ไฟต์เตอร์'],for:['phys'],cat:'กัน',why:'เพิ่มเกราะกายภาพช่วงต้น ใช้เมื่อเลนเจอดาเมจกายภาพหนัก'},
-  {name:'Enchanted Kicks',roles:['เมจ','ซัพพอร์ต'],for:['magic'],cat:'กัน',why:'เพิ่มความต้านทานเวทช่วงต้น ใช้เมื่อเลนเจอเมจ'},
-  {name:"Fenrir's Tooth",roles:['แอสซาซิน','ไฟต์เตอร์'],for:['burst','dive'],cat:'เจาะ',why:'เพิ่มดาเมจปิดงานกับเป้าหมายที่เลือดเหลือน้อย'},
-  {name:'Bow of Slaughter',roles:['แครี่'],for:['heal'],cat:'ตอบโต้',why:'ลดการฟื้นฟูเป้าหมายต่อเนื่อง เหมาะกับแครี่ที่ต้องสู้กับตัวฮีล'},
-  {name:"Fafnir's Talon",roles:['แครี่','ไฟต์เตอร์'],for:['phys','burst'],cat:'เจาะ',why:'เสริมความเร็วโจมตีและดาเมจจริงชั่วคราว ใช้ปิดเป้าหมายหนา'},
-  {name:'Blitz Blades',roles:['แอสซาซิน','ไฟต์เตอร์'],for:['dive','burst'],cat:'บูสต์',why:'เสริมความเร็วโจมตีและลดคูลดาวน์ เหมาะกับตัวที่ต้องใช้สกิลรัว'},
-  {name:"Slikk's Sting",roles:['แอสซาซิน'],for:['dive'],cat:'เจาะ',why:'เพิ่มความเร็วโจมตีและความแรงเข้าหาเป้าหมายเดียว'},
-  {name:'Soulreaver',roles:['แอสซาซิน','แครี่'],for:['burst','phys'],cat:'เจาะ',why:'สะสมดาเมจปิดงานเมื่อยิงเป้าเดิมซ้ำ'},
-  {name:'Shield of the Lost',roles:['แทงค์','ไฟต์เตอร์'],for:['phys'],cat:'กัน',why:'ลดดาเมจกายภาพจากหลายเป้าหมาย เหมาะกับแนวหน้า'},
-  {name:'Amulet of Longevity',roles:['แทงค์','เมจ','ซัพพอร์ต'],for:['burst','magic'],cat:'กัน',why:'เพิ่มเลือดและฟื้นฟู เหมาะกับตัวที่ต้องทนจังหวะเบิร์สต์เวท'},
-  {name:"Odin's Will",roles:['แทงค์','แอสซาซิน','ไฟต์เตอร์'],for:['cc','dive'],cat:'กัน',why:'ปลดสถานะช้าและเพิ่มความเร็ว ใช้เมื่อถูกตรึงในไฟต์'},
-  {name:"Frosty's Revenge",roles:['แทงค์','ไฟต์เตอร์'],for:['dash','phys'],cat:'คุม',why:'ชะลอเป้าหมายที่เข้าหา ช่วยให้ทีมถอยเป็น'},
-  {name:'Boomstick',roles:['เมจ'],for:['burst','magic'],cat:'บูสต์',why:'เสริมดาเมจสกิลระยะแรกของไฟต์ เหมาะกับเมจเบิร์สต์'},
-  {name:"Hecate's Diadem",roles:['เมจ'],for:['magic','burst'],cat:'บูสต์',why:'เพิ่มดาเมจเวทต่อเนื่อง เหมาะกับเมจที่ยืนยิง'},
-  {name:'Holy of Holies',roles:['เมจ'],for:['magic'],cat:'บูสต์',why:'เพิ่มดาเมจเวทสูงสุด เหมาะกับเมจที่ปลอดภัยพอจะยืนยิง'},
-  {name:'Orb of the Magi',roles:['เมจ'],for:['magic','sustain'],cat:'บูสต์',why:'เพิ่มดาเมจเวทและฟื้นฟู เหมาะกับเมจที่ต้องอยู่ยาว'},
-  {name:'Apocalypse',roles:['เมจ'],for:['magic','tanky'],cat:'เจาะ',why:'เพิ่มดาเมจเวทตามเลือดเป้าหมาย เหมาะกับเมจที่เจอแนวหน้า'},
-  {name:'Soaring Aura',roles:['เมจ','ซัพพอร์ต'],for:['magic','heal'],cat:'บูสต์',why:'เพิ่มพลังเวทให้ทีมและลดต้านเวทศัตรู เหมาะกับทีมเมจหลายตัว'},
-  {name:'Poseidon Emblem',roles:['ซัพพอร์ต','เมจ'],for:['magic'],cat:'บูสต์',why:'เสริมดาเมจเวทให้เพื่อนรอบตัว เหมาะกับทีมที่พึ่งเวท'},
-  {name:'Soul Strom Badge',roles:['ซัพพอร์ต','เมจ'],for:['magic','heal'],cat:'บูสต์',why:'เสริมพลังเวทและคูลดาวน์ เหมาะกับซัพพอร์ตเวท'},
-  {name:"Berith's Agony",roles:['แทงค์','ไฟต์เตอร์'],for:['tanky'],cat:'เจาะ',why:'เผาดาเมจเวทต่อเนื่องตามเลือด เหมาะกับแนวหน้าที่ปะทะยาว'},
-  {name:'Mantle of Ra',roles:['แทงค์'],for:['tanky'],cat:'เจาะ',why:'เผาดาเมจรอบตัวและเพิ่มเกราะ เหมาะกับแนวหน้า'},
-  {name:"Ifrit's Claw",roles:['แครี่','ไฟต์เตอร์'],for:['phys'],cat:'บูสต์',why:'สร้างดาเมจต่อเนื่องเมื่อโจมตีปกติ เหมาะกับตัวแลกเปลี่ยน'},
-  {name:'Mr. Stabby',roles:['ไฟต์เตอร์'],for:['phys','sustain'],cat:'บูสต์',why:'เสริมดาเมจปกติและการฟื้นฟู เหมาะกับไฟต์เตอร์'},
-  {name:"Loki's Curse",roles:['แอสซาซิน'],for:['burst'],cat:'บูสต์',why:'เสริมดาเมจสกิลชุดแรก เหมาะกับตัวเปิดไฟต์'},
-  {name:'Firestorm Bow',roles:['แครี่'],for:['tanky'],cat:'เจาะ',why:'เผาดาเมจตามเลือดสูงสุด เหมาะกับแครี่ที่ต้องสู้กับแนวหน้า'},
-  {name:'Claves Sancti',roles:['แครี่'],for:['phys'],cat:'บูสต์',why:'เพิ่มดาเมจคริติคอล เหมาะกับตัวยิงดาเมจกายภาพหลัก'},
-  {name:'Broken Spear',roles:['แอสซาซิน','แครี่'],for:['dash'],cat:'ตอบโต้',why:'ตัดการฟื้นฟูของเป้าหมายที่ต้องวิ่งหนี ใช้เมื่อตามตัวไม่ทัน'},
-  {name:'Zweihander',roles:['เมจ'],for:['magic'],cat:'บูสต์',why:'เพิ่มดาเมจเวทเมื่อเลือดเหลือน้อย เหมาะกับเมจที่ต้องแลก'},
-  {name:'Flashy Boots',roles:['แทงค์','ไฟต์เตอร์','ซัพพอร์ต'],for:['dash','cc'],cat:'เคลื่อนที่',why:'ลดคูลดาวน์สกิล ใช้เมื่อต้องใช้สกิลควบคุมบ่อย'}
+  {name:'Glided Greaves',roles:['แทงค์','ไฟต์เตอร์','แอสซาซิน','เมจ','แครี่','ซัพพอร์ต'],for:['cc'],cat:'กัน',why:'พิจารณาต้านทานสถานะเมื่อโดนควบคุมบ่อย ไม่ป้องกันการจับล็อกทุกรูปแบบ'},
+  {name:'Medallion of Troy',roles:['แทงค์','ไฟต์เตอร์','ซัพพอร์ต'],for:['magic'],cat:'กัน',why:'ต้านทานเวทและโล่ดูดซับเวท ไม่ได้ลดเวลาติดสถานะ'},
+  {name:'The Aegis',roles:['แทงค์','ไฟต์เตอร์','ซัพพอร์ต'],for:['phys'],cat:'กัน',why:'เพิ่มเกราะและลดความเร็วโจมตีศัตรูใกล้ตัว ไม่ใช่โล่กันเวทให้ทีม'},
+  {name:'Spear of Longinus',roles:['ไฟต์เตอร์','แอสซาซิน'],for:['tanky'],cat:'เจาะ',why:'ลดเกราะสะสมเมื่อโจมตี เหมาะกับผู้ใช้ดาเมจกายภาพที่ตีต่อเนื่อง'},
+  {name:'Muramasa',roles:['แครี่','แอสซาซิน','ไฟต์เตอร์'],for:['tanky'],cat:'เจาะ',why:'เจาะเกราะกายภาพเป็นสัดส่วน ใช้เมื่อศัตรูสะสมเกราะ ไม่ได้เจาะโล่หรือเพิ่มดาเมจจริง'},
+  {name:'Staff of Nuul',roles:['เมจ'],for:['tanky'],cat:'เจาะ',why:'เจาะเกราะเวทเมื่อศัตรูสะสมต้านทานเวท ไม่ใช่ลดต้านเวทให้ทั้งทีม'},
+  {name:'Frost Cape',roles:['แทงค์','ไฟต์เตอร์','แครี่'],for:['dash'],cat:'คุม',why:'หลังใช้สกิล ต้องโจมตีปกติเพื่อทำดาเมจวงและสโลว์ ไม่หยุดการพุ่งโดยตรง'},
+  {name:'Mail of Pain',roles:['แทงค์','ไฟต์เตอร์'],for:['phys'],cat:'กัน',why:'เพิ่มเกราะและถ่ายโอนความเสียหายกลับ ใช้สกิลกดเพื่อเร่งผลในจังหวะรับดาเมจ ตาม Beta55'},
+  {name:'Curse of Death',roles:['แครี่','ไฟต์เตอร์','แอสซาซิน'],for:['heal'],cat:'ตอบโต้',why:'ไอเทมสายกายภาพลดการฟื้นฟูหลังทำดาเมจ ไม่ใช่ไอเทมดูดเลือด'},
+  {name:'Soul Scroll',roles:['เมจ','ซัพพอร์ต'],for:['heal'],cat:'ตอบโต้',why:'ไอเทมพลังเวทลดการฟื้นฟูหลังทำดาเมจ เหมาะกับเมจที่ช่วยทีมตัดฮีล'},
+  {name:'Blade of Eternity',roles:['แครี่','แอสซาซิน','ไฟต์เตอร์','เมจ'],for:['burst','dive'],cat:'กัน',why:'คืนชีพหลังตายตามคูลดาวน์และจำนวนครั้งจำกัด ต้องมีทีมคุ้มกันจุดเกิดใหม่ ไม่ใช่โล่กันเบิร์สต์'},
+  {name:'Death Sickle',roles:['แครี่','แอสซาซิน','ไฟต์เตอร์'],for:['burst','dive'],cat:'กัน',why:'ป้องกันการตายช่วงสั้นตามเงื่อนไข ควรเก็บทางหนีไว้ ไม่รับประกันว่าจะรอดจากดาเมจตามมา'},
+  {name:'Arctic Orb',roles:['เมจ','ซัพพอร์ต'],for:['burst','dive'],cat:'กัน',why:'กดอมตะช่วงสั้น แต่ขยับ โจมตี และใช้สกิลไม่ได้ ต้องรอทีมช่วย ไม่ใช่สกิลล้างสถานะ'},
+  {name:'Rock Shield',roles:['แทงค์','ไฟต์เตอร์','ซัพพอร์ต'],for:['burst','poke'],cat:'กัน',why:'กดรับโล่ช่วงสั้นแลกกับดาเมจตัวเองลดลง เหมาะกับผู้รับดาเมจมากกว่าตัวปิดงาน'},
+  {name:"Hercules's Madness",roles:['แทงค์','ไฟต์เตอร์'],for:['burst','phys'],cat:'กัน',why:'ได้โล่และเพิ่มดูดเลือดเมื่อ HP ต่ำตามเงื่อนไข ระวังไอเทมตัดการฟื้นฟู'},
+  {name:'Sonic Boots',roles:['แทงค์','ไฟต์เตอร์','เมจ','แครี่','ซัพพอร์ต','แอสซาซิน'],for:['phys'],cat:'กัน',why:'เพิ่มเกราะและลดความเสียหายกายภาพ ไม่เพิ่มความเร็วโจมตี'},
+  {name:'War Boots',roles:['แครี่','ไฟต์เตอร์'],for:['phys'],cat:'บูสต์',why:'เพิ่มความเร็วโจมตี เหมาะกับผู้ใช้การโจมตีปกติ ไม่ใช่รองเท้าเพิ่มเกราะ'},
+  {name:'Enchanted Kicks',roles:['เมจ','ซัพพอร์ต'],for:['magic'],cat:'เจาะ',why:'เพิ่มเจาะเกราะเวทเพื่อทำดาเมจ ไม่ใช่ต้านทานเวท'},
+  {name:'Bow of Slaughter',roles:['แครี่'],for:['phys'],cat:'บูสต์',why:'เพิ่มดูดเลือดเมื่อกดใช้สำหรับฮีโร่ระยะไกล ต้องได้ยิงจึงฟื้นฟู ไม่ลดการฮีลของศัตรู'},
+  {name:'Omni Arms',roles:['ไฟต์เตอร์','แครี่','แอสซาซิน'],for:['burst'],cat:'บูสต์',why:'เสริมการโจมตีปกติหลังใช้สกิล ต้องสลับสกิลกับการตี ไม่ใช่ไอเทมตัดฮีล'},
+  {name:'Broken Spear',roles:['แอสซาซิน','แครี่','ไฟต์เตอร์'],for:['burst'],cat:'เจาะ',why:'เจาะเกราะกายภาพแบบคงที่ตามเลเวล เหมาะกับเป้าหมายเกราะไม่สูง ไม่ลดการฟื้นฟู'},
+  {name:'Flashy Boots',roles:['แทงค์','ไฟต์เตอร์','เมจ','ซัพพอร์ต'],for:['cc','magic'],cat:'เคลื่อนที่',why:'ลดคูลดาวน์สำหรับผู้พึ่งสกิล แต่ต้องแลกกับคุณสมบัติรองเท้าป้องกัน'}
 ]
 
 const CTX=t=>({
@@ -87,7 +59,8 @@ export function threatProfile(enemyHeroes){
 
 // Score = own-tag fit (2) + threat answer (3) + role fit (1).
 export function recommendItems(hero,enemyHeroes=[],limit=6){
-  const t=tags[hero?.id]||{}
+  if(!hero)return []
+  const t=tags[hero.id]||{}
   const own=CTX(t)
   const threat=threatProfile(enemyHeroes)
   const press={
@@ -96,7 +69,8 @@ export function recommendItems(hero,enemyHeroes=[],limit=6){
   }
   const rows=[]
   for(const rule of RULES){
-    if(!HAS(rule.name))continue
+    if(!HAS(rule.name)||!rule.roles.includes(hero.role))continue
+    if(rule.for.includes('heal')&&!press.heal)continue
     const ownHit=rule.for.filter(k=>own[k]).length
     const threatHit=rule.for.filter(k=>press[k]).length
     const roleHit=rule.roles.includes(hero?.role)?1:0

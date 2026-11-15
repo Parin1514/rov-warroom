@@ -355,6 +355,10 @@ dialog::backdrop{background:#080b13c9}
 .intel-grid section+section{border-top:1px solid #364156}
 .intel-rail{background:#181e2a}
 .intel-core{background:#1c2330}
+.intel-matchup-note{border:1px solid #39475d;border-radius:7px;margin:8px 0;padding:10px;overflow-wrap:anywhere}
+.intel-matchup-note summary{cursor:pointer;min-height:32px;font-size:.82rem;color:var(--gold)}
+.intel-matchup-note p{font-size:.78rem;line-height:1.65;margin:9px 0}
+.intel-matchup-note .intel-sources{padding:9px 0 0}
 .intel-gear{background:#191f2d}
 .intel-grid h3{display:flex;align-items:center;gap:7px;margin:0 0 9px;font-size:.91rem;line-height:1.42}
 .intel-grid h3 svg{width:16px;height:16px;color:var(--gold)}

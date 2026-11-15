@@ -46,7 +46,7 @@ function edgeLines(edge,me,enemy,k){
       fight:'รอให้แนวหน้าอีกฝั่งใช้สกิลควบคุมก่อน แล้วพุ่งเข้าหา '+enemy+' ที่แนวหลัง',
       avoid:cc?'ระวัง '+label(cc)+' — ถ้ายังไม่ใช้ อย่าพุ่งเข้าไป':'อย่าพุ่งเข้าไปคนเดียวถ้าทีมยังตามไม่ทัน'}
     case 'true':return {
-      mid:enemy+' ตัวหนา ดาเมจจริงของเรายังเข้าเต็ม ให้รับหน้าที่ยืนสู้กับเขาแทนเพื่อน',
+      mid:enemy+' ตัวหนา ดาเมจจริงช่วยข้ามเกราะ แต่ต้องทำเงื่อนไขสกิลให้ครบและไม่ฝืนรับดาเมจ',
       fight:'โฟกัส '+enemy+' ได้ ไม่ต้องอ้อมไปหาแนวหลัง ดาเมจจริงไม่ถูกเกราะลด'}
     case 'unseen':return {
       early:enemy+' ไม่มีเครื่องมือเปิดตำแหน่ง — ซุ่มจากพุ่มไม้หรือล่องหนเข้าได้',
@@ -57,8 +57,8 @@ function edgeLines(edge,me,enemy,k){
       fight:safe?'รอ '+label(safe)+' ของ '+enemy+' ถูกใช้ก่อน แล้วค่อยปล่อยเบิร์สต์':'ปล่อยเบิร์สต์ทั้งชุดในจังหวะเดียว อย่าแบ่งสกิล',
       avoid:'อย่าปล่อยคอมโบตอน '+enemy+' ยังมีเพื่อนยืนบัง'}
     case 'outlast':return {
-      early:'แลกดาเมจยาว ๆ — การฟื้นฟูของเราทำให้เบิร์สต์ของ '+enemy+' ปิดไม่ได้',
-      fight:'อยู่ในไฟต์ให้นาน '+enemy+' ปล่อยเบิร์สต์หมดแล้วจะไม่มีดาเมจต่อ',
+      early:'หากรอดจากคอมโบแรก การฟื้นฟูอาจช่วยแลกต่อได้ อย่าฝืนตอนเลือดต่ำหรือโดนตัดฮีล',
+      fight:'หลัง '+enemy+' ใช้คอมโบ ให้ประเมินเลือดและคูลดาวน์ก่อนสู้ต่อ เขายังโจมตีปกติหรือมีเพื่อนช่วยได้',
       avoid:'ถ้าเขามีไอเทมตัดการฟื้นฟู ให้กลับไปแลกสั้นแทน'}
   }
   return {}
@@ -96,18 +96,14 @@ export function playbook(me,enemy,{details={},tags={},display=h=>h?.name||h?.id}
   if(k.safe.length&&!mine.includes('burst'))phases.fight.push(name+' มีสกิลเอาตัวรอด '+k.safe.slice(0,2).map(label).join(', ')+' ห้ามเปิดคอมโบใส่ตอนท่านี้พร้อม')
   if(k.heal.length)phases.late.push(name+' ฟื้นฟูจาก '+k.heal.slice(0,2).map(label).join(', ')+' — ทีมควรมีไอเทมตัดการฟื้นฟูอย่างน้อย 1 ชิ้น')
   if(k.stealth.length)phases.avoid.push(name+' ล่องหนได้จาก '+label(k.stealth[0])+' — อย่าเดินคนเดียวในป่า')
-  if(!phases.late.length)phases.late.push(v.id==='win'||v.id==='good'?'ช่วงท้ายเกมได้เปรียบเหมือนเดิม — คุมเป้าหมายใหญ่และกดดันต่อ':'ช่วงท้ายเกมให้ทีมช่วยรับมือ '+name+' อย่ารับหน้าที่คนเดียว')
+  if(!phases.late.length)phases.late.push('ช่วงท้ายเกมประเมินเงิน ไอเทม คูลดาวน์ และตำแหน่งทีมใหม่ คะแนนแท็กไม่ได้บอกผลเลนหรือการสเกลท้ายเกม')
   const items=recommendItems(me,[enemy],4).map(i=>({name:i.name,why:i.why,icon:i.icon}))
   const missing=[]
   if(!details[enemy.id]?.skills?.length)missing.push('ยังไม่มีข้อมูลสกิลของ '+name+' แผนจึงอิงแค่แท็กรวม')
   else if(!k.all.some(s=>s.cooldown))missing.push('แหล่งข้อมูลไม่ได้ระบุคูลดาวน์ของ '+name)
   // One-line game plan by band, so a losing matchup still says how to play it.
-  const plan=v.id==='win'?'กดดันตั้งแต่ต้น — เราได้เปรียบหลายทาง เปิดไฟต์ใส่ '+name+' ได้เลย'
-   :v.id==='good'?'เล่นเชิงรุกได้ แต่เลือกจังหวะตามข้อด้านล่าง ไม่ใช่ทุกจังหวะ'
-   :v.id==='even'?'คู่สูสี — ฝั่งที่ใช้สกิลถูกจังหวะกว่าชนะ อ่านข้อ "ระวัง" ก่อนเข้าไฟต์'
-   :v.id==='lose'?'เล่นรอ — เก็บมินเนี่ยนใต้ป้อม ขอป่าหรือโรมมาช่วยก่อนแลก และซื้อไอเทมรับมือก่อนชิ้นดาเมจ'
-   :'แพ้ทางชัด — ถ้ายังไม่ล็อกให้พิจารณาเปลี่ยนตัว ถ้าล็อกแล้วให้หลบเลนหรือสลับเลนกับเพื่อน แล้วเล่นตามทีม'
-  return {score,band:v.id,label:v.label,plan,edges:mine,threats:theirs,why,against,phases,items,keySkills:k,missing}
+  const plan=(score>0?'แท็กสกิลให้ความได้เปรียบบางจังหวะ':score<0?'แท็กสกิลพบภัยคุกคามที่ควรระวัง':'แท็กสกิลยังแยกความได้เปรียบไม่ได้')+' — ไม่ใช่ผลดวลหรือสถิติชนะจริง ตรวจสกิล เงิน และจำนวนคนก่อนเลือกจังหวะ'
+  return {kind:'heuristic',score,band:v.id,label:v.label,plan,edges:mine,threats:theirs,why,against,phases,items,keySkills:k,missing}
 }
 
 // Edge ids that fired for a vs b, so phase text matches the exact rules that scored.

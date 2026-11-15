@@ -1,0 +1,2532 @@
+[
+ {
+  "id": "evita",
+  "name": "Evita",
+  "slug": "evita",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "astrid",
+  "name": "Astrid",
+  "slug": "astrid",
+  "status": 200,
+  "live": [
+   "Sonic Boots",
+   "Mantle of Ra",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Sonic Boots",
+   "Mantle of Ra",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "dextra",
+  "name": "Dextra",
+  "slug": "dextra",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Fafnir's Talon",
+   "Mail of Pain",
+   "Omni Arms",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Fafnir's Talon",
+   "Mail of Pain",
+   "Omni Arms",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "omega",
+  "name": "Omega",
+  "slug": "omega",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Frost Cape",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Medallion of Troy"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Frost Cape",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Medallion of Troy"
+  ]
+ },
+ {
+  "id": "preyta",
+  "name": "Preyta",
+  "slug": "preyta",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Flashy Boots",
+   "Zweihander",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Flashy Boots",
+   "Zweihander",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "dyadia",
+  "name": "Dyadia",
+  "slug": "dyadia",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "max",
+  "name": "Max",
+  "slug": "max",
+  "status": 200,
+  "live": [
+   "Sonic Boots",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Sonic Boots",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "ilumia",
+  "name": "Ilumia",
+  "slug": "ilumia",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Flashy Boots",
+   "Boomstick",
+   "Staff of Nuul",
+   "Hecate's Diadem",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Flashy Boots",
+   "Boomstick",
+   "Staff of Nuul",
+   "Hecate's Diadem",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "azzenka",
+  "name": "Azzen'Ka",
+  "slug": "azzenka",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "tamyn",
+  "name": "Tamyn",
+  "slug": "tamyn",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "wiro",
+  "name": "Wiro",
+  "slug": "wiro",
+  "status": 200,
+  "live": [
+   "The Aegis",
+   "Hermes' Select",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Shield of the Lost",
+   "Amulet of Longevity"
+  ],
+  "mine": [
+   "The Aegis",
+   "Hermes' Select",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Shield of the Lost",
+   "Amulet of Longevity"
+  ]
+ },
+ {
+  "id": "sinestrea",
+  "name": "Sinestrea",
+  "slug": "sinestrea",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "War Boots",
+   "Broken Spear",
+   "Omni Arms",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "War Boots",
+   "Broken Spear",
+   "Omni Arms",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "marja",
+  "name": "Marja",
+  "slug": "marja",
+  "status": 200,
+  "live": [
+   "Flashy Boots",
+   "Berith's Agony",
+   "Boomstick",
+   "Rhea's Blessing",
+   "Soul Scroll",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Flashy Boots",
+   "Berith's Agony",
+   "Boomstick",
+   "Rhea's Blessing",
+   "Soul Scroll",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "yorn",
+  "name": "Yorn",
+  "slug": "yorn",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Fafnir's Talon",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Muramasa",
+   "Death Sickle"
+  ],
+  "mine": [
+   "War Boots",
+   "Fafnir's Talon",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Muramasa",
+   "Death Sickle"
+  ]
+ },
+ {
+  "id": "lumburr",
+  "name": "Lumburr",
+  "slug": "lumburr",
+  "status": 200,
+  "live": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "Gaia's Standard",
+   "The Aegis",
+   "Rock Shield",
+   "Amulet of Longevity"
+  ],
+  "mine": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "Gaia's Standard",
+   "The Aegis",
+   "Rock Shield",
+   "Amulet of Longevity"
+  ]
+ },
+ {
+  "id": "zata",
+  "name": "Zata",
+  "slug": "zata",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Rhea's Blessing"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Rhea's Blessing"
+  ]
+ },
+ {
+  "id": "ybneth",
+  "name": "Y'bneth",
+  "slug": "ybneth",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Mantle of Ra",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Mantle of Ra",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "diao-chan",
+  "name": "Diao Chan",
+  "slug": "diao-chan",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Enchanted Kicks",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Enchanted Kicks",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "flowborn-dragon",
+  "name": "Flowborn",
+  "slug": "flowborn-archer",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "alice",
+  "name": "Alice",
+  "slug": "alice",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Flashy Boots",
+   "Frosty's Revenge",
+   "Frost Cape",
+   "Soul Scroll",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Flashy Boots",
+   "Frosty's Revenge",
+   "Frost Cape",
+   "Soul Scroll",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "roxie",
+  "name": "Roxie",
+  "slug": "roxie",
+  "status": 200,
+  "live": [
+   "Sonic Boots",
+   "The Aegis",
+   "Frosty's Revenge",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Sonic Boots",
+   "The Aegis",
+   "Frosty's Revenge",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "helen",
+  "name": "Helen",
+  "slug": "helen",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "cresht",
+  "name": "Cresht",
+  "slug": "cresht",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Ring of Terror",
+   "Mantle of Ra",
+   "Broken Spear",
+   "Omni Arms",
+   "Medallion of Troy"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Ring of Terror",
+   "Mantle of Ra",
+   "Broken Spear",
+   "Omni Arms",
+   "Medallion of Troy"
+  ]
+ },
+ {
+  "id": "rourke",
+  "name": "Rourke",
+  "slug": "rourke",
+  "status": 200,
+  "live": null,
+  "mine": [
+   "Firestorm Bow",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "moren",
+  "name": "Moren",
+  "slug": "moren",
+  "status": 200,
+  "live": [
+   "Firestorm Bow",
+   "Glided Greaves",
+   "Omni Arms",
+   "Muramasa",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Firestorm Bow",
+   "Glided Greaves",
+   "Omni Arms",
+   "Muramasa",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "teemee",
+  "name": "TeeMee",
+  "slug": "teemee",
+  "status": 200,
+  "live": [
+   "Poseidon Emblem",
+   "Hermes' Select",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Medallion of Troy"
+  ],
+  "mine": [
+   "Poseidon Emblem",
+   "Hermes' Select",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Medallion of Troy"
+  ]
+ },
+ {
+  "id": "dolia",
+  "name": "Dolia",
+  "slug": "dolia",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "flowborn-mid",
+  "name": "Flowborn",
+  "slug": "flowborn-mage",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "zill",
+  "name": "Zill",
+  "slug": "zill",
+  "status": 200,
+  "live": [
+   "Loki's Curse",
+   "Enchanted Kicks",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Staff of Nuul",
+   "Arctic Orb"
+  ],
+  "mine": [
+   "Loki's Curse",
+   "Enchanted Kicks",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Staff of Nuul",
+   "Arctic Orb"
+  ]
+ },
+ {
+  "id": "laville",
+  "name": "Laville",
+  "slug": "laville",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Claves Sancti",
+   "Ifrit's Claw",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Claves Sancti",
+   "Ifrit's Claw",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "telannas",
+  "name": "Tel'Annas",
+  "slug": "telannas",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "volkath",
+  "name": "Volkath",
+  "slug": "volkath",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "bijan",
+  "name": "Bijan",
+  "slug": "bijan",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "tachi",
+  "name": "Tachi",
+  "slug": "tachi",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Omni Arms",
+   "Curse of Death",
+   "Shield of the Lost",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Omni Arms",
+   "Curse of Death",
+   "Shield of the Lost",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "veres",
+  "name": "Veres",
+  "slug": "veres",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Frost Cape",
+   "Spear of Longinus",
+   "Mail of Pain",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Frost Cape",
+   "Spear of Longinus",
+   "Mail of Pain",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "taara",
+  "name": "Taara",
+  "slug": "taara",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Mantle of Ra",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Mantle of Ra",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "mortos",
+  "name": "Mortos",
+  "slug": "arthur",
+  "status": 404,
+  "live": null,
+  "mine": [
+   "Sonic Boots",
+   "Mantle of Ra",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "zanis",
+  "name": "Zanis",
+  "slug": "zanis",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Mantle of Ra",
+   "Fenrir's Tooth",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Mantle of Ra",
+   "Fenrir's Tooth",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "quillen",
+  "name": "Quillen",
+  "slug": "quillen",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Claves Sancti",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Claves Sancti",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth"
+  ]
+ },
+ {
+  "id": "qi",
+  "name": "Qi",
+  "slug": "qi",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Death Sickle",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Death Sickle",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "xeniel",
+  "name": "Xeniel",
+  "slug": "xeniel",
+  "status": 200,
+  "live": [
+   "Soul Strom Badge",
+   "Glided Greaves",
+   "Frost Cape",
+   "Medallion of Troy",
+   "The Aegis",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soul Strom Badge",
+   "Glided Greaves",
+   "Frost Cape",
+   "Medallion of Troy",
+   "The Aegis",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "wisp",
+  "name": "Wisp",
+  "slug": "wisp",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "butterfly",
+  "name": "Butterfly",
+  "slug": "butterfly",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Death Sickle"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Death Sickle"
+  ]
+ },
+ {
+  "id": "thorne",
+  "name": "Thorne",
+  "slug": "thorne",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "zip",
+  "name": "Zip",
+  "slug": "zip",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Hermes' Select",
+   "The Aegis",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Hermes' Select",
+   "The Aegis",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "toro",
+  "name": "Toro",
+  "slug": "toro",
+  "status": 200,
+  "live": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "kahlii",
+  "name": "Kahlii",
+  "slug": "kahlii",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Flashy Boots",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Holy of Holies",
+   "Arctic Orb"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Flashy Boots",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Holy of Holies",
+   "Arctic Orb"
+  ]
+ },
+ {
+  "id": "ormarr",
+  "name": "Ormarr",
+  "slug": "ormarr",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "The Aegis",
+   "Medallion of Troy",
+   "Frost Cape",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "The Aegis",
+   "Medallion of Troy",
+   "Frost Cape",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "enzo",
+  "name": "Enzo",
+  "slug": "enzo",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "War Boots",
+   "Omni Arms",
+   "Broken Spear",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "War Boots",
+   "Omni Arms",
+   "Broken Spear",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "thane",
+  "name": "Thane",
+  "slug": "thane",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Sonic Boots",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mantle of Ra",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Sonic Boots",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mantle of Ra",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "edras",
+  "name": "Edras",
+  "slug": "edras",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "krizzix",
+  "name": "Krizzix",
+  "slug": "krizzix",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "elandorr",
+  "name": "Eland'orr",
+  "slug": "elandorr",
+  "status": 200,
+  "live": [
+   "Firestorm Bow",
+   "War Boots",
+   "Claves Sancti",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Firestorm Bow",
+   "War Boots",
+   "Claves Sancti",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "nakroth",
+  "name": "Nakroth",
+  "slug": "nakroth",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "goverra",
+  "name": "Goverra",
+  "slug": "goverra",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "ata",
+  "name": "Ata",
+  "slug": "ata",
+  "status": 200,
+  "live": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "Frost Cape",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "Frost Cape",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "airi",
+  "name": "Airi",
+  "slug": "airi",
+  "status": 200,
+  "live": [
+   "Hermes' Select",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Hermes' Select",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "erin",
+  "name": "Erin",
+  "slug": "erin",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "annette",
+  "name": "Annette",
+  "slug": "annette",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Ring of Terror",
+   "Berith's Agony",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Ring of Terror",
+   "Berith's Agony",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain"
+  ]
+ },
+ {
+  "id": "biron",
+  "name": "Biron",
+  "slug": "biron",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "errol",
+  "name": "Errol",
+  "slug": "errol",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "violet",
+  "name": "Violet",
+  "slug": "violet",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Claves Sancti",
+   "Omni Arms",
+   "Muramasa",
+   "Blade of Eternity",
+   "Mr. Stabby",
+   "War Boots"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Claves Sancti",
+   "Omni Arms",
+   "Muramasa",
+   "Blade of Eternity",
+   "Mr. Stabby",
+   "War Boots"
+  ]
+ },
+ {
+  "id": "slimz",
+  "name": "Slimz",
+  "slug": "slimz",
+  "status": 200,
+  "live": [
+   "Firestorm Bow",
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa"
+  ],
+  "mine": [
+   "Firestorm Bow",
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa"
+  ]
+ },
+ {
+  "id": "billow",
+  "name": "Billow",
+  "slug": "billow",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "lorion",
+  "name": "Lorion",
+  "slug": "lorion",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Berith's Agony",
+   "Soul Scroll",
+   "Arctic Orb",
+   "Hecate's Diadem",
+   "Staff of Nuul"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Berith's Agony",
+   "Soul Scroll",
+   "Arctic Orb",
+   "Hecate's Diadem",
+   "Staff of Nuul"
+  ]
+ },
+ {
+  "id": "ryoma",
+  "name": "Ryoma",
+  "slug": "ryoma",
+  "status": 200,
+  "live": null,
+  "mine": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Hercules's Madness",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "fennik",
+  "name": "Fennik",
+  "slug": "fennik",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Blitz Blades",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Death Sickle",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Blitz Blades",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Death Sickle",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "bright",
+  "name": "Bright",
+  "slug": "bright",
+  "status": 200,
+  "live": [
+   "Firestorm Bow",
+   "War Boots",
+   "Claves Sancti",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Firestorm Bow",
+   "War Boots",
+   "Claves Sancti",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "celica",
+  "name": "Celica",
+  "slug": "brunhilda",
+  "status": 404,
+  "live": null,
+  "mine": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Bow of Slaughter",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "murad",
+  "name": "Murad",
+  "slug": "murad",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "War Boots",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Death Sickle"
+  ],
+  "mine": [
+   "Soulreaver",
+   "War Boots",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Death Sickle"
+  ]
+ },
+ {
+  "id": "chaugnar",
+  "name": "Chaugnar",
+  "slug": "chaugnar",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Sonic Boots",
+   "Berith's Agony",
+   "Shield of the Lost",
+   "Gaia's Standard",
+   "Medallion of Troy"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Sonic Boots",
+   "Berith's Agony",
+   "Shield of the Lost",
+   "Gaia's Standard",
+   "Medallion of Troy"
+  ]
+ },
+ {
+  "id": "maloch",
+  "name": "Maloch",
+  "slug": "maloch",
+  "status": 200,
+  "live": [
+   "Sonic Boots",
+   "The Aegis",
+   "Frost Cape",
+   "Mail of Pain",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Sonic Boots",
+   "The Aegis",
+   "Frost Cape",
+   "Mail of Pain",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "allain",
+  "name": "Allain",
+  "slug": "allain",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Claves Sancti",
+   "Omni Arms",
+   "Hyoga's Edge",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Claves Sancti",
+   "Omni Arms",
+   "Hyoga's Edge",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "lu-bu",
+  "name": "Lu Bu",
+  "slug": "lu-bu",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Spear of Longinus",
+   "Frost Cape",
+   "Hercules's Madness",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Spear of Longinus",
+   "Frost Cape",
+   "Hercules's Madness",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "yue",
+  "name": "Yue",
+  "slug": "yue",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Arctic Orb",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Arctic Orb",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "omen",
+  "name": "Omen",
+  "slug": "omen",
+  "status": 200,
+  "live": [
+   "Mantle of Ra",
+   "Glided Greaves",
+   "Fafnir's Talon",
+   "Shield of the Lost",
+   "Muramasa",
+   "Medallion of Troy"
+  ],
+  "mine": [
+   "Mantle of Ra",
+   "Glided Greaves",
+   "Fafnir's Talon",
+   "Shield of the Lost",
+   "Muramasa",
+   "Medallion of Troy"
+  ]
+ },
+ {
+  "id": "elsu",
+  "name": "Elsu",
+  "slug": "elsu",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Muramasa",
+   "Fafnir's Talon",
+   "Fenrir's Tooth",
+   "Bow of Slaughter",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Muramasa",
+   "Fafnir's Talon",
+   "Fenrir's Tooth",
+   "Bow of Slaughter",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "liliana",
+  "name": "Liliana",
+  "slug": "liliana",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Arctic Orb"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Arctic Orb"
+  ]
+ },
+ {
+  "id": "capheny",
+  "name": "Capheny",
+  "slug": "capheny",
+  "status": 200,
+  "live": [
+   "Fafnir's Talon",
+   "War Boots",
+   "Claves Sancti",
+   "Muramasa",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Fafnir's Talon",
+   "War Boots",
+   "Claves Sancti",
+   "Muramasa",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "hayate",
+  "name": "Hayate",
+  "slug": "hayate",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Fafnir's Talon",
+   "Frost Cape",
+   "Slikk's Sting",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Fafnir's Talon",
+   "Frost Cape",
+   "Slikk's Sting",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "kilgroth",
+  "name": "Kil'Groth",
+  "slug": "kilgroth",
+  "status": 200,
+  "live": [
+   "Sonic Boots",
+   "Fafnir's Talon",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Hyoga's Edge",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Sonic Boots",
+   "Fafnir's Talon",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Hyoga's Edge",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "kaine",
+  "name": "Kaine",
+  "slug": "kaine",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "bonnie",
+  "name": "Bonnie",
+  "slug": "bonnie",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "bolt-baron",
+  "name": "Bolt Baron",
+  "slug": "bolt-baron",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "yena",
+  "name": "Yena",
+  "slug": "yena",
+  "status": 200,
+  "live": [
+   "Sonic Boots",
+   "Spear of Longinus",
+   "Shield of the Lost",
+   "Fenrir's Tooth",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Sonic Boots",
+   "Spear of Longinus",
+   "Shield of the Lost",
+   "Fenrir's Tooth",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "heino",
+  "name": "Heino",
+  "slug": "heino",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "stuart",
+  "name": "Stuart",
+  "slug": "stuart",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "iggy",
+  "name": "Iggy",
+  "slug": "iggy",
+  "status": 200,
+  "live": [
+   "Enchanted Kicks",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Arctic Orb",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Enchanted Kicks",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Arctic Orb",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "mina",
+  "name": "Mina",
+  "slug": "mina",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "Gaia's Standard",
+   "Shield of the Lost",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "Gaia's Standard",
+   "Shield of the Lost",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "sephera",
+  "name": "Sephera",
+  "slug": "sephera",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Apocalypse",
+   "Hecate's Diadem",
+   "Medallion of Troy",
+   "Arctic Orb"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Apocalypse",
+   "Hecate's Diadem",
+   "Medallion of Troy",
+   "Arctic Orb"
+  ]
+ },
+ {
+  "id": "zephys",
+  "name": "Zephys",
+  "slug": "zephys",
+  "status": 200,
+  "live": [
+   "Leviathan",
+   "Glided Greaves",
+   "Broken Spear",
+   "Frost Cape",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Leviathan",
+   "Glided Greaves",
+   "Broken Spear",
+   "Frost Cape",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "skud",
+  "name": "Skud",
+  "slug": "skud",
+  "status": 200,
+  "live": [
+   "Hermes' Select",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Hercules's Madness",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Hermes' Select",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Hercules's Madness",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "darcy",
+  "name": "D'Arcy",
+  "slug": "darcy",
+  "status": 200,
+  "live": [
+   "Loki's Curse",
+   "Glided Greaves",
+   "Apocalypse",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Loki's Curse",
+   "Glided Greaves",
+   "Apocalypse",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "dirak",
+  "name": "Dirak",
+  "slug": "dirak",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Zweihander",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Rhea's Blessing"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Zweihander",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Rhea's Blessing"
+  ]
+ },
+ {
+  "id": "grakk",
+  "name": "Grakk",
+  "slug": "grakk",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Ring of Terror",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Ring of Terror",
+   "The Aegis",
+   "Gaia's Standard",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "aya",
+  "name": "Aya",
+  "slug": "aya",
+  "status": 200,
+  "live": [],
+  "mine": []
+ },
+ {
+  "id": "yan",
+  "name": "Yan",
+  "slug": "yan",
+  "status": 200,
+  "live": [
+   "Leviathan",
+   "Glided Greaves",
+   "Spear of Longinus",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Rock Shield"
+  ],
+  "mine": [
+   "Leviathan",
+   "Glided Greaves",
+   "Spear of Longinus",
+   "Frost Cape",
+   "Medallion of Troy",
+   "Rock Shield"
+  ]
+ },
+ {
+  "id": "florentino",
+  "name": "Florentino",
+  "slug": "florentino",
+  "status": 200,
+  "live": [
+   "Broken Spear",
+   "Sonic Boots",
+   "Hercules's Madness",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Broken Spear",
+   "Sonic Boots",
+   "Hercules's Madness",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "ming",
+  "name": "Ming",
+  "slug": "ming",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "aleister",
+  "name": "Aleister",
+  "slug": "aleister",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Arctic Orb",
+   "Staff of Nuul"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Arctic Orb",
+   "Staff of Nuul"
+  ]
+ },
+ {
+  "id": "arum",
+  "name": "Arum",
+  "slug": "arum",
+  "status": 200,
+  "live": [
+   "Leviathan",
+   "Sonic Boots",
+   "Medallion of Troy",
+   "Odin's Will",
+   "Mail of Pain",
+   "Rock Shield"
+  ],
+  "mine": [
+   "Leviathan",
+   "Sonic Boots",
+   "Medallion of Troy",
+   "Odin's Will",
+   "Mail of Pain",
+   "Rock Shield"
+  ]
+ },
+ {
+  "id": "zuka",
+  "name": "Zuka",
+  "slug": "zuka",
+  "status": 200,
+  "live": [
+   "Hermes' Select",
+   "Broken Spear",
+   "Omni Arms",
+   "Muramasa",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Hermes' Select",
+   "Broken Spear",
+   "Omni Arms",
+   "Muramasa",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "baldum",
+  "name": "Baldum",
+  "slug": "baldum",
+  "status": 200,
+  "live": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "Gaia's Standard",
+   "Shield of the Lost",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Ring of Terror",
+   "Glided Greaves",
+   "Gaia's Standard",
+   "Shield of the Lost",
+   "Medallion of Troy",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "lindis",
+  "name": "Lindis",
+  "slug": "lindis",
+  "status": 200,
+  "live": [
+   "Firestorm Bow",
+   "Glided Greaves",
+   "Broken Spear",
+   "Claves Sancti",
+   "Omni Arms",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Firestorm Bow",
+   "Glided Greaves",
+   "Broken Spear",
+   "Claves Sancti",
+   "Omni Arms",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "valhein",
+  "name": "Valhein",
+  "slug": "valhein",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Blitz Blades",
+   "Claves Sancti",
+   "Frost Cape",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Blitz Blades",
+   "Claves Sancti",
+   "Frost Cape",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "gildur",
+  "name": "Gildur",
+  "slug": "gildur",
+  "status": 200,
+  "live": [
+   "Arctic Orb",
+   "Flashy Boots",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Arctic Orb",
+   "Flashy Boots",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "riktor",
+  "name": "Riktor",
+  "slug": "richter",
+  "status": 404,
+  "live": null,
+  "mine": [
+   "Hermes' Select",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Hercules's Madness",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "veera",
+  "name": "Veera",
+  "slug": "veera",
+  "status": 200,
+  "live": [
+   "Enchanted Kicks",
+   "Boomstick",
+   "The Aegis",
+   "Berith's Agony",
+   "Staff of Nuul",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Enchanted Kicks",
+   "Boomstick",
+   "The Aegis",
+   "Berith's Agony",
+   "Staff of Nuul",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "krixi",
+  "name": "Krixi",
+  "slug": "krixi",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Staff of Nuul"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Staff of Nuul"
+  ]
+ },
+ {
+  "id": "tulen",
+  "name": "Tulen",
+  "slug": "tulen",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Rhea's Blessing",
+   "Boomstick",
+   "Staff of Nuul",
+   "Hecate's Diadem"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Rhea's Blessing",
+   "Boomstick",
+   "Staff of Nuul",
+   "Hecate's Diadem"
+  ]
+ },
+ {
+  "id": "lauriel",
+  "name": "Lauriel",
+  "slug": "lauriel",
+  "status": 200,
+  "live": [
+   "Rhea's Blessing",
+   "Glided Greaves",
+   "Berith's Agony",
+   "Boomstick",
+   "Shield of the Lost",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Rhea's Blessing",
+   "Glided Greaves",
+   "Berith's Agony",
+   "Boomstick",
+   "Shield of the Lost",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "wonder-woman",
+  "name": "Wonder Woman",
+  "slug": "wonder-woman",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Frost Cape",
+   "Hercules's Madness",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Frost Cape",
+   "Hercules's Madness",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "ignis",
+  "name": "Ignis",
+  "slug": "ignis",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Berith's Agony",
+   "Hecate's Diadem",
+   "Rhea's Blessing"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Berith's Agony",
+   "Hecate's Diadem",
+   "Rhea's Blessing"
+  ]
+ },
+ {
+  "id": "aoi",
+  "name": "Aoi",
+  "slug": "aoi",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Spear of Longinus",
+   "Omni Arms",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Spear of Longinus",
+   "Omni Arms",
+   "Claves Sancti",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "teeri",
+  "name": "Teeri",
+  "slug": "teeri",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Muramasa",
+   "Bow of Slaughter",
+   "Fafnir's Talon"
+  ],
+  "mine": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Muramasa",
+   "Bow of Slaughter",
+   "Fafnir's Talon"
+  ]
+ },
+ {
+  "id": "jinna",
+  "name": "Jinna",
+  "slug": "jinna",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Soaring Aura",
+   "Rhea's Blessing",
+   "Hecate's Diadem",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Soaring Aura",
+   "Rhea's Blessing",
+   "Hecate's Diadem",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "arduin",
+  "name": "Arduin",
+  "slug": "arduin",
+  "status": 200,
+  "live": [
+   "Sonic Boots",
+   "Shield of the Lost",
+   "Mail of Pain",
+   "Medallion of Troy",
+   "Muramasa",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Sonic Boots",
+   "Shield of the Lost",
+   "Mail of Pain",
+   "Medallion of Troy",
+   "Muramasa",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "wukong",
+  "name": "WuKong",
+  "slug": "wukong",
+  "status": 200,
+  "live": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Broken Spear",
+   "Omni Arms",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "War Boots",
+   "Claves Sancti",
+   "Slikk's Sting",
+   "Broken Spear",
+   "Omni Arms",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "amily",
+  "name": "Amily",
+  "slug": "amily",
+  "status": 200,
+  "live": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Hercules's Madness",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "paine",
+  "name": "Paine",
+  "slug": "paine",
+  "status": 200,
+  "live": [
+   "Loki's Curse",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Arctic Orb"
+  ],
+  "mine": [
+   "Loki's Curse",
+   "Glided Greaves",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Arctic Orb"
+  ]
+ },
+ {
+  "id": "ishar",
+  "name": "Ishar",
+  "slug": "ishar",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Soul Scroll",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies",
+   "Ring of Terror",
+   "The Aegis",
+   "Gaia's Standard",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Soul Scroll",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Holy of Holies",
+   "Ring of Terror",
+   "The Aegis",
+   "Gaia's Standard",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "kriknak",
+  "name": "Kriknak",
+  "slug": "kriknak",
+  "status": 200,
+  "live": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Soulreaver",
+   "Glided Greaves",
+   "Broken Spear",
+   "Omni Arms",
+   "Fenrir's Tooth",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "rouie",
+  "name": "Rouie",
+  "slug": "rouie",
+  "status": 200,
+  "live": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "The Aegis",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ],
+  "mine": [
+   "Poseidon Emblem",
+   "Glided Greaves",
+   "The Aegis",
+   "Medallion of Troy",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ },
+ {
+  "id": "raz",
+  "name": "Raz",
+  "slug": "raz",
+  "status": 200,
+  "live": [
+   "Soaring Aura",
+   "Enchanted Kicks",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Rhea's Blessing"
+  ],
+  "mine": [
+   "Soaring Aura",
+   "Enchanted Kicks",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Staff of Nuul",
+   "Rhea's Blessing"
+  ]
+ },
+ {
+  "id": "keera",
+  "name": "Keera",
+  "slug": "keera",
+  "status": 200,
+  "live": [
+   "Loki's Curse",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Arctic Orb"
+  ],
+  "mine": [
+   "Loki's Curse",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing",
+   "Arctic Orb"
+  ]
+ },
+ {
+  "id": "natalya",
+  "name": "Natalya",
+  "slug": "natalya",
+  "status": 200,
+  "live": [
+   "Arctic Orb",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing"
+  ],
+  "mine": [
+   "Arctic Orb",
+   "Hermes' Select",
+   "Boomstick",
+   "Hecate's Diadem",
+   "Rhea's Blessing"
+  ]
+ },
+ {
+  "id": "charlotte",
+  "name": "Charlotte",
+  "slug": "charlotte",
+  "status": 404,
+  "live": null,
+  "mine": []
+ },
+ {
+  "id": "the-flash",
+  "name": "The Flash",
+  "slug": "the-flash",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Hecate's Diadem",
+   "Apocalypse",
+   "Rhea's Blessing"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Glided Greaves",
+   "Hecate's Diadem",
+   "Apocalypse",
+   "Rhea's Blessing"
+  ]
+ },
+ {
+  "id": "mganga",
+  "name": "Mganga",
+  "slug": "mganga",
+  "status": 200,
+  "live": [
+   "Orb of the Magi",
+   "Sonic Boots",
+   "Berith's Agony",
+   "Frosty's Revenge",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ],
+  "mine": [
+   "Orb of the Magi",
+   "Sonic Boots",
+   "Berith's Agony",
+   "Frosty's Revenge",
+   "Staff of Nuul",
+   "Holy of Holies"
+  ]
+ },
+ {
+  "id": "superman",
+  "name": "Superman",
+  "slug": "superman",
+  "status": 404,
+  "live": null,
+  "mine": [
+   "Glided Greaves",
+   "Broken Spear",
+   "Gaia's Standard",
+   "Odin's Will",
+   "Mail of Pain",
+   "Blade of Eternity"
+  ]
+ }
+]

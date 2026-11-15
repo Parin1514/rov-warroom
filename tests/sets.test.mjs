@@ -11,9 +11,16 @@ import tags from '../src/hero-tags.json' with {type:'json'}
 const heroes=Array.isArray(heroesRaw)?heroesRaw:Object.values(heroesRaw)
 const enemies=['aoi','hayate','thane']
 
-test('every hero gets at least three selectable sets',()=>{
-  const thin=heroes.filter(h=>buildSets(h,enemies,det[h.id]?.builds?.[0],tags[h.id]||{}).length<3)
-  assert.deepEqual(thin.map(h=>h.id),[])
+test('missing source builds never fabricate full sets; emitted sets have six items and one pair of boots',()=>{
+  for(const h of heroes){
+    const base=det[h.id]?.builds?.[0]
+    const sets=buildSets(h,enemies,base,tags[h.id]||{})
+    if(!base)assert.deepEqual(sets,[],h.id)
+    for(const s of sets){
+      assert.equal(s.items.length,6,h.id+' / '+s.id)
+      assert.equal(s.items.filter(i=>/Boots|Greaves|Kicks|Hermes/.test(i.name)).length,1,h.id+' / '+s.id)
+    }
+  }
 })
 
 test('no hero produces two identical sets',()=>{
@@ -52,12 +59,11 @@ test('the base set stays the untouched verified build',()=>{
 })
 
 test('enemy lineup changes the sets, an empty one still returns sets',()=>{
-  // Use a hero with a verified build so the base set exists on both sides.
-  const h=heroes.find(x=>det[x.id]?.builds?.length)
+  const h=heroes.find(x=>x.id==='violet')
   const solo=buildSets(h,[],det[h.id].builds[0],tags[h.id]||{})
-  const vsTeam=buildSets(h,enemies,det[h.id].builds[0],tags[h.id]||{})
-  assert.ok(solo.length>=3)
-  assert.ok(vsTeam.length>=3)
+  const vsTeam=buildSets(h,['taara','mganga'],det[h.id].builds[0],tags[h.id]||{})
+  assert.ok(solo.length>=1)
+  assert.ok(vsTeam.length>=1)
   // A lineup must actually move the recommendation, not just reorder tabs.
   const changed=vsTeam.some(s=>{
     const twin=solo.find(x=>x.id===s.id)
