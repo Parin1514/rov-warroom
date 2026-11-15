@@ -6,7 +6,7 @@ export const LANES=[
   {id:'roam',label:'โรม',en:'ROAM'}
 ]
 export const SIDES={blue:'ทีมเรา',red:'คู่แข่ง'}
-export const SOURCE={date:'2026-10-19',url:'https://rovguide.com/th/meta',name:'RoVGuide · แรงก์ไทย'}
+export const SOURCE={date:'2026-11-04',url:'https://www.rov.in.th/patch-notes/hotfix261104',name:'Garena · แพตช์ Hotfix 4 พ.ย. 2569'}
 export const PATCH={date:'2026-11-04',url:'https://www.rov.in.th/patch-notes/hotfix261104',name:'Hotfix 4 พ.ย. 2569'}
 export const UPCOMING={date:'2026-11-17',url:'https://www.rov.in.th/patch-notes/hotfix261117',name:'Hotfix 17 พ.ย. 2569'}
 export const OBJECTIVES=[
@@ -19,6 +19,30 @@ export const OBJECTIVES=[
   {id:'red-away',name:'บัฟแดง · ฝั่งคู่แข่ง',short:'แดง',x:58,y:18,seconds:null,type:'red'}
 ]
 export const defaultProfiles=()=>LANES.map((l,i)=>({slot:i+1,name:'',lane:l.id,lane2:null,pool:[],member_id:null}))
+// Team groups (practice mode only): each group keeps its own 5-slot roster.
+export const TEAM_GROUPS=[
+  {id:'mixed',label:'ทีมผสม',key:'rw-players-mixed'},
+  {id:'female',label:'ทีมหญิงล้วน',key:'rw-players-female'}
+]
+export const TEAM_GROUP_KEY='rw-team-group'
+export const isTeamGroup=id=>TEAM_GROUPS.some(g=>g.id===id)
+// storage is anything with getItem/setItem (localStorage or a test fake).
+// Migrates legacy rw-players-1 into the mixed roster on first load.
+export function loadGroupRosters(storage){
+  const read=key=>{try{return JSON.parse(storage.getItem(key))}catch{return null}}
+  let group=read(TEAM_GROUP_KEY)
+  if(!isTeamGroup(group))group=null
+  const rosters={}
+  for(const g of TEAM_GROUPS){
+    let roster=read(g.key)
+    if(!Array.isArray(roster)&&g.id==='mixed'){
+      const legacy=read('rw-players-1')
+      if(Array.isArray(legacy)){roster=legacy;storage.setItem(g.key,JSON.stringify(legacy))}
+    }
+    rosters[g.id]=Array.isArray(roster)?roster:defaultProfiles()
+  }
+  return {group,rosters}
+}
 // Pool entries are "heroId@lane" = the lane the player plays that hero in, so a
 // mid hero can sit in a roam pool. Bare ids (older saves) use the hero's own lane.
 export const POOL_MAX=20

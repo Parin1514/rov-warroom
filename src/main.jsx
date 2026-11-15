@@ -7,7 +7,7 @@ import {CounterPick} from './matchup.jsx'
 import {HeroIntel} from './hero-intel.jsx'
 import {db,homeUrl,rpc,fetchRoom} from './backend.js'
 import rawHeroes from './heroes.json'
-import {LANES,SOURCE,PATCH,UPCOMING,defaultProfiles,fresh,occupied,selectHero,analyze,parseMeta,withMeta,comfortFor,parsePool,POOL_MAX} from './domain.mjs'
+import {LANES,SOURCE,PATCH,UPCOMING,defaultProfiles,fresh,occupied,selectHero,analyze,parseMeta,withMeta,comfortFor,parsePool,POOL_MAX,TEAM_GROUPS,TEAM_GROUP_KEY,loadGroupRosters} from './domain.mjs'
 import {analyzeTeamDraft} from './team-analysis.mjs'
 import heroTags from './hero-tags.json' with {type:'json'}
 import './styles.css'
@@ -25,7 +25,10 @@ function Portrait({hero,size='md'}){
 }
 function App(){
  const params=new URLSearchParams(location.search)
- const [page,setPage]=useState('draft'),[practice,setPractice]=useState(()=>read('rw-state-1',fresh())),[practicePlayers,setPracticePlayers]=useState(()=>read('rw-players-1',defaultProfiles()))
+ const [page,setPage]=useState('draft'),[practice,setPractice]=useState(()=>read('rw-state-1',fresh()))
+ const [teamGroup,setTeamGroup]=useState(()=>loadGroupRosters(localStorage).group)
+ const [groupRosters,setGroupRosters]=useState(()=>loadGroupRosters(localStorage).rosters)
+ const practicePlayers=groupRosters[teamGroup||'mixed']
  const [session,setSession]=useState(null),[room,setRoom]=useState(null),[profiles,setProfiles]=useState([])
  const [roomId,setRoomId]=useState(params.get('room')||null),[invite,setInvite]=useState(params.get('invite')||null)
  const [online,setOnline]=useState(false),[peers,setPeers]=useState(0),[notice,setNotice]=useState(null),[roomOpen,setRoomOpen]=useState(false)
@@ -162,10 +165,13 @@ function App(){
    if(!window.confirm('โหลดดราฟต์ตัวอย่างทับตัวเลือกและแบนปัจจุบันหรือไม่?'))return
    if(await apply(s=>({...s,blue:{slayer:'florentino',jungle:'nakroth',mid:'yue',dragon:'hayate',roam:'annette'},red:{slayer:'omen',jungle:'aoi',mid:'aleister',dragon:'capheny',roam:'thane'},bans:{blue:['arum','zip'],red:['zata','tamyn']}}))){setFocus('hayate');setPreview(null);setTarget({side:'blue',lane:'dragon',ban:false});setFilter('dragon');setSearch('')}
  }
+ function chooseGroup(id){
+   setTeamGroup(id);store(TEAM_GROUP_KEY,id);setEditSlot(1)
+ }
  async function saveProfile(payload){
    try{
     if(room){await rpc('war_save_profile',{p_room:room.id,p_slot:payload.slot,p_name:payload.name,p_lane:payload.lane,p_lane2:payload.lane2||null,p_pool:payload.pool});await load(room.id)}
-    else {const next=practicePlayers.map(p=>p.slot===payload.slot?payload:p);store('rw-players-1',next);setPracticePlayers(next)}
+    else {const next=practicePlayers.map(p=>p.slot===payload.slot?payload:p);const key=TEAM_GROUPS.find(g=>g.id===teamGroup)?.key||TEAM_GROUPS[0].key;store(key,next);setGroupRosters(r=>({...r,[teamGroup||'mixed']:next}))}
     tell('บันทึกโปรไฟล์แล้ว')
    }catch(e){tell(e.message,true)}
  }
@@ -241,7 +247,7 @@ function App(){
       <HeroSheet open={sheetOpen} stage={sheetStage} context={targetName(target)} side={target.side} onClose={()=>closePicker()} onBack={()=>setSheetStage('catalog')} renderCatalog={()=> <HeroCatalog {...catalogProps} compact/>} renderAnalysis={headingRef=> <DraftAnalysis {...analysisProps} compact headingRef={headingRef}/>}/>
     </>}
     {page==='counter'&&<CounterPick heroes={heroes} state={state} byId={byId} Portrait={Portrait} display={display} onIntel={showIntel} stamp={stamp} asDate={asDate} room={room} online={online} peers={peers} profiles={profiles} onAi={requestAi}/>}
-    {page==='team'&&<Team players={players} heroes={heroes} byId={byId} save={saveProfile} coach={coach} session={session} room={room} slot={editSlot} setSlot={setEditSlot} makeInvite={createInvite} copy={copyLink} tell={tell}/>}
+    {page==='team'&&<Team players={players} heroes={heroes} byId={byId} save={saveProfile} coach={coach} session={session} room={room} slot={editSlot} setSlot={setEditSlot} makeInvite={createInvite} copy={copyLink} tell={tell} group={teamGroup} rosters={groupRosters} onPickGroup={chooseGroup} clearGroup={()=>setTeamGroup(null)}/>}
     {page==='map'&&<BattleMap state={state} apply={apply} coach={coach&&!pending}/>}
     {page==='meta'&&<section className="panel meta-panel">
        <header className="section-head"><div><h2><ChartNoAxesCombined/> เมต้าแรงก์ไทย</h2><p><a href={stamp.url} rel="noreferrer" target="_blank">{stamp.name}</a> · สถิติ ณ {asDate(stamp.date)} · ไม่ใช่ข้อมูลสด</p></div>{coach&&<div className="meta-actions"><button className="btn" disabled={metaBusy||pending} onClick={refreshMeta}>{metaBusy?'กำลังดึง…':'ตรวจสถิติใหม่'}</button><button className="btn" onClick={()=>setMetaInput(!metaInput)}>{metaInput?'ปิดการนำเข้า':'นำเข้าสถิติ JSON'}</button></div>}</header>
@@ -258,9 +264,19 @@ function App(){
 }
 import {poolReport,verdict,BANDS} from './matchup.mjs'
 
-function Team({players,heroes,byId,save,coach,session,room,slot,setSlot,makeInvite,copy,tell}){
+function Team({players,heroes,byId,save,coach,session,room,slot,setSlot,makeInvite,copy,tell,group,rosters,onPickGroup,clearGroup}){
+ if(!room&&!group)return <section className="panel team-panel"><header className="section-head"><div><h2><Users/> เลือกทีม</h2><p>เลือกกลุ่มทีมที่จะจัดโปรไฟล์ผู้เล่น — แต่ละทีมมีรายชื่อ 5 ช่องของตัวเอง</p></div></header>
+   <div className="group-grid">{TEAM_GROUPS.map(g=>{
+     const roster=rosters[g.id]||[]
+     return <button key={g.id} type="button" className="group-card" onClick={()=>onPickGroup(g.id)}>
+       <b>{g.label}</b>
+       <small>{roster.some(p=>p.name)?roster.filter(p=>p.name).map(p=>p.name).join(' · '):'ยังไม่ได้ตั้งชื่อผู้เล่น'}</small>
+     </button>
+   })}</div>
+ </section>
  const p=players.find(x=>x.slot===slot)
- return <section className="panel team-panel"><header className="section-head"><div><h2><Users/> โปรไฟล์ผู้เล่น</h2><p>จัดตำแหน่งผู้เล่น 5 คน ระบุเลนหลัก/เลนสำรอง และเลือกฮีโร่ถนัดแยกตามเลน</p></div><span className="draft-count">{players.filter(x=>x.name).length}/5</span></header>
+ const activeGroup=TEAM_GROUPS.find(g=>g.id===group)
+ return <section className="panel team-panel"><header className="section-head"><div><h2><Users/> โปรไฟล์ผู้เล่น{!room&&activeGroup?' · '+activeGroup.label:''}</h2><p>จัดตำแหน่งผู้เล่น 5 คน ระบุเลนหลัก/เลนสำรอง และเลือกฮีโร่ถนัดแยกตามเลน</p></div><div className="meta-actions">{!room&&<button className="btn" type="button" onClick={clearGroup}>เปลี่ยนทีม</button>}<span className="draft-count">{players.filter(x=>x.name).length}/5</span></div></header>
    <div className="team-layout"><div className="player-list">{players.map(p=>{
      const lane=LANES.find(l=>l.id===p.lane),lane2=LANES.find(l=>l.id===p.lane2)
      const Icon=ICONS[p.lane],entries=parsePool(p.pool,byId)

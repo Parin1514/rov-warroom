@@ -87,9 +87,9 @@ test('objective cue enters its 15-second warning window then becomes ready',asyn
 test('hero dossier data covers the roster with traceable sources and known Hayate recommendations',()=>{
  const all=JSON.parse(readFileSync(new URL('../src/hero-details.json',import.meta.url),'utf8'))
  assert.equal(Object.keys(all).length,heroes.length)
- assert(heroes.every(h=>all[h.id]?.skills?.length&&all[h.id]?.guide.startsWith('https://rovguide.com/th/heroes/')))
+ assert(heroes.every(h=>all[h.id]?.skills?.length&&all[h.id]?.garena?.startsWith('https://www.rov.in.th/hero')))
  assert.equal(all.hayate.runes.map(r=>r.name).join('|'),"Awake|Spirit|Dragon's Claw")
- assert.equal(all.hayate.spells[0].name,'Flicker')
+ assert.equal(all.hayate.challenger.name,'Flicker')
  assert.equal(all.hayate.builds[0].items.length,6)
  assert(all.hayate.garena==='https://www.rov.in.th/hero/hayate')
 })

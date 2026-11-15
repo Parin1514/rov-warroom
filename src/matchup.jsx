@@ -201,9 +201,7 @@ export function CounterPick({heroes,state,byId,Portrait,display,onIntel,stamp,as
       <div>
         <h3><TrendingUp size={15}/> ได้เปรียบ</h3>
         {detail?.beats.length?detail.beats.map(b=><button key={b.hero.id} className="mini-row" onClick={()=>setEnemy([...enemy,b.hero.id])}><Portrait hero={b.hero} size="sm"/><span><b>{display(b.hero)}</b><small>{b.why[0]||'ได้เปรียบเชิงแท็ก'}</small></span><ScoreBar score={b.score}/></button>):<p className="group-empty">ไม่พบตัวที่ได้เปรียบชัดในชุดนี้</p>}
-      </div>
-      <div>
-        <h3><ShieldQuestion size={15}/> เสียเปรียบ</h3>
+        <h3 style={{marginTop:8}}><ShieldQuestion size={15}/> เสียเปรียบ</h3>
         {detail?.loses.length?detail.loses.map(b=><button key={b.hero.id} className="mini-row" onClick={()=>setEnemy([...enemy,b.hero.id])}><Portrait hero={b.hero} size="sm"/><span><b>{display(b.hero)}</b><small>{b.against[0]||'ได้เปรียบกว่าเรา'}</small></span><ScoreBar score={-b.score}/></button>):<p className="group-empty">ไม่พบตัวที่ชนะทางชัด</p>}
       </div>
       <div>

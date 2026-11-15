@@ -27,7 +27,7 @@ const SKILL_SUMMARY={
  violet:['โจมตีปกติช่วยให้กลับมาใช้สกิลกลิ้งได้ไวขึ้นตามเงื่อนไข','กลิ้งเปลี่ยนตำแหน่งและเสริมการยิงครั้งถัดไป','ขว้างระเบิดเพื่อทำดาเมจและลดความเร็วเป้าหมาย','ยิงกระสุนแรงระยะไกล ใช้เสริมดาเมจหรือปิดงาน'],
  nakroth:['การโจมตีปกติตามเงื่อนไขจะยกเป้าหมาย ช่วยต่อจังหวะคุมตัว','พุ่งยกศัตรูและกดใช้ซ้ำได้ภายในช่วงที่กำหนด','กระโดดเปลี่ยนตำแหน่งและเสริมการโจมตีปกติครั้งถัดไป','โจมตีต่อเนื่องเป็นชุดและยกศัตรูในจังหวะท้าย'],
 }
-const ITEM_POOL_URL='https://rovguide.com/th/items'
+const ITEM_POOL_URL='https://www.rov.in.th/hero'
 const SITUATIONAL_BY_ROLE={'แครี่':['Glided Greaves','Death Sickle',"Uriel's Brand",'Curse of Death'],'ไฟต์เตอร์':['Glided Greaves','Death Sickle','Curse of Death'],'แอสซาซิน':['Glided Greaves','Death Sickle','Curse of Death']}
 const DAMAGE_PROTECTION=['Glided Greaves']
 const KIND={pair:'คู่เล่น',risk:'คู่แข่งล็อกแล้ว',ban:'ยังพิจารณาแบนได้'}
@@ -54,7 +54,7 @@ function MatchupNotes({rows,positive,hero,data,byId,display,onBrowse}){
    <p><b>ข้อจำกัด:</b> {row.avoid||plan.phases.avoid.slice(0,2).join(' · ')||'ขึ้นกับเงิน เลเวล คูลดาวน์ และเพื่อนร่วมทีม ไม่รับประกันผลดวล'}</p>
    {row.scope&&<p>{row.scope}</p>}
    <div className="intel-sources"><span>{row.id?'วิเคราะห์กลไกรายคู่':'ประเมินอัตโนมัติจากแท็ก'}</span>
-    {(row.sources||[data[hero.id]?.guide,data[opponent.id]?.guide]).filter(Boolean).map((url,i)=><a key={url} href={url} target="_blank" rel="noreferrer">หลักฐานสกิล {i+1}</a>)}
+    {(row.sources||[data[hero.id]?.garena,data[opponent.id]?.garena]).filter(Boolean).map((url,i)=><a key={url} href={url} target="_blank" rel="noreferrer">หลักฐานสกิล {i+1}</a>)}
     <button type="button" className="btn" onClick={()=>onBrowse(opponent.id)}>ดู {display(opponent)}</button>
    </div>
   </details>
@@ -62,9 +62,8 @@ function MatchupNotes({rows,positive,hero,data,byId,display,onBrowse}){
 }
 function Sources({d,stamp,asDate}){
  return <div className="intel-sources"><span>แหล่งข้อมูล</span>
-  {d.garena&&<a href={d.garena} target="_blank" rel="noreferrer">ชุดแนะนำ Garena <ArrowUpRight size={13}/></a>}
-  <a href={d.guide} target="_blank" rel="noreferrer">สกิล RoVGuide <ArrowUpRight size={13}/></a>
-  <a href={stamp.url} target="_blank" rel="noreferrer">แรงก์ไทย {asDate(stamp.date)} <ArrowUpRight size={13}/></a>
+  {d.garena&&<a href={d.garena} target="_blank" rel="noreferrer">หน้าฮีโร่ rov.in.th <ArrowUpRight size={13}/></a>}
+  <a href={stamp.url} target="_blank" rel="noreferrer">แพตช์ Garena {asDate(stamp.date)} <ArrowUpRight size={13}/></a>
  </div>
 }
 export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portrait,display,asDate,enemy=[]}){
@@ -82,7 +81,7 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
   return()=>{active=false}
  },[open,data,tryCount])
  useEffect(()=>{setBuild(0);setSetIndex(0);setSkill(0);setHighlight(null);setHeroQuery('');setCopyState('');if(body.current)body.current.scrollTop=0},[hero?.id])
- const d=hero?(data?.[hero.id]||{guide:'https://rovguide.com/th/heroes/'+hero.sourceSlug}):null
+ const d=hero?(data?.[hero.id]||{garena:'https://www.rov.in.th/hero/'+hero.sourceSlug}):null
  const skills=d?.skills||[], buildList=d?.builds||[], activeBuild=buildList[build]||buildList[0], currentSkill=skills[skill]||skills[0]
  const itemIndex=useMemo(()=>{
    const all={}
@@ -173,7 +172,7 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
        <section className="intel-abilities" id="intel-skills"><h3 tabIndex={-1}><Zap/> สกิลและลำดับอัป</h3>
         {hero.id==='hayate'?<div className="ability-priority"><span>ลำดับความสำคัญ</span><ol className="ability-steps">{HAYATE_ORDER.steps.map((step,i)=><li key={step}><b>{i+1}</b> {step}</li>)}</ol><a href={HAYATE_ORDER.url} target="_blank" rel="noreferrer">คู่มืออ้างอิง <ArrowUpRight size={12}/></a></div>:<p className="intel-empty">ยังไม่มีลำดับอัปที่ตรวจสอบได้ แสดงสกิลตามช่องในเกม</p>}
         {skills.length?<><div className="skill-tabs" role="group" aria-label="เลือกสกิล">{skills.map((x,i)=><IconTile key={i} item={{name:tagsFor(x,i),icon:x.icon}} fallback={Zap} active={skill===i} onSelect={()=>setSkill(i)}/>)}</div>
-        <div className="skill-preview" key={currentSkill.name+skill}><div className="skill-preview-head"><b>{currentSkill.name}</b><span className="skill-slot-tag">{tagsFor(currentSkill,skill)}</span></div><p className="skill-fact-desc">{describeSkill(currentSkill)}</p>{SKILL_SUMMARY[hero.id]?.[skill]&&<p className="skill-tip-desc">{SKILL_SUMMARY[hero.id][skill]}</p>}<div>{currentSkill.tags?.map(t=><span key={t}>{t}</span>)}{currentSkill.cooldown&&<span>คูลดาวน์ {currentSkill.cooldown}</span>}{currentSkill.cost&&<span>ทรัพยากร {currentSkill.cost}</span>}</div><a href={d.guide} target="_blank" rel="noreferrer">อ่านกลไกและตัวเลขเต็ม <ArrowUpRight size={13}/></a></div></>:<p className="intel-empty">ยังไม่มีข้อมูลสกิลในเว็บนี้ เปิดแหล่งข้อมูลฮีโร่ด้านล่างได้</p>}
+        <div className="skill-preview" key={currentSkill.name+skill}><div className="skill-preview-head"><b>{currentSkill.name}</b><span className="skill-slot-tag">{tagsFor(currentSkill,skill)}</span></div><p className="skill-fact-desc">{describeSkill(currentSkill)}</p>{SKILL_SUMMARY[hero.id]?.[skill]&&<p className="skill-tip-desc">{SKILL_SUMMARY[hero.id][skill]}</p>}<div>{currentSkill.tags?.map(t=><span key={t}>{t}</span>)}{currentSkill.cooldown&&<span>คูลดาวน์ {currentSkill.cooldown}</span>}{currentSkill.cost&&<span>ทรัพยากร {currentSkill.cost}</span>}</div>{d.garena&&<a href={d.garena} target="_blank" rel="noreferrer">อ่านสกิลฉบับเต็มที่ rov.in.th <ArrowUpRight size={13}/></a>}</div></>:<p className="intel-empty">ยังไม่มีข้อมูลสกิลในเว็บนี้ เปิดแหล่งข้อมูลฮีโร่ด้านล่างได้</p>}
        </section>
       </div>
       <div className="intel-gear">
@@ -187,7 +186,7 @@ export function HeroIntel({hero,onClose,onBrowse,heroes,groups,stamp,byId,Portra
        <section><h3><Shield/> ไอเทมตามสถานการณ์</h3>
         {dCounter.length?<><p className="intel-empty">จัดอันดับจากแท็กสกิลของฮีโร่และไลน์อัปศัตรูที่เลือกไว้ ไม่ใช่สถิติไอเทมรายคู่</p><div className="intel-item-list">{dCounter.map(i=><IconTile key={i.name} item={i} fallback={Shield} active={highlight?.item?.name===i.name} onSelect={()=>pickEntry('ไอเทมตอบโต้ · '+i.cat,{name:i.name,icon:i.icon},i.why)}/>)}</div></>:opts.length?<><p className="intel-empty">ตัวเลือกตามบทบาท ไม่ใช่สถิติรายบิลด์</p><div className="intel-item-list">{opts.map(n=><IconTile key={n} item={itemIndex[n]} fallback={Shield} active={highlight?.item===itemIndex[n]} onSelect={()=>pickEntry('ไอเทมตามสถานการณ์',itemIndex[n],ITEM_NOTES[n])}/>)}</div></>:<p className="intel-empty">ยังไม่มีตัวเลือกเพิ่มเติมในเว็บนี้</p>}
         {highlight&&<div className="intel-highlight" aria-live="polite" key={highlight.type+highlight.item.name}><small>{highlight.type}</small><b>{highlight.item.name}</b>{highlight.extra&&<p>{highlight.extra}</p>}</div>}
-        <a className="intel-item-source" href={ITEM_POOL_URL} target="_blank" rel="noreferrer">ดูค่าสถานะไอเทม <ArrowUpRight size={13}/></a>
+        <a className="intel-item-source" href={ITEM_POOL_URL} target="_blank" rel="noreferrer">ดูค่าสถานะไอเทมในหน้าฮีโร่ rov.in.th <ArrowUpRight size={13}/></a>
        </section>
       </div>
     </div>}

@@ -1,6 +1,6 @@
 // Rule-derived item advice, not measured build performance. Legacy Garena
 // builds are not patch verification. Only reviewed effects are recommended.
-// Effect sources: https://rovguide.com/th/items/<slug>; Beta55 for Mail of Pain.
+// Effect sources: https://www.rov.in.th/hero/<slug> และหมายเหตุ Beta55 สำหรับ Mail of Pain.
 // ponytail: no auto-recommended jungle/support upgrades without explicit role selection.
 import tags from './hero-tags.json' with {type:'json'}
 import items from './items.json' with {type:'json'}
