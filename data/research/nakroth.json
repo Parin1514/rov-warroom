@@ -1,0 +1,138 @@
+{
+  "hero": "nakroth",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "nakroth-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Dread Judge: แท็ก [กายภาพ, ลอยขึ้น]",
+      "quote": "Dread Judge",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Jury Fury: แท็ก [ลอยขึ้น, กายภาพ] ใช้มานา 55",
+      "quote": "Jury Fury",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Death Sentence: แท็ก [เคลื่อนที่, กายภาพ] คูลดาวน์ 6s ใช้มานา 55",
+      "quote": "Death Sentence",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Judgment's Blade: แท็ก [กายภาพ, ต้านสถานะ] ใช้มานา 100",
+      "quote": "Judgment's Blade",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Nakroth เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Soulreaver, Glided Greaves, Broken Spear, Omni Arms, Claves Sancti, Blade of Eternity",
+      "quote": "Soulreaver / Glided Greaves / Broken Spear / Omni Arms / Claves Sancti / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (red), Spirit (purple), Essense Reaver (green)",
+      "quote": "Rage / Spirit / Essense Reaver",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Shadow Blade → Deadly Claw → Devil's Awakening / Afata → River Treader / Veda → Axe of Sacrifice",
+      "quote": "Lokheim → Shadow Blade → Deadly Claw → Devil's Awakening / Afata → River Treader / Veda → Axe of Sacrifice",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/nakroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "nakroth-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Nakroth ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/nakroth, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,138 @@
+{
+  "hero": "bright",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "bright-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Revelation of Light: แท็ก [จริง, พิเศษ]",
+      "quote": "Revelation of Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Light Flash - Second Degree: แท็ก [กายภาพ, สตั้น] ใช้มานา 50",
+      "quote": "Light Flash - Second Degree",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Sacred Light Verdict: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 50",
+      "quote": "Sacred Light Verdict",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท The Holy Soul Returns: แท็ก [แปลงร่าง, พิเศษ] ใช้มานา 100",
+      "quote": "The Holy Soul Returns",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Bright เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Jungle\": Firestorm Bow, War Boots, Claves Sancti, Bow of Slaughter, Muramasa, Blade of Eternity",
+      "quote": "Firestorm Bow / War Boots / Claves Sancti / Bow of Slaughter / Muramasa / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Rage / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Devourer → Deadly Claw → Curse of Death / Human → Mark of Frost / Human → Gunslinger",
+      "quote": "Lokheim → Devourer → Deadly Claw → Curse of Death / Human → Mark of Frost / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/bright",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bright-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Bright ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/bright, ประกาศแพตช์ทางการ และ hero-details.json"
+}

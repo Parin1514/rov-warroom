@@ -1,0 +1,86 @@
+{
+  "hero": "helen",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "helen-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Blessed: แท็ก [เพิ่มความเร็ว, ฮีล]",
+      "quote": "Blessed",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "helen-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Healing Light: แท็ก [ฟื้นฟู, เพิ่มความเร็ว] ใช้มานา 60",
+      "quote": "Healing Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "helen-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Forest Friend: แท็ก [ควบคุม, เวท] ใช้มานา 80",
+      "quote": "Forest Friend",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "helen-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Nature's Rally: แท็ก [ฮีล, บัฟ] ใช้มานา 120",
+      "quote": "Nature's Rally",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "helen-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Helen เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "helen-006",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Helen ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero, ประกาศแพตช์ทางการ และ hero-details.json"
+}

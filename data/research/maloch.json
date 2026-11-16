@@ -1,0 +1,138 @@
+{
+  "hero": "maloch",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "maloch-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Plunder: แท็ก [จริง, ฮีล]",
+      "quote": "Plunder",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Cleave: แท็ก [จริง, ฮีล] คูลดาวน์ 5s ใช้มานา 0",
+      "quote": "Cleave",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Souleater: แท็ก [กายภาพ, ป้องกัน] ใช้มานา 0",
+      "quote": "Souleater",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Shock: แท็ก [กายภาพ, ลอยขึ้น] ใช้มานา 0",
+      "quote": "Shock",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Maloch เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Sonic Boots, The Aegis, Frost Cape, Mail of Pain, Medallion of Troy, Blade of Eternity",
+      "quote": "Sonic Boots / The Aegis / Frost Cape / Mail of Pain / Medallion of Troy / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Assassinate (purple), Prowess (green)",
+      "quote": "Golden Body / Assassinate / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Devourer → Bone Cutter → Desperate duel / Afata → River Treader / Afata → Regrowth",
+      "quote": "Lokheim → Devourer → Bone Cutter → Desperate duel / Afata → River Treader / Afata → Regrowth",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/maloch",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "maloch-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Maloch ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/maloch, ประกาศแพตช์ทางการ และ hero-details.json"
+}

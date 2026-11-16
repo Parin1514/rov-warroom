@@ -1,0 +1,33 @@
+{
+  "hero": "cresht",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {"id": "cresht-001", "verdict": "verified", "reason": "พาสซีฟ Tsunami เกจพลังคลั่งและคลื่นยักษ์ลดความเร็ว ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-002", "verdict": "verified", "reason": "สกิล 1 Typhoon ควงหอกผลักถอยหลัง ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-003", "verdict": "verified", "reason": "สกิล 2 Aquatic Shield กระโดดสร้างโล่ให้ตัวเองและเพื่อน ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-004", "verdict": "verified", "reason": "อัลติเมต Metamorphosis แปลงร่างอสูรยักษ์ ปล่อยคลื่นสตั๊นและโล่ขนาดใหญ่ ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-005", "verdict": "verified", "reason": "สกิล 1 ร่างแปลง Hell Spout ทุบพื้นศัตรูลอยขึ้น ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-006", "verdict": "verified", "reason": "สกิล 2 ร่างแปลง Red Tide พุ่งกระโดดสร้างความเสียหายกายภาพ ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-007", "verdict": "verified", "reason": "บทบาท Tank ตรงกับ heroes.json และหน้าทางการ rov.in.th/hero/cresht", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-008", "verdict": "verified", "reason": "ไอเทมทั้ง 6 ชิ้น (Glided Greaves, Ring of Terror, Mantle of Ra, Broken Spear, Omni Arms, Medallion of Troy) มีใน items.json และตรงกับ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-009", "verdict": "verified", "reason": "รูน Golden Body, Assassinate, Dragon's Claw ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-010", "verdict": "verified", "reason": "พลังแฝง Human: Arcane Whisper, Minion Kill, Visceral Boost / Afata: Tower Blessing, Nature's Gift ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-011", "verdict": "verified", "reason": "ชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "cresht-012", "verdict": "verified", "reason": "หน้าประกาศแพตช์ทางการ Hotfix 17 พ.ย., 4 พ.ย. และ 30 ต.ค. 2026 ไม่มีรายการปรับ Cresht", "confidence": 0.95, "needsInGameTest": false}
+  ],
+  "summary": {"verified": 12, "contested": 0, "rejected": 0, "unverifiable": 0},
+  "safeToPublish": [
+    "cresht-001",
+    "cresht-002",
+    "cresht-003",
+    "cresht-004",
+    "cresht-005",
+    "cresht-006",
+    "cresht-007",
+    "cresht-008",
+    "cresht-009",
+    "cresht-010",
+    "cresht-011",
+    "cresht-012"
+  ]
+}

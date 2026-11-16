@@ -1,0 +1,138 @@
+{
+  "hero": "mganga",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "mganga-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Voodoo: แท็ก [เพิ่มความเสียหาย, เวท]",
+      "quote": "Voodoo",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Toxic: แท็ก [ลดความเร็ว, เวท] คูลดาวน์ 2s ใช้มานา 50",
+      "quote": "Toxic",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Feeling Lucky: แท็ก [เวท, ฮีล] คูลดาวน์ 4s ใช้มานา 50",
+      "quote": "Feeling Lucky",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Gas Attack: แท็ก [เวท, เพิ่มความเสียหาย] ใช้มานา 125",
+      "quote": "Gas Attack",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Mganga เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Orb of the Magi, Sonic Boots, Berith's Agony, Frosty's Revenge, Staff of Nuul, Holy of Holies",
+      "quote": "Orb of the Magi / Sonic Boots / Berith's Agony / Frosty's Revenge / Staff of Nuul / Holy of Holies",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Holy Verdic → Holy Thunder / Human → Mark of Frost / Human → Minion Kill",
+      "quote": "Veda → Mana Refill → Holy Verdic → Holy Thunder / Human → Mark of Frost / Human → Minion Kill",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mganga",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mganga-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Mganga ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/mganga, ประกาศแพตช์ทางการ และ hero-details.json"
+}

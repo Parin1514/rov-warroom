@@ -1,0 +1,138 @@
+{
+  "hero": "gildur",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "gildur-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ The Touch: แท็ก [เวท, ผลักถอยหลัง]",
+      "quote": "The Touch",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Siege: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 70",
+      "quote": "Siege",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Miser: แท็ก [เวท, สตั๊น] ใช้มานา 75",
+      "quote": "Miser",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Debauchery: แท็ก [เวท, สตั้น] ใช้มานา 150",
+      "quote": "Debauchery",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Gildur เป็น เมจ ประจำเลน roam",
+      "quote": "เมจ roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Arctic Orb, Flashy Boots, Boomstick, Hecate's Diadem, Staff of Nuul, Holy of Holies",
+      "quote": "Arctic Orb / Flashy Boots / Boomstick / Hecate's Diadem / Staff of Nuul / Holy of Holies",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Veda → Mana Refill → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/gildur",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "gildur-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Gildur ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/gildur, ประกาศแพตช์ทางการ และ hero-details.json"
+}

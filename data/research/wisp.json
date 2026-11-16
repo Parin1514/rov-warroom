@@ -1,0 +1,138 @@
+{
+  "hero": "wisp",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "wisp-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Ignite: แท็ก [ความเสียหายผสม]",
+      "quote": "Ignite",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Loose Cannon: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 55",
+      "quote": "Loose Cannon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Barrel Bomb: แท็ก [กายภาพ, สตั้น] ใช้มานา 75",
+      "quote": "Barrel Bomb",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Shock and Awe: แท็ก [กายภาพ, ความเสียหายหมู่] ใช้มานา 100",
+      "quote": "Shock and Awe",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Wisp เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": War Boots, Claves Sancti, Slikk's Sting, Bow of Slaughter, Muramasa, Blade of Eternity",
+      "quote": "War Boots / Claves Sancti / Slikk's Sting / Bow of Slaughter / Muramasa / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Sacred Protection / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Sacred Protection / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wisp",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wisp-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Wisp ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/wisp, ประกาศแพตช์ทางการ และ hero-details.json"
+}

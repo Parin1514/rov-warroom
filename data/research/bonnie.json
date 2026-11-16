@@ -1,0 +1,86 @@
+{
+  "hero": "bonnie",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "bonnie-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Don't Test Me: แท็ก [เพิ่มความเร็ว]",
+      "quote": "Don't Test Me",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bonnie-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Bonnie Smack!: แท็ก [เวท, เปิดแผนที่] คูลดาวน์ 1s ใช้มานา 40",
+      "quote": "Bonnie Smack!",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bonnie-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Gina Thwack!: แท็ก [เวท, หยุดนิ่ง] ใช้มานา 60",
+      "quote": "Gina Thwack!",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bonnie-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Allan Kaboom!: แท็ก [ควบคุม, ความเสียหายหมู่] ใช้มานา 100",
+      "quote": "Allan Kaboom!",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bonnie-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Bonnie เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "bonnie-006",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Bonnie ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero, ประกาศแพตช์ทางการ และ hero-details.json"
+}

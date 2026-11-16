@@ -1,0 +1,62 @@
+{
+  "hero": "heino",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "heino-001",
+      "verdict": "verified",
+      "reason": "สกิล Fate's Insight (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "heino-002",
+      "verdict": "verified",
+      "reason": "สกิล Blade of Fate - Pursuit (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "heino-003",
+      "verdict": "verified",
+      "reason": "สกิล Wandering Fate (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "heino-004",
+      "verdict": "verified",
+      "reason": "สกิล Fate Rewind (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "heino-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "heino-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Heino",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "heino-001",
+    "heino-002",
+    "heino-003",
+    "heino-004",
+    "heino-005",
+    "heino-006"
+  ]
+}

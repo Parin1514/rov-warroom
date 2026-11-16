@@ -1,0 +1,138 @@
+{
+  "hero": "airi",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "airi-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Dragon Blade: แท็ก [จริง, ลดความเร็ว]",
+      "quote": "Dragon Blade",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Dragon Shuriken: แท็ก [กายภาพ, ลอยขึ้น] ใช้มานา 0",
+      "quote": "Dragon Shuriken",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Swift Shadow: แท็ก [เคลื่อนที่, พิเศษ] ใช้มานา 0",
+      "quote": "Swift Shadow",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Ryu no Ikari: แท็ก [กายภาพ, ลดความเสียหาย] ใช้มานา 0",
+      "quote": "Ryu no Ikari",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Airi เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Hermes' Select, Broken Spear, Hercules's Madness, Omni Arms, Fenrir's Tooth, Blade of Eternity",
+      "quote": "Hermes' Select / Broken Spear / Hercules's Madness / Omni Arms / Fenrir's Tooth / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Onslaught (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Onslaught / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Devourer → Deadly Claw → Desperate duel / Afata → River Treader / Veda → Axe of Sacrifice",
+      "quote": "Lokheim → Devourer → Deadly Claw → Desperate duel / Afata → River Treader / Veda → Axe of Sacrifice",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/airi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "airi-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Airi ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/airi, ประกาศแพตช์ทางการ และ hero-details.json"
+}

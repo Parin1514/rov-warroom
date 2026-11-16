@@ -1,0 +1,138 @@
+{
+  "hero": "arum",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "arum-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Ravenous Beasts: แท็ก [เวท, ฮีล]",
+      "quote": "Ravenous Beasts",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Lion Tamer: แท็ก [เวท, ความเสียหายหมู่] ใช้มานา 60",
+      "quote": "Lion Tamer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Uncaged: แท็ก [เวท, ลดความเร็ว] คูลดาวน์ 6s ใช้มานา 75",
+      "quote": "Uncaged",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Snare: แท็ก [ล็อคตัว] ใช้มานา 100",
+      "quote": "Snare",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Arum เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Leviathan, Sonic Boots, Medallion of Troy, Odin's Will, Mail of Pain, Rock Shield",
+      "quote": "Leviathan / Sonic Boots / Medallion of Troy / Odin's Will / Mail of Pain / Rock Shield",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Prowess (green)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → River Treader → Regrowth → Explosive Shield / Lokheim → Devourer / Lokheim → Bone Cutter",
+      "quote": "Afata → River Treader → Regrowth → Explosive Shield / Lokheim → Devourer / Lokheim → Bone Cutter",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/arum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "arum-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Arum ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/arum, ประกาศแพตช์ทางการ และ hero-details.json"
+}

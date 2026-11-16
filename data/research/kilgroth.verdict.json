@@ -1,0 +1,94 @@
+{
+  "hero": "kilgroth",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "kilgroth-001",
+      "verdict": "verified",
+      "reason": "สกิล The Fanatic (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kilgroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-002",
+      "verdict": "verified",
+      "reason": "สกิล Sea Spear (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kilgroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-003",
+      "verdict": "verified",
+      "reason": "สกิล Enraged Spear (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kilgroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-004",
+      "verdict": "verified",
+      "reason": "สกิล Warlord of Gore (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kilgroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/kilgroth",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kilgroth-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Kil'Groth",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "kilgroth-001",
+    "kilgroth-002",
+    "kilgroth-003",
+    "kilgroth-004",
+    "kilgroth-005",
+    "kilgroth-006",
+    "kilgroth-007",
+    "kilgroth-008",
+    "kilgroth-009",
+    "kilgroth-010"
+  ]
+}

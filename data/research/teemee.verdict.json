@@ -1,0 +1,36 @@
+{
+  "hero": "teemee",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {"id": "teemee-001", "verdict": "verified", "reason": "พาสซีฟ Scavenge โบนัสโกลด์ 25% แบ่งให้พันธมิตรตรงกับหน้าทางการ rov.in.th/hero/teemee และ hero-details.json (ตัวเลข 20% ในคลิปเป็นข้อมูลเก่า ให้ยึด 25% ของทางการ)", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-002", "verdict": "verified", "reason": "สกิล 1 Pooty Poots ก๊าซเร่งความเร็ว 5 วิ สตั๊น 1.5 วิ เมื่อชาร์จเต็ม ตรงกับหน้าทางการ rov.in.th/hero/teemee และ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-003", "verdict": "verified", "reason": "สกิล 2 Chain Lance ตะขอดึงตัวเข้าหาศัตรูและสตั๊น 1 วิ ตรงกับหน้าทางการ rov.in.th/hero/teemee และ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-004", "verdict": "verified", "reason": "อัลติ Being a Bro บัฟชุบชีวิต 3 วิ ฟื้นคืนชีพ HP 2000 มานา 100% สโลว์ 50% 2 วิ ตรงกับหน้าทางการ rov.in.th/hero/teemee และ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-005", "verdict": "verified", "reason": "บทบาท Support Tank ตรงกับหน้าทางการ rov.in.th/hero/teemee", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-006", "verdict": "verified", "reason": "ไอเทมทางการ 6 ชิ้น (Poseidon Emblem, Hermes' Select, The Aegis, Gaia's Standard, Mail of Pain, Medallion of Troy) มีใน items.json ครบ และตรงกับ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-007", "verdict": "verified", "reason": "รูน Golden Body, Protect, Prowess ตรงกับ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-008", "verdict": "verified", "reason": "พลังแฝง Afata: River Treader, Regrowth, Nature's Rage / Human: Arcane Whisper / Lokheim: Devourer ตรงกับ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-009", "verdict": "verified", "reason": "ชาเลนเจอร์ Flicker ตรงกับ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-010", "verdict": "verified", "reason": "หน้าประกาศแพตช์ทางการ Hotfix 17 พ.ย., 4 พ.ย., 30 ต.ค. และ 15 ต.ค. 2026 ไม่มีรายการปรับ TeeMee", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "teemee-011", "verdict": "verified", "reason": "กลไกการรีเซ็ตคูลดาวน์สกิล 1 เมื่อชาร์จเต็มแล้วระเบิดโดนฮีโร่ สอดคล้องกับกลไกสกิล Pooty Poots ในเกม และได้รับการยืนยันจากทรานสคริปต์วิดีโอ", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "teemee-012", "verdict": "unverifiable", "reason": "คอมโบ 1 ชาร์จก๊าซ > 2 ตะขอพุ่งเข้าสตั๊น เป็นทริกจังหวะเล่นจากวิดีโอ ต้องทดสอบในเกม", "confidence": 0.5, "needsInGameTest": true},
+    {"id": "teemee-013", "verdict": "verified", "reason": "การเดินเกาะติดเพื่อนร่วมทีมสอดคล้องโดยตรงกับเงื่อนไขโบนัสเงินของพาสซีฟ Scavenge", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "teemee-014", "verdict": "verified", "reason": "คำแนะนำการกดอัลติล่วงหน้า 1-2 วิ สอดคล้องกับระยะเวลาบัฟ Being a Bro ที่มีผล 3 วิ เพื่อป้องกันการตายก่อนกด", "confidence": 0.85, "needsInGameTest": false}
+  ],
+  "summary": {"verified": 13, "contested": 0, "rejected": 0, "unverifiable": 1},
+  "safeToPublish": [
+    "teemee-001",
+    "teemee-002",
+    "teemee-003",
+    "teemee-004",
+    "teemee-005",
+    "teemee-006",
+    "teemee-007",
+    "teemee-008",
+    "teemee-009",
+    "teemee-010",
+    "teemee-011",
+    "teemee-013",
+    "teemee-014"
+  ]
+}

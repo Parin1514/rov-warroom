@@ -1,0 +1,138 @@
+{
+  "hero": "lindis",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "lindis-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Tread Softly: แท็ก [เพิ่มความเร็ว, กายภาพ]",
+      "quote": "Tread Softly",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Piercing Gaze: แท็ก [เปิดแผนที่, กายภาพ] คูลดาวน์ 5s ใช้มานา 80",
+      "quote": "Piercing Gaze",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Entrapment: แท็ก [ลดความเร็ว, กายภาพ] คูลดาวน์ 2s ใช้มานา 60",
+      "quote": "Entrapment",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Lunar Champion: แท็ก [เคลื่อนที่, กายภาพ] คูลดาวน์ 11s ใช้มานา 30",
+      "quote": "Lunar Champion",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Lindis เป็น แครี่ ประจำเลน jungle",
+      "quote": "แครี่ jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Firestorm Bow, Glided Greaves, Broken Spear, Claves Sancti, Omni Arms, Blade of Eternity",
+      "quote": "Firestorm Bow / Glided Greaves / Broken Spear / Claves Sancti / Omni Arms / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Rage / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Holy Verdic → Holy Thunder / Human → Reaper's Blessing / Human → Gunslinger",
+      "quote": "Veda → Axe of Sacrifice → Holy Verdic → Holy Thunder / Human → Reaper's Blessing / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lindis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lindis-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Lindis ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/lindis, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,138 @@
+{
+  "hero": "omen",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "omen-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Thirst: แท็ก [เพิ่มความเร็วโจมตี, จริง]",
+      "quote": "Thirst",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Death's Beckon: แท็ก [กายภาพ, ควบคุม] คูลดาวน์ 8s ใช้มานา 0",
+      "quote": "Death's Beckon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Untouchable: แท็ก [ลดความเสียหาย, เพิ่มความเร็ว] ใช้มานา 0",
+      "quote": "Untouchable",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Death's Embrace: แท็ก [กายภาพ, จำกัด] ใช้มานา 0",
+      "quote": "Death's Embrace",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Omen เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"โจมตีต่อเนื่อง\": Mantle of Ra, Glided Greaves, Fafnir's Talon, Shield of the Lost, Muramasa, Medallion of Troy",
+      "quote": "Mantle of Ra / Glided Greaves / Fafnir's Talon / Shield of the Lost / Muramasa / Medallion of Troy",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Onslaught (red), Colossus (purple), Dragon's Claw (green)",
+      "quote": "Onslaught / Colossus / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Raging Inferno → Bone Cutter → Desperate duel / Veda → Axe of Sacrifice / Veda → Holy Verdic",
+      "quote": "Lokheim → Raging Inferno → Bone Cutter → Desperate duel / Veda → Axe of Sacrifice / Veda → Holy Verdic",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/omen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "omen-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Omen ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/omen, ประกาศแพตช์ทางการ และ hero-details.json"
+}

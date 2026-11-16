@@ -1,0 +1,86 @@
+{
+  "hero": "kaine",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "kaine-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Shrouded Wings: แท็ก [ล่องหน]",
+      "quote": "Shrouded Wings",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kaine-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Whirlwind of Blood: แท็ก [กายภาพ, ความเสียหาย] ใช้มานา 50",
+      "quote": "Whirlwind of Blood",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kaine-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Bloodied Judgment: แท็ก [กายภาพ, ควบคุม] ใช้มานา 80",
+      "quote": "Bloodied Judgment",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kaine-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Sanguinary End: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 120",
+      "quote": "Sanguinary End",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kaine-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Kaine เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kaine-006",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Kaine ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero, ประกาศแพตช์ทางการ และ hero-details.json"
+}

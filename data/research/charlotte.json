@@ -1,0 +1,125 @@
+{
+  "hero": "charlotte",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "charlotte-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Seven-Star Sword: แท็ก [กายภาพ]",
+      "quote": "Seven-Star Sword",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Triangle Sword: แท็ก [กายภาพ, เพิ่มความเร็ว] ใช้มานา 0",
+      "quote": "Triangle Sword",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Pierce Fountain: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 0",
+      "quote": "Pierce Fountain",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Sky-Breaking Saber: แท็ก [กายภาพ, ต้านสถานะ] ใช้มานา 0",
+      "quote": "Sky-Breaking Saber",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Triangle Sword: แท็ก [กายภาพ, เพิ่มความเร็ว] ใช้มานา 0",
+      "quote": "Triangle Sword",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-006",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Pierce Fountain: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 0",
+      "quote": "Pierce Fountain",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-007",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Sky-Breaking Saber: แท็ก [กายภาพ, ต้านสถานะ] ใช้มานา 0",
+      "quote": "Sky-Breaking Saber",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-008",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Charlotte เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "charlotte-009",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Charlotte ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero, ประกาศแพตช์ทางการ และ hero-details.json"
+}

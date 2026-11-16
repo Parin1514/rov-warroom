@@ -1,0 +1,138 @@
+{
+  "hero": "raz",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "raz-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Fist Spirit: แท็ก [เวท, ผลักถอยหลัง]",
+      "quote": "Fist Spirit",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Rising Dragon Fist: แท็ก [เวท, ลอยขึ้น] ใช้มานา 70",
+      "quote": "Rising Dragon Fist",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Power Surge: แท็ก [เวท, ลดความเร็ว] คูลดาวน์ 3s ใช้มานา 40",
+      "quote": "Power Surge",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Odin's Fist: แท็ก [เวท, ผลักถอยหลัง] ใช้มานา 90",
+      "quote": "Odin's Fist",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Raz เป็น แอสซาซิน ประจำเลน mid",
+      "quote": "แอสซาซิน mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Soaring Aura, Enchanted Kicks, Boomstick, Hecate's Diadem, Staff of Nuul, Rhea's Blessing",
+      "quote": "Soaring Aura / Enchanted Kicks / Boomstick / Hecate's Diadem / Staff of Nuul / Rhea's Blessing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Veda → Axe of Sacrifice → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/raz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "raz-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Raz ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/raz, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,138 @@
+{
+  "hero": "zuka",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "zuka-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ The Chi: แท็ก [ฮีล]",
+      "quote": "The Chi",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Pain on a Stick: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 0",
+      "quote": "Pain on a Stick",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Panda Chariot: แท็ก [กายภาพ, ป้องกัน] คูลดาวน์ 7.5s ใช้มานา 0",
+      "quote": "Panda Chariot",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Skyfall: แท็ก [กายภาพ, สตั้น] ใช้มานา 0",
+      "quote": "Skyfall",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Zuka เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Hermes' Select, Broken Spear, Omni Arms, Muramasa, Fenrir's Tooth, Blade of Eternity",
+      "quote": "Hermes' Select / Broken Spear / Omni Arms / Muramasa / Fenrir's Tooth / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Onslaught (red), Assassinate (purple), Dragon's Claw (green)",
+      "quote": "Onslaught / Assassinate / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Raging Inferno → Deadly Claw → Devil's Awakening / Veda → Axe of Sacrifice / Veda → Blessing",
+      "quote": "Lokheim → Raging Inferno → Deadly Claw → Devil's Awakening / Veda → Axe of Sacrifice / Veda → Blessing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zuka",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zuka-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Zuka ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/zuka, ประกาศแพตช์ทางการ และ hero-details.json"
+}

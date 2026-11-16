@@ -1,0 +1,94 @@
+{
+  "hero": "bright",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "bright-001",
+      "verdict": "verified",
+      "reason": "สกิล Revelation of Light (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/bright และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-002",
+      "verdict": "verified",
+      "reason": "สกิล Light Flash - Second Degree (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/bright และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-003",
+      "verdict": "verified",
+      "reason": "สกิล Sacred Light Verdict (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/bright และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-004",
+      "verdict": "verified",
+      "reason": "สกิล The Holy Soul Returns (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/bright และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-005",
+      "verdict": "verified",
+      "reason": "บทบาท แอสซาซิน เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/bright",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Rage, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Punish ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bright-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Bright",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "bright-001",
+    "bright-002",
+    "bright-003",
+    "bright-004",
+    "bright-005",
+    "bright-006",
+    "bright-007",
+    "bright-008",
+    "bright-009",
+    "bright-010"
+  ]
+}

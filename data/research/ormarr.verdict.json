@@ -1,0 +1,94 @@
+{
+  "hero": "ormarr",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "ormarr-001",
+      "verdict": "verified",
+      "reason": "สกิล Deterrence (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ormarr และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-002",
+      "verdict": "verified",
+      "reason": "สกิล Unstoppable (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ormarr และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-003",
+      "verdict": "verified",
+      "reason": "สกิล Swagger (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ormarr และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-004",
+      "verdict": "verified",
+      "reason": "สกิล Walking Tall (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ormarr และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-005",
+      "verdict": "verified",
+      "reason": "บทบาท แทงค์ เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/ormarr",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Toggle navigation, แบนเนอร์สกินฮีโร่, 1 จาก 4 ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ormarr-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Ormarr",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "ormarr-001",
+    "ormarr-002",
+    "ormarr-003",
+    "ormarr-004",
+    "ormarr-005",
+    "ormarr-006",
+    "ormarr-007",
+    "ormarr-008",
+    "ormarr-009",
+    "ormarr-010"
+  ]
+}

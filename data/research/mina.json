@@ -1,0 +1,138 @@
+{
+  "hero": "mina",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "mina-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Sweet Revenge: แท็ก [เพิ่มความเร็ว]",
+      "quote": "Sweet Revenge",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Whirling Scythe: แท็ก [ความเสียหายหมู่, กายภาพ] คูลดาวน์ 6s ใช้มานา 25",
+      "quote": "Whirling Scythe",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Death Scythe: แท็ก [กายภาพ, ควบคุม] ใช้มานา 50",
+      "quote": "Death Scythe",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Dark Dominion: แท็ก [กายภาพ, ยั่วยุ] ใช้มานา 100",
+      "quote": "Dark Dominion",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Mina เป็น แทงค์ ประจำเลน roam",
+      "quote": "แทงค์ roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Ring of Terror, Glided Greaves, Gaia's Standard, Shield of the Lost, Mail of Pain, Blade of Eternity",
+      "quote": "Ring of Terror / Glided Greaves / Gaia's Standard / Shield of the Lost / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Prowess (green)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Sacred Protection / Lokheim → Devourer / Afata → River Treader",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Sacred Protection / Lokheim → Devourer / Afata → River Treader",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/mina",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "mina-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Mina ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/mina, ประกาศแพตช์ทางการ และ hero-details.json"
+}

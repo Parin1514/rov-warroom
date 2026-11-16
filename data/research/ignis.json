@@ -1,0 +1,138 @@
+{
+  "hero": "ignis",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "ignis-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Sacred Flame: แท็ก [เพิ่มความเสียหาย, เวท]",
+      "quote": "Sacred Flame",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Fire Crash: แท็ก [ป้องกัน, เวท] คูลดาวน์ 5s ใช้มานา 50",
+      "quote": "Fire Crash",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Rain of Fire: แท็ก [ลดความเร็ว, เวท] ใช้มานา 75",
+      "quote": "Rain of Fire",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Holy Embers: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 24s ใช้มานา 130",
+      "quote": "Holy Embers",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Ignis เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Orb of the Magi, Glided Greaves, Berith's Agony, Hecate's Diadem, Rhea's Blessing",
+      "quote": "Orb of the Magi / Glided Greaves / Berith's Agony / Hecate's Diadem / Rhea's Blessing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Protect (purple), Secret (green)",
+      "quote": "Desolate / Protect / Secret",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Blessing → Sacred Protection / Afata → River Treader / Afata → Regrowth",
+      "quote": "Veda → Mana Refill → Blessing → Sacred Protection / Afata → River Treader / Afata → Regrowth",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ignis",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ignis-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Ignis ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/ignis, ประกาศแพตช์ทางการ และ hero-details.json"
+}

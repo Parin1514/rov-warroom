@@ -1,0 +1,138 @@
+{
+  "hero": "kahlii",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "kahlii-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Powerful Hymns: แท็ก [เพิ่มความเสียหาย, เวท]",
+      "quote": "Powerful Hymns",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Soul Summoning: แท็ก [ลดความเร็ว, เวท] ใช้มานา 60",
+      "quote": "Soul Summoning",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Incorporeal: แท็ก [เพิ่มความเร็ว, ป้องกัน] ใช้มานา 40",
+      "quote": "Incorporeal",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Ethereal Pulse: แท็ก [ความเสียหายหมู่, เวท] คูลดาวน์ 30s ใช้มานา 125",
+      "quote": "Ethereal Pulse",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Kahlii เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Orb of the Magi, Flashy Boots, Boomstick, Hecate's Diadem, Holy of Holies, Arctic Orb",
+      "quote": "Orb of the Magi / Flashy Boots / Boomstick / Hecate's Diadem / Holy of Holies / Arctic Orb",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Veda → Mana Refill → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kahlii",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kahlii-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Kahlii ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/kahlii, ประกาศแพตช์ทางการ และ hero-details.json"
+}

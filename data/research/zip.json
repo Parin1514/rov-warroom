@@ -1,0 +1,138 @@
+{
+  "hero": "zip",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "zip-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Zip Bloat!: แท็ก [ลดความเสียหาย]",
+      "quote": "Zip Bloat!",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Zip Hex!: แท็ก [เวท, สตั้น] คูลดาวน์ 5s ใช้มานา 60",
+      "quote": "Zip Hex!",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Zip Angry!: แท็ก [พิเศษ, ป้องกัน] ใช้มานา 80",
+      "quote": "Zip Angry!",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Zip Roll!: แท็ก [เวท, เพิ่มความเร็ว] ใช้มานา 150",
+      "quote": "Zip Roll!",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Zip เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Ring of Terror, Hermes' Select, The Aegis, Medallion of Troy, Mail of Pain, Blade of Eternity",
+      "quote": "Ring of Terror / Hermes' Select / The Aegis / Medallion of Troy / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Spirit (purple), Prowess (green)",
+      "quote": "Golden Body / Spirit / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → River Treader → Regrowth → Forest Wanderer / Human → Arcane Whisper / Lokheim → Devourer",
+      "quote": "Afata → River Treader → Regrowth → Forest Wanderer / Human → Arcane Whisper / Lokheim → Devourer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zip",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zip-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Zip ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/zip, ประกาศแพตช์ทางการ และ hero-details.json"
+}

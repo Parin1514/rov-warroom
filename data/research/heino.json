@@ -1,0 +1,86 @@
+{
+  "hero": "heino",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "heino-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Fate's Insight: แท็ก [เวท, บัฟ]",
+      "quote": "Fate's Insight",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "heino-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Blade of Fate - Pursuit: แท็ก [ความเสียหายหมู่, เวท] ใช้มานา 30",
+      "quote": "Blade of Fate - Pursuit",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "heino-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Wandering Fate: แท็ก [เคลื่อนที่, ฮีล] ใช้มานา 40",
+      "quote": "Wandering Fate",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "heino-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Fate Rewind: แท็ก [เวท, พิเศษ] ใช้มานา 80",
+      "quote": "Fate Rewind",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "heino-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Heino เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "heino-006",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Heino ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero, ประกาศแพตช์ทางการ และ hero-details.json"
+}

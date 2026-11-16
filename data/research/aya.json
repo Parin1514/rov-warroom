@@ -1,0 +1,125 @@
+{
+  "hero": "aya",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "aya-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Squirrel Spirit: แท็ก [แปลงร่าง, ไม่ตกเป็นเป้าหมาย] คูลดาวน์ 180s",
+      "quote": "Squirrel Spirit",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Sound Breaker: แท็ก [เวท, ลดความเร็ว] ใช้มานา 30",
+      "quote": "Sound Breaker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Idol Love: แท็ก [สิงร่าง, ป้องกัน] ใช้มานา 50",
+      "quote": "Idol Love",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Forest Song: แท็ก [เวท, แปลงร่าง] ใช้มานา 70",
+      "quote": "Forest Song",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Aya เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-006",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Spirit (green)",
+      "quote": "Golden Body / Protect / Spirit",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-007",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → River Treader → Regrowth → Explosive Shield / Human → Mark of Frost / Human → Minion Kill",
+      "quote": "Afata → River Treader → Regrowth → Explosive Shield / Human → Mark of Frost / Human → Minion Kill",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-008",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Sprint",
+      "quote": "Sprint",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aya",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aya-009",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Aya ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/aya, ประกาศแพตช์ทางการ และ hero-details.json"
+}

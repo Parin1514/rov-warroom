@@ -1,0 +1,138 @@
+{
+  "hero": "grakk",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "grakk-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Blood Ritual: แท็ก [เวท, ความเสียหายหมู่]",
+      "quote": "Blood Ritual",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Earthquake: แท็ก [ลดความเร็ว, เวท] คูลดาวน์ 4s ใช้มานา 60",
+      "quote": "Earthquake",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Devil's Chain: แท็ก [ควบคุม, เวท] ใช้มานา 60",
+      "quote": "Devil's Chain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท World Devourer: แท็ก [ดูดกลืน, เวท] ใช้มานา 130",
+      "quote": "World Devourer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Grakk เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Glided Greaves, Ring of Terror, The Aegis, Gaia's Standard, Mail of Pain, Blade of Eternity",
+      "quote": "Glided Greaves / Ring of Terror / The Aegis / Gaia's Standard / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Prowess (green)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Sacred Protection / Lokheim → Devourer / Afata → River Treader",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Sacred Protection / Lokheim → Devourer / Afata → River Treader",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/grakk",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "grakk-010",
+      "type": "patch-change",
+      "text": "ประกาศ Hotfix 17 พ.ย. 2026 (rov.in.th/patch-notes/hotfix261117) มีการปรับสมดุลสำหรับ Grakk (ประกาศล่วงหน้า 12 พ.ย. มีผล 17 พ.ย. 2026)",
+      "quote": "Grakk",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261117",
+        "kind": "official",
+        "date": "2026-11-12",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/grakk, ประกาศแพตช์ทางการ และ hero-details.json"
+}

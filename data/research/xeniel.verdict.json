@@ -1,0 +1,94 @@
+{
+  "hero": "xeniel",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "xeniel-001",
+      "verdict": "verified",
+      "reason": "สกิล Holy Brand (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/xeniel และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-002",
+      "verdict": "verified",
+      "reason": "สกิล Divine Protection (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/xeniel และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-003",
+      "verdict": "verified",
+      "reason": "สกิล Malleus (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/xeniel และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-004",
+      "verdict": "verified",
+      "reason": "สกิล Angelic Splendor (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/xeniel และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-005",
+      "verdict": "verified",
+      "reason": "บทบาท แทงค์ เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/xeniel",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Spirit, Prowess ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "xeniel-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Xeniel",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "xeniel-001",
+    "xeniel-002",
+    "xeniel-003",
+    "xeniel-004",
+    "xeniel-005",
+    "xeniel-006",
+    "xeniel-007",
+    "xeniel-008",
+    "xeniel-009",
+    "xeniel-010"
+  ]
+}

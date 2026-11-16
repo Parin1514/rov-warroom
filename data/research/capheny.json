@@ -1,0 +1,164 @@
+{
+  "hero": "capheny",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "capheny-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Aquamarine: แท็ก [พิเศษ, เพิ่มความเสียหาย]",
+      "quote": "Aquamarine",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Pulse Shot: แท็ก [กายภาพ, ความเสียหายหมู่] คูลดาวน์ 0.2s ใช้มานา 0",
+      "quote": "Pulse Shot",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Piercing Shot: แท็ก [เพิ่มความเร็ว, เพิ่มความเสียหาย] ใช้มานา 0",
+      "quote": "Piercing Shot",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Fusillade: แท็ก [กายภาพ, ความเสียหายหมู่] ใช้มานา 0",
+      "quote": "Fusillade",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Rapid Shot: แท็ก [กายภาพ, เพิ่มความเสียหาย] คูลดาวน์ 3s ใช้มานา 0",
+      "quote": "Rapid Shot",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-006",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Propulsion: แท็ก [เคลื่อนที่, เพิ่มความเสียหาย] ใช้มานา 20",
+      "quote": "Propulsion",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-007",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Capheny เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-008",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"ไอเทมแนะนำ 1\": Fafnir's Talon, War Boots, Claves Sancti, Muramasa, Fenrir's Tooth, Blade of Eternity",
+      "quote": "Fafnir's Talon / War Boots / Claves Sancti / Muramasa / Fenrir's Tooth / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-009",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Rage / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-010",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Holy Verdic → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Bone Cutter",
+      "quote": "Veda → Mana Refill → Holy Verdic → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Bone Cutter",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-011",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/capheny",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "capheny-012",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Capheny ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/capheny, ประกาศแพตช์ทางการ และ hero-details.json"
+}

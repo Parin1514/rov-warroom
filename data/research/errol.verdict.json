@@ -1,0 +1,94 @@
+{
+  "hero": "errol",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "errol-001",
+      "verdict": "verified",
+      "reason": "สกิล Blood Drinker (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/errol และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-002",
+      "verdict": "verified",
+      "reason": "สกิล Ghostscythe (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/errol และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-003",
+      "verdict": "verified",
+      "reason": "สกิล Boneshaver (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/errol และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-004",
+      "verdict": "verified",
+      "reason": "สกิล Demon Claw (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/errol และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/errol",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Onslaught, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "errol-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Errol",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "errol-001",
+    "errol-002",
+    "errol-003",
+    "errol-004",
+    "errol-005",
+    "errol-006",
+    "errol-007",
+    "errol-008",
+    "errol-009",
+    "errol-010"
+  ]
+}

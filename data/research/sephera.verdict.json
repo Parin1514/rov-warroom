@@ -1,0 +1,94 @@
+{
+  "hero": "sephera",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "sephera-001",
+      "verdict": "verified",
+      "reason": "สกิล Living Water (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/sephera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-002",
+      "verdict": "verified",
+      "reason": "สกิล Water Spirits (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/sephera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-003",
+      "verdict": "verified",
+      "reason": "สกิล Wall of Water (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/sephera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-004",
+      "verdict": "verified",
+      "reason": "สกิล Tide of Life (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/sephera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/sephera",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Protect, Secret ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "sephera-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Sephera",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "sephera-001",
+    "sephera-002",
+    "sephera-003",
+    "sephera-004",
+    "sephera-005",
+    "sephera-006",
+    "sephera-007",
+    "sephera-008",
+    "sephera-009",
+    "sephera-010"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "violet",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "violet-001",
+      "verdict": "verified",
+      "reason": "สกิล Reload (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/violet และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-002",
+      "verdict": "verified",
+      "reason": "สกิล Tactical Fire (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/violet และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-003",
+      "verdict": "verified",
+      "reason": "สกิล Fire in the Hole (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/violet และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-004",
+      "verdict": "verified",
+      "reason": "สกิล Concussive Rounds (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/violet และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-005",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน dragon ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/violet",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Rage, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "violet-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Violet",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "violet-001",
+    "violet-002",
+    "violet-003",
+    "violet-004",
+    "violet-005",
+    "violet-006",
+    "violet-007",
+    "violet-008",
+    "violet-009",
+    "violet-010"
+  ]
+}

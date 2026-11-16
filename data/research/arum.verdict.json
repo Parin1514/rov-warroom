@@ -1,0 +1,94 @@
+{
+  "hero": "arum",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "arum-001",
+      "verdict": "verified",
+      "reason": "สกิล Ravenous Beasts (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/arum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-002",
+      "verdict": "verified",
+      "reason": "สกิล Lion Tamer (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/arum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-003",
+      "verdict": "verified",
+      "reason": "สกิล Uncaged (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/arum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-004",
+      "verdict": "verified",
+      "reason": "สกิล Snare (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/arum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-005",
+      "verdict": "verified",
+      "reason": "บทบาท ซัพพอร์ต เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/arum",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Protect, Prowess ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "arum-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Arum",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "arum-001",
+    "arum-002",
+    "arum-003",
+    "arum-004",
+    "arum-005",
+    "arum-006",
+    "arum-007",
+    "arum-008",
+    "arum-009",
+    "arum-010"
+  ]
+}

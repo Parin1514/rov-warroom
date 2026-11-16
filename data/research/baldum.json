@@ -1,0 +1,138 @@
+{
+  "hero": "baldum",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "baldum-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Hulking: แท็ก [เพิ่มความเสียหาย]",
+      "quote": "Hulking",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Wild Charge: แท็ก [กายภาพ, ควบคุม] ใช้มานา 40",
+      "quote": "Wild Charge",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Wild Stomp: แท็ก [เวท, ลดความเสียหาย] คูลดาวน์ 5s ใช้มานา 40",
+      "quote": "Wild Stomp",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Wild Prison: แท็ก [กายภาพ, ควบคุม] ใช้มานา 100",
+      "quote": "Wild Prison",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Baldum เป็น แทงค์ ประจำเลน roam",
+      "quote": "แทงค์ roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำโดย Pro Player\": Ring of Terror, Glided Greaves, Gaia's Standard, Shield of the Lost, Medallion of Troy, Blade of Eternity",
+      "quote": "Ring of Terror / Glided Greaves / Gaia's Standard / Shield of the Lost / Medallion of Troy / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Prowess (green)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → River Treader → Nature's Gift → Nature's Rage / Lokheim → Devourer / Human → Arcane Whisper",
+      "quote": "Afata → River Treader → Nature's Gift → Nature's Rage / Lokheim → Devourer / Human → Arcane Whisper",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/baldum",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "baldum-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Baldum ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/baldum, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "baldum",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "baldum-001",
+      "verdict": "verified",
+      "reason": "สกิล Hulking (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/baldum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-002",
+      "verdict": "verified",
+      "reason": "สกิล Wild Charge (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/baldum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-003",
+      "verdict": "verified",
+      "reason": "สกิล Wild Stomp (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/baldum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-004",
+      "verdict": "verified",
+      "reason": "สกิล Wild Prison (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/baldum และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-005",
+      "verdict": "verified",
+      "reason": "บทบาท แทงค์ เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/baldum",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Protect, Prowess ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "baldum-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Baldum",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "baldum-001",
+    "baldum-002",
+    "baldum-003",
+    "baldum-004",
+    "baldum-005",
+    "baldum-006",
+    "baldum-007",
+    "baldum-008",
+    "baldum-009",
+    "baldum-010"
+  ]
+}

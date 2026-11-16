@@ -1,0 +1,138 @@
+{
+  "hero": "elsu",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "elsu-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Stalk: แท็ก [กายภาพ, ล่องหน]",
+      "quote": "Stalk",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Sentinel: แท็ก [เปิดแผนที่, เพิ่มความเสียหาย] คูลดาวน์ 1.5s ใช้มานา 30",
+      "quote": "Sentinel",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Snipe: แท็ก [กายภาพ, ลดความเร็ว] คูลดาวน์ 1.5s ใช้มานา 60",
+      "quote": "Snipe",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Disengage: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 100",
+      "quote": "Disengage",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Elsu เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": War Boots, Muramasa, Fafnir's Talon, Fenrir's Tooth, Bow of Slaughter, Blade of Eternity",
+      "quote": "War Boots / Muramasa / Fafnir's Talon / Fenrir's Tooth / Bow of Slaughter / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Rage / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Human → Reaper's Blessing → Gunslinger → Endless Cycle / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Human → Reaper's Blessing → Gunslinger → Endless Cycle / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elsu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elsu-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Elsu ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/elsu, ประกาศแพตช์ทางการ และ hero-details.json"
+}

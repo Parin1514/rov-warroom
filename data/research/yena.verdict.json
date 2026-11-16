@@ -1,0 +1,126 @@
+{
+  "hero": "yena",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "yena-001",
+      "verdict": "verified",
+      "reason": "สกิล Lunar Phase (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-002",
+      "verdict": "verified",
+      "reason": "สกิล Crescent Strike (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-003",
+      "verdict": "verified",
+      "reason": "สกิล Spinning Sickle (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-004",
+      "verdict": "verified",
+      "reason": "สกิล Full Moon (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-005",
+      "verdict": "verified",
+      "reason": "สกิล Lunar Phase (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-006",
+      "verdict": "verified",
+      "reason": "สกิล Lunar Strike (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-007",
+      "verdict": "verified",
+      "reason": "สกิล Advancing Moon (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-008",
+      "verdict": "verified",
+      "reason": "สกิล Half Moon (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yena และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-009",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/yena",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-010",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-011",
+      "verdict": "verified",
+      "reason": "ชุดรูน Onslaught, Protect, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-012",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-013",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yena-014",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Yena",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 14,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "yena-001",
+    "yena-002",
+    "yena-003",
+    "yena-004",
+    "yena-005",
+    "yena-006",
+    "yena-007",
+    "yena-008",
+    "yena-009",
+    "yena-010",
+    "yena-011",
+    "yena-012",
+    "yena-013",
+    "yena-014"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "krizzix",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "krizzix-001",
+      "verdict": "verified",
+      "reason": "สกิล Sneak Attack (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krizzix และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-002",
+      "verdict": "verified",
+      "reason": "สกิล In Plain Sight (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krizzix และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-003",
+      "verdict": "verified",
+      "reason": "สกิล Gravitational Pull (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krizzix และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-004",
+      "verdict": "verified",
+      "reason": "สกิล Concealment (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krizzix และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-005",
+      "verdict": "verified",
+      "reason": "บทบาท ซัพพอร์ต เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/krizzix",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Spirit, Prowess ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krizzix-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Krizzix",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "krizzix-001",
+    "krizzix-002",
+    "krizzix-003",
+    "krizzix-004",
+    "krizzix-005",
+    "krizzix-006",
+    "krizzix-007",
+    "krizzix-008",
+    "krizzix-009",
+    "krizzix-010"
+  ]
+}

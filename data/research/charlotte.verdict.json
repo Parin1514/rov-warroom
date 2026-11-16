@@ -1,0 +1,86 @@
+{
+  "hero": "charlotte",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "charlotte-001",
+      "verdict": "verified",
+      "reason": "สกิล Seven-Star Sword (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-002",
+      "verdict": "verified",
+      "reason": "สกิล Triangle Sword (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-003",
+      "verdict": "verified",
+      "reason": "สกิล Pierce Fountain (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-004",
+      "verdict": "verified",
+      "reason": "สกิล Sky-Breaking Saber (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-005",
+      "verdict": "verified",
+      "reason": "สกิล Triangle Sword (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-006",
+      "verdict": "verified",
+      "reason": "สกิล Pierce Fountain (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-007",
+      "verdict": "verified",
+      "reason": "สกิล Sky-Breaking Saber (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-008",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "charlotte-009",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Charlotte",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 9,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "charlotte-001",
+    "charlotte-002",
+    "charlotte-003",
+    "charlotte-004",
+    "charlotte-005",
+    "charlotte-006",
+    "charlotte-007",
+    "charlotte-008",
+    "charlotte-009"
+  ]
+}

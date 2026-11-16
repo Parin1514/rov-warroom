@@ -1,0 +1,102 @@
+{
+  "hero": "tachi",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "tachi-001",
+      "verdict": "verified",
+      "reason": "สกิล Spellbound (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tachi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-002",
+      "verdict": "verified",
+      "reason": "สกิล Moon Pierce (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tachi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-003",
+      "verdict": "verified",
+      "reason": "สกิล Browbeat (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tachi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-004",
+      "verdict": "verified",
+      "reason": "สกิล Cliff Breaker (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tachi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-005",
+      "verdict": "verified",
+      "reason": "สกิล Moon Pierce - Full (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tachi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-006",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/tachi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-007",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-008",
+      "verdict": "verified",
+      "reason": "ชุดรูน Awake, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-009",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-010",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tachi-011",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Tachi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 11,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "tachi-001",
+    "tachi-002",
+    "tachi-003",
+    "tachi-004",
+    "tachi-005",
+    "tachi-006",
+    "tachi-007",
+    "tachi-008",
+    "tachi-009",
+    "tachi-010",
+    "tachi-011"
+  ]
+}

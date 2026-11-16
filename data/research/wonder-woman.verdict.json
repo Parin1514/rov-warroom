@@ -1,0 +1,102 @@
+{
+  "hero": "wonder-woman",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "wonder-woman-001",
+      "verdict": "verified",
+      "reason": "สกิล Amazon Shield (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wonder-woman และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-002",
+      "verdict": "verified",
+      "reason": "สกิล Sword & Shield (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wonder-woman และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-003",
+      "verdict": "verified",
+      "reason": "สกิล Lasso of Truth (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wonder-woman และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-004",
+      "verdict": "verified",
+      "reason": "สกิล Bracelets of Submission (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wonder-woman และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-005",
+      "verdict": "verified",
+      "reason": "สกิล Sword & Shield (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wonder-woman และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-006",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/wonder-woman",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-007",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-008",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-009",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-010",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wonder-woman-011",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Wonder Woman",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 11,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "wonder-woman-001",
+    "wonder-woman-002",
+    "wonder-woman-003",
+    "wonder-woman-004",
+    "wonder-woman-005",
+    "wonder-woman-006",
+    "wonder-woman-007",
+    "wonder-woman-008",
+    "wonder-woman-009",
+    "wonder-woman-010",
+    "wonder-woman-011"
+  ]
+}

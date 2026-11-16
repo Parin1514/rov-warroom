@@ -1,0 +1,138 @@
+{
+  "hero": "lauriel",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "lauriel-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Divine Punishment: แท็ก [จริง, ลดความเร็ว]",
+      "quote": "Divine Punishment",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Holy Light: แท็ก [ความเสียหายหมู่, เวท] คูลดาวน์ 5s ใช้มานา 50",
+      "quote": "Holy Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Blink: แท็ก [เคลื่อนที่, เวท] คูลดาวน์ 10s ใช้มานา 50",
+      "quote": "Blink",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Smite: แท็ก [พิเศษ, เวท] ใช้มานา 80",
+      "quote": "Smite",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Lauriel เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"ไอเทมแนะนำ 1\": Rhea's Blessing, Glided Greaves, Berith's Agony, Boomstick, Shield of the Lost, Holy of Holies",
+      "quote": "Rhea's Blessing / Glided Greaves / Berith's Agony / Boomstick / Shield of the Lost / Holy of Holies",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Secret (green)",
+      "quote": "Desolate / Spirit / Secret",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Holy Thunder / Human → Mark of Frost / Afata → River Treader",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Holy Thunder / Human → Mark of Frost / Afata → River Treader",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lauriel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lauriel-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Lauriel ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/lauriel, ประกาศแพตช์ทางการ และ hero-details.json"
+}

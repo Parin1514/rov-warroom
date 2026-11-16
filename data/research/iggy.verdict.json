@@ -1,0 +1,94 @@
+{
+  "hero": "iggy",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "iggy-001",
+      "verdict": "verified",
+      "reason": "สกิล Gaze (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/iggy และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-002",
+      "verdict": "verified",
+      "reason": "สกิล Explosive Fireball (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/iggy และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-003",
+      "verdict": "verified",
+      "reason": "สกิล Fire Shadow (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/iggy และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-004",
+      "verdict": "verified",
+      "reason": "สกิล Eye of Ember (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/iggy และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/iggy",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Secret ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "iggy-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Iggy",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "iggy-001",
+    "iggy-002",
+    "iggy-003",
+    "iggy-004",
+    "iggy-005",
+    "iggy-006",
+    "iggy-007",
+    "iggy-008",
+    "iggy-009",
+    "iggy-010"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "hero": "keera",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "keera-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Dark Tides: แท็ก [เพิ่มความเสียหาย]",
+      "quote": "Dark Tides",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Umbra Dream: แท็ก [เวท, ดูด] ใช้มานา 40",
+      "quote": "Umbra Dream",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Triangle Maze: แท็ก [เวท, ไม่ตกเป็นเป้าหมาย] ใช้มานา 60",
+      "quote": "Triangle Maze",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Fading Phantom: แท็ก [พิเศษ, เพิ่มความเร็ว] ใช้มานา 100",
+      "quote": "Fading Phantom",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Keera เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Jungle\": Loki's Curse, Hermes' Select, Boomstick, Hecate's Diadem, Rhea's Blessing, Arctic Orb",
+      "quote": "Loki's Curse / Hermes' Select / Boomstick / Hecate's Diadem / Rhea's Blessing / Arctic Orb",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Holy Thunder / Human → Reaper's Blessing / Human → Gunslinger",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Holy Thunder / Human → Reaper's Blessing / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/keera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "keera-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Keera ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/keera, ประกาศแพตช์ทางการ และ hero-details.json"
+}

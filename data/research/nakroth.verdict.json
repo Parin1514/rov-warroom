@@ -1,0 +1,94 @@
+{
+  "hero": "nakroth",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "nakroth-001",
+      "verdict": "verified",
+      "reason": "สกิล Dread Judge (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/nakroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-002",
+      "verdict": "verified",
+      "reason": "สกิล Jury Fury (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/nakroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-003",
+      "verdict": "verified",
+      "reason": "สกิล Death Sentence (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/nakroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-004",
+      "verdict": "verified",
+      "reason": "สกิล Judgment's Blade (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/nakroth และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-005",
+      "verdict": "verified",
+      "reason": "บทบาท แอสซาซิน เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/nakroth",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Rage, Spirit, Essense Reaver ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Punish ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "nakroth-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Nakroth",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "nakroth-001",
+    "nakroth-002",
+    "nakroth-003",
+    "nakroth-004",
+    "nakroth-005",
+    "nakroth-006",
+    "nakroth-007",
+    "nakroth-008",
+    "nakroth-009",
+    "nakroth-010"
+  ]
+}

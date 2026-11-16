@@ -1,0 +1,94 @@
+{
+  "hero": "veera",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "veera-001",
+      "verdict": "verified",
+      "reason": "สกิล Come Hither (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/veera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-002",
+      "verdict": "verified",
+      "reason": "สกิล Hell Bat (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/veera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-003",
+      "verdict": "verified",
+      "reason": "สกิล Kisses (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/veera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-004",
+      "verdict": "verified",
+      "reason": "สกิล Little Friends (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/veera และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/veera",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "veera-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Veera",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "veera-001",
+    "veera-002",
+    "veera-003",
+    "veera-004",
+    "veera-005",
+    "veera-006",
+    "veera-007",
+    "veera-008",
+    "veera-009",
+    "veera-010"
+  ]
+}

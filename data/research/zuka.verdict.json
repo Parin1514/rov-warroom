@@ -1,0 +1,94 @@
+{
+  "hero": "zuka",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "zuka-001",
+      "verdict": "verified",
+      "reason": "สกิล The Chi (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zuka และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-002",
+      "verdict": "verified",
+      "reason": "สกิล Pain on a Stick (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zuka และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-003",
+      "verdict": "verified",
+      "reason": "สกิล Panda Chariot (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zuka และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-004",
+      "verdict": "verified",
+      "reason": "สกิล Skyfall (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zuka และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/zuka",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Onslaught, Assassinate, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zuka-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Zuka",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "zuka-001",
+    "zuka-002",
+    "zuka-003",
+    "zuka-004",
+    "zuka-005",
+    "zuka-006",
+    "zuka-007",
+    "zuka-008",
+    "zuka-009",
+    "zuka-010"
+  ]
+}

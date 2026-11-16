@@ -1,0 +1,138 @@
+{
+  "hero": "quillen",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "quillen-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Ambush: แท็ก [พิเศษ, เพิ่มความเสียหาย]",
+      "quote": "Ambush",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Mutilate: แท็ก [กายภาพ] ใช้มานา 0",
+      "quote": "Mutilate",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Decimate: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 0",
+      "quote": "Decimate",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Assassinate: แท็ก [ล่องหน, เพิ่มความเร็ว] ใช้มานา 0",
+      "quote": "Assassinate",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Quillen เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Soulreaver, Glided Greaves, Claves Sancti, Broken Spear, Omni Arms, Fenrir's Tooth",
+      "quote": "Soulreaver / Glided Greaves / Claves Sancti / Broken Spear / Omni Arms / Fenrir's Tooth",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rampage (red), Assassinate (purple), Dragon's Claw (green)",
+      "quote": "Rampage / Assassinate / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Devourer → Deadly Claw → Desperate duel / Veda → Axe of Sacrifice / Veda → Holy Verdic",
+      "quote": "Lokheim → Devourer → Deadly Claw → Desperate duel / Veda → Axe of Sacrifice / Veda → Holy Verdic",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/quillen",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "quillen-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Quillen ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/quillen, ประกาศแพตช์ทางการ และ hero-details.json"
+}

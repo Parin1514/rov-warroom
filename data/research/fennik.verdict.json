@@ -1,0 +1,94 @@
+{
+  "hero": "fennik",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "fennik-001",
+      "verdict": "verified",
+      "reason": "สกิล Hidden Weapons (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/fennik และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-002",
+      "verdict": "verified",
+      "reason": "สกิล Thief's Mark (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/fennik และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-003",
+      "verdict": "verified",
+      "reason": "สกิล Rolling Lightning (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/fennik และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-004",
+      "verdict": "verified",
+      "reason": "สกิล Chain Hammer Cyclone (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/fennik และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-005",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/fennik",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Awake, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "fennik-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศทางการ hotfix261117 ระบุการปรับสมดุลสำหรับ Fennik",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "fennik-001",
+    "fennik-002",
+    "fennik-003",
+    "fennik-004",
+    "fennik-005",
+    "fennik-006",
+    "fennik-007",
+    "fennik-008",
+    "fennik-009",
+    "fennik-010"
+  ]
+}

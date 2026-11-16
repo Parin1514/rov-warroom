@@ -1,0 +1,138 @@
+{
+  "hero": "kilgroth",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "kilgroth-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ The Fanatic: แท็ก [บัฟ]",
+      "quote": "The Fanatic",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Sea Spear: แท็ก [เคลื่อนที่, กายภาพ] ใช้มานา 50",
+      "quote": "Sea Spear",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Enraged Spear: แท็ก [เพิ่มความเสียหาย, เวท] คูลดาวน์ 9s ใช้มานา 50",
+      "quote": "Enraged Spear",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Warlord of Gore: แท็ก [กันสถานะ, บัฟ] ใช้มานา 120",
+      "quote": "Warlord of Gore",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Kil'Groth เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Sonic Boots, Fafnir's Talon, Broken Spear, Hercules's Madness, Hyoga's Edge, Blade of Eternity",
+      "quote": "Sonic Boots / Fafnir's Talon / Broken Spear / Hercules's Madness / Hyoga's Edge / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Golden Body / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Devourer → Deadly Claw → Devil's Awakening / Afata → Tower Blessing / Afata → Regrowth",
+      "quote": "Lokheim → Devourer → Deadly Claw → Devil's Awakening / Afata → Tower Blessing / Afata → Regrowth",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/kilgroth",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "kilgroth-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Kil'Groth ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/kilgroth, ประกาศแพตช์ทางการ และ hero-details.json"
+}

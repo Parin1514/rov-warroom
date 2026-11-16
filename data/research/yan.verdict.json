@@ -1,0 +1,118 @@
+{
+  "hero": "yan",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "yan-001",
+      "verdict": "verified",
+      "reason": "สกิล Flash of Inspiration (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yan และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-002",
+      "verdict": "verified",
+      "reason": "สกิล Splash Ink (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yan และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-003",
+      "verdict": "verified",
+      "reason": "สกิล Coiling Dragon (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yan และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-004",
+      "verdict": "verified",
+      "reason": "สกิล Crushing Mountain (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yan และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-005",
+      "verdict": "verified",
+      "reason": "สกิล Splash Ink (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yan และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-006",
+      "verdict": "verified",
+      "reason": "สกิล Coiling Dragon (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yan และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-007",
+      "verdict": "verified",
+      "reason": "สกิล Crushing Mountain (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/yan และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-008",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/yan",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-009",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-010",
+      "verdict": "verified",
+      "reason": "ชุดรูน Awake, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-011",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-012",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yan-013",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Yan",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 13,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "yan-001",
+    "yan-002",
+    "yan-003",
+    "yan-004",
+    "yan-005",
+    "yan-006",
+    "yan-007",
+    "yan-008",
+    "yan-009",
+    "yan-010",
+    "yan-011",
+    "yan-012",
+    "yan-013"
+  ]
+}

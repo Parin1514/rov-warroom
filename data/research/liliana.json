@@ -1,0 +1,177 @@
+{
+  "hero": "liliana",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "liliana-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Fox Form: แท็ก [พิเศษ, เวท]",
+      "quote": "Fox Form",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Shining Light: แท็ก [ความเสียหายหมู่, เวท] คูลดาวน์ 6s ใช้มานา 40",
+      "quote": "Shining Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Foxtrot: แท็ก [ความเสียหายหมู่, เวท] คูลดาวน์ 6s ใช้มานา 40",
+      "quote": "Foxtrot",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Blinding Light: แท็ก [สตั้น, เวท] ใช้มานา 50",
+      "quote": "Blinding Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Leap of the Fox: แท็ก [เคลื่อนที่, เวท] ใช้มานา 50",
+      "quote": "Leap of the Fox",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-006",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Unpredictable: แท็ก [แปลงร่าง, เวท] คูลดาวน์ 7s ใช้มานา 40",
+      "quote": "Unpredictable",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-007",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Unpredictable: แท็ก [แปลงร่าง, เวท] คูลดาวน์ 7s ใช้มานา 40",
+      "quote": "Unpredictable",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-008",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Liliana เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-009",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำโดย Pro Player\": Orb of the Magi, Glided Greaves, Boomstick, Hecate's Diadem, Rhea's Blessing, Arctic Orb",
+      "quote": "Orb of the Magi / Glided Greaves / Boomstick / Hecate's Diadem / Rhea's Blessing / Arctic Orb",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-010",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-011",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Veda → Sacred Bead → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-012",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/liliana",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "liliana-013",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Liliana ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/liliana, ประกาศแพตช์ทางการ และ hero-details.json"
+}

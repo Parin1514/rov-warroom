@@ -1,0 +1,85 @@
+{
+  "hero": "moren",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (ชุดสกิล Rework ตาม Beta ล่าสุด)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "moren-001",
+      "type": "skill",
+      "text": "พาสซีฟ Millada Specialty: การโจมตีปกติของ Moren สามารถโจมตีเป็นวงกว้าง ลูกกระสุนปกติและลูกกระสุนพิเศษจะสร้างโบนัสความเสียหายกายภาพเท่ากับ 1% พลังชีวิตสูงสุดของเป้าหมาย เมื่อโจมตีบนพื้น ลูกกระสุนสามารถถูกบล็อคโดยฮีโร่ฝ่ายศัตรูได้",
+      "quote": "การโจมตีปกติของ Moren สามารถโจมตีเป็นวงกว้าง ลูกกระสุนปกติและลูกกระสุนพิเศษจะสร้างโบนัส ความเสียหายกายภาพ เท่ากับ 1% พลังชีวิตสูงสุดของเป้าหมาย",
+      "source": {"url": "https://rovguide.com/th/heroes/moren", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-002",
+      "type": "skill",
+      "text": "สกิล 1 Over-Load: Moren โหลดกระสุนเพื่อเสริมพลังให้การโจมตีปกติ 3 ครั้งถัดไป การโจมตีพิเศษเป็นการโจมตีวงกว้างที่มีระยะไกลขึ้น และสร้างโบนัสความเสียหายกายภาพ 200 (+60% โบนัส AD) หน่วย (คูลดาวน์ 5s)",
+      "quote": "Moren โหลดกระสุนเพื่อเสริมพลังให้การโจมตีปกติ 3 ครั้งถัดไป การโจมตีพิเศษเป็นการโจมตีวงกว้างที่มีระยะไกลขึ้น และจะสร้างโบนัส ความเสียหายกายภาพ 200 (+ 60% โบนัส AD) หน่วย",
+      "source": {"url": "https://rovguide.com/th/heroes/moren", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-003",
+      "type": "skill",
+      "text": "สกิล 2 Winning Shot: Moren ขว้างระเบิดควันเพื่อสร้างม่านควัน ให้ตัวเองและเพื่อนร่วมทีมได้รับเอฟเฟกต์ล่องหนเป็นเวลา 3.5 วิ แรงระเบิดส่ง Moren พุ่งขึ้นไปในอากาศได้รับเอฟเฟกต์เพิ่มความเร็ว 0.8 วิ ในช่วงลอยตัวสามารถเคลื่อนที่ โจมตีปกติ หรือใช้สกิลได้ และการโจมตีหรือใช้สกิลขณะลอยอยู่จะยืดระยะเวลาการลอยให้นานขึ้น (คูลดาวน์ 10s)",
+      "quote": "Moren ขว้างระเบิดควันเพื่อสร้างม่านควัน ให้ตัวเองและเพื่อนร่วมทีมได้รับเอฟเฟกต์ล่องหนเป็นเวลา 3.5 วิ ขณะนี้ Moren ใช้แรงระเบิดพุ่งขึ้นไปในอากาศ... ในช่วงลอยตัวเขาสามารถเคลื่อนที่ โจมตีปกติ หรือใช้สกิล",
+      "source": {"url": "https://rovguide.com/th/heroes/moren", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-004",
+      "type": "skill",
+      "text": "อัลติเมต Bomb Bundle: Moren พุ่งขึ้นไปในอากาศและป้องกันสถานะชั่วคราว ล็อกเป้าหมายฮีโร่ฝ่ายศัตรู 1 คน และระดมยิงกระสุน 5 นัดใส่เป้าหมาย แต่ละนัดสร้างความเสียหายกายภาพ 450 (+120% โบนัส AD) (+6% พลังชีวิตที่เป้าหมายเสีย) แก่ศัตรูในระยะ หากเป้าหมายเดียวกันถูกโจมตีซ้ำ ดาเมจจากกระสุนที่ตามมาลดเหลือ 25%",
+      "quote": "Moren พุ่งขึ้นไปในอากาศและป้องกันสถานะชั่วคราว ล็อกเป้าหมายฮีโร่ฝ่ายศัตรู 1 คน และระดมยิงกระสุน 5 นัดใส่เป้าหมาย แต่ละนัดสร้าง ความเสียหายกายภาพ 450 (+ 120% โบนัส AD) (+ 6% พลังชีวิตที่เป้าหมายเสีย)",
+      "source": {"url": "https://rovguide.com/th/heroes/moren", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-005",
+      "type": "patch-change",
+      "text": "หน้าฮีโร่ทางการ Garena (rov.in.th/hero/moren) ยังคงแสดงชื่อสกิลชุดเดิมก่อน Rework (Precision, Tactical Maneuver, Impact Barrage, Magnetic Storm) ขัดแย้งกับข้อมูลในเกมปัจจุบันและ hero-details.json ที่ปรับปรุงเป็นชุด Millada Specialty / Over-Load / Winning Shot / Bomb Bundle",
+      "quote": "Precision ... Tactical Maneuver ... Impact Barrage ... Magnetic Storm",
+      "source": {"url": "https://www.rov.in.th/hero/moren", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "moren-006",
+      "type": "playstyle",
+      "text": "บทบาททางการของ Moren คือ Carry (เลนมังกร Abyssal Dragon Lane) โจมตีกายภาพระยะไกล",
+      "quote": "Role Carry Precision",
+      "source": {"url": "https://www.rov.in.th/hero/moren", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-007",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการใน hero-details.json: Firestorm Bow, Glided Greaves, Omni Arms, Muramasa, Claves Sancti, Blade of Eternity",
+      "quote": "Firestorm Bow / Glided Greaves / Omni Arms / Muramasa / Claves Sancti / Blade of Eternity",
+      "source": {"url": "https://www.rov.in.th/hero/moren", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-008",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (แดง), Spirit (ม่วง), Dragon's Claw (เขียว)",
+      "quote": "Rage / Spirit / Dragon's Claw",
+      "source": {"url": "https://www.rov.in.th/hero/moren", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-009",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda (Axe of Sacrifice, Holy Verdic, Holy Summoner) เสริมด้วย Human (Reaper's Blessing, Gunslinger)",
+      "quote": "Veda: Axe of Sacrifice, Holy Verdic, Holy Summoner / Human: Reaper's Blessing, Gunslinger",
+      "source": {"url": "https://www.rov.in.th/hero/moren", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-010",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการ: Flicker",
+      "quote": "Flicker",
+      "source": {"url": "https://www.rov.in.th/hero/moren", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "moren-011",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026 และ 30 ต.ค. 2026 ไม่มีการปรับ Moren",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261104", "kind": "official", "date": "2026-11-04", "transcript": true, "stale": false}
+    }
+  ],
+  "notes": "Moren ได้รับการ Rework สกิลใหม่ทั้งหมด: หน้าทางการ Garena rov.in.th/hero/moren ยังเป็นชุดดั้งเดิม (stale) ขณะที่ src/hero-details.json และ rovguide สอดคล้องกันในชุดสกิลใหม่ (Millada Specialty, Over-Load, Winning Shot, Bomb Bundle). ให้ยึดชุดสกิลใหม่ตาม hero-details.json ที่อัปเดตแล้ว"
+}

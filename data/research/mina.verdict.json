@@ -1,0 +1,94 @@
+{
+  "hero": "mina",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "mina-001",
+      "verdict": "verified",
+      "reason": "สกิล Sweet Revenge (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/mina และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-002",
+      "verdict": "verified",
+      "reason": "สกิล Whirling Scythe (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/mina และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-003",
+      "verdict": "verified",
+      "reason": "สกิล Death Scythe (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/mina และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-004",
+      "verdict": "verified",
+      "reason": "สกิล Dark Dominion (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/mina และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-005",
+      "verdict": "verified",
+      "reason": "บทบาท แทงค์ เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/mina",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Protect, Prowess ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "mina-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Mina",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "mina-001",
+    "mina-002",
+    "mina-003",
+    "mina-004",
+    "mina-005",
+    "mina-006",
+    "mina-007",
+    "mina-008",
+    "mina-009",
+    "mina-010"
+  ]
+}

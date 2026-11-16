@@ -1,0 +1,94 @@
+{
+  "hero": "lu-bu",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "lu-bu-001",
+      "verdict": "verified",
+      "reason": "สกิล Tyrant (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lu-bu และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-002",
+      "verdict": "verified",
+      "reason": "สกิล Red Stallion (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lu-bu และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-003",
+      "verdict": "verified",
+      "reason": "สกิล Impale (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lu-bu และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-004",
+      "verdict": "verified",
+      "reason": "สกิล Conqueror (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lu-bu และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/lu-bu",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lu-bu-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Lu Bu",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "lu-bu-001",
+    "lu-bu-002",
+    "lu-bu-003",
+    "lu-bu-004",
+    "lu-bu-005",
+    "lu-bu-006",
+    "lu-bu-007",
+    "lu-bu-008",
+    "lu-bu-009",
+    "lu-bu-010"
+  ]
+}

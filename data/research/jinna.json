@@ -1,0 +1,138 @@
+{
+  "hero": "jinna",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "jinna-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Samsara: แท็ก [เวท]",
+      "quote": "Samsara",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Battering Beads: แท็ก [เวท, ฮีล] ใช้มานา 70",
+      "quote": "Battering Beads",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Sutra of Pain: แท็ก [เวท, ลดความเร็ว] ใช้มานา 70",
+      "quote": "Sutra of Pain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Nirvana: แท็ก [เวท, ความเสียหายหมู่] ใช้มานา 100",
+      "quote": "Nirvana",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Jinna เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Orb of the Magi, Glided Greaves, Soaring Aura, Rhea's Blessing, Hecate's Diadem, Holy of Holies",
+      "quote": "Orb of the Magi / Glided Greaves / Soaring Aura / Rhea's Blessing / Hecate's Diadem / Holy of Holies",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Blessing → Sacred Protection / Human → Mark of Frost / Lokheim → Raging Inferno",
+      "quote": "Veda → Mana Refill → Blessing → Sacred Protection / Human → Mark of Frost / Lokheim → Raging Inferno",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/jinna",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "jinna-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Jinna ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/jinna, ประกาศแพตช์ทางการ และ hero-details.json"
+}

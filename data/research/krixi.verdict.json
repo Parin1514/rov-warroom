@@ -1,0 +1,94 @@
+{
+  "hero": "krixi",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "krixi-001",
+      "verdict": "verified",
+      "reason": "สกิล Flutter (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krixi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-002",
+      "verdict": "verified",
+      "reason": "สกิล Mischief (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krixi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-003",
+      "verdict": "verified",
+      "reason": "สกิล Nature's Wrath (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krixi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-004",
+      "verdict": "verified",
+      "reason": "สกิล Moonfall (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/krixi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/krixi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "krixi-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Krixi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "krixi-001",
+    "krixi-002",
+    "krixi-003",
+    "krixi-004",
+    "krixi-005",
+    "krixi-006",
+    "krixi-007",
+    "krixi-008",
+    "krixi-009",
+    "krixi-010"
+  ]
+}

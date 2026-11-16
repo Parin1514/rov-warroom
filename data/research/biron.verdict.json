@@ -1,0 +1,62 @@
+{
+  "hero": "biron",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "biron-001",
+      "verdict": "verified",
+      "reason": "สกิล Energy Charge (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "biron-002",
+      "verdict": "verified",
+      "reason": "สกิล Hammer Bash (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "biron-003",
+      "verdict": "verified",
+      "reason": "สกิล Electro Drift (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "biron-004",
+      "verdict": "verified",
+      "reason": "สกิล Magnetic Impact (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "biron-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "biron-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Biron",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "biron-001",
+    "biron-002",
+    "biron-003",
+    "biron-004",
+    "biron-005",
+    "biron-006"
+  ]
+}

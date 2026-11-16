@@ -1,0 +1,151 @@
+{
+  "hero": "lorion",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "lorion-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Eternal: แท็ก [เวท, ฮีล]",
+      "quote": "Eternal",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Here's What I Think: แท็ก [ลดความเร็ว, เวท] ใช้มานา 60",
+      "quote": "Here's What I Think",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Darkness Falls: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 4s ใช้มานา 70",
+      "quote": "Darkness Falls",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Darkness Falls: แท็ก [เคลื่อนที่, เวท] คูลดาวน์ 4s ใช้มานา 70",
+      "quote": "Darkness Falls",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Starry Night: แท็ก [ควบคุม, เวท] ใช้มานา 125",
+      "quote": "Starry Night",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-006",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Lorion เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-007",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Mid Lane\": Glided Greaves, Berith's Agony, Soul Scroll, Arctic Orb, Hecate's Diadem, Staff of Nuul",
+      "quote": "Glided Greaves / Berith's Agony / Soul Scroll / Arctic Orb / Hecate's Diadem / Staff of Nuul",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-008",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-009",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Holy Verdic → Holy Thunder / Human → Mark of Frost / Human → Gunslinger",
+      "quote": "Veda → Axe of Sacrifice → Holy Verdic → Holy Thunder / Human → Mark of Frost / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-010",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lorion",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lorion-011",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Lorion ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/lorion, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,138 @@
+{
+  "hero": "zill",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "zill-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Dustdevil: แท็ก [เวท]",
+      "quote": "Dustdevil",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Wind Blade: แท็ก [เวท, ลดความเร็ว] คูลดาวน์ 5s ใช้มานา 30",
+      "quote": "Wind Blade",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Wind Shift: แท็ก [เวท, เคลื่อนที่] ใช้มานา 40",
+      "quote": "Wind Shift",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Tornado: แท็ก [เวท, ไม่ตกเป็นเป้าหมาย] ใช้มานา 100",
+      "quote": "Tornado",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Zill เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Loki's Curse, Enchanted Kicks, Hecate's Diadem, Rhea's Blessing, Staff of Nuul, Arctic Orb",
+      "quote": "Loki's Curse / Enchanted Kicks / Hecate's Diadem / Rhea's Blessing / Staff of Nuul / Arctic Orb",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Stain (green)",
+      "quote": "Awake / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Raging Inferno → Deadly Claw → Curse of Death / Veda → Axe of Sacrifice / Human → Reaper's Blessing",
+      "quote": "Lokheim → Raging Inferno → Deadly Claw → Curse of Death / Veda → Axe of Sacrifice / Human → Reaper's Blessing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/zill",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "zill-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Zill ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/zill, ประกาศแพตช์ทางการ และ hero-details.json"
+}

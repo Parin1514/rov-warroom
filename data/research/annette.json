@@ -1,0 +1,138 @@
+{
+  "hero": "annette",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "annette-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Whisperwind: แท็ก [พิเศษ, เพิ่มความเร็ว]",
+      "quote": "Whisperwind",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Gust Force: แท็ก [เวท, ลดความเร็ว] คูลดาวน์ 10s ใช้มานา 40",
+      "quote": "Gust Force",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Wind Cuffs: แท็ก [เวท, ป้องกัน] ใช้มานา 60",
+      "quote": "Wind Cuffs",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Hurricane Wall: แท็ก [เวท, ผลักถอยหลัง] ใช้มานา 120",
+      "quote": "Hurricane Wall",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Annette เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Glided Greaves, Ring of Terror, Berith's Agony, The Aegis, Gaia's Standard, Mail of Pain",
+      "quote": "Glided Greaves / Ring of Terror / Berith's Agony / The Aegis / Gaia's Standard / Mail of Pain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Prowess (green)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → Backstabbing → Regrowth → Forest Wanderer / Lokheim → Raging Inferno / Veda → Sacred Bead",
+      "quote": "Afata → Backstabbing → Regrowth → Forest Wanderer / Lokheim → Raging Inferno / Veda → Sacred Bead",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Sprint",
+      "quote": "Sprint",
+      "source": {
+        "url": "https://www.rov.in.th/hero/annette",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "annette-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Annette ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/annette, ประกาศแพตช์ทางการ และ hero-details.json"
+}

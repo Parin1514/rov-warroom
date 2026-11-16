@@ -1,0 +1,138 @@
+{
+  "hero": "ata",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "ata-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Child of the Sea: แท็ก [กายภาพ, พิเศษ]",
+      "quote": "Child of the Sea",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Wavewalking: แท็ก [กายภาพ, ลอยขึ้น] คูลดาวน์ 7.5 (-0.3/LV)s ใช้มานา 0",
+      "quote": "Wavewalking",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Sea Anchor: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 0",
+      "quote": "Sea Anchor",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Ghost Ship: แท็ก [กายภาพ, พิเศษ] ใช้มานา 0",
+      "quote": "Ghost Ship",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Ata เป็น แทงค์ ประจำเลน slayer",
+      "quote": "แทงค์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Support\": Poseidon Emblem, Glided Greaves, Frost Cape, Gaia's Standard, Mail of Pain, Blade of Eternity",
+      "quote": "Poseidon Emblem / Glided Greaves / Frost Cape / Gaia's Standard / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Dragon's Claw (green)",
+      "quote": "Golden Body / Protect / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Devourer → Bone Cutter → Desperate duel / Human → Reaper's Blessing / Human → Gunslinger",
+      "quote": "Lokheim → Devourer → Bone Cutter → Desperate duel / Human → Reaper's Blessing / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ata",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ata-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Ata ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/ata, ประกาศแพตช์ทางการ และ hero-details.json"
+}

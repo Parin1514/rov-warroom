@@ -1,0 +1,94 @@
+{
+  "hero": "aleister",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "aleister-001",
+      "verdict": "verified",
+      "reason": "สกิล Wicked Plot (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aleister และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-002",
+      "verdict": "verified",
+      "reason": "สกิล Magic Barrier (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aleister และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-003",
+      "verdict": "verified",
+      "reason": "สกิล Matrix of Woe (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aleister และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-004",
+      "verdict": "verified",
+      "reason": "สกิล Magic Prison (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aleister และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/aleister",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Protect, Secret ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aleister-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Aleister",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "aleister-001",
+    "aleister-002",
+    "aleister-003",
+    "aleister-004",
+    "aleister-005",
+    "aleister-006",
+    "aleister-007",
+    "aleister-008",
+    "aleister-009",
+    "aleister-010"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "wisp",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "wisp-001",
+      "verdict": "verified",
+      "reason": "สกิล Ignite (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wisp และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-002",
+      "verdict": "verified",
+      "reason": "สกิล Loose Cannon (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wisp และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-003",
+      "verdict": "verified",
+      "reason": "สกิล Barrel Bomb (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wisp และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-004",
+      "verdict": "verified",
+      "reason": "สกิล Shock and Awe (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/wisp และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-005",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน dragon ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/wisp",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Awake, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "wisp-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Wisp",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "wisp-001",
+    "wisp-002",
+    "wisp-003",
+    "wisp-004",
+    "wisp-005",
+    "wisp-006",
+    "wisp-007",
+    "wisp-008",
+    "wisp-009",
+    "wisp-010"
+  ]
+}

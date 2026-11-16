@@ -1,0 +1,94 @@
+{
+  "hero": "zephys",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "zephys-001",
+      "verdict": "verified",
+      "reason": "สกิล Deathless (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zephys และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-002",
+      "verdict": "verified",
+      "reason": "สกิล Death Rift (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zephys และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-003",
+      "verdict": "verified",
+      "reason": "สกิล Death's Flurry (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zephys และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-004",
+      "verdict": "verified",
+      "reason": "สกิล Death from Above (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zephys และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/zephys",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Protect, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Punish ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zephys-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Zephys",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "zephys-001",
+    "zephys-002",
+    "zephys-003",
+    "zephys-004",
+    "zephys-005",
+    "zephys-006",
+    "zephys-007",
+    "zephys-008",
+    "zephys-009",
+    "zephys-010"
+  ]
+}

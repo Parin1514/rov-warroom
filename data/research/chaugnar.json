@@ -1,0 +1,138 @@
+{
+  "hero": "chaugnar",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "chaugnar-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Faithful Herald: แท็ก [เพิ่มความเร็ว]",
+      "quote": "Faithful Herald",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Energy Surge: แท็ก [เวท, ลดความเร็ว] คูลดาวน์ 8s ใช้มานา 60",
+      "quote": "Energy Surge",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Shock Wave: แท็ก [เวท, ลดความเสียหาย] ใช้มานา 40",
+      "quote": "Shock Wave",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Chaos Protection: แท็ก [ล้างสถานะ, ป้องกัน] ใช้มานา 100",
+      "quote": "Chaos Protection",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Chaugnar เป็น แทงค์ ประจำเลน roam",
+      "quote": "แทงค์ roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำโดย Pro Player\": Ring of Terror, Sonic Boots, Berith's Agony, Shield of the Lost, Gaia's Standard, Medallion of Troy",
+      "quote": "Ring of Terror / Sonic Boots / Berith's Agony / Shield of the Lost / Gaia's Standard / Medallion of Troy",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Prowess (green)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → River Treader → Nature's Gift → Explosive Shield / Lokheim → Devourer / Veda → Sacred Bead",
+      "quote": "Afata → River Treader → Nature's Gift → Explosive Shield / Lokheim → Devourer / Veda → Sacred Bead",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/chaugnar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "chaugnar-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Chaugnar ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/chaugnar, ประกาศแพตช์ทางการ และ hero-details.json"
+}

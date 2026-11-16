@@ -1,0 +1,138 @@
+{
+  "hero": "sephera",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "sephera-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Living Water: แท็ก [เวท, ฮีล]",
+      "quote": "Living Water",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Water Spirits: แท็ก [เวท, ลดความเร็ว] คูลดาวน์ 5s ใช้มานา 50",
+      "quote": "Water Spirits",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Wall of Water: แท็ก [เวท, สตั้น] คูลดาวน์ 13s ใช้มานา 75",
+      "quote": "Wall of Water",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Tide of Life: แท็ก [เวท, ไม่ตกเป็นเป้าหมาย] คูลดาวน์ 60s ใช้มานา 100",
+      "quote": "Tide of Life",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Sephera เป็น เมจ ประจำเลน roam",
+      "quote": "เมจ roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Orb of the Magi, Glided Greaves, Apocalypse, Hecate's Diadem, Medallion of Troy, Arctic Orb",
+      "quote": "Orb of the Magi / Glided Greaves / Apocalypse / Hecate's Diadem / Medallion of Troy / Arctic Orb",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Protect (purple), Secret (green)",
+      "quote": "Desolate / Protect / Secret",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Holy Verdic → Holy Thunder / Lokheim → Raging Inferno / Human → Mark of Frost",
+      "quote": "Veda → Mana Refill → Holy Verdic → Holy Thunder / Lokheim → Raging Inferno / Human → Mark of Frost",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/sephera",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "sephera-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Sephera ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/sephera, ประกาศแพตช์ทางการ และ hero-details.json"
+}

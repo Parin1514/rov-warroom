@@ -1,0 +1,86 @@
+{
+  "hero": "aya",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "aya-001",
+      "verdict": "verified",
+      "reason": "สกิล Squirrel Spirit (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-002",
+      "verdict": "verified",
+      "reason": "สกิล Sound Breaker (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-003",
+      "verdict": "verified",
+      "reason": "สกิล Idol Love (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-004",
+      "verdict": "verified",
+      "reason": "สกิล Forest Song (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/aya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-005",
+      "verdict": "verified",
+      "reason": "บทบาท ซัพพอร์ต เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/aya",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-006",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Protect, Spirit ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-007",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-008",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Sprint ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "aya-009",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Aya",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 9,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "aya-001",
+    "aya-002",
+    "aya-003",
+    "aya-004",
+    "aya-005",
+    "aya-006",
+    "aya-007",
+    "aya-008",
+    "aya-009"
+  ]
+}

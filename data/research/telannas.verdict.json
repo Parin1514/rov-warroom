@@ -1,0 +1,94 @@
+{
+  "hero": "telannas",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "telannas-001",
+      "verdict": "verified",
+      "reason": "สกิล The Morning Star (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/telannas และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-002",
+      "verdict": "verified",
+      "reason": "สกิล Eagle Eye (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/telannas และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-003",
+      "verdict": "verified",
+      "reason": "สกิล Piercing Shot (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/telannas และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-004",
+      "verdict": "verified",
+      "reason": "สกิล Arrow of Chaos (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/telannas และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-005",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน dragon ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/telannas",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Awake, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "telannas-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Tel'Annas",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "telannas-001",
+    "telannas-002",
+    "telannas-003",
+    "telannas-004",
+    "telannas-005",
+    "telannas-006",
+    "telannas-007",
+    "telannas-008",
+    "telannas-009",
+    "telannas-010"
+  ]
+}

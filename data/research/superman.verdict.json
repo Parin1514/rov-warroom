@@ -1,0 +1,110 @@
+{
+  "hero": "superman",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "superman-001",
+      "verdict": "verified",
+      "reason": "สกิล Flight Form (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-002",
+      "verdict": "verified",
+      "reason": "สกิล Kryptonian Strength (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-003",
+      "verdict": "verified",
+      "reason": "สกิล The Man of Steel (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-004",
+      "verdict": "verified",
+      "reason": "สกิล Domination (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-005",
+      "verdict": "verified",
+      "reason": "สกิล Kryptonian Strength (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-006",
+      "verdict": "verified",
+      "reason": "สกิล The Man of Steel (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-007",
+      "verdict": "verified",
+      "reason": "สกิล Domination (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-008",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-009",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-010",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Assassinate, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-011",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "superman-012",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Superman",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 12,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "superman-001",
+    "superman-002",
+    "superman-003",
+    "superman-004",
+    "superman-005",
+    "superman-006",
+    "superman-007",
+    "superman-008",
+    "superman-009",
+    "superman-010",
+    "superman-011",
+    "superman-012"
+  ]
+}

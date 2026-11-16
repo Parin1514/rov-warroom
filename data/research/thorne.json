@@ -1,0 +1,138 @@
+{
+  "hero": "thorne",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "thorne-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Ready: แท็ก [เพิ่มความเสียหาย]",
+      "quote": "Ready",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Magic Bullet: แท็ก [พิเศษ, เพิ่มความเสียหาย] คูลดาวน์ 0s ใช้มานา 0",
+      "quote": "Magic Bullet",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Excite: แท็ก [เคลื่อนที่, พิเศษ] ใช้มานา 0",
+      "quote": "Excite",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Mass Annihilation: แท็ก [กายภาพ, ความเสียหายหมู่] ใช้มานา 0",
+      "quote": "Mass Annihilation",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Thorne เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Abyssal Dragon Lane\": War Boots, Claves Sancti, Slikk's Sting, Bow of Slaughter, Muramasa, Blade of Eternity",
+      "quote": "War Boots / Claves Sancti / Slikk's Sting / Bow of Slaughter / Muramasa / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Human → Mark of Frost → Gunslinger → Endless Cycle / Lokheim → Devourer / Lokheim → Deadly Claw",
+      "quote": "Human → Mark of Frost → Gunslinger → Endless Cycle / Lokheim → Devourer / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/thorne",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "thorne-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Thorne ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/thorne, ประกาศแพตช์ทางการ และ hero-details.json"
+}

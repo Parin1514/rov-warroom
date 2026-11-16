@@ -1,0 +1,102 @@
+{
+  "hero": "qi",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "qi-001",
+      "verdict": "verified",
+      "reason": "สกิล Protection Aura (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/qi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-002",
+      "verdict": "verified",
+      "reason": "สกิล Starchaser (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/qi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-003",
+      "verdict": "verified",
+      "reason": "สกิล Mountain Shaker (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/qi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-004",
+      "verdict": "verified",
+      "reason": "สกิล The Brawler (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/qi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-005",
+      "verdict": "verified",
+      "reason": "สกิล The Brawler (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/qi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-006",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/qi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-007",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-008",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-009",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-010",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "qi-011",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Qi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 11,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "qi-001",
+    "qi-002",
+    "qi-003",
+    "qi-004",
+    "qi-005",
+    "qi-006",
+    "qi-007",
+    "qi-008",
+    "qi-009",
+    "qi-010",
+    "qi-011"
+  ]
+}

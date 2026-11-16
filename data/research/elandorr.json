@@ -1,0 +1,138 @@
+{
+  "hero": "elandorr",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "elandorr-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Soul Seal: แท็ก [ความเสียหายผสม]",
+      "quote": "Soul Seal",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Butterfly Wings: แท็ก [เคลื่อนที่] ใช้มานา 30",
+      "quote": "Butterfly Wings",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Butterfly Dance: แท็ก [เวท, เคลื่อนที่] ใช้มานา 50",
+      "quote": "Butterfly Dance",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Morph: แท็ก [เวท, ผลักถอยหลัง] ใช้มานา 100",
+      "quote": "Morph",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Eland'orr เป็น แครี่ ประจำเลน jungle",
+      "quote": "แครี่ jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Firestorm Bow, War Boots, Claves Sancti, Bow of Slaughter, Muramasa, Blade of Eternity",
+      "quote": "Firestorm Bow / War Boots / Claves Sancti / Bow of Slaughter / Muramasa / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Holy Verdic → Holy Summoner / Human → Reaper's Blessing / Human → Gunslinger",
+      "quote": "Veda → Axe of Sacrifice → Holy Verdic → Holy Summoner / Human → Reaper's Blessing / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Frostbite",
+      "quote": "Frostbite",
+      "source": {
+        "url": "https://www.rov.in.th/hero/elandorr",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "elandorr-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Eland'orr ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/elandorr, ประกาศแพตช์ทางการ และ hero-details.json"
+}

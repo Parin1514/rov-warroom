@@ -1,0 +1,138 @@
+{
+  "hero": "hayate",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "hayate-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Blood of the Dragon: แท็ก [จริง]",
+      "quote": "Blood of the Dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Shuriken Toss: แท็ก [กายภาพ, เพิ่มความเร็ว] คูลดาวน์ 5s ใช้มานา 50",
+      "quote": "Shuriken Toss",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Shadowstep: แท็ก [เคลื่อนที่, เพิ่มความเร็ว] ใช้มานา 90",
+      "quote": "Shadowstep",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Kunai Blitz: แท็ก [กายภาพ, ความเสียหายหมู่] ใช้มานา 70",
+      "quote": "Kunai Blitz",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Hayate เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": War Boots, Fafnir's Talon, Frost Cape, Slikk's Sting, Fenrir's Tooth, Blade of Eternity",
+      "quote": "War Boots / Fafnir's Talon / Frost Cape / Slikk's Sting / Fenrir's Tooth / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Holy Verdic → Sacred Protection / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Veda → Axe of Sacrifice → Holy Verdic → Sacred Protection / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/hayate",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "hayate-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Hayate ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/hayate, ประกาศแพตช์ทางการ และ hero-details.json"
+}

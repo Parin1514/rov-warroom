@@ -1,0 +1,138 @@
+{
+  "hero": "krixi",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "krixi-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Flutter: แท็ก [เพิ่มความเร็ว]",
+      "quote": "Flutter",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Mischief: แท็ก [เวท, ความเสียหายหมู่] ใช้มานา 65",
+      "quote": "Mischief",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Nature's Wrath: แท็ก [เวท, ลอยขึ้น] ใช้มานา 80",
+      "quote": "Nature's Wrath",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Moonfall: แท็ก [เวท, ความเสียหายหมู่] ใช้มานา 140",
+      "quote": "Moonfall",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Krixi เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Orb of the Magi, Glided Greaves, Boomstick, Hecate's Diadem, Rhea's Blessing, Staff of Nuul",
+      "quote": "Orb of the Magi / Glided Greaves / Boomstick / Hecate's Diadem / Rhea's Blessing / Staff of Nuul",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Holy Thunder / Lokheim → Devourer / Human → Mark of Frost",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Holy Thunder / Lokheim → Devourer / Human → Mark of Frost",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krixi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krixi-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Krixi ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/krixi, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,62 @@
+{
+  "hero": "kaine",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "kaine-001",
+      "verdict": "verified",
+      "reason": "สกิล Shrouded Wings (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kaine-002",
+      "verdict": "verified",
+      "reason": "สกิล Whirlwind of Blood (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kaine-003",
+      "verdict": "verified",
+      "reason": "สกิล Bloodied Judgment (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kaine-004",
+      "verdict": "verified",
+      "reason": "สกิล Sanguinary End (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kaine-005",
+      "verdict": "verified",
+      "reason": "บทบาท แอสซาซิน เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kaine-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Kaine",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "kaine-001",
+    "kaine-002",
+    "kaine-003",
+    "kaine-004",
+    "kaine-005",
+    "kaine-006"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "ata",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "ata-001",
+      "verdict": "verified",
+      "reason": "สกิล Child of the Sea (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ata และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-002",
+      "verdict": "verified",
+      "reason": "สกิล Wavewalking (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ata และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-003",
+      "verdict": "verified",
+      "reason": "สกิล Sea Anchor (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ata และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-004",
+      "verdict": "verified",
+      "reason": "สกิล Ghost Ship (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/ata และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-005",
+      "verdict": "verified",
+      "reason": "บทบาท แทงค์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/ata",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Protect, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "ata-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Ata",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "ata-001",
+    "ata-002",
+    "ata-003",
+    "ata-004",
+    "ata-005",
+    "ata-006",
+    "ata-007",
+    "ata-008",
+    "ata-009",
+    "ata-010"
+  ]
+}

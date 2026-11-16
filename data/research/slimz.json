@@ -1,0 +1,138 @@
+{
+  "hero": "slimz",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "slimz-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Pierce: แท็ก [กายภาพ, เพิ่มความเสียหาย]",
+      "quote": "Pierce",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Flying Spear: แท็ก [กายภาพ, สตั้น] ใช้มานา 65",
+      "quote": "Flying Spear",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Leap of Vitality: แท็ก [เคลื่อนที่, เพิ่มความเสียหาย] ใช้มานา 75",
+      "quote": "Leap of Vitality",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Savage Potion: แท็ก [เพิ่มความเสียหาย, เพิ่มความเร็ว] ใช้มานา 100",
+      "quote": "Savage Potion",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Slimz เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Firestorm Bow, War Boots, Claves Sancti, Slikk's Sting, Bow of Slaughter, Muramasa",
+      "quote": "Firestorm Bow / War Boots / Claves Sancti / Slikk's Sting / Bow of Slaughter / Muramasa",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Mana Refill → Blessing → Sacred Protection / Afata → River Treader / Lokheim → Devourer",
+      "quote": "Veda → Mana Refill → Blessing → Sacred Protection / Afata → River Treader / Lokheim → Devourer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/slimz",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "slimz-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Slimz ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/slimz, ประกาศแพตช์ทางการ และ hero-details.json"
+}

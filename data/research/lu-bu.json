@@ -1,0 +1,138 @@
+{
+  "hero": "lu-bu",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "lu-bu-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Tyrant: แท็ก [เพิ่มความเร็วโจมตี]",
+      "quote": "Tyrant",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Red Stallion: แท็ก [เคลื่อนที่, กายภาพ] ใช้มานา 0",
+      "quote": "Red Stallion",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Impale: แท็ก [ลดความเร็ว, กายภาพ] ใช้มานา 0",
+      "quote": "Impale",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Conqueror: แท็ก [เพิ่มความเสียหาย, ล้างสถานะ] ใช้มานา 0",
+      "quote": "Conqueror",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Lu Bu เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Glided Greaves, Spear of Longinus, Frost Cape, Hercules's Madness, Medallion of Troy, Blade of Eternity",
+      "quote": "Glided Greaves / Spear of Longinus / Frost Cape / Hercules's Madness / Medallion of Troy / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Golden Body / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Shadow Blade → Deadly Claw → Desperate duel / Veda → Axe of Sacrifice / Veda → Holy Verdic",
+      "quote": "Lokheim → Shadow Blade → Deadly Claw → Desperate duel / Veda → Axe of Sacrifice / Veda → Holy Verdic",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/lu-bu",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "lu-bu-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Lu Bu ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/lu-bu, ประกาศแพตช์ทางการ และ hero-details.json"
+}

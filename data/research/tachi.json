@@ -1,0 +1,151 @@
+{
+  "hero": "tachi",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "tachi-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Spellbound: แท็ก [จริง, ฮีล]",
+      "quote": "Spellbound",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Moon Pierce: แท็ก [กายภาพ, ลดความเร็ว] ใช้มานา 0",
+      "quote": "Moon Pierce",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Browbeat: แท็ก [กายภาพ, เคลื่อนที่] คูลดาวน์ 3s ใช้มานา 0",
+      "quote": "Browbeat",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Cliff Breaker: แท็ก [กายภาพ, พิเศษ] ใช้มานา 0",
+      "quote": "Cliff Breaker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Moon Pierce - Full: แท็ก [จริง, ความเสียหายหมู่] คูลดาวน์ 7s ใช้มานา 0",
+      "quote": "Moon Pierce - Full",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-006",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Tachi เป็น ไฟต์เตอร์ ประจำเลน jungle",
+      "quote": "ไฟต์เตอร์ jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-007",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Defult\": Glided Greaves, Omni Arms, Curse of Death, Shield of the Lost, Medallion of Troy, Blade of Eternity",
+      "quote": "Glided Greaves / Omni Arms / Curse of Death / Shield of the Lost / Medallion of Troy / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-008",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-009",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Shadow Blade → Deadly Claw → Curse of Death / Afata → Regrowth / Afata → Backstabbing",
+      "quote": "Lokheim → Shadow Blade → Deadly Claw → Curse of Death / Afata → Regrowth / Afata → Backstabbing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-010",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/tachi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "tachi-011",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Tachi ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/tachi, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "kahlii",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "kahlii-001",
+      "verdict": "verified",
+      "reason": "สกิล Powerful Hymns (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kahlii และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-002",
+      "verdict": "verified",
+      "reason": "สกิล Soul Summoning (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kahlii และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-003",
+      "verdict": "verified",
+      "reason": "สกิล Incorporeal (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kahlii และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-004",
+      "verdict": "verified",
+      "reason": "สกิล Ethereal Pulse (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/kahlii และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/kahlii",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "kahlii-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Kahlii",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "kahlii-001",
+    "kahlii-002",
+    "kahlii-003",
+    "kahlii-004",
+    "kahlii-005",
+    "kahlii-006",
+    "kahlii-007",
+    "kahlii-008",
+    "kahlii-009",
+    "kahlii-010"
+  ]
+}

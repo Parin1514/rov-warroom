@@ -1,0 +1,94 @@
+{
+  "hero": "omen",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "omen-001",
+      "verdict": "verified",
+      "reason": "สกิล Thirst (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/omen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-002",
+      "verdict": "verified",
+      "reason": "สกิล Death's Beckon (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/omen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-003",
+      "verdict": "verified",
+      "reason": "สกิล Untouchable (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/omen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-004",
+      "verdict": "verified",
+      "reason": "สกิล Death's Embrace (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/omen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/omen",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Onslaught, Colossus, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "omen-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Omen",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "omen-001",
+    "omen-002",
+    "omen-003",
+    "omen-004",
+    "omen-005",
+    "omen-006",
+    "omen-007",
+    "omen-008",
+    "omen-009",
+    "omen-010"
+  ]
+}

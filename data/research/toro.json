@@ -1,0 +1,138 @@
+{
+  "hero": "toro",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "toro-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Tough Hide: แท็ก [ต้านสถานะ, ลดความเสียหาย]",
+      "quote": "Tough Hide",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Bull Rush: แท็ก [กายภาพ, ลอยขึ้น] ใช้มานา 0",
+      "quote": "Bull Rush",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Brazen Bellow: แท็ก [กายภาพ, ลดความเร็ว] ใช้มานา 0",
+      "quote": "Brazen Bellow",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Earth Shatter: แท็ก [กายภาพ, ลอยขึ้น] ใช้มานา 0",
+      "quote": "Earth Shatter",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Toro เป็น แทงค์ ประจำเลน roam",
+      "quote": "แทงค์ roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Poseidon Emblem, Glided Greaves, The Aegis, Gaia's Standard, Mail of Pain, Blade of Eternity",
+      "quote": "Poseidon Emblem / Glided Greaves / The Aegis / Gaia's Standard / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Protect (purple), Prowess (green)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → Tower Blessing → Nature's Gift → Nature's Rage / Lokheim → Devourer / Lokheim → Deadly Claw",
+      "quote": "Afata → Tower Blessing → Nature's Gift → Nature's Rage / Lokheim → Devourer / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Heal",
+      "quote": "Heal",
+      "source": {
+        "url": "https://www.rov.in.th/hero/toro",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "toro-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Toro ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/toro, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,106 @@
+{
+  "hero": "teemee",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "teemee-001",
+      "type": "skill",
+      "text": "พาสซีฟ Scavenge: เมื่อมีศัตรูที่ไม่ใช่ฮีโร่ตายในบริเวณใกล้เคียง TeeMee จะทำให้พวกเขาได้รับโบนัสโกลด์เพิ่มขึ้น 25% และยังแบ่งให้แก่พันธมิตรรอบๆ อีกด้วย",
+      "quote": "เมื่อมีศัตรูที่ไม่ใช่ฮีโร่ตายในบริเวณใกล้เคียง TeeMee จะทำให้พวกเขาได้รับโบนัสโกลด์เพิ่มขึ้น 25% และยังแบ่งให้แก่พันธมิตรรอบๆอีกด้วย",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-002",
+      "type": "skill",
+      "text": "สกิล 1 Pooty Poots: Tee จะสร้างก๊าซระเบิดขึ้น ส่งผลให้วิ่งเร็วขึ้นเรื่อยๆ เป็นเวลา 5 วินาที จากนั้นเขาจะพยายามควบคุมมันก่อนที่จะระเบิด สร้างความเสียหายเวทพร้อมทั้งสตั๊นศัตรูในบริเวณ 1.5 วิ (สร้างความเสียหายมากขึ้นและสตั๊นได้นานขึ้นตามระยะเวลาที่ถือก๊าซไว้)",
+      "quote": "Tee จะสร้างก๊าซระเบิดขึ้น ส่งผลให้วิ่งเร็วขึ้นเรื่อยๆเป็นเวลา 5 วินาที จากนั้นเขาจะพยายามควบคุมมันก่อนที่จะระเบิด สร้างความเสียหายเวทพร้อมทั้งสตั๊นศัตรูในบริเวณ 1.5 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-003",
+      "type": "skill",
+      "text": "สกิล 2 Chain Lance: Mee ยิงตะขอออกไปในทิศทางที่เลือก พร้อมกับดึงตัวเองเข้าหาเป้าหมายที่โดน หากเป้าหมายเป็นฮีโร่ หรือครีปฝ่ายศัตรู จะสร้างความเสียหายเวทและสตั๊นเป็นเวลา 1 วิ",
+      "quote": "Mee ยิงตะขอออกไปในทิศทางที่เลือก พร้อมกับดึงตัวเองเข้าหาเป้าหมายที่โดน หากเป้าหมายเป็นฮีโร่ หรือครีปฝ่ายศัตรู จะสร้างความเสียหายเวทและสตั๊นเป็นเวลา 1 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-004",
+      "type": "skill",
+      "text": "อัลติเมต Being a Bro: TeeMee ใช้พลังสร้างเกราะปกป้องตัวเองและพันธมิตรที่ HP น้อยที่สุดเป็นเวลา 3 วิ (สามารถใช้ในขณะที่โดนสถานะผิดปกติได้) ระหว่างสกิลทำงาน หาก TeeMee หรือฮีโร่พันธมิตรที่ได้รับผลของสกิลตาย พวกเขาจะถูกชุบชีวิตใน 2 วิ ด้วยพลังชีวิต 2000 (+พลังเวทบางส่วน) และมานาเต็ม 100% จากนั้นสกิลนี้จะสร้างความเสียหายเวทและลดความเร็วเคลื่อนที่ของศัตรูลง 50% เป็นเวลา 2 วิ",
+      "quote": "TeeMee ใช้พลังสร้างเกราะปกป้องตัวเองและพันธมิตรที่ HP น้อยที่สุดเป็นเวลา 3 วิ (สามารถใช้ในขณะที่โดนสถานะผิดปกติได้) ระหว่างสกิลทำงาน หาก TeeMee หรือฮีโร่พันธมิตรที่ได้รับผลของสกิลตาย พวกเขาจะถูกชุบชีวิตใน 2 วิ ด้วยพลังชีวิต 2000(และ + พลังเวทบางส่วน) และมานาเต็ม 100%",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท TeeMee เป็น Support / Tank",
+      "quote": "Role Support Tank",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการ 6 ชิ้น: Poseidon Emblem, Hermes' Select, The Aegis, Gaia's Standard, Mail of Pain, Medallion of Troy",
+      "quote": "Poseidon Emblem / Hermes' Select / The Aegis / Gaia's Standard / Mail of Pain / Medallion of Troy",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (แดง), Protect (ม่วง), Prowess (เขียว)",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: สายหลัก Afata (River Treader, Regrowth, Nature's Rage) เสริมด้วย Human (Arcane Whisper) และ Lokheim (Devourer)",
+      "quote": "Afata: River Treader, Regrowth, Nature's Rage / Human: Arcane Whisper / Lokheim: Devourer",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {"url": "https://www.rov.in.th/hero/teemee", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับเปลี่ยน TeeMee สกิลและตัวเลขบนหน้าทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261104", "kind": "official", "date": "2026-11-04", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-011",
+      "type": "skill",
+      "text": "วิดีโอแนะนำการเล่น: สกิล 1 Pooty Poots หากชาร์จจนเต็มแล้วปล่อยระเบิดโดนฮีโร่ศัตรู จะสามารถใช้ซ้ำได้ทันที (ลดคูลดาวน์ลงอย่างมาก)",
+      "quote": "สตัน 1 วินาทีอ๋อหากชาร์จเต็ม... แล้วก็สามารถซ้ำได้อีกทีสุดยอดนะครับถ้าโดนฮีโร่",
+      "source": {"url": "https://www.youtube.com/watch?v=ttm1", "kind": "video", "date": "2026-10-01", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-012",
+      "type": "combo",
+      "text": "วิดีโอแนะนำการเล่น: คอมโบเข้าทำ เริ่มจากกดสกิล 1 ชาร์จก๊าซเร่งความเร็ววิ่งเข้าหา หรือใช้สกิล 2 ยิงตะขอเพื่อดึงตัวเข้าหาศัตรูให้สกิล 1 ทำงานระเบิดสตั๊นได้ทันเวลา",
+      "quote": "สกิล 2 อ่ะมันจะพุ่งก็คือหลักๆ... เอาไว้พุ่งแล้วก็เพื่อให้สกิล 1 มันทำงานได้ทัน",
+      "source": {"url": "https://www.youtube.com/watch?v=ttm1", "kind": "video", "date": "2026-10-01", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-013",
+      "type": "playstyle",
+      "text": "วิดีโอแนะนำการเล่น: เดินเกาะติดเพื่อนร่วมทีมตลอดเวลาเพื่อแชร์โบนัสเงินจากครีป เร่งความได้เปรียบด้านการเงินของทีมให้เงินนำไวขึ้น",
+      "quote": "คือเราต้องเดินกับเพื่อนตลอดเวลา... เงินนำ 4,000 แล้วครับชิลครับ",
+      "source": {"url": "https://www.youtube.com/watch?v=ttm1", "kind": "video", "date": "2026-10-01", "transcript": true, "stale": false}
+    },
+    {
+      "id": "teemee-014",
+      "type": "playstyle",
+      "text": "วิดีโอแนะนำการเล่น: การกดอัลติเมตชุบชีวิต ควรกดล่วงหน้าก่อนเพื่อนเลือดหมดเล็กน้อย อย่ารอจังหวะกระชั้นชิดเกินไปเพราะอาจกดไม่ทัน",
+      "quote": "ส่วนอัติเนี่ยให้กดก่อนนิดนึงนะอย่ารอใกล้ๆมากมันจะกดไม่ทัน",
+      "source": {"url": "https://www.youtube.com/watch?v=ttm1", "kind": "video", "date": "2026-10-01", "transcript": true, "stale": false}
+    }
+  ],
+  "notes": "ข้อมูลหน้าทางการ rov.in.th/hero/teemee และ hero-details.json สอดคล้องกันครบถ้วน. วิดีโอ ttm1 มีทรานสคริปต์ภาษาไทยสมบูรณ์ ระบุโบนัสเงิน 20% (หน้าทางการ 25%) ถือว่าขัดแย้งเรื่องตัวเลข ให้ยึด 25% ตามหน้าทางการ. วิดีโอยืนยันคอมโบ 1 > 2 และทริกการกดอัลติล่วงหน้า"
+}

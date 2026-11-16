@@ -1,0 +1,92 @@
+{
+  "hero": "cresht",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "cresht-001",
+      "type": "skill",
+      "text": "พาสซีฟ Tsunami: การโจมตีปกติช่วยสะสมเกจพลังคลั่ง เมื่อแปลงร่างร่างยักษ์การโจมตีจะสร้างคลื่นยักษ์ลดความเร็วเคลื่อนที่ของศัตรูลง",
+      "quote": "Tsunami",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-002",
+      "type": "skill",
+      "text": "สกิล 1 Typhoon (ร่างปกติ): ควงหอกกวาดรอบตัวสร้างความเสียหายกายภาพและผลักศัตรูรอบตัวถอยหลัง",
+      "quote": "Typhoon",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-003",
+      "type": "skill",
+      "text": "สกิล 2 Aquatic Shield (ร่างปกติ): กระโดดไปยังพื้นที่ที่กำหนด สร้างโล่ป้องกันความเสียหายให้แก่ตนเองและเพื่อนร่วมทีมในระยะ",
+      "quote": "Aquatic Shield",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-004",
+      "type": "skill",
+      "text": "อัลติเมต Metamorphosis: ใช้เกจคลั่งเต็มแปลงร่างเป็นอสูรยักษ์ ปล่อยคลื่นยักษ์ผลักศัตรูและสตั๊น พร้อมเปิดทางน้ำเร่งความเร็วเคลื่อนที่ และได้รับโล่ขนาดยักษ์ดูดซับความเสียหายมหาศาล",
+      "quote": "Metamorphosis",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-005",
+      "type": "skill",
+      "text": "สกิล 1 ร่างแปลง Hell Spout: ทุบพื้นสร้างความเสียหายกายภาพและทำให้ศัตรูในระยะลอยขึ้น",
+      "quote": "Hell Spout",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-006",
+      "type": "skill",
+      "text": "สกิล 2 ร่างแปลง Red Tide: กระโดดพุ่งไปยังพื้นที่เป้าหมาย สร้างความเสียหายกายภาพ",
+      "quote": "Red Tide",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-007",
+      "type": "playstyle",
+      "text": "บทบาททางการ Tank ประจำเลน Support / Roaming หรือยืนไฟต์เตอร์แก้ทาง",
+      "quote": "Tank",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-008",
+      "type": "item",
+      "text": "บิลด์แนะนำ Pro Player ใน hero-details.json: Glided Greaves, Ring of Terror, Mantle of Ra, Broken Spear, Omni Arms, Medallion of Troy",
+      "quote": "Glided Greaves / Ring of Terror / Mantle of Ra / Broken Spear / Omni Arms / Medallion of Troy",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-009",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (แดง), Assassinate (ม่วง), Dragon's Claw (เขียว)",
+      "quote": "Golden Body / Assassinate / Dragon's Claw",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-010",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: สายหลัก Human (Arcane Whisper, Minion Kill, Visceral Boost) เสริมด้วย Afata (Tower Blessing, Nature's Gift)",
+      "quote": "Human: Arcane Whisper, Minion Kill, Visceral Boost / Afata: Tower Blessing, Nature's Gift",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-011",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการ: Flicker",
+      "quote": "Flicker",
+      "source": {"url": "https://www.rov.in.th/hero/cresht", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "cresht-012",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026 และ 30 ต.ค. 2026 ไม่มีการปรับ Cresht",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261104", "kind": "official", "date": "2026-11-04", "transcript": true, "stale": false}
+    }
+  ],
+  "notes": "Cresht มีชุดสกิล 2 ร่าง (ร่างปกติและร่างอสูรหลังกดอัลติเมต Metamorphosis). ข้อมูลสกิลและไอเทมใน hero-details.json สอดคล้องกับหน้าเว็บทางการ rov.in.th/hero/cresht"
+}

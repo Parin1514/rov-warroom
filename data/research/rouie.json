@@ -1,0 +1,151 @@
+{
+  "hero": "rouie",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "rouie-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Floating Light: แท็ก [เพิ่มความเร็ว]",
+      "quote": "Floating Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Holy Light: แท็ก [เวท, ใบ้] คูลดาวน์ 9s ใช้มานา 50",
+      "quote": "Holy Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Holy Wings: แท็ก [เวท, ผลักถอยหลัง] คูลดาวน์ 9s ใช้มานา 0",
+      "quote": "Holy Wings",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Void Portal: แท็ก [วาร์ป, ฮีล] ใช้มานา 75",
+      "quote": "Void Portal",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Sacred Ground: แท็ก [เวท, วาร์ป] ใช้มานา 125",
+      "quote": "Sacred Ground",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-006",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Rouie เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-007",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Support\": Poseidon Emblem, Glided Greaves, The Aegis, Medallion of Troy, Mail of Pain, Blade of Eternity",
+      "quote": "Poseidon Emblem / Glided Greaves / The Aegis / Medallion of Troy / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-008",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Spirit (purple), Prowess (green)",
+      "quote": "Golden Body / Spirit / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-009",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Human → Arcane Whisper → Minion Kill → Endless Cycle / Veda → Sacred Bead / Afata → River Treader",
+      "quote": "Human → Arcane Whisper → Minion Kill → Endless Cycle / Veda → Sacred Bead / Afata → River Treader",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-010",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/rouie",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "rouie-011",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Rouie ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/rouie, ประกาศแพตช์ทางการ และ hero-details.json"
+}

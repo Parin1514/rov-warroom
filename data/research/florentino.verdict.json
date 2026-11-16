@@ -1,0 +1,94 @@
+{
+  "hero": "florentino",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "florentino-001",
+      "verdict": "verified",
+      "reason": "สกิล Shuffle (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/florentino และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-002",
+      "verdict": "verified",
+      "reason": "สกิล Blossom (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/florentino และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-003",
+      "verdict": "verified",
+      "reason": "สกิล Triple Threat (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/florentino และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-004",
+      "verdict": "verified",
+      "reason": "สกิล Gentlemen's Duel (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/florentino และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/florentino",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Rage, Assassinate, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "florentino-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Florentino",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "florentino-001",
+    "florentino-002",
+    "florentino-003",
+    "florentino-004",
+    "florentino-005",
+    "florentino-006",
+    "florentino-007",
+    "florentino-008",
+    "florentino-009",
+    "florentino-010"
+  ]
+}

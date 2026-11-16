@@ -1,0 +1,86 @@
+{
+  "hero": "riktor",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "riktor-001",
+      "verdict": "verified",
+      "reason": "สกิล Battle Instinct (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-002",
+      "verdict": "verified",
+      "reason": "สกิล Jungle Strike (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-003",
+      "verdict": "verified",
+      "reason": "สกิล Retaliate (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-004",
+      "verdict": "verified",
+      "reason": "สกิล Mark of the Hunter (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Onslaught, Assassinate, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "riktor-009",
+      "verdict": "verified",
+      "reason": "หน้าประกาศทางการ hotfix261117 ระบุการปรับสมดุลสำหรับ Riktor",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 9,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "riktor-001",
+    "riktor-002",
+    "riktor-003",
+    "riktor-004",
+    "riktor-005",
+    "riktor-006",
+    "riktor-007",
+    "riktor-008",
+    "riktor-009"
+  ]
+}

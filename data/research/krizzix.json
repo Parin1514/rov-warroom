@@ -1,0 +1,138 @@
+{
+  "hero": "krizzix",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "krizzix-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Sneak Attack: แท็ก [เวท, ลดความเร็ว]",
+      "quote": "Sneak Attack",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 In Plain Sight: แท็ก [ล่องหน, เวท] คูลดาวน์ 10s ใช้มานา 70",
+      "quote": "In Plain Sight",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Gravitational Pull: แท็ก [ควบคุม, เวท] ใช้มานา 80",
+      "quote": "Gravitational Pull",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Concealment: แท็ก [ล่องหน, เพิ่มความเร็ว] ใช้มานา 120",
+      "quote": "Concealment",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Krizzix เป็น ซัพพอร์ต ประจำเลน roam",
+      "quote": "ซัพพอร์ต roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Ring of Terror, Glided Greaves, The Aegis, Gaia's Standard, Mail of Pain, Blade of Eternity",
+      "quote": "Ring of Terror / Glided Greaves / The Aegis / Gaia's Standard / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Spirit (purple), Prowess (green)",
+      "quote": "Golden Body / Spirit / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Afata → River Treader → Nature's Gift → Forest Wanderer / Human → Arcane Whisper / Veda → Sacred Bead",
+      "quote": "Afata → River Treader → Nature's Gift → Forest Wanderer / Human → Arcane Whisper / Veda → Sacred Bead",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/krizzix",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "krizzix-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Krizzix ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/krizzix, ประกาศแพตช์ทางการ และ hero-details.json"
+}

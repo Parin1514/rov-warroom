@@ -1,0 +1,138 @@
+{
+  "hero": "taara",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "taara-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Fighting Spirit: แท็ก [เพิ่มความเสียหาย, ฮีล]",
+      "quote": "Fighting Spirit",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Colossal Smash: แท็ก [กายภาพ, เคลื่อนที่] ใช้มานา 10%",
+      "quote": "Colossal Smash",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Whirlwind - Potential: แท็ก [กายภาพ, ความเสียหายหมู่] ใช้มานา 10%",
+      "quote": "Whirlwind - Potential",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Steeled Focus: แท็ก [ฮีล, เพิ่มความเร็ว] ใช้มานา 16%",
+      "quote": "Steeled Focus",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Taara เป็น แทงค์ ประจำเลน slayer",
+      "quote": "แทงค์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Glided Greaves, Mantle of Ra, Frost Cape, Medallion of Troy, Mail of Pain, Blade of Eternity",
+      "quote": "Glided Greaves / Mantle of Ra / Frost Cape / Medallion of Troy / Mail of Pain / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Golden Body / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Raging Inferno → Bone Cutter → Desperate duel / Afata → Tower Blessing / Afata → Regrowth",
+      "quote": "Lokheim → Raging Inferno → Bone Cutter → Desperate duel / Afata → Tower Blessing / Afata → Regrowth",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/taara",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "taara-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Taara ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/taara, ประกาศแพตช์ทางการ และ hero-details.json"
+}

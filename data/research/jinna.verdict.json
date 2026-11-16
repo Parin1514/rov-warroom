@@ -1,0 +1,94 @@
+{
+  "hero": "jinna",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "jinna-001",
+      "verdict": "verified",
+      "reason": "สกิล Samsara (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/jinna และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-002",
+      "verdict": "verified",
+      "reason": "สกิล Battering Beads (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/jinna และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-003",
+      "verdict": "verified",
+      "reason": "สกิล Sutra of Pain (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/jinna และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-004",
+      "verdict": "verified",
+      "reason": "สกิล Nirvana (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/jinna และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/jinna",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "jinna-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Jinna",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "jinna-001",
+    "jinna-002",
+    "jinna-003",
+    "jinna-004",
+    "jinna-005",
+    "jinna-006",
+    "jinna-007",
+    "jinna-008",
+    "jinna-009",
+    "jinna-010"
+  ]
+}

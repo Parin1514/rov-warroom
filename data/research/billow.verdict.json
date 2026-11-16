@@ -1,0 +1,62 @@
+{
+  "hero": "billow",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "billow-001",
+      "verdict": "verified",
+      "reason": "สกิล Wild Beast Gaze (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "billow-002",
+      "verdict": "verified",
+      "reason": "สกิล Abyss Dive (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "billow-003",
+      "verdict": "verified",
+      "reason": "สกิล Continuous Blade (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "billow-004",
+      "verdict": "verified",
+      "reason": "สกิล Oceanic Fury (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "billow-005",
+      "verdict": "verified",
+      "reason": "บทบาท แอสซาซิน เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "billow-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Billow",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "billow-001",
+    "billow-002",
+    "billow-003",
+    "billow-004",
+    "billow-005",
+    "billow-006"
+  ]
+}

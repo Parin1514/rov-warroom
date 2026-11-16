@@ -1,0 +1,138 @@
+{
+  "hero": "florentino",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "florentino-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Shuffle: แท็ก [กายภาพ, เคลื่อนที่]",
+      "quote": "Shuffle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Blossom: แท็ก [กายภาพ, สตั้น] ใช้มานา 0",
+      "quote": "Blossom",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Triple Threat: แท็ก [กายภาพ, ลดความเร็ว] คูลดาวน์ 2s ใช้มานา 0",
+      "quote": "Triple Threat",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Gentlemen's Duel: แท็ก [ต้านสถานะ, เคลื่อนที่] ใช้มานา 0",
+      "quote": "Gentlemen's Duel",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Florentino เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Broken Spear, Sonic Boots, Hercules's Madness, Omni Arms, Fenrir's Tooth, Blade of Eternity",
+      "quote": "Broken Spear / Sonic Boots / Hercules's Madness / Omni Arms / Fenrir's Tooth / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (red), Assassinate (purple), Dragon's Claw (green)",
+      "quote": "Rage / Assassinate / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Shadow Blade → Deadly Claw → Desperate duel / Afata → River Treader / Afata → Regrowth",
+      "quote": "Lokheim → Shadow Blade → Deadly Claw → Desperate duel / Afata → River Treader / Afata → Regrowth",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/florentino",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "florentino-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Florentino ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/florentino, ประกาศแพตช์ทางการ และ hero-details.json"
+}

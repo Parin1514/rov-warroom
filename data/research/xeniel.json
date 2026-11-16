@@ -1,0 +1,138 @@
+{
+  "hero": "xeniel",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "xeniel-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Holy Brand: แท็ก [เวท]",
+      "quote": "Holy Brand",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Divine Protection: แท็ก [เวท, ป้องกัน] คูลดาวน์ 9s ใช้มานา 55",
+      "quote": "Divine Protection",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Malleus: แท็ก [เวท, ลอยขึ้น] ใช้มานา 60",
+      "quote": "Malleus",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Angelic Splendor: แท็ก [เวท, วาร์ป] ใช้มานา 100",
+      "quote": "Angelic Splendor",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Xeniel เป็น แทงค์ ประจำเลน roam",
+      "quote": "แทงค์ roam",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Soul Strom Badge, Glided Greaves, Frost Cape, Medallion of Troy, The Aegis, Blade of Eternity",
+      "quote": "Soul Strom Badge / Glided Greaves / Frost Cape / Medallion of Troy / The Aegis / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Golden Body (red), Spirit (purple), Prowess (green)",
+      "quote": "Golden Body / Spirit / Prowess",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Sacred Protection / Afata → Tower Blessing / Human → Arcane Whisper",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Sacred Protection / Afata → Tower Blessing / Human → Arcane Whisper",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/xeniel",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "xeniel-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Xeniel ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/xeniel, ประกาศแพตช์ทางการ และ hero-details.json"
+}

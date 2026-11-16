@@ -1,0 +1,151 @@
+{
+  "hero": "dirak",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "dirak-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Arcane Body: แท็ก [พิเศษ]",
+      "quote": "Arcane Body",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Astrolobe: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 5s ใช้มานา 100",
+      "quote": "Astrolobe",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Fallen Star: แท็ก [เวท, ผลักถอยหลัง] ใช้มานา 120",
+      "quote": "Fallen Star",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Genesis Barrier: แท็ก [เวท, พิเศษ] ใช้มานา 150",
+      "quote": "Genesis Barrier",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Genesis Blast: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 80s ใช้มานา 0",
+      "quote": "Genesis Blast",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-006",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Dirak เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-007",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Mid Lane\": Orb of the Magi, Glided Greaves, Zweihander, Hecate's Diadem, Staff of Nuul, Rhea's Blessing",
+      "quote": "Orb of the Magi / Glided Greaves / Zweihander / Hecate's Diadem / Staff of Nuul / Rhea's Blessing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-008",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-009",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Human → Reaper's Blessing → Gunslinger → Endless Cycle / Veda → Mana Refill / Veda → Holy Verdic",
+      "quote": "Human → Reaper's Blessing → Gunslinger → Endless Cycle / Veda → Mana Refill / Veda → Holy Verdic",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-010",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/dirak",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "dirak-011",
+      "type": "patch-change",
+      "text": "ประกาศ Hotfix 17 พ.ย. 2026 (rov.in.th/patch-notes/hotfix261117) มีการปรับสมดุลสำหรับ Dirak (ประกาศล่วงหน้า 12 พ.ย. มีผล 17 พ.ย. 2026)",
+      "quote": "Dirak",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261117",
+        "kind": "official",
+        "date": "2026-11-12",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/dirak, ประกาศแพตช์ทางการ และ hero-details.json"
+}

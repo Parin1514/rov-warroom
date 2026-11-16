@@ -1,0 +1,62 @@
+{
+  "hero": "flowborn-mid",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "flowborn-mid-001",
+      "verdict": "verified",
+      "reason": "สกิล Flow of the World (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-mid-002",
+      "verdict": "verified",
+      "reason": "สกิล Convergence (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-mid-003",
+      "verdict": "verified",
+      "reason": "สกิล Stellar Flow (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-mid-004",
+      "verdict": "verified",
+      "reason": "สกิล Arcane Way (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-mid-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-mid-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Flowborn",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "flowborn-mid-001",
+    "flowborn-mid-002",
+    "flowborn-mid-003",
+    "flowborn-mid-004",
+    "flowborn-mid-005",
+    "flowborn-mid-006"
+  ]
+}

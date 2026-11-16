@@ -1,0 +1,110 @@
+{
+  "hero": "capheny",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "capheny-001",
+      "verdict": "verified",
+      "reason": "สกิล Aquamarine (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/capheny และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-002",
+      "verdict": "verified",
+      "reason": "สกิล Pulse Shot (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/capheny และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-003",
+      "verdict": "verified",
+      "reason": "สกิล Piercing Shot (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/capheny และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-004",
+      "verdict": "verified",
+      "reason": "สกิล Fusillade (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/capheny และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-005",
+      "verdict": "verified",
+      "reason": "สกิล Rapid Shot (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/capheny และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-006",
+      "verdict": "verified",
+      "reason": "สกิล Propulsion (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/capheny และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-007",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน dragon ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/capheny",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-008",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-009",
+      "verdict": "verified",
+      "reason": "ชุดรูน Rage, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-010",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-011",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "capheny-012",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Capheny",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 12,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "capheny-001",
+    "capheny-002",
+    "capheny-003",
+    "capheny-004",
+    "capheny-005",
+    "capheny-006",
+    "capheny-007",
+    "capheny-008",
+    "capheny-009",
+    "capheny-010",
+    "capheny-011",
+    "capheny-012"
+  ]
+}

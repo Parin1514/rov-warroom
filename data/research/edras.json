@@ -1,0 +1,164 @@
+{
+  "hero": "edras",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "edras-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Sword of Light: แท็ก [กายภาพ]",
+      "quote": "Sword of Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Golden Goal: แท็ก [เคลื่อนที่, กายภาพ] คูลดาวน์ 8s ใช้มานา 0",
+      "quote": "Golden Goal",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Holy Strike: แท็ก [กายภาพ] คูลดาวน์ 8s ใช้มานา 0",
+      "quote": "Holy Strike",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 3 Scorching Light: แท็ก [กายภาพ, ต้านสถานะ] ใช้มานา 0",
+      "quote": "Scorching Light",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 4 Befalling Darkness: แท็ก [แปลงร่าง] คูลดาวน์ 5s ใช้มานา 0",
+      "quote": "Befalling Darkness",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-006",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Dark Blade: แท็ก [กายภาพ]",
+      "quote": "Dark Blade",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-007",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Hungry for Blood: แท็ก [เพิ่มความเร็ว, ต้านสถานะ] คูลดาวน์ 10s ใช้มานา 0",
+      "quote": "Hungry for Blood",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-008",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Tearing Slashes: แท็ก [กายภาพ, ลดความเร็ว] ใช้มานา 0",
+      "quote": "Tearing Slashes",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-009",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 3 Suffocating Darkness: แท็ก [กายภาพ, ลอยขึ้น] ใช้มานา 0",
+      "quote": "Suffocating Darkness",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-010",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 4 Holy Light Ascension: แท็ก [แปลงร่าง] ใช้มานา 0",
+      "quote": "Holy Light Ascension",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-011",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Edras เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "edras-012",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Edras ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero, ประกาศแพตช์ทางการ และ hero-details.json"
+}

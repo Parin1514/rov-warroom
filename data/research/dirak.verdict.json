@@ -1,0 +1,102 @@
+{
+  "hero": "dirak",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "dirak-001",
+      "verdict": "verified",
+      "reason": "สกิล Arcane Body (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/dirak และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-002",
+      "verdict": "verified",
+      "reason": "สกิล Astrolobe (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/dirak และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-003",
+      "verdict": "verified",
+      "reason": "สกิล Fallen Star (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/dirak และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-004",
+      "verdict": "verified",
+      "reason": "สกิล Genesis Barrier (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/dirak และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-005",
+      "verdict": "verified",
+      "reason": "สกิล Genesis Blast (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/dirak และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-006",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/dirak",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-007",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-008",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-009",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-010",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dirak-011",
+      "verdict": "verified",
+      "reason": "หน้าประกาศทางการ hotfix261117 ระบุการปรับสมดุลสำหรับ Dirak",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 11,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "dirak-001",
+    "dirak-002",
+    "dirak-003",
+    "dirak-004",
+    "dirak-005",
+    "dirak-006",
+    "dirak-007",
+    "dirak-008",
+    "dirak-009",
+    "dirak-010",
+    "dirak-011"
+  ]
+}

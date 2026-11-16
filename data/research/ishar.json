@@ -1,0 +1,138 @@
+{
+  "hero": "ishar",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "ishar-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Furball: แท็ก [พิเศษ]",
+      "quote": "Furball",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Somnial Fungus: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 4s ใช้มานา 40",
+      "quote": "Somnial Fungus",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Somnial Shield: แท็ก [ป้องกัน, เพิ่มความเร็ว] ใช้มานา 75",
+      "quote": "Somnial Shield",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Dreamy Circle: แท็ก [เวท, พิเศษ] ใช้มานา 120",
+      "quote": "Dreamy Circle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Ishar เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Mid Lane\": Orb of the Magi, Glided Greaves, Soul Scroll, Hecate's Diadem, Staff of Nuul, Holy of Holies",
+      "quote": "Orb of the Magi / Glided Greaves / Soul Scroll / Hecate's Diadem / Staff of Nuul / Holy of Holies",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Protect (purple), Secret (green)",
+      "quote": "Desolate / Protect / Secret",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Human → Reaper's Blessing → Gunslinger → Endless Cycle / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Human → Reaper's Blessing → Gunslinger → Endless Cycle / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/ishar",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "ishar-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Ishar ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/ishar, ประกาศแพตช์ทางการ และ hero-details.json"
+}

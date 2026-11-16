@@ -1,0 +1,138 @@
+{
+  "hero": "iggy",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "iggy-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Gaze: แท็ก [พิเศษ, เปิดแผนที่]",
+      "quote": "Gaze",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Explosive Fireball: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 3s ใช้มานา 0",
+      "quote": "Explosive Fireball",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Fire Shadow: แท็ก [เวท, ผลักถอยหลัง] ใช้มานา 0",
+      "quote": "Fire Shadow",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Eye of Ember: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 5s ใช้มานา 0",
+      "quote": "Eye of Ember",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Iggy เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"IGGY\": Enchanted Kicks, Boomstick, Hecate's Diadem, Staff of Nuul, Arctic Orb, Holy of Holies",
+      "quote": "Enchanted Kicks / Boomstick / Hecate's Diadem / Staff of Nuul / Arctic Orb / Holy of Holies",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Secret (green)",
+      "quote": "Desolate / Spirit / Secret",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "quote": "Veda → Axe of Sacrifice → Blessing → Holy Thunder / Lokheim → Raging Inferno / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/iggy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "iggy-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Iggy ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/iggy, ประกาศแพตช์ทางการ และ hero-details.json"
+}

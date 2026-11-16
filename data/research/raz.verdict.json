@@ -1,0 +1,94 @@
+{
+  "hero": "raz",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "raz-001",
+      "verdict": "verified",
+      "reason": "สกิล Fist Spirit (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/raz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-002",
+      "verdict": "verified",
+      "reason": "สกิล Rising Dragon Fist (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/raz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-003",
+      "verdict": "verified",
+      "reason": "สกิล Power Surge (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/raz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-004",
+      "verdict": "verified",
+      "reason": "สกิล Odin's Fist (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/raz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-005",
+      "verdict": "verified",
+      "reason": "บทบาท แอสซาซิน เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/raz",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "raz-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Raz",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "raz-001",
+    "raz-002",
+    "raz-003",
+    "raz-004",
+    "raz-005",
+    "raz-006",
+    "raz-007",
+    "raz-008",
+    "raz-009",
+    "raz-010"
+  ]
+}

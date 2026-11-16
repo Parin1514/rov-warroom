@@ -1,0 +1,30 @@
+{
+  "hero": "moren",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {"id": "moren-001", "verdict": "verified", "reason": "พาสซีฟ Millada Specialty โจมตีวงกว้างและโบนัสกายภาพ 1% Max HP ตรงกับ src/hero-details.json และ rovguide (ข้อมูลหลัง Rework)", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "moren-002", "verdict": "verified", "reason": "สกิล 1 Over-Load เสริมการโจมตี 3 ครั้ง โบนัสกายภาพ 200 (+60% Bonus AD) ตรงกับ src/hero-details.json และ rovguide", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "moren-003", "verdict": "verified", "reason": "สกิล 2 Winning Shot ระเบิดควันล่องหน 3.5 วิ และพุ่งลอยตัวโจมตีกลางอากาศ ตรงกับ src/hero-details.json และ rovguide", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "moren-004", "verdict": "verified", "reason": "อัลติเมต Bomb Bundle ป้องกันสถานะ ล็อกเป้าหมายยิง 5 นัด 450 (+120% Bonus AD) (+6% missing HP) ตรงกับ src/hero-details.json และ rovguide", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "moren-005", "verdict": "verified", "reason": "หน้าเว็บทางการ rov.in.th/hero/moren ยืนยันว่ายังแสดงชุดดั้งเดิม (Precision/Tactical Maneuver) ซึ่งเป็น stale ขณะที่ชุดในโปรเจกต์อัปเดตเป็นชุด Rework แล้ว", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "moren-006", "verdict": "verified", "reason": "บทบาท Carry เลนมังกร ตรงกับหน้าทางการ rov.in.th/hero/moren และ heroes.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "moren-007", "verdict": "verified", "reason": "ไอเทมทั้ง 6 ชิ้น (Firestorm Bow, Glided Greaves, Omni Arms, Muramasa, Claves Sancti, Blade of Eternity) มีอยู่ใน src/items.json และตรงกับ hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "moren-008", "verdict": "verified", "reason": "รูน Rage, Spirit, Dragon's Claw ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "moren-009", "verdict": "verified", "reason": "พลังแฝง Veda: Axe of Sacrifice, Holy Verdic, Holy Summoner / Human: Reaper's Blessing, Gunslinger ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "moren-010", "verdict": "verified", "reason": "ชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "moren-011", "verdict": "verified", "reason": "หน้าประกาศแพตช์ทางการ Hotfix 17 พ.ย., 4 พ.ย. และ 30 ต.ค. 2026 ไม่มีรายการปรับแก้ Moren", "confidence": 0.95, "needsInGameTest": false}
+  ],
+  "summary": {"verified": 11, "contested": 0, "rejected": 0, "unverifiable": 0},
+  "safeToPublish": [
+    "moren-001",
+    "moren-002",
+    "moren-003",
+    "moren-004",
+    "moren-006",
+    "moren-007",
+    "moren-008",
+    "moren-009",
+    "moren-010",
+    "moren-011"
+  ]
+}

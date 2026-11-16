@@ -1,0 +1,94 @@
+{
+  "hero": "the-flash",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "the-flash-001",
+      "verdict": "verified",
+      "reason": "สกิล Sonicboom (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/the-flash และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-002",
+      "verdict": "verified",
+      "reason": "สกิล Super Speed (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/the-flash และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-003",
+      "verdict": "verified",
+      "reason": "สกิล Mach Punch (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/the-flash และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-004",
+      "verdict": "verified",
+      "reason": "สกิล Cyclone (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/the-flash และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-005",
+      "verdict": "verified",
+      "reason": "บทบาท แอสซาซิน เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/the-flash",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 5 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Sprint ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "the-flash-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน The Flash",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "the-flash-001",
+    "the-flash-002",
+    "the-flash-003",
+    "the-flash-004",
+    "the-flash-005",
+    "the-flash-006",
+    "the-flash-007",
+    "the-flash-008",
+    "the-flash-009",
+    "the-flash-010"
+  ]
+}

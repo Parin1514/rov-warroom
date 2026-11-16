@@ -1,0 +1,94 @@
+{
+  "hero": "airi",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "airi-001",
+      "verdict": "verified",
+      "reason": "สกิล Dragon Blade (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/airi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-002",
+      "verdict": "verified",
+      "reason": "สกิล Dragon Shuriken (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/airi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-003",
+      "verdict": "verified",
+      "reason": "สกิล Swift Shadow (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/airi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-004",
+      "verdict": "verified",
+      "reason": "สกิล Ryu no Ikari (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/airi และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-005",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/airi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Onslaught, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "airi-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Airi",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "airi-001",
+    "airi-002",
+    "airi-003",
+    "airi-004",
+    "airi-005",
+    "airi-006",
+    "airi-007",
+    "airi-008",
+    "airi-009",
+    "airi-010"
+  ]
+}

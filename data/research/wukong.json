@@ -1,0 +1,138 @@
+{
+  "hero": "wukong",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "wukong-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ God of War: แท็ก [กายภาพ, เคลื่อนที่]",
+      "quote": "God of War",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Shadow Clone: แท็ก [ล่องหน, เพิ่มความเร็ว] ใช้มานา 80",
+      "quote": "Shadow Clone",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Great Sage: แท็ก [เคลื่อนที่, ลดความเสียหาย] ใช้มานา 50",
+      "quote": "Great Sage",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Monkey Business: แท็ก [กายภาพ, สตั้น] ใช้มานา 150",
+      "quote": "Monkey Business",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท WuKong เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": War Boots, Claves Sancti, Slikk's Sting, Broken Spear, Omni Arms, Blade of Eternity",
+      "quote": "War Boots / Claves Sancti / Slikk's Sting / Broken Spear / Omni Arms / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rampage (red), Assassinate (purple), Dragon's Claw (green)",
+      "quote": "Rampage / Assassinate / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Raging Inferno → Deadly Claw → Devil's Awakening / Veda → Axe of Sacrifice / Veda → Blessing",
+      "quote": "Lokheim → Raging Inferno → Deadly Claw → Devil's Awakening / Veda → Axe of Sacrifice / Veda → Blessing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/wukong",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "wukong-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ WuKong ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/wukong, ประกาศแพตช์ทางการ และ hero-details.json"
+}

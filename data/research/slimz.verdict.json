@@ -1,0 +1,94 @@
+{
+  "hero": "slimz",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "slimz-001",
+      "verdict": "verified",
+      "reason": "สกิล Pierce (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/slimz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-002",
+      "verdict": "verified",
+      "reason": "สกิล Flying Spear (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/slimz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-003",
+      "verdict": "verified",
+      "reason": "สกิล Leap of Vitality (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/slimz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-004",
+      "verdict": "verified",
+      "reason": "สกิล Savage Potion (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/slimz และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-005",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน dragon ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/slimz",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Awake, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Punish ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "slimz-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Slimz",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "slimz-001",
+    "slimz-002",
+    "slimz-003",
+    "slimz-004",
+    "slimz-005",
+    "slimz-006",
+    "slimz-007",
+    "slimz-008",
+    "slimz-009",
+    "slimz-010"
+  ]
+}

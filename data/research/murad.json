@@ -1,0 +1,138 @@
+{
+  "hero": "murad",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "murad-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Rift: แท็ก [เพิ่มความเสียหาย, พิเศษ]",
+      "quote": "Rift",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Thorn of Time: แท็ก [เคลื่อนที่, กายภาพ] คูลดาวน์ 6s ใช้มานา 20",
+      "quote": "Thorn of Time",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Time Surge: แท็ก [ไม่ตกเป็นเป้าหมาย, กายภาพ] ใช้มานา 40",
+      "quote": "Time Surge",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Dimension Slash: แท็ก [ไม่ตกเป็นเป้าหมาย, ความเสียหายหมู่] คูลดาวน์ 12s ใช้มานา 60",
+      "quote": "Dimension Slash",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Murad เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Soulreaver, War Boots, Broken Spear, Omni Arms, Fenrir's Tooth, Death Sickle",
+      "quote": "Soulreaver / War Boots / Broken Spear / Omni Arms / Fenrir's Tooth / Death Sickle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Essense Reaver (green)",
+      "quote": "Awake / Spirit / Essense Reaver",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Shadow Blade → Deadly Claw → Curse of Death / Human → Reaper's Blessing / Veda → Axe of Sacrifice",
+      "quote": "Lokheim → Shadow Blade → Deadly Claw → Curse of Death / Human → Reaper's Blessing / Veda → Axe of Sacrifice",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/murad",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "murad-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Murad ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/murad, ประกาศแพตช์ทางการ และ hero-details.json"
+}

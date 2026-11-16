@@ -1,0 +1,94 @@
+{
+  "hero": "natalya",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "natalya-001",
+      "verdict": "verified",
+      "reason": "สกิล Cursed Flame (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/natalya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-002",
+      "verdict": "verified",
+      "reason": "สกิล Arcane Spirits (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/natalya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-003",
+      "verdict": "verified",
+      "reason": "สกิล Arcane Nova (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/natalya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-004",
+      "verdict": "verified",
+      "reason": "สกิล Lethal Rays (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/natalya และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/natalya",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 5 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "natalya-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Natalya",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "natalya-001",
+    "natalya-002",
+    "natalya-003",
+    "natalya-004",
+    "natalya-005",
+    "natalya-006",
+    "natalya-007",
+    "natalya-008",
+    "natalya-009",
+    "natalya-010"
+  ]
+}

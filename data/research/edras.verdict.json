@@ -1,0 +1,110 @@
+{
+  "hero": "edras",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "edras-001",
+      "verdict": "verified",
+      "reason": "สกิล Sword of Light (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-002",
+      "verdict": "verified",
+      "reason": "สกิล Golden Goal (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-003",
+      "verdict": "verified",
+      "reason": "สกิล Holy Strike (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-004",
+      "verdict": "verified",
+      "reason": "สกิล Scorching Light (สกิล 3) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-005",
+      "verdict": "verified",
+      "reason": "สกิล Befalling Darkness (สกิล 4) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-006",
+      "verdict": "verified",
+      "reason": "สกิล Dark Blade (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-007",
+      "verdict": "verified",
+      "reason": "สกิล Hungry for Blood (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-008",
+      "verdict": "verified",
+      "reason": "สกิล Tearing Slashes (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-009",
+      "verdict": "verified",
+      "reason": "สกิล Suffocating Darkness (สกิล 3) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-010",
+      "verdict": "verified",
+      "reason": "สกิล Holy Light Ascension (สกิล 4) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-011",
+      "verdict": "verified",
+      "reason": "บทบาท ไฟต์เตอร์ เลน slayer ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "edras-012",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Edras",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 12,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "edras-001",
+    "edras-002",
+    "edras-003",
+    "edras-004",
+    "edras-005",
+    "edras-006",
+    "edras-007",
+    "edras-008",
+    "edras-009",
+    "edras-010",
+    "edras-011",
+    "edras-012"
+  ]
+}

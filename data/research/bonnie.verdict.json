@@ -1,0 +1,62 @@
+{
+  "hero": "bonnie",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "bonnie-001",
+      "verdict": "verified",
+      "reason": "สกิล Don't Test Me (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bonnie-002",
+      "verdict": "verified",
+      "reason": "สกิล Bonnie Smack! (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bonnie-003",
+      "verdict": "verified",
+      "reason": "สกิล Gina Thwack! (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bonnie-004",
+      "verdict": "verified",
+      "reason": "สกิล Allan Kaboom! (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bonnie-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "bonnie-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Bonnie",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "bonnie-001",
+    "bonnie-002",
+    "bonnie-003",
+    "bonnie-004",
+    "bonnie-005",
+    "bonnie-006"
+  ]
+}

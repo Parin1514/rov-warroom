@@ -1,0 +1,138 @@
+{
+  "hero": "darcy",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "darcy-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Dimensional Force: แท็ก [เพิ่มความเสียหาย, เพิ่มความเร็ว]",
+      "quote": "Dimensional Force",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Dimensional Walk: แท็ก [เวท, เพิ่มความเร็ว] คูลดาวน์ 7s ใช้มานา 70",
+      "quote": "Dimensional Walk",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Dimensional Cube: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 7 (-0.3/LV)s ใช้มานา 70",
+      "quote": "Dimensional Cube",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Dimensional Portal: แท็ก [เวท, ควบคุม] ใช้มานา 125",
+      "quote": "Dimensional Portal",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท D'Arcy เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำโดย Pro Player\": Loki's Curse, Glided Greaves, Apocalypse, Boomstick, Hecate's Diadem, Blade of Eternity",
+      "quote": "Loki's Curse / Glided Greaves / Apocalypse / Boomstick / Hecate's Diadem / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Spirit (purple), Stain (green)",
+      "quote": "Desolate / Spirit / Stain",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Blessing → Sacred Protection / Lokheim → Devourer / Lokheim → Deadly Claw",
+      "quote": "Veda → Axe of Sacrifice → Blessing → Sacred Protection / Lokheim → Devourer / Lokheim → Deadly Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/darcy",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "darcy-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ D'Arcy ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/darcy, ประกาศแพตช์ทางการ และ hero-details.json"
+}

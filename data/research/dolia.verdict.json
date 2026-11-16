@@ -1,0 +1,62 @@
+{
+  "hero": "dolia",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "dolia-001",
+      "verdict": "verified",
+      "reason": "สกิล Gift of the Merfolk (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dolia-002",
+      "verdict": "verified",
+      "reason": "สกิล Echo of Glee (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dolia-003",
+      "verdict": "verified",
+      "reason": "สกิล Dive (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dolia-004",
+      "verdict": "verified",
+      "reason": "สกิล Oceanic Gift (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dolia-005",
+      "verdict": "verified",
+      "reason": "บทบาท ซัพพอร์ต เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "dolia-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Dolia",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "dolia-001",
+    "dolia-002",
+    "dolia-003",
+    "dolia-004",
+    "dolia-005",
+    "dolia-006"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "zip",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "zip-001",
+      "verdict": "verified",
+      "reason": "สกิล Zip Bloat! (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zip และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-002",
+      "verdict": "verified",
+      "reason": "สกิล Zip Hex! (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zip และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-003",
+      "verdict": "verified",
+      "reason": "สกิล Zip Angry! (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zip และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-004",
+      "verdict": "verified",
+      "reason": "สกิล Zip Roll! (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zip และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-005",
+      "verdict": "verified",
+      "reason": "บทบาท ซัพพอร์ต เลน roam ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/zip",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Golden Body, Spirit, Prowess ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zip-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Zip",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "zip-001",
+    "zip-002",
+    "zip-003",
+    "zip-004",
+    "zip-005",
+    "zip-006",
+    "zip-007",
+    "zip-008",
+    "zip-009",
+    "zip-010"
+  ]
+}

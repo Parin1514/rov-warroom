@@ -1,0 +1,138 @@
+{
+  "hero": "allain",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "allain-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Howling Sword: แท็ก [ความเสียหายผสม, ฮีล]",
+      "quote": "Howling Sword",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Meteor Strike: แท็ก [ความเสียหายผสม, ต้านสถานะ] ใช้มานา 0",
+      "quote": "Meteor Strike",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Moonflash: แท็ก [กายภาพ, ลดความเร็ว] คูลดาวน์ 2s ใช้มานา 0",
+      "quote": "Moonflash",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Death at Sunset: แท็ก [จริง, ไม่ตกเป็นเป้าหมาย] ใช้มานา 0",
+      "quote": "Death at Sunset",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Allain เป็น ไฟต์เตอร์ ประจำเลน slayer",
+      "quote": "ไฟต์เตอร์ slayer",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Jungle\": Soulreaver, Glided Greaves, Claves Sancti, Omni Arms, Hyoga's Edge, Blade of Eternity",
+      "quote": "Soulreaver / Glided Greaves / Claves Sancti / Omni Arms / Hyoga's Edge / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Shadow Blade → Deadly Claw → Desperate duel / Human → Mark of Frost / Human → Gunslinger",
+      "quote": "Lokheim → Shadow Blade → Deadly Claw → Desperate duel / Human → Mark of Frost / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/allain",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "allain-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Allain ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/allain, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,138 @@
+{
+  "hero": "laville",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "laville-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Lucky Star: แท็ก [เพิ่มความเร็วโจมตี]",
+      "quote": "Lucky Star",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Light Chaser: แท็ก [เพิ่มความเสียหาย, กายภาพ] คูลดาวน์ 10s ใช้มานา 60",
+      "quote": "Light Chaser",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Mighty Shield: แท็ก [ป้องกัน, พิเศษ] ใช้มานา 60",
+      "quote": "Mighty Shield",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Double Trouble: แท็ก [กายภาพ, สตั้น] ใช้มานา 130",
+      "quote": "Double Trouble",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Laville เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Abyssal Dragon Lane\": War Boots, Claves Sancti, Ifrit's Claw, Bow of Slaughter, Muramasa, Blade of Eternity",
+      "quote": "War Boots / Claves Sancti / Ifrit's Claw / Bow of Slaughter / Muramasa / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rage (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Rage / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Blessing → Holy Summoner / Lokheim → Devourer / Human → Arcane Whisper",
+      "quote": "Veda → Axe of Sacrifice → Blessing → Holy Summoner / Lokheim → Devourer / Human → Arcane Whisper",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Sprint",
+      "quote": "Sprint",
+      "source": {
+        "url": "https://www.rov.in.th/hero/laville",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "laville-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Laville ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/laville, ประกาศแพตช์ทางการ และ hero-details.json"
+}

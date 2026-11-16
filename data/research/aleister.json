@@ -1,0 +1,138 @@
+{
+  "hero": "aleister",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "aleister-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Wicked Plot: แท็ก [จริง]",
+      "quote": "Wicked Plot",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Magic Barrier: แท็ก [เวท, สตั้น] ใช้มานา 80",
+      "quote": "Magic Barrier",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Matrix of Woe: แท็ก [เวท, ความเสียหายหมู่] คูลดาวน์ 8s ใช้มานา 80",
+      "quote": "Matrix of Woe",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Magic Prison: แท็ก [เวท, ล็อคตัว] ใช้มานา 130",
+      "quote": "Magic Prison",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Aleister เป็น เมจ ประจำเลน mid",
+      "quote": "เมจ mid",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"แนะนำ\": Orb of the Magi, Hermes' Select, Boomstick, Hecate's Diadem, Arctic Orb, Staff of Nuul",
+      "quote": "Orb of the Magi / Hermes' Select / Boomstick / Hecate's Diadem / Arctic Orb / Staff of Nuul",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Desolate (red), Protect (purple), Secret (green)",
+      "quote": "Desolate / Protect / Secret",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Sacred Bead → Holy Verdic → Sacred Protection / Afata → River Treader / Human → Mark of Frost",
+      "quote": "Veda → Sacred Bead → Holy Verdic → Sacred Protection / Afata → River Treader / Human → Mark of Frost",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aleister",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aleister-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Aleister ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/aleister, ประกาศแพตช์ทางการ และ hero-details.json"
+}

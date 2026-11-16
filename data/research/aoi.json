@@ -1,0 +1,151 @@
+{
+  "hero": "aoi",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "aoi-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Dragon Blessing: แท็ก [กายภาพ, เพิ่มความเสียหาย]",
+      "quote": "Dragon Blessing",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Dragon Slash: แท็ก [กายภาพ, ลอยขึ้น] คูลดาวน์ 5s ใช้มานา 0",
+      "quote": "Dragon Slash",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Dragon Claw: แท็ก [เคลื่อนที่, ลอยขึ้น] คูลดาวน์ 3.5s ใช้มานา 0",
+      "quote": "Dragon Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Dragon Chant: แท็ก [กายภาพ, ไม่ตกเป็นเป้าหมาย] ใช้มานา 0",
+      "quote": "Dragon Chant",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Dragon Slash: แท็ก [กายภาพ, ฮีล] คูลดาวน์ 5s ใช้มานา 0",
+      "quote": "Dragon Slash",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-006",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Aoi เป็น แอสซาซิน ประจำเลน jungle",
+      "quote": "แอสซาซิน jungle",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-007",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Jungle\": Soulreaver, Glided Greaves, Spear of Longinus, Omni Arms, Claves Sancti, Blade of Eternity",
+      "quote": "Soulreaver / Glided Greaves / Spear of Longinus / Omni Arms / Claves Sancti / Blade of Eternity",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-008",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Awake (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Awake / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-009",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Lokheim → Shadow Blade → Deadly Claw → Curse of Death / Human → Mark of Frost / Human → Gunslinger",
+      "quote": "Lokheim → Shadow Blade → Deadly Claw → Curse of Death / Human → Mark of Frost / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-010",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Punish",
+      "quote": "Punish",
+      "source": {
+        "url": "https://www.rov.in.th/hero/aoi",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "aoi-011",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Aoi ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/aoi, ประกาศแพตช์ทางการ และ hero-details.json"
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "tulen",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "tulen-001",
+      "verdict": "verified",
+      "reason": "สกิล Thunderclap (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tulen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-002",
+      "verdict": "verified",
+      "reason": "สกิล Ion Prisms (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tulen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-003",
+      "verdict": "verified",
+      "reason": "สกิล Lightning Strike (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tulen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-004",
+      "verdict": "verified",
+      "reason": "สกิล Thunderbird (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/tulen และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-005",
+      "verdict": "verified",
+      "reason": "บทบาท เมจ เลน mid ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/tulen",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Desolate, Spirit, Stain ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tulen-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Tulen",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "tulen-001",
+    "tulen-002",
+    "tulen-003",
+    "tulen-004",
+    "tulen-005",
+    "tulen-006",
+    "tulen-007",
+    "tulen-008",
+    "tulen-009",
+    "tulen-010"
+  ]
+}

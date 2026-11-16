@@ -1,0 +1,138 @@
+{
+  "hero": "teeri",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "teeri-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล พาสซีฟ Fos' Ring: แท็ก [กายภาพ, บัฟ]",
+      "quote": "Fos' Ring",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 1 Comet Strike: แท็ก [กายภาพ, ลดความเร็ว] คูลดาวน์ 8s ใช้มานา 45",
+      "quote": "Comet Strike",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล สกิล 2 Piercing Heart: แท็ก [เพิ่มความเร็ว, ความเสียหายหมู่] ใช้มานา 60",
+      "quote": "Piercing Heart",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิล 3อัลติเมท Glowing Redemption: แท็ก [กายภาพ, เปิดแผนที่] ใช้มานา 120",
+      "quote": "Glowing Redemption",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Teeri เป็น แครี่ ประจำเลน dragon",
+      "quote": "แครี่ dragon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-006",
+      "type": "item",
+      "text": "ไอเทมแนะนำทางการชุด \"Teeri\": War Boots, Claves Sancti, Slikk's Sting, Muramasa, Bow of Slaughter, Fafnir's Talon",
+      "quote": "War Boots / Claves Sancti / Slikk's Sting / Muramasa / Bow of Slaughter / Fafnir's Talon",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-007",
+      "type": "rune",
+      "text": "ชุดรูนทางการ: Rampage (red), Spirit (purple), Dragon's Claw (green)",
+      "quote": "Rampage / Spirit / Dragon's Claw",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-008",
+      "type": "enchant",
+      "text": "ชุดพลังแฝงทางการ: Veda → Axe of Sacrifice → Blessing → Holy Summoner / Human → Mark of Frost / Human → Gunslinger",
+      "quote": "Veda → Axe of Sacrifice → Blessing → Holy Summoner / Human → Mark of Frost / Human → Gunslinger",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-009",
+      "type": "skill",
+      "text": "สกิลชาเลนเจอร์ทางการแนะนำ: Flicker",
+      "quote": "Flicker",
+      "source": {
+        "url": "https://www.rov.in.th/hero/teeri",
+        "kind": "official",
+        "date": "2026-11-16",
+        "transcript": true,
+        "stale": false
+      }
+    },
+    {
+      "id": "teeri-010",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026, 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการปรับ Teeri ข้อมูลทางการจึงยังเป็นชุดปัจจุบัน",
+      "quote": "",
+      "source": {
+        "url": "https://www.rov.in.th/patch-notes/hotfix261104",
+        "kind": "official",
+        "date": "2026-11-04",
+        "transcript": true,
+        "stale": false
+      }
+    }
+  ],
+  "notes": "ข้อมูลทางการอ้างอิงจาก https://www.rov.in.th/hero/teeri, ประกาศแพตช์ทางการ และ hero-details.json"
+}

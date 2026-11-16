@@ -1,0 +1,94 @@
+{
+  "hero": "lindis",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "lindis-001",
+      "verdict": "verified",
+      "reason": "สกิล Tread Softly (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lindis และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-002",
+      "verdict": "verified",
+      "reason": "สกิล Piercing Gaze (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lindis และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-003",
+      "verdict": "verified",
+      "reason": "สกิล Entrapment (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lindis และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-004",
+      "verdict": "verified",
+      "reason": "สกิล Lunar Champion (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/lindis และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-005",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน jungle ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero/lindis",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-006",
+      "verdict": "verified",
+      "reason": "ไอเทมแนะนำ 6 ชิ้น มีอยู่ใน src/items.json และตรงกับ hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-007",
+      "verdict": "verified",
+      "reason": "ชุดรูน Rage, Spirit, Dragon's Claw ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-008",
+      "verdict": "verified",
+      "reason": "ชุดพลังแฝงตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-009",
+      "verdict": "verified",
+      "reason": "สกิลชาเลนเจอร์ Flicker ตรงกับ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "lindis-010",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Lindis",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 10,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "lindis-001",
+    "lindis-002",
+    "lindis-003",
+    "lindis-004",
+    "lindis-005",
+    "lindis-006",
+    "lindis-007",
+    "lindis-008",
+    "lindis-009",
+    "lindis-010"
+  ]
+}

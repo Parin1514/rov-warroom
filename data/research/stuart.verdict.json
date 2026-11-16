@@ -1,0 +1,62 @@
+{
+  "hero": "stuart",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "stuart-001",
+      "verdict": "verified",
+      "reason": "สกิล Drain Charge (พาสซีฟ) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "stuart-002",
+      "verdict": "verified",
+      "reason": "สกิล Death Bloom (สกิล 1) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "stuart-003",
+      "verdict": "verified",
+      "reason": "สกิล Eyes of Zealot (สกิล 2) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "stuart-004",
+      "verdict": "verified",
+      "reason": "สกิล Fatal Gift (3อัลติเมท) ตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero และ src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "stuart-005",
+      "verdict": "verified",
+      "reason": "บทบาท แครี่ เลน dragon ตรงกับ src/heroes.json และหน้าทางการ https://www.rov.in.th/hero",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "stuart-006",
+      "verdict": "verified",
+      "reason": "หน้าประกาศแพตช์ทางการล่าสุดยืนยันว่าไม่มีการปรับเปลี่ยน Stuart",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "contested": 0,
+    "rejected": 0,
+    "unverifiable": 0
+  },
+  "safeToPublish": [
+    "stuart-001",
+    "stuart-002",
+    "stuart-003",
+    "stuart-004",
+    "stuart-005",
+    "stuart-006"
+  ]
+}
