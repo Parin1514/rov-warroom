@@ -1,0 +1,141 @@
+{
+  "hero": "zata",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "zata-001",
+      "verdict": "verified",
+      "reason": "ข้อความตรงกับหน้าฮีโร่ทางการ https://www.rov.in.th/hero/zata (ดึง 2026-11-16): Windstorm เกิดเมื่อสกิลชนกัน, ลดคูลดาวน์ Ascend 1 วิ/2 วิถ้าโดนฮีโร่, เริ่มลดหลังสกิลสิ้นสุด. ชื่อสกิล Windstorm/Ascend ตรง src/hero-details.json:1892,1923. หมายเหตุ: rovguide.com แสดง 0.5 วิ (ขัดกับ official) แต่ claim อ้าง official โดยตรงจึง verified ตามแหล่งทางการ",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-002",
+      "verdict": "verified",
+      "reason": "ตรงกับข้อความ Ascend ในหน้า official (ดึง 2026-11-16): พุ่งซ้ำภายใน 3 วิ, พุ่งครบ 3 ครั้งบินขึ้น, คูลดาวน์ตามจำนวนพุ่ง 1/2/3 = 25%/50%/75%",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-003",
+      "verdict": "verified",
+      "reason": "ตรงกับประกาศทางการ https://www.rov.in.th/patch-notes/hotfix260827 (ดึง 2026-11-16): 'Zata (Nerf) ... ความเสียหายสกิล 3: 350(+100/LV)(+0.55AP) → 300(+150/LV)(+0.5AP)' พร้อมความคิดเห็นผู้พัฒนาลดดาเมจต้นเกมคงเลทเกม. เป็นประวัติแพตช์ไม่ใช่ค่าปัจจุบัน",
+      "confidence": 0.97,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-004",
+      "verdict": "verified",
+      "reason": "ยืนยันในหน้า aov-builds ปัจจุบัน (ดึง 2026-11-16, dateModified 2026-11-04): หัวข้อคอมโบพื้นฐานใช้ Eagle Screech/Twister แล้ว Ascend พุ่งทางเดียวกันให้ครบ 3 สแตก. กลไกสอดคล้องหน้า official (zata-002). ทริกการเล่น ไม่ใช่ตัวเลข",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-005",
+      "verdict": "contested",
+      "reason": "หน้า aov-builds ปัจจุบันมีคอมโบพุ่ง 5 ครั้งจริง (Twister+Eagle Screech จุดเดียวกัน พุ่ง 1 ครั้ง ปล่อยปุ่ม ใช้ Twister ครั้งสองแล้วพุ่งตาม) แต่ส่วนสุดท้ายของ claim ว่า 'บทความแนะนำสอดการโจมตีปกติเสริมพลังระหว่างพุ่งเพื่อสะสมการพุ่งเพิ่ม' ขัดกับหน้าปัจจุบันที่เขียนว่า 'ไม่จำเป็นต้องสอดแทรกการโจมตีปกติเสริมพลัง... แค่พุ่งโดนศัตรูหรือโดนสกิลก็พุ่งต่อได้แล้ว'",
+      "confidence": 0.7,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-006",
+      "verdict": "verified",
+      "reason": "เซ็ตบิลด์ตรงกับหน้า aov-builds ปัจจุบัน (ยกเว้นลำดับ) และไอเทม 5/6 อยู่ใน src/items.json. ข้อกังวลเดียว: 'Arcane Robe' ไม่มีใน items.json (53 รายการ) แต่มีหน้าไอเทมจริงบน aov-builds (อัปโหลดรูป 2025/07, ให้พลังแฝง Spirit Form/Spellbreak) — บ่งว่า items.json ไม่ครบ ไม่ใช่ไอเทมถูกถอด. ยังไม่มีหลักฐานว่าถูกถอดจากเกม",
+      "confidence": 0.75,
+      "needsInGameTest": true
+    },
+    {
+      "id": "zata-007",
+      "verdict": "contested",
+      "reason": "เซมิบิลด์ตรงกับหน้า aov-builds ปัจจุบัน แต่ 2 ใน 6 ชิ้นไม่ยืนยันกับข้อมูลทางการในโปรเจกต์: 'Gilded Greaves' ไม่มีใน src/items.json (มีแต่สะกดทางการ 'Glided Greaves') และ 'Skadi's Frost Ring' ไม่มีใน items.json หรือบิลด์ฮีโร่ใดเลย ไม่มีหลักฐานว่าถูกถอด แต่กฎข้อ 1 ห้าม verified เมื่อไม่พบใน items.json",
+      "confidence": 0.5,
+      "needsInGameTest": true
+    },
+    {
+      "id": "zata-008",
+      "verdict": "verified",
+      "reason": "ตรงกับส่วน 'หมายเหตุการจัดไอเทม' ของ aov-builds ปัจจุบันทุกประการ (Flashy→Gilded เมื่อ CC เยอะ, Boomstick→Staff of Nuul เมื่อต้านเวทสูง, →Shield of the Lost เมื่อกายภาพแรง, →Medallion of Troy เมื่อเวทแรง). ไอเทมทั้ง 5 ชื่อที่เกี่ยวข้องอยู่ใน src/items.json (Gilded=Glided Greaves ทางการ)",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-009",
+      "verdict": "verified",
+      "reason": "ตรงกับส่วนรูนของ aov-builds ปัจจุบัน: แดง III พลังเวท/เจาะเกราะเวท x10, ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่ x10, เขียว III ความเร็วโจมตี/เจาะเกราะเวท x10. แหล่งระบุแค่สถานะไม่ระบุชื่อรูน จึงเทียบกับ src/hero-details.json (Desolate/Spirit/Stain) ไม่ได้โดยตรงและไม่ขัดกัน",
+      "confidence": 0.75,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-010",
+      "verdict": "unverifiable",
+      "reason": "ยืนยันได้แค่ว่าหน้า aov-builds แสดง Tower of Radiance: Sacred Bead/Penetrating Heart/Holy Shield และ Chaos Abyss: Hellfire จริง แต่ src/hero-details.json ไม่มีพลังแฝงกลุ่ม Tower of Radiance/Chaos Abyss ให้เทียบ (มีแค่ Lokheim/Human) และ claim เองยอมรับว่าข้อมูลไม่ครบ แหล่งเดียว ไม่ทางการ",
+      "confidence": 0.4,
+      "needsInGameTest": true
+    },
+    {
+      "id": "zata-011",
+      "verdict": "contested",
+      "reason": "รายชื่อตรงกับ zathong.com จริง (Lokheim: Raging Inferno/Deadly Claw/Curse of Death; Human: Mark of Frost/Gunslinger) และตรงกับ enchantments ใน src/hero-details.json:1989-2027 ทุกชื่อ แต่แหล่งลงวันที่ 2021-04-04 ก่อนแพตช์ปัจจุบันมาก (stale) และ hero-details ไม่มีชุดเทียบเดียวกันครบ 5 ช่องจึงพิสูจน์ว่าเป็นคำแนะนำทางการปัจจุบันไม่ได้",
+      "confidence": 0.55,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-012",
+      "verdict": "unverifiable",
+      "reason": "ชื่อ Violate/Guerrilla/Flurry ตรงกับ zathong.com จริง แต่ src/hero-details.json แนะนำรูน Zata เป็น Desolate/Spirit/Stain (red/purple/green) ซึ่งคนละชื่อ ไม่ทราบการแมปข้ามเซิร์ฟเวอร์ แหล่งเดียวปี 2021 จึงยืนยันหรือปฏิเสธไม่ได้",
+      "confidence": 0.35,
+      "needsInGameTest": true
+    },
+    {
+      "id": "zata-013",
+      "verdict": "rejected",
+      "reason": "เทียบหน้า zathong.com ปัจจุบัน (ดึง 2026-11-16): คอลัมน์ Extreme Threats มีเฉพาะ Zill, Nakroth, Omen (3 ตัว) ส่วน Alice, TeeMee, Zip อยู่ใต้คอลัมน์ 'Ideal Synergies' ร่วมกับ Payna, Baldum — claim รวมทั้ง 6 ตัวเป็น Extreme Threats ผิดจากแหล่งที่อ้าง",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-014",
+      "verdict": "unverifiable",
+      "reason": "ความคิดเห็นผู้เล่นคนเดียว (Penguin, 2025-08-28) บน aov-builds — แหล่งชุมชนเดียว ไม่มีเอกสารยืนยันกลไกแต่ละคู่ (Veera/Arum/Aleister/Hayate/Toro/Kaine/Quillen) ต้องทดสอบในเกม",
+      "confidence": 0.3,
+      "needsInGameTest": true
+    },
+    {
+      "id": "zata-015",
+      "verdict": "verified",
+      "reason": "ตรงกับหน้า aov-builds ปัจจุบัน: 'เน้นเคลียร์มินเนี่ยนให้เร็วและจำกัดการแลกสกิลกับฮีโร่ศัตรูก่อนเลเวล 4' และคำแนะนำใช้ Eagle Screech ระเบิดสุดระยะเคลียร์/โพค สอดคล้องข้อความสกิล official (กระสุนระเบิดเมื่อสุดทางเป็นวงกว้าง)",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-016",
+      "verdict": "verified",
+      "reason": "ตรงกับหน้า aov-builds ปัจจุบัน: ท้ายเกมอย่าพุ่งบ้าบิ่นเพราะถูกเบิร์สต์ก่อนบิน, โพค 1/2 จากระยะไกล, รอศัตรูกระจายและแครี่เผยตัวแล้วค่อยพุ่งคอมโบ คำแนะนำการเล่น ไม่มีตัวเลขให้ขัด",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-017",
+      "verdict": "verified",
+      "reason": "ตรงกับหน้า aov-builds ปัจจุบัน: ดูแถบสีเหลือง=เวลาพุ่งคงเหลือ, เลข 3 เหนือหัว=จำนวนพุ่งที่เหลือ, พุ่งน้อยคูลดาวน์รีเซ็ตเร็วกว่าและพุ่ง 1-2 ครั้งข้ามภูมิประเทศได้โดยไม่บิน สอดคล้อง official (คูลดาวน์ตามจำนวนพุ่ง 25/50/75%)",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "zata-018",
+      "verdict": "verified",
+      "reason": "ตรงกับประวัติแพตช์บน rovguide.com/th/heroes/zata: บันทึก Beta47 time dateTime=2024-10-16 'Zata: ลดคูลดาวน์อัลติจาก 50-5/Lv เป็น 40-4/Lv และปรับความเร็วขึ้นบินจาก 30% เป็น 20%' และ claim ระบุชัดว่าเป็นประวัติไม่ใช่ค่าปัจจุบัน",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {"verified": 11, "contested": 3, "rejected": 1, "unverifiable": 3},
+  "safeToPublish": ["zata-001", "zata-002", "zata-003", "zata-004", "zata-006", "zata-008", "zata-009", "zata-015", "zata-016", "zata-017", "zata-018"],
+  "gaps": [
+    "src/items.json ไม่มี Arcane Robe และ Skadi's Frost Ring แม้ aov-builds มีหน้าไอเทมทั้งคู่ — อาจเป็นไอเทมใหม่ที่ items.json (53 รายการ) ยังไม่รวม ควรตรวจในไคลเอนต์เกมก่อนเผยแพร่ zata-006/007 เต็มรูปแบบ",
+    "rovguide.com แสดง Windstorm ลดคูลดาวน์ Ascend 0.5 วิ ขณะ rov.in.th ระบุ 1 วิ/2 วิ — ค่าปัจจุบันในเกมไม่แน่ชัดจากเอกสาร (zata-001 verified ตาม official แต่มีจุดขัดแหล่งรอง)",
+    "ชื่อรูนไทยของ Violate/Guerrilla/Flurry และการแมปกับ Desolate/Spirit/Stain ไม่มีเอกสารยืนยัน",
+    "พลังแฝง Tower of Radiance/Chaos Abyss ไม่มีใน src/hero-details.json ให้เทียบเลย",
+    "ยังไม่มีหลักฐานยืนยันว่า B54 (2026-08-27) เป็นการปรับ Zata ครั้งล่าสุด — ไม่ได้ตรวจเนื้อหา Hotfix 4 พ.ย. 2026 ทีละบรรทัด"
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "hero": "tamyn",
+  "gamePatch": "ค้นเมื่อแพตช์ 12 พ.ย. 2026 + Hotfix 17 พ.ย. 2026 (Tamyn เพิ่มเข้าเกมใน Beta54 7 ก.ค. 2026; Beta 55 28 ก.ย. 2026 ไม่พบ Tamyn ในรายการปรับฮีโร่ของ rovguide; ปรับ Tamyn ล่าสุดที่พบคือแพตช์ 30 ต.ค. 2026 ตาม tierlq)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "tamyn-001",
+      "type": "patch-change",
+      "text": "Beta54 (7 ก.ค. 2026) เพิ่ม Tamyn ฮีโร่ Fighter ที่แนะนำให้เล่นป่าหรือเลนออฟ (Slayer lane)",
+      "quote": "Tamyn, a fighter recommended for the jungle or off lane",
+      "source": {"url": "https://rovguide.com/updates/beta54", "kind": "article", "date": "2026-07-07", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-002",
+      "type": "patch-change",
+      "text": "Beta54: ค่าสเกลตามเลเวลของ Tamyn ตอนเปิดตัว คือ สกิลติดตัว 200 (+14/เลเวล) (+0.3 โบนัส AD), ฮีล 100 (+7/เลเวล) (2% โบนัส HP), สกิล 1 350 (+70/เลเวล) (+1.4 โบนัส AD), สกิล 2 300 (+60/เลเวล) (+1.2 โบนัส AD), อัลติ 150 (+150/เลเวล) (+0.85 โบนัส AD)",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/updates/beta54", "kind": "article", "date": "2026-07-07", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-003",
+      "type": "patch-change",
+      "text": "หน้า Beta 55 'Abyssal Rift' (28 ก.ย. 2026) ของ rovguide ไม่พบ Tamyn ในรายการปรับฮีโร่ (22 ฮีโร่) อ่านจากหน้าสรุปของ rovguide ไม่ใช่หน้าแพตช์ทางการ",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/updates/beta55", "kind": "article", "date": "2026-09-28", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-004",
+      "type": "patch-change",
+      "text": "tierlq (VN, อัปเดต 11/11/2026, แพตช์ 30/10) ระบุว่า Tamyn ถูกลดพลัง: การโจมตีเสริมพลังของสกิลติดตัวเหลือ 182-364 (+0.28 โบนัสพลังโจมตีกายภาพ) จากเดิม 200-396 (+0.3) (ข้อมูลเซิร์ฟเวอร์เวียดนาม ดู notes)",
+      "quote": "đòn đánh cường hóa của nội tại còn 182–364 (+0,28 công vật lý cộng thêm), trước là 200–396 (+0,3)",
+      "source": {"url": "https://tierlq.com/tuong/tamyn-jg/", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-005",
+      "type": "skill",
+      "text": "rovguide: สกิลติดตัว Shadow Devourer เมื่อเก็บหอกได้โจมตีปกติเสริมพลังสูงสุด 2 ครั้งภายใน 4 วินาที ความเร็วเคลื่อนที่ +20-40 นาน 4 วินาที (สูงสุดที่ 2 วินาที) การโจมตีเสริมพลังสร้างความเสียหายกายภาพ 200-396 (+30% โบนัส AD) คริติคอลไม่ได้ และลดคูลดาวน์ทุกสกิล 1 วินาที",
+      "quote": "200-396 (+30% bonus AD)",
+      "source": {"url": "https://rovguide.com/heroes/tamyn", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-006",
+      "type": "skill",
+      "text": "rovguide: Shadow Devourer เก็บหอกหรือรีคอลแล้วฟื้นฟู HP 100-198 (+2% โบนัส HP) เป็นสองเท่าเมื่อโจมตีเสริมพลังโดน; ใช้สกิลได้ความเร็วเคลื่อนที่ +2% นาน 5 วินาที ซ้อนสูงสุด 3 ครั้ง เพิ่มความเสียหายของสกิลและการโจมตีเสริมพลัง; หอกเกิดใหม่เองหลังหายไป 5 วินาที",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/heroes/tamyn", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-007",
+      "type": "skill",
+      "text": "rovguide: สกิล 1 Judgment Stab (Thrust of Judgment) ความเสียหายกายภาพ 350 (+140% โบนัส AD) (ฐาน 350-700) หอกปักอยู่หลังศัตรู 10 วินาที ถ้าฆ่าได้หอกบินต่อสร้างความเสียหายโบนัส 50% ใส่เป้าหมายใหม่ คูลดาวน์ 8 วินาทีลดเหลือ 7 วินาที",
+      "quote": "350 (+140% bonus AD)",
+      "source": {"url": "https://rovguide.com/heroes/tamyn", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-008",
+      "type": "skill",
+      "text": "rovguide: สกิล 2 Sacred Spear (Spear Strike) ความเสียหายกายภาพ 300 (+120% โบนัส AD) (ฐาน 300-600) หอกอยู่ 10 วินาที ลดความเร็วเคลื่อนที่ 15% (15-30%) นาน 2 วินาที คูลดาวน์ 8 วินาทีลดเหลือ 7 วินาที",
+      "quote": "300 (+120% bonus AD)",
+      "source": {"url": "https://rovguide.com/heroes/tamyn", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-009",
+      "type": "skill",
+      "text": "rovguide: อัลติ Scorching Light คูลดาวน์ 0 มานา 0 รีคอลหอกที่ใกล้ที่สุด ความเสียหายกายภาพ 150 (+85% โบนัส AD) (+5% HP ที่หายไป) (ฐาน 300/450/600) เก็บสูงสุด 2/3/4 ครั้ง เวลาชาร์จ 12/11/10 วินาที อัปอัลติเพิ่มจำนวนครั้งใช้ +1 สูงสุด 4",
+      "quote": "150 (+85% bonus AD) (+5% missing HP)",
+      "source": {"url": "https://rovguide.com/heroes/tamyn", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-010",
+      "type": "playstyle",
+      "text": "rovguide (แรงก์ไทย สแนปช็อต 19 ต.ค. 2026): Tamyn คลาส Fighter เลน Slayer/ป่า ถนัดการเคลื่อนที่ อัตราชนะ 52.80% อัตราเลือก 7.23% อัตราแบน 46.38% อันดับตามอัตราชนะ Fighter ที่ 3/39, Slayer ที่ 4/37, ป่าที่ 2/34",
+      "quote": "52.80% ... 7.23% ... 46.38%",
+      "source": {"url": "https://rovguide.com/heroes/tamyn", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-011",
+      "type": "playstyle",
+      "text": "rovguide: เรตติ้งทางการ ความอยู่รอด 3/5 ความเสียหาย 4/5 ฟังก์ชัน 1/5 ความยาก 5/5",
+      "quote": "Survivability 3/5 ... Damage 4/5 ... Function 1/5",
+      "source": {"url": "https://rovguide.com/heroes/tamyn", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-012",
+      "type": "playstyle",
+      "text": "rovguide หน้า meta (แรงก์ไทย 19 ต.ค. 2026): Tamyn ไฟต์เตอร์ ระดับ T2 อันดับ 10 ตามอัตราชนะ; ข้อมูลโปร (22 ส.ค. 2026): ปรากฏ 2.12% เลือก 1.86% แบน 0.27% อัตราชนะ 'จำนวนเลือกน้อยเกินไป'",
+      "quote": "Tamyn ไฟต์เตอร์ · T2 | 52.80% | 7.23% | 46.38%",
+      "source": {"url": "https://rovguide.com/th/meta", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-013",
+      "type": "playstyle",
+      "text": "tierlq (VN, 11/11/2026, แพตช์ 30/10): Tamyn ป่าอยู่เทียร์ S อันดับ 4/40 ในเลนป่า (เทียร์ S ปรับด้วยมือโดยบรรณาธิการ); ในเกมแรงก์ (Garena) ชนะ 54.63% เลือก 3.20% แบน 22.36% Garena จัดเป็นบั้น T3; ในลีก ĐTDV ฤดูกาลนี้ เลือก 45 แบน 259 ใน 310 เกม ชนะ 68.89%",
+      "quote": "Tamyn đi Rừng đang ở tier S ... hạng 4/40 trong đường Rừng",
+      "source": {"url": "https://tierlq.com/tuong/tamyn-jg/", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-014",
+      "type": "playstyle",
+      "text": "lienquanmobile.gg (เซิร์ฟเวอร์เวียดนาม) บิลด์ป่าของ Tamyn: ชนะ 62.32% เลือก 25.6% แบน 3.8% (ตัวเลขต่างจากแรงก์ไทย ดู notes)",
+      "quote": "",
+      "source": {"url": "https://lienquanmobile.gg/champions/tamyn/build/jungle/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-015",
+      "type": "item",
+      "text": "aov-builds ชุดป่า: Soulreaver, Flashy Boots, Omni Arms, Spear of Longinus, Wrath Armor, Voidsteel Blade",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-016",
+      "type": "item",
+      "text": "aov-builds ชุดเลนบน: Flashy Boots, Spear of Longinus, Fafnir's Talon, Frost Mace, Wrath Armor, Voidsteel Blade",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-017",
+      "type": "item",
+      "text": "tierlq (แพตช์ 30/10) ชุดป่า: Wizard's Boots, Spear of Longinus, Soulreaver, Complex Sword, Skyward Sword, Wrath Armor; สกิลเสริม Punish",
+      "quote": "Giày Thuật Sĩ / Thương Longinus / Kiếm Truy Hồn / Phức Hợp Kiếm / Thương Khung Kiếm / Giáp Cuồng Nộ",
+      "source": {"url": "https://tierlq.com/tuong/tamyn-jg/", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-018",
+      "type": "item",
+      "text": "lienquanmobile.gg ชุดป่า: Soulreaver, Resolute/Sturdy Boots, Spear of Longinus, Wrath Armor, Gaia's Standard, Mail of Pain",
+      "quote": "",
+      "source": {"url": "https://lienquanmobile.gg/champions/tamyn/build/jungle/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-019",
+      "type": "item",
+      "text": "cellphones.com.vn แบ่งชุดเป็น 3 แบบ: กึ่งแทงค์ (Wizard's Boots, Spear of Longinus, Frost Cape, Gaia's Standard, Skyward Sword, Aegis), ดาเมจเต็ม (Frostbite Mace, Rankbreaker, Complex Sword, Death Sickle, Fenrir's Tooth) และป่า (Leviathan Axe, Resolute Boots, Spear of Longinus, Medallion of Troy, Fenrir's Tooth, Aegis)",
+      "quote": "",
+      "source": {"url": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan", "kind": "article", "date": "2026-07-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-020",
+      "type": "item",
+      "text": "tenkly ไอเทมแนะนำ: Gilded Greaves, Fafnir's Talon, Omni Arms, Death Sickle, Blade of Eternity",
+      "quote": "",
+      "source": {"url": "https://tenkly.com/how-to-play-tamyn-at-maximum-potential/", "kind": "article", "date": "2026-06-30", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-021",
+      "type": "item",
+      "text": "aov-builds: เน้นไอเทมความเร็ว (prioritize speed items) เพราะ Tamyn ต้องเคลื่อนที่เก็บหอกและโจมตีเสริมพลัง",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/th/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-022",
+      "type": "rune",
+      "text": "aov-builds รูน: x10 แดง III ความเร็วโจมตี/HP/เกราะ, x10 ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่, x10 เขียว III พลังโจมตี/เจาะเกราะ",
+      "quote": "x10 รูนแดง III ความเร็วโจมตี / พลังชีวิต / เกราะ x10 รูนม่วง III ความเร็วโจมตี / ความเร็วเคลื่อนที่ x10 รูนเขียว III พลังโจมตี / เจาะเกราะ",
+      "source": {"url": "https://aov-builds.com/th/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-023",
+      "type": "rune",
+      "text": "tierlq รูน: แดง III ความเร็วโจมตี/คริ x5, แดง III พลังโจมตีกายภาพ/เจาะเกราะ x5, ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่ x10, เขียว III พลังโจมตีกายภาพ/เจาะเกราะ x10",
+      "quote": "Đỏ III Tốc đánh/Tỉ lệ chí mạng ×5 ... Xanh III Công vật lý/Xuyên giáp ×10",
+      "source": {"url": "https://tierlq.com/tuong/tamyn-jg/", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-024",
+      "type": "rune",
+      "text": "cellphones.com.vn รูน: แดง ม่วง เขียว III พลังโจมตีกายภาพ/เจาะเกราะ อย่างละ 10 ช่อง",
+      "quote": "",
+      "source": {"url": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan", "kind": "article", "date": "2026-07-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-025",
+      "type": "enchant",
+      "text": "aov-builds พลังแฝง: Chaos Abyss (Afterimage, Fortify, Fighting Spirit) คู่กับ Tower of Radiance (Contrast, Penetrating Heart)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-026",
+      "type": "enchant",
+      "text": "cellphones.com.vn พลังแฝง: Chaos Abyss (Lifesteal, Empowered Attack, Fighting Spirit) คู่ Tower of Radiance (Contrast, Penetrating Heart); แบบป้องกันใช้ Afterimage, Fortify, Fighting Spirit",
+      "quote": "",
+      "source": {"url": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan", "kind": "article", "date": "2026-07-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-027",
+      "type": "enchant",
+      "text": "lienquanmobile.gg พลังแฝงป่า: Chaos Abyss + Tower of Radiance",
+      "quote": "",
+      "source": {"url": "https://lienquanmobile.gg/champions/tamyn/build/jungle/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-028",
+      "type": "skill",
+      "text": "aov-builds ลำดับอัปสกิล: สกิล 1 เลเวล 1,3,5,7,9,11; สกิล 2 เลเวล 2,6,10,13,14,15; อัลติ เลเวล 4,8,12; สกิลเสริม Flicker และ Punish สำหรับป่า",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-029",
+      "type": "combo",
+      "text": "aov-builds คอมโบง่าย: สกิล 2 -> สกิล 1 -> อัลติ (ใช้ขณะพุ่ง) -> โจมตีเสริมพลัง",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-030",
+      "type": "combo",
+      "text": "aov-builds คอมโบขั้นสูง: ขว้างสกิล 2 และสกิล 1 รอจนคูลดาวน์ทั้งสองเหลือ 1 วินาที แล้วเก็บหอกเพื่อโจมตีเสริมพลังต่อเนื่อง 4 ครั้ง",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-031",
+      "type": "combo",
+      "text": "tenkly คอมโบ: สกิล 1 -> โจมตีเสริมพลัง -> สกิล 2 -> เดิน -> อัลติ -> โจมตีเสริมพลัง",
+      "quote": "",
+      "source": {"url": "https://tenkly.com/how-to-play-tamyn-at-maximum-potential/", "kind": "article", "date": "2026-06-30", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-032",
+      "type": "playstyle",
+      "text": "aov-builds เคล็ดลับ: ติดตามตำแหน่งหอก ไม่รีคอลทันที โจมตีเสริมพลังให้โดนทุกครั้ง เล่นแบบ kite แข็งแกร่งที่สุดในไฟต์ยาว ปักหอกไว้ที่ Dragon/Caesar ล่วงหน้า ช่วงต้นเกมชิดป้อมเมื่อเจอ Omen, Florentino, Charlotte; กลาง-ท้ายเกมไม่เข้าก่อน อ้อมตีแบ็กไลน์ ใช้อัลติเมื่อมีหอกบนสนามหลายอัน หลีกเลี่ยง CC แข็งและไฟต์เตอร์ที่ตรึงตัว",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-033",
+      "type": "playstyle",
+      "text": "tenkly: Tamyn เหมาะกับ Clash Lane (เลนออฟ) มากที่สุด อาจเล่นป่าได้; คู่ที่เข้ากัน Alice, Krizzix, Maloch, Baldum, Mina",
+      "quote": "",
+      "source": {"url": "https://tenkly.com/how-to-play-tamyn-at-maximum-potential/", "kind": "article", "date": "2026-06-30", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-034",
+      "type": "playstyle",
+      "text": "cellphones.com.vn สกิลเสริม: Punish สำหรับป่า, Flicker สำหรับ Caesar lane, Sprint เป็นตัวเลือก",
+      "quote": "",
+      "source": {"url": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan", "kind": "article", "date": "2026-07-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-035",
+      "type": "playstyle",
+      "text": "8congnghe.vn: บทความแนะนำการเล่น Tamyn (วิธีเคลียร์ป่าและแกงค์ เป็นข้อความทั่วไป ไม่มีตัวเลข จึงไม่อ้างรายละเอียด)",
+      "quote": "",
+      "source": {"url": "https://8congnghe.vn/2026/09/27/cach-choi-tamyn-lien-quan-quet-sach-moi-map/", "kind": "article", "date": "2026-09-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-036",
+      "type": "matchup",
+      "text": "aov-builds (หน้า counters): ผู้แพ้ทาง Tamyn คือ Florentino, Omen, Charlotte, Marja (เลน Dark Slayer) และ Gildur (มิด)",
+      "quote": "Notable counters to Tamyn include Florentino, Omen, Charlotte, Marja in the Dark Slayer lane and Gildur in the mid lane.",
+      "source": {"url": "https://aov-builds.com/en/counters/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-037",
+      "type": "matchup",
+      "text": "aov-builds: จุดอ่อนของ Tamyn คือเมื่อถูกตรึง ล็อก หรือลดความเร็วโจมตี จะเสียทั้งฮีลและดาเมจ และไม่มีภูมิคุ้มกัน CC; Florentino ใช้ Gentlemen's Duel (ภูมิคุ้มกัน CC ทำให้สโลว์ไม่ได้ผล) และ Gildur ใช้สตัน/วงเวทดักที่ตำแหน่งหอก; พลังแฝงลดความเร็วโจมตี 30% ในระยะ 5 เมตร (Spirit Bind) และ Sentinel ลดความเร็วโจมตี/เคลื่อนที่ เป็นตัวช่วยสู้",
+      "quote": "rooted, trapped or slowed in attack speed, he loses both his healing and his damage, and his kit has no crowd control immunity",
+      "source": {"url": "https://aov-builds.com/en/counters/tamyn/", "kind": "community", "date": "2026-07-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "tamyn-038",
+      "type": "playstyle",
+      "text": "aov-builds หน้าภาษาไทยแสดงวิดีโอ 'RoV : Tamyn สอนคอมโบทมิฬ จอมมารตนใหม่ออฟเลน - Hutton' (เห็นเฉพาะชื่อคลิป ไม่ได้ URL หรือทรานสคริปต์ จึงไม่อ้างเนื้อหา)",
+      "quote": "RoV : Tamyn สอนคอมโบทมิฬ จอมมารตนใหม่ออฟเลน - Hutton",
+      "source": {"url": "https://aov-builds.com/th/heroes/tamyn/", "kind": "video", "date": null, "transcript": false, "stale": false}
+    },
+    {
+      "id": "tamyn-039",
+      "type": "playstyle",
+      "text": "aov-builds หน้าภาษาไทยแสดงวิดีโอ 'ผมใช้เวลา 6 วันกับการวิจัย Tamyn…' (เห็นเฉพาะชื่อคลิปที่ตัดทอน ไม่มี URL หรือทรานสคริปต์ จึงไม่อ้างเนื้อหา)",
+      "quote": "ผมใช้เวลา 6 วันกับการวิจัย Tamyn",
+      "source": {"url": "https://aov-builds.com/th/heroes/tamyn/", "kind": "video", "date": null, "transcript": false, "stale": false}
+    }
+  ],
+  "notes": "ไม่มี HANDCRAFTED_GUIDES.tamyn ใน src/guide-data.mjs จึงค้นตามชุดแหล่งทั่วไป (ทางการ, แพตช์, rovguide/rovmeta, ชุมชน). สิ่งที่เข้าถึงไม่ได้: (1) หน้าฮีโร่ทางการ rov.in.th/hero/tamyn (ฟิลด์ garena ใน hero-details.json เป็นเพียง https://www.rov.in.th/hero ไม่มี slug; ลอง /hero/tamyn, /hero/Tamyn ได้ CRAWL_NOT_FOUND และ /hero/tamyn/ ได้ CRAWL_TIMEOUT) จึงไม่มี claim kind official เลย; (2) rovmeta.com/th/heroes/tamyn และ /heroes/tamyn ได้ CRAWL_NOT_FOUND (rovmeta มีหน้า tier-list/synergy ที่อ้างแพตช์ 1.64 แต่ไม่ได้ข้อมูล Tamyn เฉพาะตัว); (3) rov.in.th/patch-notes ลิสต์ Hotfix 17 พ.ย. 2026, แพตช์ 12 พ.ย. 2026, Hotfix 4 พ.ย. 2026, 3 พ.ย. 2026 แต่เป็นเพียงหัวข้อ เนื้อหารายฮีโร่ไม่ได้อ่าน จึงไม่ทราบว่ามีการเปลี่ยน Tamyn ในแพตช์เหล่านั้นหรือไม่ (วันที่ 17 พ.ย. เป็นวันหลังวันค้น 16 พ.ย. ผิดปกติ); หน้าแพตช์ 30 ต.ค. ของทางการไม่ได้อ่าน ใช้ tierlq อ้างแทน; (4) วิดีโอ: เห็นแค่ชื่อคลิป 2 รายการ (transcript:false) ไม่มี URL YouTube. ข้อขัดแย้งโดยไม่ตัดสิน: (a) ดาเมจโจมตีเสริมพลังของสกิลติดตัว rovguide (TH, 19 ต.ค.) ระบุ 200-396 (+0.3) ขณะ tierlq (VN, แพตช์ 30/10) ระบุว่าเหลือ 182-364 (+0.28) หลังลดพลัง; (b) สถิติแรงก์ต่างกันตามเซิร์ฟเวอร์/แหล่ง: rovguide ไทย ชนะ 52.80% เลือก 7.23% แบน 46.38%, tierlq (Garena รวมทุกบั้น) ชนะ 54.63% เลือก 3.20% แบน 22.36%, lienquanmobile.gg (VN) ชนะ 62.32% เลือก 25.6% แบน 3.8%; (c) ชื่อสกิล/ไอเทม/พลังแฝงต่างกันตามแหล่งที่แปล เช่น Judgment Stab / Thrust of Judgment / Sky-Piercing Spear, Sacred Spear / Spear Strike / Twilight Spear, Scorching Light / Gathering Holy Spear, Shadow Devourer / Radiant Holy Spear, Chaos Abyss, Tower of Radiance (ชื่ออังกฤษของพลังแฝง/ไอเทมบางชื่อมาจากแหล่งชุมชน ยังไม่ยืนยันกับชื่อไทยทางการ); (d) ชุดไอเทม รูน และพลังแฝงต่างกันระหว่างแหล่ง (ดู claims 015-027); (e) บทบาท: rovguide ระบุ Slayer/ป่า, tenkly เน้น Clash Lane/เลนออฟ, tierlq จัดอันดับในป่า. แหล่งวันที่: aov-builds และ cellphones เป็นข้อมูลก.ค. 2026 (หลังเปิดตัว Tamyn จึงไม่ stale แต่ก่อนแพตช์ 30 ต.ค. ที่ปรับสกิลติดตัว) และ tenkly วันที่ 30 มิ.ย. 2026 ก่อนเปิดตัวจริง 7 ก.ค. (อาจอิงเซิร์ฟเวอร์ทดสอบ) ควรให้ rov-verifier ตรวจ; lienquanmobile.gg ไม่มีวันที่ในหน้าที่อ่านได้ (date:null). ยังไม่ตัดสินถูกผิด ส่งต่อ rov-verifier."
+}

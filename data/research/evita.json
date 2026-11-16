@@ -1,0 +1,246 @@
+{
+  "hero": "evita",
+  "gamePatch": "ค้นเมื่อ 16 พ.ย. 2026; ฮีโร่ใหม่ปล่อย 15 ต.ค. 2026 (Beta 55 Abyssal Rift); rovmeta ระบุ Patch 1.64 (อัปเดต 13 พ.ย. 2026) มีการ nerf Evita; หน้าแพตช์ทางการอ่านไม่ได้ ดู notes",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "evita-001",
+      "type": "skill",
+      "text": "rovguide (TH): สกิลติดตัว Umbral Origin สะสมพลังงานความมืดตลอดเวลา เมื่อครบ สกิลที่โดนศัตรูครั้งถัดไปจะใช้พลังงานทั้งหมดและส่ง Abyssal Beasts พุ่งโจมตี ความเสียหายเวท 20 (+4% AP) บวก 1% ของ HP ที่เสียไปของเป้าหมาย เร่งความเร็วตัวเอง 50% นาน 1 วินาที และลดคูลดาวน์ Abyssal Assault กับ Hand of Abyss ลง 1 วินาที",
+      "quote": "20 (+ 4% AP) บวกโบนัสความเสียหายเวท 1% ของพลังชีวิตที่เสียไปของเป้าหมาย",
+      "source": {"url": "https://rovguide.com/th/heroes/evita", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-002",
+      "type": "skill",
+      "text": "rovguide (TH): Abyssal Assault (สกิล 1) มานา 35 ปล่อย Abyssal Beasts ไปตามทิศทาง เมื่อโดนศัตรูหรือบินสุดระยะจะระเบิด ความเสียหายเวท 325 (+65% AP) และกระจายพลังงานรอบ ๆ ความเสียหายเท่าเดิม โดนเป้าหมายเดิมซ้ำจะได้เพียง 25% ความเสียหายพื้นฐานเลเวล 1-6 คือ 325/390/455/520/585/650 คูลดาวน์ 5/4.8/4.6/4.4/4.2/4 วินาที",
+      "quote": "325 (+ 65% AP) ... โดนเป้าหมายเดิมซ้ำ จะสร้างความเสียหายเพียง 25%",
+      "source": {"url": "https://rovguide.com/th/heroes/evita", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-003",
+      "type": "skill",
+      "text": "rovguide (TH): Hand of Abyss (สกิล 2) มานา 50 เรียกแท่นบูชาเปิดรอยแยก 2 รอย ความเสียหายเวท 20 (+4% AP) ทุก 0.25 วินาที ศัตรูในรอยแยกถูกดึงเข้าจุดศูนย์กลาง แล้วระเบิดความเสียหายเวท 250 (+50% AP) และลอย 1.25 วินาที พลังงานที่แตกจาก Abyssal Assault ถูกดึงเข้าหาแท่นบูชา ความเสียหายพื้นฐาน 20-40 โบนัส 250-500 คูลดาวน์ 10/9.6/9.2/8.8/8.4/8 วินาที",
+      "quote": "ศัตรูที่อยู่ในรอยแยกจะถูกดึงเข้าหาจุดศูนย์กลาง ... ทำให้ลอยขึ้นเป็นเวลา 1.25 วินาที",
+      "source": {"url": "https://rovguide.com/th/heroes/evita", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-004",
+      "type": "skill",
+      "text": "rovguide (TH): Umbral Cloak (อัลติเมต) มานา 80 ได้โล่ 450 (+90% AP) ปล่อยอสูรพุ่ง ศัตรูช้าลง 50% นาน 2 วินาที จากนั้นอสูรไล่ล่า 6 วินาที (สังหารต่อเวลา 2 วินาที ช่วยสังหาร 1 วินาที) สะสมพลังงานเร็วขึ้นมาก แต่ละครั้งที่อสูรสัมผัสศัตรูสร้างความเสียหายเวท 36 (+7% AP) (ต่อป้อม 20%) และให้โล่ 10 (+2% AP) ความเสียหาย 36/54/72 โล่ 450/675/900 คูลดาวน์ 50/45/40 วินาที",
+      "quote": "โล่ 450 (+ 90% AP) ... ความเสียหายเวท 36 (+ 7% AP)",
+      "source": {"url": "https://rovguide.com/th/heroes/evita", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-005",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026 ก่อนแพตช์ที่ rovmeta ระบุ): อัตราชนะ 55.55% อัตราเลือก 11.42% อัตราแบน 41.59% อันดับ 1 จาก 34 ในกลุ่มเมจ และ 1 จาก 31 ในเลนกลาง; คะแนนทางการ เอาตัวรอด 3 พลังโจมตี 5 สกิล 3 ความยาก 0; คลาสเมจ เลนกลาง จุดเด่นระยะไกล",
+      "quote": "55.55%",
+      "source": {"url": "https://rovguide.com/th/heroes/evita", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-006",
+      "type": "skill",
+      "text": "rovguide (EN): ชื่อสกิลฉบับอังกฤษคือ Conversion Ritual (ติดตัว), Dark Pulse, Hand of Mastery, Essence Devourer's Rage; ตัวเลขชุดเดียวกับ TH (Dark Pulse 325 +65% MP, Hand of Mastery 20 และ 250 +50% MP, อัลติโล่ 450 +90% MP) และระบุว่า Dark Pulse ระเบิดที่ระยะสุดแม้ไม่โดนใคร",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/heroes/evita", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-007",
+      "type": "patch-change",
+      "text": "rovmeta ระบุว่า Patch 1.64 nerf Evita: Dark Pulse ความเสียหายพื้นฐาน 325 (+65/Lv)(+0.65MP) เป็น 300 (+60/Lv)(+0.6MP); Essence Blitz ความเสียหาย 36 (+18/Lv)(+0.07MP) เป็น 30 (+15/Lv)(+0.06MP); คูลดาวน์ Essence Blitz 50 (-5/Lv) วินาที เป็น 55 (-5/Lv) วินาที (ยังไม่ได้ยืนยันกับหน้าแพตช์ทางการ)",
+      "quote": "Dark Pulse base damage 325 (+65/Lv) (+0.65MP) to 300 (+60/Lv) (+0.6MP).",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-008",
+      "type": "patch-change",
+      "text": "rovguide หน้าอัปเดต Beta 55 (28 ก.ย. 2026) ไม่มีรายการเปลี่ยนแปลงของ Evita (ฮีโร่ยังไม่เปิดตัว ปล่อย 15 ต.ค. 2026)",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/th/updates/beta55", "kind": "article", "date": "2026-09-28", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-009",
+      "type": "skill",
+      "text": "rovmeta: ลำดับอัปสกิล อัลติ > สกิล 1 > สกิล 2; สกิล 1 (Dark Pulse) เลเวล 1/3/5/7/9/13, สกิล 2 (Hand of Mastery) เลเวล 2/4/8/10/12/14, อัลติ (Essence Blitz) เลเวล 6/11/15",
+      "quote": "Priority: R > Q > W",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-010",
+      "type": "skill",
+      "text": "aov-builds: ลำดับอัปสกิลแตกต่างจาก rovmeta คือสกิล 1 เลเวล 1/3/5/7/9/11, สกิล 2 เลเวล 2/6/10/13/14/15, สกิล 3 (อัลติ) เลเวล 4/8/12 (ชุดนี้อัปอัลติที่เลเวล 4 ต่างจาก rovmeta ที่ 6)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-011",
+      "type": "skill",
+      "text": "rovmeta: คำอธิบายสกิลต่างจาก rovguide บางจุด: Hand of Mastery ระบุว่ารอยแยกระเบิดหลังหน่วงเวลาสั้น ๆ ทำความเสียหายและทำให้ช้า ส่วนกลางทำความเสียหายมากกว่าและลอย (rovguide ระบุว่าดึงเข้าหาศูนย์กลาง); Essence Blitz ระบุว่าทุกครั้งที่โดนศัตรูลดเกราะเวทและให้โล่ (rovguide ไม่ได้ระบุการลดเกราะเวท); อัลติระบุว่าระยะสั้น",
+      "quote": "the central area deals increased damage and knocks up",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-012",
+      "type": "combo",
+      "text": "rovmeta: Full Pull Burst (คอมโบหลักของ Qzadd) ลำดับ 2, 1, R, 1, 2, 1 คือเปิดด้วย Hand of Mastery ให้รวมกลุ่ม ปล่อย Dark Pulse ใส่ เริ่มอัลติ แล้ววน Q และ W อีกรอบ",
+      "quote": "Qzadd's core combo.",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-013",
+      "type": "combo",
+      "text": "rovmeta: Redirected Pulse - ถ้าเป้าหลบ Dark Pulse ให้วาง Hand of Mastery ตรงที่หลบไป แล้วตาม Dark Pulse; Turret Dive ลำดับ R, 2, 1 เริ่มอัลติก่อนเข้าใต้ป้อมเพื่อให้โล่รับดาเมจป้อม; Flicker Pull ลำดับ Flicker, 2, R, Q (Flicker ข้ามแนวหน้า วาง Hand of Mastery ใส่แครี่และซัพ แล้วอัลติ)",
+      "quote": "Start Essence Blitz before you step under the tower.",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-014",
+      "type": "combo",
+      "text": "aov-builds: คอมโบทีมไฟต์ 2, 1, 3 (ป้ายกำกับว่าเป็นคำแนะนำทางการ) และตอดเลือดอย่างปลอดภัย 1, 2, 1 (ยังไม่ได้ตรวจว่าเป็นของทางการจริงหรือไม่)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-015",
+      "type": "item",
+      "text": "aov-builds: ชุดดาเมจเต็ม Flashy Boots, Berith's Agony, Hecate's Diadem, Staff of Nuul, Arctic Orb, Holy of Holies",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/th/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-016",
+      "type": "item",
+      "text": "aov-builds: ชุดกึ่งดูดเลือด Flashy Boots, Rhea's Blessing, Berith's Agony, Sage's Blade, Skadi's Frost Ring, Arctic Orb",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/th/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-017",
+      "type": "item",
+      "text": "aov-builds ไอเทมตามสถานการณ์: Tome of the Reaper แทน Berith's Agony เมื่อศัตรูฮีลหนัก; Gilded Greaves แทน Flashy Boots เมื่อโดน CC แข็งเยอะ; Medallion of Troy แทน Holy of Holies เมื่อเจอเมจเบิร์สต์; ออก Arctic Orb เร็วขึ้นเมื่อเจอแอสซาซินดำดิ่ง (อมตะ 1.5 วินาที)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-018",
+      "type": "item",
+      "text": "rovmeta (FAQ): ชุดแนะนำ Enchanted Kicks, Arctic Orb, Tome of the Reaper, Holy of Holies, Staff of Nuul, Hecate's Diadem; ให้ออก Arctic Orb เร็วถ้าศัตรูมีแอสซาซินดำดิ่ง (หน้าโหลดของรายการไอเทมสกัดได้เพียงบางส่วน เห็น Staff of Nuul ในช่อง 5 เท่านั้น ลำดับเต็มไม่ทราบ)",
+      "quote": "Enchanted Kicks, Arctic Orb, Tome of the Reaper, Holy of Holies, Staff of Nuul and Hecate's Diadem",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-019",
+      "type": "rune",
+      "text": "rovmeta: รูน Enlightened x10, Flurry x10, Guerrilla x10; สกิลชาเลนเจอร์ Flicker",
+      "quote": "Enlightened ×10 / Flurry ×10 / Guerrilla ×10",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-020",
+      "type": "rune",
+      "text": "aov-builds: อาร์คานา Red III x10 (พลังเวท-เจาะเกราะเวท), Purple III x10 (ความเร็วโจมตี-ความเร็วเคลื่อนที่), Green III x10 (ความเร็วโจมตี-เจาะเกราะเวท); สกิลชาเลนเจอร์ Flicker และ Purify เมื่อเจอ CC แข็งเยอะ",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/th/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-021",
+      "type": "enchant",
+      "text": "aov-builds: พลังแฝง Tower of Radiance (Sacred Bead, Penetrating Heart, Divine Light) และ Chaos Abyss (Hellfire; ฉบับ EN เพิ่ม Empower ฉบับ TH ไม่มี)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-022",
+      "type": "matchup",
+      "text": "rovmeta: Evita แพ้ทาง Nakroth, Murad, Kriknak, Keera; ชนะทาง Toro, Arum, Lumburr, Aleister, Gildur, Diao Chan; เข้ากับ Rouie, Grakk, Thane, Baldum",
+      "quote": "Weak Against: Nakroth, Murad, Kriknak, Keera",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-023",
+      "type": "matchup",
+      "text": "rovmeta (วิธีสู้ Evita): ใช้แอสซาซินคล่องตัว Nakroth/Murad/Kriknak จับก่อนเธอเริ่มอัลติ, กระจายตัวไม่ให้ Hand of Mastery ลอยได้หลายคน, เดินออกจากรอยแยกระหว่างช่วงหน่วง",
+      "quote": "walk out of the fissures during their short delay",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-024",
+      "type": "matchup",
+      "text": "aov-builds (หน้า khac-che ภาษาเวียดนาม): ฮีโร่ที่ข่ม Evita ได้แก่ Dirak, D'Arcy (เลนกลาง), Zhao Yun และ Nakroth (ป่า), Amily (เลน Caesar), Grakk (ซัพ); จุดอ่อนของ Evita คือไม่มีดัช ช้า อ่อนช่วงต้นเกม คูลดาวน์สกิล 2 และอัลติยาว",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/khac-che/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-025",
+      "type": "playstyle",
+      "text": "rovmeta: จังหวะแรงแรกที่เลเวล 4 (ปลดอัลติ) จังหวะที่สองเมื่อมี Tome of the Reaper กับ Arctic Orb แรงที่สุดในทีมไฟต์ช่วงท้ายเกม จุดอ่อน ระยะอัลติสั้น Hand of Mastery มีดีเลย์ เลเวล 1-3 อ่อน ไม่มีดัช/แบลงก์",
+      "quote": "Evita's first real spike is level 4",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-026",
+      "type": "playstyle",
+      "text": "rovmeta: ช่วงต้นเกมเคลียร์เวฟด้วย Dark Pulse จากระยะสุด เก็บ Hand of Mastery ไว้จนศัตรูกลางโดดเข้าเก็บมินเนียน ใช้พลังงานเต็มที่โดนฮีโร่ศัตรู (ไม่ใช่มินเนียน) เป็นสกัวต์พุ่ม; กลางเกมเริ่มปะทะที่ objective ริมแม่น้ำ ปล่อยแนวหน้าเข้าก่อนแล้วเปิดอัลติ เก็บ Arctic Orb ไว้ตอนแอสซาซินดำดิ่ง",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-027",
+      "type": "playstyle",
+      "text": "rovmeta: เล่นหลังแท็งก์ในทีมไฟต์ปลายเกม เล็งแท็งก์ด้วยอัลติ (ลดเกราะเวท) รอจังหวะ engage ไม่เดินเข้าพุ่มที่มองไม่เห็นโดยไม่มีพลังงานเต็ม เปิดอัลติก่อนโดนดาเมจ ไม่ใช่หลังโดน ใช้ Hand of Mastery ร่วมกับ CC ของพวกเดียวกัน เช่น Rouie หรือ Grakk",
+      "quote": "Turn on Essence Blitz before you take damage, not after.",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-028",
+      "type": "playstyle",
+      "text": "rovmeta: จัดเป็นเทียร์ B ชั่วคราว (ข้อมูลแรงก์ยังน้อย) ระบุว่า Thai creators ให้คะแนนสูงกว่า B มาก บางคนเรียกว่าเป็นหนึ่งในเมจที่แรงที่สุด และระบุว่าเล่นง่าย (Easy) แหล่งเขียนจากข้อความสกิลทางการของ Garena และคู่มือ Qzadd ช่อง Garena RoV Thailand",
+      "quote": "Thai creators rate her much higher",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "community", "date": "2026-11-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "evita-029",
+      "type": "playstyle",
+      "text": "aov-builds: ยืนหลังแนวหน้า ไม่มีดัช อ่อนช่วงต้นเกม ใช้อัลติได้ทั้งเข้าและตั้งรับ",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/th/heroes/evita/", "kind": "community", "date": "2026-10-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "evita-030",
+      "type": "playstyle",
+      "text": "วิดีโอ Hero Spotlight - EVITA ช่อง Garena RoV Thailand (12 ต.ค. 2026) คำอธิบายระบุเพียงว่าเป็นฮีโร่ใหม่ตำแหน่งเมจ ให้ดูข้อมูลสกิลและวิธีเล่น เปิดตัว 15 ต.ค. (เข้าถึงได้เฉพาะคำอธิบายผ่านเว็บ allsnsrank ไม่มีทรานสคริปต์)",
+      "quote": "HERO Spotlight - EVITA ... ตำแหน่ง : เมจ",
+      "source": {"url": "https://allsnsrank.com/youtube/video/rrAQgNIjQIw", "kind": "video", "date": "2026-10-12", "transcript": false, "stale": true}
+    },
+    {
+      "id": "evita-031",
+      "type": "playstyle",
+      "text": "วิดีโอ 'สอนเล่นฮีโร่ใหม่ Evita @qzadd' ช่อง Garena RoV Thailand (ฝังบน rovmeta; ได้เฉพาะชื่อ ไม่ได้ URL ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหา; rovmeta อ้างว่าคอมโบ Full Pull Burst มาจาก Qzadd)",
+      "quote": "สอนเล่นฮีโร่ใหม่ Evita @qzadd",
+      "source": {"url": "https://rovmeta.com/heroes/evita", "kind": "video", "date": "2026-11-13", "transcript": false, "stale": false}
+    },
+    {
+      "id": "evita-032",
+      "type": "playstyle",
+      "text": "วิดีโอ 'ROV: สอนเล่นเอวิต้า เมจที่เพิ่งเข้ามาใหม่แพทช์ล่าสุดแบบเจาะลึก ในแรงค์ 65 ดาว' โดย บอมคนป่า (17 ต.ค. 2026) ดึงได้เฉพาะชื่อและวันที่ ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหา",
+      "quote": "ROV: สอนเล่นเอวิต้า เมจที่เพิ่งเข้ามาใหม่แพทช์ล่าสุดแบบเจาะลึก ในแรงค์ 65 ดาว",
+      "source": {"url": "https://www.online-station.net/games/video/wxFMRZkztic", "kind": "video", "date": "2026-10-17", "transcript": false, "stale": true}
+    },
+    {
+      "id": "evita-033",
+      "type": "playstyle",
+      "text": "วิดีโอ 'ได้โปรด GM ช่วยลบ Evita ออกจากเกมทีครับ !! - RoV' โดย JAIRAW (22 ต.ค. 2026) ดึงได้เฉพาะชื่อ ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหา",
+      "quote": "ได้โปรด GM ช่วยลบ Evita ออกจากเกมทีครับ !! - RoV",
+      "source": {"url": "https://www.trueid.net/watch/th-th/video/A89k6OlJVdE0", "kind": "video", "date": "2026-10-22", "transcript": false, "stale": true}
+    },
+    {
+      "id": "evita-034",
+      "type": "playstyle",
+      "text": "วิดีโอ 'Rov รีวิวฮีโร่ใหม่ Evita คอมนี้เมจแครี่เเอสร่วง' ช่อง GarrenGamer (Bilibili, 3:32 นาที) ดึงได้เฉพาะชื่อ ไม่ได้วันที่ ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหา",
+      "quote": "Rov รีวิวฮีโร่ใหม่ Evita คอมนี้เมจแครี่เเอสร่วง",
+      "source": {"url": "https://www.bilibili.tv/th/space/1183664759", "kind": "video", "date": null, "transcript": false, "stale": false}
+    }
+  ],
+  "notes": "ไม่มีรายการ Evita ใน HANDCRAFTED_GUIDES (src/guide-data.mjs) จึงค้นแบบทั่วไป. ช่องว่างหลัก: (1) หน้าฮีโร่ทางการหา URL ไม่ได้ - ฟิลด์ garena ใน src/hero-details.json ของ evita เป็น https://www.rov.in.th/hero (ไม่มี slug) และ /hero/evita ได้ CRAWL_NOT_FOUND; รายการฮีโร่ทางการ rov.in.th/hero (110 ตัว) ที่อ่านได้ ณ วันค้นไม่มีชื่อ Evita เลย จึงไม่มี claim ชนิด official. (2) หน้าแพตช์ทางการ rov.in.th/patch-notes อ่านได้เฉพาะหัวข้อ (Hotfix 17 พ.ย. 2026 [วันที่หลังวันค้น 16 พ.ย. ผิดปกติ], แพตช์ 12 พ.ย., Hotfix 4 พ.ย., เซิร์ฟเวอร์ทดสอบ 3 พ.ย. 2026) ไม่ได้อ่านเนื้อหาข้างใน และไม่พบหน้าแพตช์ทางการช่วงเปิดตัว 15 ต.ค. จึงยืนยันไม่ได้ว่า Patch 1.64 (nerf Evita ตาม rovmeta) มีอยู่จริงหรือเป็นแพตช์ไหน. (3) ข้อขัดแย้งที่ยังไม่ตัดสิน ส่งให้ rov-verifier: ก) ตัวเลขสกิล rovguide (19 ต.ค. ก่อน nerf: Dark Pulse 325 +65% MP, อัลติ 36 +7% MP, CD อัลติ 50/45/40) กับ rovmeta Patch 1.64 (300 +60%/Lv +0.6MP, อัลติ 30 +0.06MP, CD 55) - จึงตั้ง stale:true ให้ claim ตัวเลขของ rovguide/aov-builds ที่ลงวันที่ก่อน 1.64; ข) ชื่อสกิลต่างกัน: TH rovguide ใช้ Umbral Origin/Abyssal Assault/Hand of Abyss/Umbral Cloak, EN rovguide ใช้ Conversion Ritual/Dark Pulse/Hand of Mastery/Essence Devourer's Rage, rovmeta ใช้ Conversion Ritual/Dark Pulse/Hand of Mastery/Essence Blitz; ชื่อสิ่งที่ปล่อยออก (Abyssal Beasts / Essence Devourer / Chaos Fiend) ต่างกันตามแหล่ง; ค) พฤติกรรม Hand of Mastery: rovguide ดึงเข้าศูนย์กลางแล้วระเบิดลอย 1.25 วินาที ส่วน rovmeta ระบุทำช้าและลอยเฉพาะศูนย์กลาง; ง) อัลติ: rovmeta ระบุลดเกราะเวท ส่วน rovguide ไม่ระบุ; จ) ชุดรูน rovmeta (Enlightened/Flurry/Guerrilla) ต่างจาก aov-builds (Red/Purple/Green III) อาจเป็นชื่อต่างระบบ/ภาษา ยังไม่ยืนยัน; ฉ) ชื่อรองเท้า Enchanted Kicks (rovmeta) กับ Flashy Boots (aov-builds) ยังไม่ยืนยันว่าชิ้นเดียวกัน; ช) ลำดับอัปสกิล rovmeta (อัลติเลเวล 6) ต่างจาก aov-builds (อัลติเลเวล 4); ซ) rovmeta จัด B ส่วน rovguide ชี้อัตราชนะ 55.55% และอัตราแบน 41.59% (อันดับ 1 เมจ) ก่อน nerf. (4) รายการไอเทมหน้า rovmeta สกัดได้บางส่วน ลำดับเต็มไม่ทราบ (claim evita-018 ใช้ FAQ). (5) วิดีโอทั้งหมด (evita-030 ถึง 034) เข้าถึงได้เฉพาะชื่อ/คำอธิบาย transcript:false; URL ของวิดีโอ Qzadd บน YouTube/Facebook ไม่ได้มา; วิดีโอ Hero Spotlight ได้ผ่านเว็บ aggregator ไม่ใช่ช่องทางการโดยตรง. (6) ไม่ได้ค้น 4gamers, zathong, gametimeprime (ฮีโร่ใหม่ ยังไม่มีบทความ) ยังไม่ตัดสินถูกผิดใดทั้งสิ้น ควรส่ง rov-verifier."
+}

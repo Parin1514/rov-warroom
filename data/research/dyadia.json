@@ -1,0 +1,267 @@
+{
+  "hero": "dyadia",
+  "gamePatch": "ค้นเมื่อแพตช์ 12 พ.ย. 2026 + Hotfix 17 พ.ย. 2026 (หน้า Hotfix ทางการมีรายการ Dyadia Nerf; การเปลี่ยนแปลงเก่ากว่านั้นที่พบคือ Beta53 23 เม.ย. 2026 แก้บั๊ก; rovmeta ติดป้ายแพตช์ 1.64)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "dyadia-001",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026 (ประกาศทางการ) จัด Dyadia เป็น Nerf ความเห็นผู้พัฒนา: Dyadia เป็นหนึ่งในซัพพอร์ตที่ทำผลงานได้ดี จึงลดความเสียหายเบิร์สจากสกิลของเธอ เพื่อปรับปรุงประสบการณ์ช่วงต้นเกมและกลางเกม",
+      "quote": "Dyadia เป็นหนึ่งในซัพพอร์ตที่ทำผลงานได้ดี ในครั้งนี้ เราได้ทำการปรับลดความเสียหายเบิร์สจากสกิลของเธอลง",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261117", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-002",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026: สกิลติดตัว ความเสียหายพื้นฐาน 150~300(+1.0AD)(+0.3AP) เปลี่ยนเป็น 140~280(+1.0AD)(+0.25AP)",
+      "quote": "150~300(+1.0AD)(+0.3AP) → 140~280(+1.0AD)(+0.25AP)",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261117", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-003",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026: สกิล 2 ความเสียหายต่อเนื่อง 640(+128/LV)(+0.95AP) เปลี่ยนเป็น 540(+108/LV)(+1.0AP)",
+      "quote": "640(+128/LV)(+0.95AP) → 540(+108/LV)(+1.0AP)",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261117", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-004",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026: แก้ปัญหาเสียงแสดงผลผิดปกติเมื่อ Dyadia และ Stuart อยู่ในการแข่งขันเดียวกัน",
+      "quote": "แก้ไขปัญหาเสียงแสดงผลผิดปกติเมื่อ Dyadia และ Stuart อยู่ในการแข่งขันเดียวกัน",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261117", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-005",
+      "type": "patch-change",
+      "text": "Beta53 (23 เม.ย. 2026): แก้บั๊กโจมตีปกติที่ถูกเสริมพลังของ Dyadia อาจสะดุดบริเวณขอบสิ่งกีดขวาง (rovguide สรุปแพตช์ ไม่ได้อ่านหน้าแพตช์ทางการโดยตรง)",
+      "quote": "Dyadia: Fixed the empowered basic attack potentially stuttering near the edge of obstacles.",
+      "source": {"url": "https://rovguide.com/updates/beta53", "kind": "article", "date": "2026-04-23", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-006",
+      "type": "skill",
+      "text": "rovguide (สแนปช็อต 19 ต.ค. 2026 ก่อน Hotfix 17 พ.ย.): สกิลติดตัว ทุก 6 วินาทีเสริมพลังโจมตีปกติครั้งถัดไป เหวี่ยงไปหาศัตรู สร้างความเสียหายเวท 150 (+100% AD)(+30% AP) พร้อมผลักถอย แล้วกระโดดถอยหลัง ได้โบนัส 20 เหรียญทองเมื่อพันธมิตรถูกผูกชะตา (HP เต็มไม่ได้, HP เกิน 50% ได้ครึ่งเดียว) หรือศัตรูถูกตัดชะตา",
+      "quote": "150 (+ 100% of AD) (+ 30% of MP) magic damage",
+      "source": {"url": "https://rovguide.com/heroes/dyadia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-007",
+      "type": "skill",
+      "text": "rovguide (ก่อน Hotfix 17 พ.ย.): Twin Souls มานา 45 ผูกชะตาพันธมิตรและฟื้นฟู HP 250 (+40% โบนัส AP); ใช้ซ้ำกับคนที่ถูกผูกหรือเมื่อคนที่ถูกผูก 2 คนเข้าใกล้กัน จะฟื้นฟูคนละ 500 (+80% โบนัส AP) และวิ่งเร็ว 30% นาน 2 วินาที; ใช้ซ้ำได้ภายใน 5 วินาที (พุ่งตามเป้าหมาย ฟื้นฟูตัวเอง 10% โบนัส HP); คูลดาวน์ 12.5 ลดเหลือ 10 วินาที; ฮีลตามเลเวลสกิล 250-500, Blessing 500-1000",
+      "quote": "restoring 250 (+ 40% bonus AP) HP ... 500 (+ 80% bonus AP) HP and gain 30% movement speed for 2 s",
+      "source": {"url": "https://rovguide.com/heroes/dyadia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-008",
+      "type": "skill",
+      "text": "rovguide (ก่อน Hotfix 17 พ.ย.): สกิล 2 (Hated Parting ใน EN / Fate Reversal ใน TH) มานา 45 เปิดการมองเห็นศัตรู 5 วินาที ความเสียหายเวท 50 (+8% AP) ต่อวินาที หัก 2 เหรียญทองต่อวินาทีของเป้าหมาย (Dyadia เก็บไว้) เมื่อครบเวลา 200 (+35% AP); ศัตรูที่ถูกตัดชะตา 2 คนเข้าใกล้กันจะยกเลิกความเสียหายและคืนทอง ลดความเร็วเคลื่อนที่ 25% (ถึง 50% ตามเลเวล); ใช้ซ้ำกับเป้าที่ถูกตัดชะตาแล้ว Dyadia พุ่งเข้าไปล็อก 0.75 วินาที ความเสียหายเวทรวม 640 (+95% โบนัส AP) ระหว่างนั้นลดความเสียหายที่ได้รับ 40% (50% ต่อเป้าหมายที่เกิดผลคลายชะตา); คูลดาวน์ 12.5 ลดเหลือ 10 วินาที",
+      "quote": "immobilize for 0.75 s and dealing a total of 640 (+ 95% bonus AP) magic damage",
+      "source": {"url": "https://rovguide.com/heroes/dyadia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-009",
+      "type": "skill",
+      "text": "rovguide (ก่อน Hotfix 17 พ.ย.): Destined Encounter (อัลติ) มานา 100 ฟื้นฟูพันธมิตรตามเส้นทาง 360 (+60% AP) ศัตรูที่ถูกพุ่งผ่านรับความเสียหายเวท 500 (+70% AP); ถ้าพันธมิตรมีผลอยู่แล้วฟื้นเพิ่ม 150 (+25% AP) และวิ่งเร็ว 30% นาน 2 วินาที; ศัตรูที่มีผลอยู่แล้วรับเพิ่ม 200 (+30% AP) และล็อก 1 วินาที; ทุก 1 เหรียญทองโบนัส ฮีลและความเสียหายพื้นฐานเพิ่ม 1 หน่วย; คูลดาวน์ 40/35/30 วินาที ฮีล 360/540/720 ความเสียหาย 500/750/1000",
+      "quote": "heal 360 (+ 60% of MP) HP ... 500 (+ 70% of MP) magic damage",
+      "source": {"url": "https://rovguide.com/heroes/dyadia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-010",
+      "type": "skill",
+      "text": "rovguide ฉบับภาษาไทย: ชื่อสกิลเป็น Chanted Destine / Twin Souls / Fate Reversal / Destined Encounter และคำอธิบายผลของอัลติต่อศัตรูเรียบเรียงต่างจากฉบับอังกฤษเล็กน้อย (ผูกชะตา/ตัดชะตา/ล็อกตัวศัตรู 1 วิ)",
+      "quote": "Dyadia บัญชาการเหล่า Fate Sprite ให้พุ่งไปยังทิศที่กำหนด",
+      "source": {"url": "https://rovguide.com/th/heroes/dyadia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-011",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026): Class Support/Mage เลน Support อัตราชนะ 53.02% อัตราเลือก 6.93% อัตราแบน 15.95% อันดับ 2 จาก 39 ในกลุ่ม Support, 3 จาก 34 ในกลุ่ม Mage, 2 จาก 39 ในเลน Support; เรตติ้งความอยู่รอด 3 ความเสียหาย 2 ฟังก์ชัน 4 ความยาก 3; จุดเด่น Buffs/Healer",
+      "quote": "53.02%",
+      "source": {"url": "https://rovguide.com/heroes/dyadia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-012",
+      "type": "playstyle",
+      "text": "rovmeta (อัปเดต 11 พ.ย. 2026 แพตช์ 1.64): จัดเป็นเทียร์ B บทบาท mage เลนมิด ความยากปานกลาง; ข้อมูลสายโปร 20 ครั้งที่ถูกพิก วินเรต 30% พิกเรต 3.4% แบนเรต 1.7% (RoV Pro League 2026 Summer, RoV Thailand Esports Premier League 2026, Arena of Valor Premier League 2026); Zathong จัดเทียร์ B",
+      "quote": "เทียร์ B mageมิดเลนปานกลางแพตช์ 1.64",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-013",
+      "type": "playstyle",
+      "text": "rovmeta FAQ ในหน้าเดียวกันขัดกับส่วนหัว: ระบุว่าเรตติ้งเทียร์ C และวินเรต 40% ในเกมแรงก์ Diamond ขึ้นไปของเซิร์ฟเวอร์ไทย เสียเปรียบเชิงโครงสร้างจากเมต้าอัสซาซิน ยังไม่ตัดสินว่าอันไหนถูก",
+      "quote": "เรตติ้งเทียร์ C และวินเรต 40% ในเกมแรงก์ Diamond ขึ้นไป",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-014",
+      "type": "skill",
+      "text": "rovmeta: ลำดับอัปสกิลให้ความสำคัญ อัลติ > สกิล 1 > สกิล 2; สกิล 1 (Heartlink) เลเวล 1/3/5/7/9/13, สกิล 2 (Bitter Farewell) เลเวล 2/4/8/10/12/14, อัลติ (Destined Encounter) เลเวล 6/11/15",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-015",
+      "type": "rune",
+      "text": "rovmeta: อาร์คานาหลัก Indomitable x10, Benevolence x10, Valiance x10; สเปลล์ Flicker (ไม่มีรายการไอเทมในหน้านี้)",
+      "quote": "Indomitable ×10 Benevolence ×10 Valiance ×10",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-016",
+      "type": "combo",
+      "text": "rovmeta: คอมโบเก็บมาตรฐาน (แสดงเป็น R) - สแตกพาสซีฟบนครีปก่อน ลง W รูทเป้า แล้ว Q ทะลุตัวทันทีเพื่อให้ได้ผลพาสซีฟเต็ม จากนั้นแคนเซิลออโต้เข้า R ก่อนเป้าออกจากโซน",
+      "quote": "สแตกพาสซีฟบนครีปก่อน ลง W รูทเป้า แล้ว Q ทะลุตัวมันทันที",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-017",
+      "type": "combo",
+      "text": "rovmeta: ประหารด้วย Flicker - ใช้เมื่อศัตรูพุ่งหลบ W แรก Flicker ปิดระยะแล้วจัด R ลงบนตัวเป้าในมุมที่หนีไม่ได้",
+      "quote": "Flicker ปิดระยะทันทีและจัดตำแหน่ง R ลงบนตัวมันตรงๆ",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-018",
+      "type": "combo",
+      "text": "rovmeta: โพคปลอดภัยในแมตช์อัปที่เสียเปรียบ ใช้ Heartlink (Q) แล้วพาสซีฟ (Melodic Swing) ไม่เกินสามสเต็ป เพื่อสแตกพาสซีฟและกดดันโดยไม่เปิดตัวให้ศัตรูลงคอมโบเต็ม",
+      "quote": "อย่ายืดเกินสามสเต็ปนี้",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-019",
+      "type": "matchup",
+      "text": "rovmeta: Dyadia กลัว Nakroth, Murad, Quillen, Natalya; ในส่วนจุดอ่อนระบุเพิ่มว่าเลนกับ Azzen'Ka หรือ Natalya ลำบาก และ Nakroth หรือ Murad ฆ่าเธอได้ก่อนครบรอบถ้า W ติดคูลดาวน์",
+      "quote": "กลัวเจอ Nakroth Murad Quillen Natalya",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-020",
+      "type": "matchup",
+      "text": "rovmeta: Dyadia แข็งใส่ Chaugnar, Grakk, Lumburr, Mganga, Ilumia, Kahlii; เข้าขาดีสุดกับ Baldum, Grakk, Arduin, Annette",
+      "quote": "แข็งใส่ Chaugnar Grakk Lumburr Mganga Ilumia Kahlii",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-021",
+      "type": "playstyle",
+      "text": "rovmeta: ช่วงต้นเกมเน้นเก็บ CS สแตกพาสซีฟ วอร์ดทางเข้าแม่น้ำฝั่งอ่อนตอน 1:30; พีคกลางเกมราว 12-18 นาทีเมื่อจบไอเทม AP ใหญ่ชิ้นแรก (อ้าง Broken Spear) ท้ายเกมจางหาย; W คูลดาวน์ราว 8-12 วินาที; วาง W เยื้องไปด้านหลังทิศที่ศัตรูเดิน; Q มีเวลาเดินทางต้องเล็งล่วงหน้า; R แรงสุดเมื่อศัตรูโดนรูท/สโลว์",
+      "quote": "ไดอาเดียไม่มีสกิลหนีและการโดนแกงค์ช่วงต้นคือสาเหตุการตายที่บ่อยสุดของเธอ",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-022",
+      "type": "playstyle",
+      "text": "rovmeta จุดแข็ง/จุดอ่อน: ครองทีมไฟท์จุดคอขวด แบนเรตต่ำ; ไม่มีการพีลตัวเอง ระยะโพคสั้น ช่วงเบิร์สต์แคบ แทงค์และโล่ปิดได้ และซัพสายโรมขัดการเซ็ต W ได้",
+      "quote": "ไม่มีการพีลตัวเอง",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dyadia-023",
+      "type": "playstyle",
+      "text": "rovmeta ฝังวิดีโอ MRX CH ชื่อ 'Rov : Dyadia แนะนำสกิลพื้นฐานและควรเล่นแบบไหนพร้อมรูนไอเทมพลังแฝง' (เห็นเฉพาะชื่อในหน้าเว็บ ไม่มีทรานสคริปต์ ไม่มี URL วิดีโอ)",
+      "quote": "Rov : Dyadia แนะนำสกิลพื้นฐานและควรเล่นแบบไหนพร้อมรูนไอเทมพลังแฝง",
+      "source": {"url": "https://rovmeta.com/th/heroes/dyadia", "kind": "video", "date": "2026-11-11", "transcript": false, "stale": false}
+    },
+    {
+      "id": "dyadia-024",
+      "type": "item",
+      "text": "aov-builds (ชุดเต็มแทงค์): Terra Unbind, Flashy Boots, The Aegis, Gaia's Standard, Frosty's Revenge, Tome of the Reaper; (ชุดเต็มดาเมจ): Wildfire Unbind, Flashy Boots, Boomstick Apocalypse, Hecate's Diadem, Holy of Holies",
+      "quote": "Terra Unbind, Flashy Boots, The Aegis, Gaia's Standard, Frosty's Revenge, Tome of the Reaper",
+      "source": {"url": "https://aov-builds.com/en/heroes/dyadia/", "kind": "community", "date": "2026-02-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-025",
+      "type": "item",
+      "text": "aov-builds (ไอเทมตามสถานการณ์): Terra Barrier เมื่อศัตรู CC/เบิร์สน้อย; Medallion of Troy แทน The Aegis เมื่อเจอดาเมจเวท; Gilded Greaves แทน Flashy Boots เมื่อเจอ CC หนัก",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/dyadia/", "kind": "community", "date": "2026-02-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-026",
+      "type": "enchant",
+      "text": "aov-builds: พลังแฝง Primal Forest (I, II, Vitality, Wanderer), Genesis City, Chaos Abyss (Bloodthirst)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/dyadia/", "kind": "community", "date": "2026-02-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-027",
+      "type": "rune",
+      "text": "aov-builds: อาร์คานาแดง III พลังเวท/เจาะเวท x10, ม่วง III HP/ฟื้นฟู/ความเร็วเคลื่อนที่ x10, เขียว III ความเร็วโจมตี/เจาะเวท x10; สเปลล์ Flicker",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/dyadia/", "kind": "community", "date": "2026-02-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-028",
+      "type": "skill",
+      "text": "aov-builds: ลำดับอัปสกิล S1 เลเวล 1/3/5/7/9/11, S2 เลเวล 2/6/10/13/14/15, อัลติ 4/8/12 (ต่างจาก rovmeta ที่ใช้ S1 1/3/5/7/9/13, S2 2/4/8/10/12/14, อัลติ 6/11/15 และอัลติเลเวล 1 ที่ 4 ต่างจาก 6)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/dyadia/", "kind": "community", "date": "2026-02-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-029",
+      "type": "combo",
+      "text": "aov-builds: คอมโบ 4 (ศัตรู 2 คนขึ้นไป) อัลติ, S1 ใส่พันธมิตร, S2 ใส่ศัตรูสองคน, ใช้ S1 ซ้ำเพื่อกลับตัว (หน้าเว็บมีคอมโบ 1-5 ที่นี่อ้างเฉพาะคอมโบ 4)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/en/heroes/dyadia/", "kind": "community", "date": "2026-02-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-030",
+      "type": "playstyle",
+      "text": "aov-builds: บทบาทที่เหมาะสุดคือซัพพอร์ต สเกลตามทอง และมีเคล็ดลับการกดสกิลซ้ำ (ไม่ระบุรายละเอียดเพิ่มในที่นี้)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/th/heroes/dyadia/", "kind": "community", "date": "2026-02-16", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-031",
+      "type": "item",
+      "text": "tierlq.com (เวียดนาม แพตช์ 30/10): จัดเทียร์ B อันดับ 19 จาก 33 คะแนน 2.41/5 ไอเทม Đại Địa Mở Trói, Giày Thuật Sĩ, Khiên Huyền Thoại, Giáp Gaia, Trượng Băng, Sách Truy Hồn; สเปลล์ Flicker; อาร์คานาเหมือน aov-builds; matchup เหมือน rovmeta (ชื่อไอเทมเป็นภาษาเวียดนาม ไม่แมปเป็นอังกฤษที่นี่)",
+      "quote": "Đại Địa Mở Trói, Giày Thuật Sĩ, Khiên Huyền Thoại, Giáp Gaia, Trượng Băng, Sách Truy Hồn",
+      "source": {"url": "https://tierlq.com/tuong/dyadia-sp/", "kind": "community", "date": "2026-11-07", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-032",
+      "type": "enchant",
+      "text": "tierlq.com: พลังแฝงที่แสดง Nhạy bén, Bơm máu, Du hiệp, Mật ngữ, Hấp huyết (ชื่อเวียดนาม ไม่แมปเป็นชื่อ RoV)",
+      "quote": "Nhạy bén, Bơm máu, Du hiệp, Mật ngữ, Hấp huyết",
+      "source": {"url": "https://tierlq.com/tuong/dyadia-sp/", "kind": "community", "date": "2026-11-07", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-033",
+      "type": "item",
+      "text": "Zathong: บิลด์ดีสุด Mother Earth Cleansing, Hermes Select, Frostys Revenge, Tome Of The Reaper, The Aegis, Medallion of Troy; บิลด์โปรเพิ่ม Berith's Agony และ Holy of Holies",
+      "quote": "Mother Earth Cleansing, Hermes Select, Frostys Revenge, Tome Of The Reaper, The Aegis, Medallion of Troy",
+      "source": {"url": "https://zathong.com/dyadia-aov/", "kind": "community", "date": "2026-01-11", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-034",
+      "type": "rune",
+      "text": "Zathong: อาร์คานา Indomitable/Benevolence/Valiance x10; สเปลล์ Flicker",
+      "quote": "",
+      "source": {"url": "https://zathong.com/dyadia-aov/", "kind": "community", "date": "2026-01-11", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-035",
+      "type": "enchant",
+      "text": "Zathong: พลังแฝง Afata (River Treader, Regrowth, Forest Wanderer) + Veda (Mana Refill)",
+      "quote": "",
+      "source": {"url": "https://zathong.com/dyadia-aov/", "kind": "community", "date": "2026-01-11", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-036",
+      "type": "skill",
+      "text": "Zathong: ลำดับอัปสกิล S2 > S3 > S1 (ใช้ระบบเรียกสกิลของ AoV Global; จัดบทบาท Support เลน Dragon เทียร์ A)",
+      "quote": "",
+      "source": {"url": "https://zathong.com/dyadia-aov/", "kind": "community", "date": "2026-01-11", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dyadia-037",
+      "type": "playstyle",
+      "text": "vtcpay.vn (เวียดนาม): ระบุว่า Dyadia เป็นแทงค์ซัพพอร์ตบัฟล้วนที่ย้ายมาจากโปรเจกต์ร่วมกับ Honor of Kings มีกลไกดึงทองจากฝ่ายตรงข้ามและเพิ่มเศรษฐกิจให้พันธมิตร (เนื้อหาเป็นภาพรวมของเซิร์ฟเวอร์เวียดนาม ไม่ใช่ RoV ไทย)",
+      "quote": "hack vàng",
+      "source": {"url": "https://vtcpay.vn/blog/cap-nhat-lien-tuc-danh-sach-tuong-moi-lien-quan-2026.html", "kind": "article", "date": "2026-05-26", "transcript": true, "stale": true}
+    }
+  ],
+  "notes": "ไม่มีรายการ dyadia ใน HANDCRAFTED_GUIDES (src/guide-data.mjs) จึงครอบคลุมตามแหล่งที่หาได้. ช่องว่าง: (1) หน้าฮีโร่ทางการ rov.in.th/hero/dyadia ตอบ CRAWL_NOT_FOUND (ทั้งมีและไม่มี /) และ Dyadia ไม่อยู่ในรายการฮีโร่ /hero (110 ตัว) ฟิลด์ garena ใน src/hero-details.json เป็นแค่ https://www.rov.in.th/hero ไม่มี slug; (2) หน้า Hotfix 17 พ.ย. 2026 อ่านได้ผ่าน exa (https://www.rov.in.th/patch-notes/hotfix261117) แต่วันที่ในชื่อหน้าอยู่หลังวันค้น 16 พ.ย. 2026 (รายการหน้าแพตช์แสดงวันที่ 12 พ.ย.) ผิดปกติ จึงใส่ date: null และ rov-verifier ควรตรวจวันที่จริง; (3) ไม่ได้เปิดหน้าแพตช์ทางการ 12 พ.ย., 4 พ.ย., 3 พ.ย. และ Beta 55 โดยตรง การเปลี่ยนแปลงเก่ากว่า Hotfix 17 พ.ย. มาจาก rovguide (Beta53 แก้บั๊ก) เท่านั้น ยังไม่พบประกาศทางการของ Beta 53-55 ที่แตะ Dyadia; (4) ไม่มีทรานสคริปต์วิดีโอ พบเฉพาะชื่อคลิป MRX CH ที่ rovmeta ฝัง (ไม่มี URL); (5) ไม่พบวันเปิดตัว Dyadia บนเซิร์ฟเวอร์ RoV ไทยจากแหล่งที่อ่านได้ (Liquipedia HoK ระบุ AoV Global 2026-01-21 และ AoV Garena 2026-02-14 ซึ่งเป็นเซิร์ฟเวอร์อื่น ไม่ได้ใส่เป็น claim). ข้อขัดแย้งที่บันทึกไว้โดยไม่ตัดสิน: (a) ตัวเลขสกิล: rovguide (19 ต.ค.) ระบุพาสซีฟ 150 (+100% AD)(+30% AP) และ S2 640 (+95% โบนัส AP) ส่วน Hotfix 17 พ.ย. ทางการระบุเปลี่ยนเป็น 140~280 (+0.25AP) และ 540(+108/LV)(+1.0AP); claim ที่ตัวเลขถูกแตะจึงมี stale: true ส่วนตัวเลขอื่นของ rovguide (S1, อัลติ) Hotfix ไม่ได้แตะ จึง stale: false; (b) บทบาท/เลน: rovguide และ Zathong จัดเป็น Support/Mage เลน Support (Zathong ว่า Dragon lane) ส่วน rovmeta จัดเป็น mage เลนมิด และ src/heroes.json ใส่ lane roam role ซัพพอร์ต; (c) เทียร์: rovmeta ส่วนหัว B, FAQ ในหน้าเดียวกัน C (วินเรต 40% Diamond+), Zathong A (ม.ค. 2026) และ B (ตาม rovmeta), tierlq B; ข้อมูลโปรวินเรต 30% (20 เกม) ต่างจากแรงก์ไทย rovguide 53.02%; (d) ชื่อสกิลต่างกันตามแหล่ง: rovguide TH = Chanted Destine / Twin Souls / Fate Reversal / Destined Encounter, rovguide EN = Bard / Twin Souls / Hated Parting / Destined Encounter, rovmeta และ AoV Global = Melodic Swing / Heartlink / Bitter Farewell / Destined Encounter, aov-builds ใช้ชุด Blessed Fate / Grant Blessing / Apply Curse / Gather Fate (ไม่ได้ใส่ในตัว claim); (e) ลำดับอัปสกิลต่างกัน: rovmeta R>Q>W, aov-builds (S1 1/3/5/7/9/11, S2 2/6/10/13/14/15), Zathong S2>S3>S1; (f) ไอเทม/พลังแฝง/อาร์คานาของแต่ละแหล่งต่างกัน (ชุดแทงค์ vs ชุดดาเมจ) แหล่งไอเทมทั้งหมด (aov-builds ก.พ. 2026, Zathong ม.ค. 2026, tierlq แพตช์ 30/10) เก่ากว่า Hotfix 17 พ.ย. จึง stale: true; rovmeta ไม่มีรายการไอเทม. แหล่งที่ตัดออก: ข้อมูล Honor of Kings (gosugamers, aov-news 2024, hokmeta, hokbuild, vgvd.gg) เป็นเกม/เซิร์ฟเวอร์อื่น; fairydeanrovers.co.uk เป็นสำเนาแปลเครื่องของ Zathong; aayyy.com ไม่ระบุวันที่และใช้ชื่อสกิลไม่ตรง จึงไม่ใช้. ยังไม่ตัดสินถูกผิด ส่งให้ rov-verifier."
+}

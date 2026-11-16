@@ -1,0 +1,175 @@
+{
+  "hero": "roxie",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "roxie-001",
+      "verdict": "verified",
+      "reason": "ข้อความพาสซีฟ Fire Spirit ตรงกับหน้าทางการ https://www.rov.in.th/hero/roxie คำต่อคำ (50 HP=1 MP, ออโต้ 3 ฟื้นมานา 8%, สัญลักษณ์ 5 วิ) และชื่อสกิลตรง src/hero-details.json",
+      "confidence": 1.0,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-002",
+      "verdict": "verified",
+      "reason": "สกิล Wild Fire ตรงหน้าทางการ rov.in.th (เผา 2.5 วิ, ดาเมจเวททุก 0.5 วิ, ฟื้น 1% HP ที่เสีย/ฮีโร่ 2%) และชื่อสกิลตรง src/hero-details.json",
+      "confidence": 1.0,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-003",
+      "verdict": "verified",
+      "reason": "สกิล Blazing Shield ตรงหน้าทางการ rov.in.th (เกราะไฟ, +ความเร็ว 20% 3 วิ, สโลว์ชน 50% 1.5 วิ) และชื่อสกิลตรง src/hero-details.json",
+      "confidence": 1.0,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-004",
+      "verdict": "verified",
+      "reason": "อัลติ Agnie's Grasp ตรงหน้าทางการ rov.in.th (ดึง 2.5 วิ, รีเซ็ต Wild Fire, ติดสัญลักษณ์ทันที, ไม่ติดสิ่งกีดขวาง/กันซีซี, ดาเมจเวท) และชื่อสกิลตรง src/hero-details.json",
+      "confidence": 1.0,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-005",
+      "verdict": "verified",
+      "reason": "ยืนยันกับประกาศแพตช์ทางการ https://www.rov.in.th/patch-notes/beta55: Roxie (Buff) สกิล 2 ดาเมจฐาน 100(+30/Lv)(+0.5AP)→180(+36/Lv)(+0.5AP) และโล่ 100(+60/LV)(+8% HP)→250(+50/LV)(+8% HP) ตรงกับ rovguide ทุกตัวเลข",
+      "confidence": 1.0,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-006",
+      "verdict": "unverifiable",
+      "reason": "อ้างบันทึกแพตช์ Beta51/38/31 เก่าจาก rovguide แหล่งเดียว ไม่ได้ยืนยันกับหน้าประกาศแพตช์ทางการของแต่ละเวอร์ชัน (ไม่พบลิงก์ทางการในค้นครั้งนี้)",
+      "confidence": 0.4,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-007",
+      "verdict": "contested",
+      "reason": "rovguide ให้ค่าสกิลขัดหน้าทางการ rov.in.th ชัดเจนหลายจุด (40HP/4%/3วิ, ลาก 1.5 วิ เทียบทางการ 50HP/8%/5วิ, ลาก 2.5 วิ); ฝั่งทางการน่าเชื่อถือกว่า ค่า rovguide น่าจะเป็นของเก่าก่อนบัฟ/ปรับ — ใช้ค่าทางการ (roxie-001..004)",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-008",
+      "verdict": "verified",
+      "reason": "สถิติ win 51.75% pick 2.53% ban 0.38% ตรง src/heroes.json (roxie) ซึ่งเป็นข้อมูลในโปรเจกต์; คะแนน/คลาส/เลนเป็นคำจัดของ rovguide เอง ไม่มีหลักฐานขัด",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-009",
+      "verdict": "unverifiable",
+      "reason": "เทียร์ C/ตัวเลขโปร 8 พิก 62.5% มาจาก rovmeta แหล่งเดียวที่ไม่ใช่ทางการ และการอ้างถึงเทียร์ของ Zathong/CommonSenseGamer เป็นการอ้างแหล่งอื่นต่อทอด ไม่ใช่หลักฐานตรง",
+      "confidence": 0.5,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-010",
+      "verdict": "unverifiable",
+      "reason": "ลำดับอัปสกิลเป็น meta จาก rovmeta แหล่งเดียว เช็กจากเอกสารทางการไม่ได้ (หน้าทางการไม่มีลำดับอัปสกิล) และขัดกับ aov-builds (roxie-011)",
+      "confidence": 0.4,
+      "needsInGameTest": true
+    },
+    {
+      "id": "roxie-011",
+      "verdict": "rejected",
+      "reason": "aov-builds เป็นแหล่ง AoV (ต่างเกม/เซิร์ฟเวอร์) ตัว researcher ระบุ stale เอง ลำดับอัลติเลเวล 4/8/12 เป็นรูปแบบ AoV ไม่ใช่ RoV (อัลติ RoV อัป 6/11/15) ห้ามใช้",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-012",
+      "verdict": "unverifiable",
+      "reason": "คอมโบจบเกมจาก rovmeta แหล่งเดียว ไม่ใช่ทางการ กลไก (รีเซ็ต Wild Fire/ติดสัญลักษณ์) ตรงหน้าทางการแต่ลำดับการกดต้องทดสอบในเกม",
+      "confidence": 0.5,
+      "needsInGameTest": true
+    },
+    {
+      "id": "roxie-013",
+      "verdict": "unverifiable",
+      "reason": "คอมโบเทรดตราจาก rovmeta แหล่งเดียว กลไกตรงหน้าทางการ (ออโต้ 3 ติดตรา, W สโลว์) แต่ลำดับคอมโบเป็นทริกเล่น เช็กจากเอกสารไม่ได้",
+      "confidence": 0.5,
+      "needsInGameTest": true
+    },
+    {
+      "id": "roxie-014",
+      "verdict": "unverifiable",
+      "reason": "การใช้ Sprint และคอมโบป้องกันจาก rovmeta แหล่งเดียว; ตัว Sprint ตรงกับ challenger ทางการใน src/hero-details.json แต่รูปแบบการใช้ต้องทดสอบในเกม",
+      "confidence": 0.5,
+      "needsInGameTest": true
+    },
+    {
+      "id": "roxie-015",
+      "verdict": "rejected",
+      "reason": "คอมโบจาก aov-builds (AoV, stale) อ้าง Flicker ซึ่งไม่ใช่สเปลล์แนะนำทางการ RoV ของ Roxie (ทางการแนะนำ Sprint) ห้ามใช้",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-016",
+      "verdict": "verified",
+      "reason": "อาร์คานา Golden Body (แดง), Spirit (ม่วง), Stain (เขียว) และสเปลล์ Sprint ตรงกับหน้าทางการ rov.in.th/hero/roxie และ src/hero-details.json (runes + challenger) ทุกชื่อ",
+      "confidence": 1.0,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-017",
+      "verdict": "rejected",
+      "reason": "ระบบรูน x10 แดง/ม่วง/เขียว III เป็นรูปแบบ AoV (aov-builds, stale) ไม่ตรงระบบอาร์คานา RoV ไทยปัจจุบัน และ Flicker ขัดสเปลล์แนะนำทางการ (Sprint)",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-018",
+      "verdict": "unverifiable",
+      "reason": "จุดแข็งเชิง matchup จาก rovmeta แหล่งเดียว ไม่ใช่ทางการ บางส่วนสอดคล้องกลไกทางการ (สโลว์ 50%, ลาก 2.5 วิ) แต่ข้อสรุปเทรด 1v1 ต้องพิสูจน์ในเกม",
+      "confidence": 0.5,
+      "needsInGameTest": true
+    },
+    {
+      "id": "roxie-019",
+      "verdict": "unverifiable",
+      "reason": "จุดอ่อนเชิง matchup จาก rovmeta แหล่งเดียว เป็นการตีความ meta เช็กจากเอกสารไม่ได้",
+      "confidence": 0.5,
+      "needsInGameTest": true
+    },
+    {
+      "id": "roxie-020",
+      "verdict": "rejected",
+      "reason": "บทความ Mustplay ปี 2018 (stale) ก่อนแพตช์ปรับ Roxie หลายรอบรวมถึง Beta 55 (2026-09-28) ตัวเลขสกิลในบทความไม่ตรงปัจจุบัน ใช้ยืนยันไม่ได้",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-021",
+      "verdict": "rejected",
+      "reason": "กระทู้ 2018 (stale) ขัดบิลด์แนะนำทางการปัจจุบันใน src/hero-details.json (Sonic Boots/The Aegis/Frosty's Revenge/Gaia's Standard/Mail of Pain/Blade of Eternity); บิลด์เก่ามี Orb of the Magi/Gilded Greaves/Staff of Nuul/Hecate's Diadem ซึ่งไม่อยู่ในบิลด์ทางการ ห้ามใช้เป็นคำแนะนำปัจจุบัน (แม้ชื่อไอเทมยังมีใน src/items.json)",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "roxie-022",
+      "verdict": "rejected",
+      "reason": "วิดีโอไม่มีทรานสคริปต์ ใช้เป็นหลักฐานไม่ได้ตามกฎข้อ 2 และ stale (SS9/2022)",
+      "confidence": 1.0,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 7,
+    "contested": 1,
+    "rejected": 6,
+    "unverifiable": 8
+  },
+  "safeToPublish": [
+    "roxie-001",
+    "roxie-002",
+    "roxie-003",
+    "roxie-004",
+    "roxie-005",
+    "roxie-008",
+    "roxie-016"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "hero": "lumburr",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {"id": "lumburr-001", "verdict": "verified", "reason": "fetch สด rov.in.th/hero/lumburr (2026-11-16) ตรง quote ทุกคำ; ชื่อ Protect ตรง src/hero-details.json", "confidence": 0.98, "needsInGameTest": false},
+    {"id": "lumburr-002", "verdict": "verified", "reason": "quote ตรงหน้าทางการ verbatim (เอฟเฟกต์อ่อนแรง 3 วิ มีผลกับฮีโร่เท่านั้น); Stone Shatter มีใน hero-details.json", "confidence": 0.98, "needsInGameTest": false},
+    {"id": "lumburr-003", "verdict": "verified", "reason": "quote ตรงหน้าทางการ verbatim (พุ่ง ลอย 1 วิ สโลว์ 50% โล่+MS 15% 3 วิ); Rampage มีใน hero-details.json", "confidence": 0.98, "needsInGameTest": false},
+    {"id": "lumburr-004", "verdict": "verified", "reason": "หน้าทางการสะกด 'Earth Spliiter' จริงตาม fetch สด และคำอธิบายตรง quote; หมายเหตุ hero-details.json ใช้ 'Earth Splitter' ต่างจากหน้าเว็บทางการ", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "lumburr-005", "verdict": "verified", "reason": "RoVGuide fetch สดตรง quote (8m, 100 +10/level เกราะกายภาพ+เวท); กลไกสอดคล้องหน้าทางการ ตัวเลขมีแหล่งเดียวแต่เป็นตัวเลขจริงจากหน้าสกิล", "confidence": 0.85, "needsInGameTest": false},
+    {"id": "lumburr-006", "verdict": "contested", "reason": "quote ตรง RoVGuide แต่ RoVGuide เรียก 'Shattered Earth' พร้อม knockback ขณะที่หน้าทางการ rov.in.th ใช้ 'Stone Shatter' และอธิบายเอฟเฟกต์อ่อนแรง ไม่มีผลัก — แหล่งขัดกันด้านชื่อและเอฟเฟกต์ (official vs rovguide.com/heroes/lumburr)", "confidence": 0.8, "needsInGameTest": true},
+    {"id": "lumburr-007", "verdict": "contested", "reason": "quote ตรง RoVGuide (300 +61% AD, weak 20%, CD 8..6s) แต่ขัดหน้าทางการที่ระบุ Rampage ยกลอย 1 วิ + สโลว์ 50% + โล่/MS พันธมิตร ไม่มี weaken — คำอธิบายเอฟเฟกต์ขัดกันชัด", "confidence": 0.8, "needsInGameTest": true},
+    {"id": "lumburr-008", "verdict": "contested", "reason": "quote ตรง RoVGuide (ชาร์จ 1 วิ iron body, ลอย 1.5 วิ, 300 +8% MaxHP เวท, CD 40/35/30) แต่หน้าทางการระบุความเสียหายกายภาพ ไม่กล่าวชาร์จ/iron body — ชนิดดาเมจขัดกัน (magic vs physical)", "confidence": 0.8, "needsInGameTest": true},
+    {"id": "lumburr-009", "verdict": "verified", "reason": "RoVGuide change history ตรง verbatim 'Beta31 27 Apr 2021, basic-attack range +0.5m'; เป็นข้อมูลประวัติ claim ระบุ stale ชัดเจน", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "lumburr-010", "verdict": "verified", "reason": "aov-builds ตรง verbatim (1: 1 3 5 7 9 11; 2: 2 6 10 13 14 15; 3: 4 8 12); หน้าระบุอัปเดต 09/10/2026 แต่อ้าง patch 30/10 — ไม่กระทบ quote ลำดับอัปสกิล เป็นไกด์ Liên Quân (เวียดนาม) ตามที่ claim ระบุ", "confidence": 0.85, "needsInGameTest": false},
+    {"id": "lumburr-011", "verdict": "verified", "reason": "aov-builds combo 2>1>3 ตรง verbatim; สอดคล้อง rovmeta 'Standard Lock-Down' (Rampage>Stone Shatter>Earth Splitter) เป็นแหล่งที่สอง", "confidence": 0.88, "needsInGameTest": false},
+    {"id": "lumburr-012", "verdict": "verified", "reason": "aov-builds ตรง verbatim (ใช้ Tốc Biến/Flicker ระหว่างชาร์จอัลติ); สอดคล้อง rovmeta 'Flicker Initiation' ยืนยันใช้ Flicker ร่วมกับคอมโบได้", "confidence": 0.85, "needsInGameTest": false},
+    {"id": "lumburr-013", "verdict": "unverifiable", "reason": "ชื่อไอเทมเวียดนาม (Đại địa hồi huyết, Giày kiên cường, Khiên thất truyền, Huân chương Troy, Nham thuẫn, Phù chú trường sinh) ไม่มีใน src/items.json และ researcher ยังไม่จับคู่ชื่อไทย — กฎข้อ 1 ห้าม verified; quote ตรงหน้าแหล่งแต่แมปไอเทมไม่ได้", "confidence": 0.6, "needsInGameTest": false},
+    {"id": "lumburr-014", "verdict": "unverifiable", "reason": "Giáp Gaia/Nham thuẫn ไม่มีใน items.json แมปชื่อไทยไม่ได้; quote ตรงหน้า aov-builds", "confidence": 0.6, "needsInGameTest": false},
+    {"id": "lumburr-015", "verdict": "unverifiable", "reason": "รูนเวียดนาม (Tốc Đánh-Máu-Giáp ฯลฯ) เช็กกับข้อมูลไทยในโปรเจกต์ไม่ได้ แหล่งเดียวไม่ใช่ทางการ; quote ตรงหน้า aov-builds", "confidence": 0.6, "needsInGameTest": false},
+    {"id": "lumburr-016", "verdict": "unverifiable", "reason": "พลังแฝงเวียดนาม (Rừng nguyên sinh/Thành khởi nguyên/Vực hỗn mang) ไม่ยืนยันชื่อไทย เช็กกับ hero-details.json enchantments (Afata/River Treader/...) ไม่ได้โดยตรง", "confidence": 0.55, "needsInGameTest": false},
+    {"id": "lumburr-017", "verdict": "verified", "reason": "ไอเทมทั้ง 6 (Poseidon Emblem, Gilded Greaves, Gaia's Standard, The Aegis, Rock Shield, Amulet of Longevity) มีใน src/items.json และตรงกับบิลด์แนะนำทางการใน hero-details.json (checkedAt 2026-11-15) ทั้งลำดับ — rovmeta fetch ยืนยัน Poseidon Emblem ชิ้นแรกและ Gaia's Standard; ทางการ+rovmeta ตรงกัน", "confidence": 0.92, "needsInGameTest": false},
+    {"id": "lumburr-018", "verdict": "verified", "reason": "rovmeta ระบุ Core Runes Golden Body/Protect/Prowess ตรงกับ hero-details.json runes ทั้งสามชื่อ", "confidence": 0.95, "needsInGameTest": false},
+    {"id": "lumburr-019", "verdict": "verified", "reason": "rovmeta fetch สดตรง verbatim (Weak: Butterfly/Murad/Alice/Grakk; Strong: Diao Chan/Krixi/Ilumia/Tel'Annas/Azzen'Ka/Yorn); claim ระบุชัดว่าเป็นการจัดของบทความ", "confidence": 0.9, "needsInGameTest": false},
+    {"id": "lumburr-020", "verdict": "unverifiable", "reason": "Mustplay 16 ก.พ. 2017 stale มาก ก่อนแพตช์ปัจจุบันหลายปี คอมโบอาจอิงคิทเก่า (ยังไม่ fetch ยืนยันได้) แหล่งเดียวไม่ใช่ทางการ ต้องทดสอบในเกมถ้าจะใช้", "confidence": 0.4, "needsInGameTest": true}
+  ],
+  "summary": {"verified": 12, "contested": 3, "rejected": 0, "unverifiable": 5},
+  "safeToPublish": ["lumburr-001","lumburr-002","lumburr-003","lumburr-004","lumburr-005","lumburr-009","lumburr-010","lumburr-011","lumburr-012","lumburr-017","lumburr-018","lumburr-019"]
+}

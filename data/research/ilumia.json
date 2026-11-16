@@ -1,0 +1,260 @@
+{
+  "hero": "ilumia",
+  "gamePatch": "ค้นเมื่อ 16 พ.ย. 2026 แพตช์ล่าสุดที่พบการเปลี่ยนแปลง Ilumia คือ B54 Hotfix (27 ส.ค. 2026) ที่ buff Divine Light; rovmeta ระบุแพตช์ 1.64 (อัปเดต 11 พ.ย. 2026); rovguide แรงก์ไทย ณ 19 ต.ค. 2026",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "ilumia-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Ilumia บทบาท Mage พาสซีฟ Goddess ใช้สกิลใด ๆ 2 ครั้ง ทำให้สกิล Divine Light แรงขึ้น 3 วินาทีและไม่มีคูลดาวน์",
+      "quote": "การใช้สกิลใดๆ 2 ครั้ง จะทำให้สกิล Divine Light แรงขึ้น 3 วินาทีและไม่มีคูลดาวน์",
+      "source": {"url": "https://www.rov.in.th/hero/ilumia", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Divine Light (สกิล 1) ปล่อยแสงศักดิ์สิทธิ์ตามทิศที่กำหนด ระเบิดเมื่อปะทะศัตรูในระยะ สร้างความเสียหายเวท และถ้าได้รับผลจากสกิลติดตัว (พาสซีฟ) จะแรงขึ้น 2 เท่าพร้อมทำให้ศัตรูลอยขึ้น",
+      "quote": "หากได้รับผลจากสกิลติดตัว สกิลนี้จะแรงขึ้น 2 เท่า พร้อมกับทำให้ศัตรูลอยขึ้น",
+      "source": {"url": "https://www.rov.in.th/hero/ilumia", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Banish (สกิล 2) ทำให้ศัตรูในระยะกระเด็นถอยหลัง สร้างความเสียหายเวท ลดความเร็วลง 30% เป็นเวลา 1 วินาที (หน้าทางการไม่มีตัวเลขความเสียหาย/คูลดาวน์/มานา)",
+      "quote": "ลดความเร็วลง 30% เป็นเวลา 1 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/ilumia", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Catalysm/Cataclysm (สกิล 3 อัลติ) สั่งสายฟ้าโจมตีบริเวณที่ฮีโร่ศัตรูอยู่ทั่วทั้งแผนที่ (ไม่ล็อกเป้าหมาย) สร้างความเสียหายเวทและทำให้ติดสตั๊น",
+      "quote": "สายฟ้าโจมตีใส่บริเวณที่ฮีโร่ศัตรูอยู่ ทั่วทั้งแผนที่ (ไม่ล็อคเป้าหมาย) สร้างความเสียหายเวทและทำให้ติดสตั๊น",
+      "source": {"url": "https://www.rov.in.th/hero/ilumia", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-005",
+      "type": "skill",
+      "text": "rovguide (อ้างว่าอัปเดตตามประกาศแพตช์ 27 ส.ค. 2026) อธิบายพาสซีฟต่างจากหน้าทางการ: ได้รับ 1 สแตกเมื่อใช้สกิล 1 หรือ 2 หรือเมื่อสกิล 2 โดนศัตรู ครบ 2 สแตกรีเฟรชสกิล 1 ทันทีและเสริมพลัง 5 วินาที สกิล 1 กว้างขึ้น ทะลุศัตรูบนเส้นทาง ดาเมจ 2 เท่า ตีลอย 0.75 วินาที; นอกการต่อสู้ได้ความเร็วเคลื่อนที่ +50 และฟื้นมานา (ฉบับไทยเขียน 2% ต่อวินาที ฉบับอังกฤษเขียน 1% ต่อวินาที)",
+      "quote": "At 2 stacks, her skill 1 is immediately reset and is enhanced for 5 s ... deals twice the damage and knocks them up for 0.75 s.",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-006",
+      "type": "skill",
+      "text": "rovguide: Divine Light คูลดาวน์ 4 วินาที มานา 30 ดาเมจเวท 320 (+64 ต่อเลเวลสกิล) (+45% AP)",
+      "quote": "Cooldown 4s Mana Cost 30 ... 320 (+ 64 per skill level) (+ 45% of AP) magic damage",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-007",
+      "type": "skill",
+      "text": "rovguide: Banish มานา 60 ผลักถอย 0.5 วินาที ดาเมจเวท 250 (+40% AP) สโลว์ 30% นาน 2 วินาที (ฉบับไทยเขียนวิ่งเร็วขึ้นเมื่อโดนศัตรู 30% นาน 1 วินาที) ตามเลเวลสกิล 1-6: ดาเมจ 250/280/310/340/370/400 คูลดาวน์ 12/11.2/10.4/9.6/8.8/8 วินาที สโลว์ 30-50%",
+      "quote": "knocks back nearby enemies for 0.5 seconds, dealing 250 (+ 40% of MP) magic damage and slowing them by 30% for 2 seconds",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-008",
+      "type": "skill",
+      "text": "rovguide: Cataclysm มานา 120 สร้างวงเวทใต้เท้าฮีโร่ศัตรูทุกคน ได้วิชัน 3 วินาที หน่วงสั้น ๆ แล้วดาเมจเวท 640 (+100% AP) สตั๊น 1 วินาที (ไม่สะสม) เลเวลสกิล 1-3: ดาเมจ 640/820/1000 คูลดาวน์ 80/70/60 วินาที",
+      "quote": "she deals 640 (+ 100% of MP) magic damage to them while stunning them for 1 second (cannot be stacked)",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-009",
+      "type": "skill",
+      "text": "rovguide: คะแนนฮีโร่อย่างเป็นทางการ เอาตัวรอด 2/5 พลังโจมตี 5/5 สกิล 4/5 ความยาก 2/5; จุดเด่น ควบคุม; เลนกลาง; คลาสเมจ",
+      "quote": "Survivability 2/5 Damage 5/5 Function 4/5 Difficulty 2/5",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-010",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย ณ 19 ต.ค. 2026: อัตราชนะ 52.81% อัตราเลือก 6.07% อัตราแบน 0.44%; อันดับ 4 จาก 34 ในกลุ่มเมจ และ 3 จาก 31 ในเลนกลาง ตามอัตราชนะ",
+      "quote": "Win rate 52.81% Pick rate 6.07% Ban rate 0.44% ... Middle Lane: #3 of 31 by win rate",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-011",
+      "type": "patch-change",
+      "text": "B54 Hotfix (27 ส.ค. 2026) buff Divine Light: ความเสียหายจาก 300 (+60/LV) (+0.42 AP) เป็น 320 (+64/LV) (+0.45 AP) (ข้อมูลจากหน้าประวัติการเปลี่ยนแปลงของ rovguide ไม่ได้อ่านหน้าแพตช์ทางการโดยตรง)",
+      "quote": "Before 300(+60/LV)(+0.42AP) After 320(+64/LV)(+0.45AP)",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2026-08-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-012",
+      "type": "patch-change",
+      "text": "Beta49 (23 เม.ย. 2025) buff: เมื่อออกจากการต่อสู้ Ilumia ได้ความเร็วเคลื่อนที่ 50 และฟื้นมานาต่อวินาที (ฉบับอังกฤษ 2%/วินาที ขณะที่คำอธิบายสกิลฉบับอังกฤษเขียน 1%/วินาที)",
+      "quote": "Out of combat, gains 50 movement speed and restores 2% mana per second.",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2025-04-23", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-013",
+      "type": "patch-change",
+      "text": "Beta41 (19 เม.ย. 2023) nerf: สกิล 1 เสริมพลัง ความเร็วพุ่ง 12.5 m/s เป็น 11 m/s และระยะ 9 m เป็น 8.5 m. Beta33 (26 ก.ย. 2021) nerf: สกิล 1 คูลดาวน์ 3 เป็น 4 วินาที และแรงผลักสกิล 2 ลดลงได้ด้วยต้านทานสถานะ",
+      "quote": "enhanced Skill 1: travel speed 12.5m/s → 11m/s and range 9m → 8.5m ... Skill 1 cooldown 3 → 4 seconds",
+      "source": {"url": "https://rovguide.com/heroes/ilumia", "kind": "article", "date": "2023-04-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "ilumia-014",
+      "type": "skill",
+      "text": "ลำดับอัปสกิล (rovmeta, ลำดับความสำคัญ R > Q > W): สกิล 1 ที่เลเวล 1,3,5,7,9,13; สกิล 2 ที่เลเวล 2,4,8,10,12,14; อัลติ ที่เลเวล 6,11,15 (ตารางต่อเลเวลของ rovmeta; ช่องเลเวล 5 และ 9 และ 13 ของสกิล 1 ตรงกับตาราง แต่เลเวลสกิล 2 ที่ 6 ไม่ตรงกับ aov-builds)",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-015",
+      "type": "skill",
+      "text": "ลำดับอัปสกิล (aov-builds): สกิล 1 ที่เลเวล 1,3,5,7,9,11; สกิล 2 ที่เลเวล 2,6,10,13,14,15; อัลติ ที่เลเวล 4,8,12 (ตารางต่างจาก rovmeta; เลเวลอัลติ 4/8/12 ผิดปกติเมื่อเทียบกับเกมที่ปลดอัลติที่เลเวล 4 ในบางไกด์) ส่วน Zathong ระบุลำดับ Skill 3 -> Skill 2 -> Skill 1",
+      "quote": "3 Cataclysm Skill 3 4 8 12",
+      "source": {"url": "https://aov-builds.com/en/heroes/ilumia/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-016",
+      "type": "skill",
+      "text": "Zathong (พ.ค. 2026) ระบุลำดับอัปสกิล: Skill 3 -> Skill 2 -> Skill 1",
+      "quote": "Ability Order: Skill 3 -> Skill 2 -> Skill 1.",
+      "source": {"url": "https://zathong.com/aov-ilumia/", "kind": "article", "date": "2026-05-22", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-017",
+      "type": "combo",
+      "text": "คอมโบพื้นฐาน (aov-builds): สกิล 1 -> สกิล 2 -> สกิล 1 (ที่เสริมพลังแล้ว ตีลอยและสตั๊นเมื่อลงพื้น) -> สกิล 3; บางครั้งควรเก็บ Banish ไว้กันศัตรูที่เข้าประชิด และเก็บอัลติไว้เข้าตีทีมจากระยะไกล",
+      "quote": "Cast Skill 1 Divine Light to poke ... Use Skill 2 Banish ... Continue with the now-empowered Skill 1 ... Then immediately activate Skill 3 Cataclysm",
+      "source": {"url": "https://aov-builds.com/en/heroes/ilumia/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-018",
+      "type": "combo",
+      "text": "คอมโบ Standard Goddess Burst (rovmeta): ใช้ W ผลักและสโลว์ แล้วกด Q ทันที (ยังไม่เสริมพลัง นับเป็นสแตกที่สอง) เพื่อเปิดพาสซีฟ แล้วยิง Q ที่เสริมพลังแล้วใส่เป้าที่โดนสโลว์เพื่อตีลอยพร้อมดาเมจ 2 เท่า จังหวะแคบ ให้คิว Q ดอกที่สองทันทีที่กระสุนดอกแรกออกจากมือ",
+      "quote": "ใช้ W เด้งถอยแล้วสโลว์ จากนั้นกด Q ทันที (แบบยังไม่ชาร์จ นับเป็นสแตกที่สอง) เพื่อจุด Goddess แล้วยิง Q ที่ชาร์จแล้วใส่เป้าที่โดนสโลว์",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-019",
+      "type": "combo",
+      "text": "ออลอินด้วยอัลติ (rovmeta): เปิดด้วยเบิร์สต์ Goddess มาตรฐาน (W, Q, Q) ให้ศัตรูลอยและโดนสตัน แล้วกด Catalysm ทันทีขณะศัตรูขยับไม่ได้ เพื่อให้สายฟ้าลงเป้าแน่นอน",
+      "quote": "แล้วกด Catalysm ทันทีตอนที่มันขยับไม่ได้ การันตีว่าสายฟ้าลงเป้าแบบไม่มีทางหลบ",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-020",
+      "type": "combo",
+      "text": "เปิดด้วย Flicker (rovmeta): สแตก Goddess ด้วย W จากระยะไกลสุด แล้ว Flicker เข้าหน้าศัตรูเพื่อปิดระยะก่อนสโลว์หมด จากนั้น Q ที่เสริมพลังแล้วต่อ Catalysm",
+      "quote": "สแตก Goddess ไว้ก่อนด้วย W จากระยะไกลสุด แล้ว Flicker เข้าหน้าศัตรูเพื่อปิดระยะก่อนสโลว์จะหมด",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-021",
+      "type": "combo",
+      "text": "สแตกแบบโพคปลอดภัย (rovmeta): ในเลนเมื่อเข้าระยะ Banish ไม่ได้ ให้ยิง Q ที่ยังไม่เสริมใส่เวฟก่อน แล้ว W ใส่ครีปใกล้ ๆ หรือตัวฮีโร่ เพื่อเปิด Goddess ให้ Q ถัดไปเสริมพลัง; สแตกจากครีปล้วนได้และเก็บ Q เสริมพลังไว้จนกว่าการปะทะจริงจะเปิด",
+      "quote": "ยิง Q แบบยังไม่ชาร์จใส่เวฟก่อน แล้ว W ใส่ครีปที่อยู่ใกล้หรือใส่ตัวฮีโร่ทันที เพื่อจุด Goddess ให้ Q ดอกถัดไปชาร์จเต็ม",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-022",
+      "type": "playstyle",
+      "text": "จังหวะกด (rovmeta): Catalysm เล็งตำแหน่งปัจจุบันของศัตรูตอนร่าย ไม่ใช่ตอนกระทบ ควรยิงทันทีที่ศัตรูเริ่มรีคอลหรือโดนล็อกด้วย CC; เก็บ Catalysm ไว้ตอนทีมศัตรูกระจุกหรือเก็บกวาดหลังชนะไฟท์ แทนการเปิดด้วยอัลติ; เจอทีมที่มีสกิลพุ่งตั้งแต่สองตัว ให้ถือ Banish จนกว่าดีฟแรกลง",
+      "quote": "Catalysm อ่านตำแหน่งศัตรูตอนกดร่าย ไม่ใช่ตอนโดน เพราะงั้นยิงทันทีที่เห็นแอนิเมชัน recall ของศัตรู",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-023",
+      "type": "playstyle",
+      "text": "แผนการเล่น (rovmeta): ต้นเกมโฟกัสสแตก Goddess จากครีปอย่างปลอดภัย ทำ Orb of the Magi ให้เสร็จก่อนมังกรตัวแรก; สไปก์แรกคือ Orb of the Magi, Boomstick ทำให้ Q เสริมพลังเป็นภัยวันช็อต; พีคช่วงแย่งมังกร/มังกรนรกกลางเกม; ท้ายเกมอ่อนลงเมื่อเจอแถวหน้าอึดและต้องพึ่งการพีลจากทีม; ในตีทีมเล็ง Q เสริมพลังใส่ซัพหรือมาร์คแมน ไม่ใช่แทงก์; อย่าโรมเดี่ยวตอนพาสซีฟว่าง",
+      "quote": "พาวเวอร์สไปก์จริงจังอันแรกของอิลูเมียคือตอนทำ Orb of the Magi เสร็จ ... เธอพีคสุดตอนแย่งมังกรและมังกรนรกช่วงกลางเกม",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-024",
+      "type": "playstyle",
+      "text": "จุดแข็ง/จุดอ่อน (rovmeta): แข็ง Catalysm กดดันทั้งสามเลนโดยไม่ออกจากมิด, Q เสริมพลังหยุดการพุ่งและตัดสกิลร่ายค้าง, W ต่อ Q ชาร์จจบตัวบางได้โดยไม่ต้องมีไอเทมเข้าหา; อ่อน Banish ระยะสั้นต้องเข้าใกล้, ไม่มีสกิลเคลื่อนที่/หนี (Nakroth/Murad ดีฟทีเดียวจบ), Catalysm หลบได้ถ้าเก็บสกิลพุ่งไว้",
+      "quote": "ไม่มีการเคลื่อนที่หรือสกิลหนีเลย นาครอท (Nakroth) หรือมูราด (Murad) ดีฟเข้ามาทีเดียวก็จบ",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-025",
+      "type": "playstyle",
+      "text": "ระดับเทียร์: rovmeta หัวหน้าหน้าเขียนเทียร์ A (ส่วน FAQ ของหน้าเดียวกันเขียนเทียร์ B) พิก/แบนเรตสายโปร 0.3% ถูกหยิบ 2 ครั้ง วินเรต 100%; ระบุว่า Zathong จัดเทียร์ S และ CommonSenseGamer จัดเทียร์ B; ระดับความยาก Medium",
+      "quote": "เทียร์ A mageมิดเลนปานกลางแพตช์ 1.64 ... Zathong จัดไว้เทียร์ S ในเทียร์ลิสต์ AoV CommonSenseGamer จัดไว้เทียร์ B",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-026",
+      "type": "item",
+      "text": "บิลด์หลัก (rovmeta, 2026): Orb of the Magi -> Flashy Boots -> Boomstick เป็นเส้นหลัก ต่อด้วย Staff of Nuul (เจาะต้านเวทช่วงมังกรกลางเกม) Hecate's Diadem และ Holy of Holies; ห้ามข้าม Orb เพื่อไล่เบิร์สต์ต้นเกม",
+      "quote": "The core path is Orb of the Magi into Flashy Boots into Boomstick ... Staff of Nuul shreds magic resistance ... Hecate's Diadem amplifies raw AP, and Holy of Holies caps her damage ceiling",
+      "source": {"url": "https://rovmeta.com/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-027",
+      "type": "item",
+      "text": "Zathong (พ.ค. 2026): best build Orb of the Magi, Enchanted Kicks, Boomstick, Staff of Nuul, Hecate's Diadem, Holy of Holies; pro build Orb of the Magi, Flashy Boots, Boomstick, Hecate's Diadem, Berith's Agony, Rhea's Blessing",
+      "quote": "Ilumia pro build: Orb of the Magi, Flashy Boots, Boomstick, Hecates Diadem, Beriths Agony, Rheas Blessing",
+      "source": {"url": "https://zathong.com/aov-ilumia/", "kind": "article", "date": "2026-05-22", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-028",
+      "type": "item",
+      "text": "aov-builds (เวอร์ชัน AoV) บิลด์เลนกลาง: Flashy Boots, Boomstick, Berith's Agony, Hecate's Diadem, Staff of Nuul, Arctic Orb; บิลด์ซัพพอร์ต: Terra Unbind, Gilded Greaves, Berith's Agony, Skadi's Frost Ring, Frosty's Revenge, Staff of Nuul; ถ้าศัตรูมีฮีลแรงให้ออก Tome of the Reaper แทน Boomstick/Frosty's Revenge ตั้งแต่ต้น",
+      "quote": "If the opponent has a lot of strong healing, build Tome of the Reaper instead of Boomstick or Frosty's Revenge early",
+      "source": {"url": "https://aov-builds.com/en/heroes/ilumia/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-029",
+      "type": "item",
+      "text": "Pantip (กระทู้เก่า ไอเทมยุคก่อน) แนะนำ Orb of Magi, รองเท้าหนี (หรือรองเท้าเวทสำหรับคนเก่ง), Soaring Aura + Apocalypse กลางเกม, Aegis ท้ายเกม (สลับ Hecate's Diadem/Virtue's Necklace ได้), Holy of Holies ปลายเกม และให้เหตุผลว่าเจาะเกราะเวทคุ้มกว่าพลังเวท; ไอเทมหลายชิ้นอาจไม่มีหรือเปลี่ยนไปแล้ว",
+      "quote": "ไอเทมที่เหลือจะเน้นไปที่การเพิ่มพลังเวท ... แสดงว่าการออกพลังเวทก็เลยไม่คุ้ม แล้วออกอะไรละถึงจะคุ้มคำตอบคือ เจาะเกราะเวทสิ",
+      "source": {"url": "https://pantip.com/topic/36685794", "kind": "community", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "ilumia-030",
+      "type": "rune",
+      "text": "รูน (rovmeta, Zathong 2021/2026, aov-builds): rovmeta ระบุอาร์คานาหลัก Desolate / Protect / Secret สเปลล์ Flicker; Zathong ใช้ชื่อ Violate x10 (เวท +4.2 เจาะเวท +2.4), Benevolence x10 (HP +45 ฟื้น HP +5.2/5 วิ MS +0.4%), Hex x10 (เวท +2.4 CDR +0.7%) ซึ่งตรงกับค่าของ Desolate/Protect/Secret ใน Gametimeprime (2020); aov-builds (เวอร์ชัน AoV) ระบุ Red III Magic Power-Magic Penetration x10, Purple III Attack Speed-Movement Speed x10, Green III Attack Speed-Magic Penetration x10",
+      "quote": "อาร์คานาหลัก Desolate Protect Secret",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-031",
+      "type": "enchant",
+      "text": "พลังแฝง (Zathong พ.ค. 2026): Veda = Sacred Bead, Holy Verdic, Holy Thunder; Human = Mark of Frost, Minion Kill. Gametimeprime (2020) ระบุ Veda เป็น Mana Refill (ตอนนี้ Sacred Bead), Holy Verdic, Holy Thunder และ Human = Mark of Frost, Minion Kill (รายละเอียด Holy Verdic: เจาะเกราะ/เวท +18; Holy Thunder: ฟ้าผ่า 100 (+10/LV) คูลดาวน์ 15 วิ). aov-builds (AoV) ระบุ Sacred Bead, Penetrating Heart, Divine Light",
+      "quote": "Veda: Sacred Bead, Holy Verdic, Holy Thunder. Human: Mark of Frost, Minion Kill",
+      "source": {"url": "https://zathong.com/aov-ilumia/", "kind": "article", "date": "2026-05-22", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-032",
+      "type": "matchup",
+      "text": "rovmeta: กลัวเจอ Nakroth, Murad, Butterfly, Keera; แข็งใส่ Kahlii, Krixi, Natalya, Tel'Annas, Diao Chan, Violet; เข้าขาดีสุดกับ Baldum, Arduin, Ormarr, Grakk (หน้าอังกฤษและไทยรายชื่อต่างกันเล็กน้อย ส่วนที่ดึงได้ครบคือหน้าไทย)",
+      "quote": "กลัวเจอ Nakroth Murad Butterfly Keera ... แข็งใส่ Kahlii Krixi Natalya Tel'Annas Diao Chan Violet ... เข้าขาดีสุด Baldum Arduin Ormarr Grakk",
+      "source": {"url": "https://rovmeta.com/th/heroes/ilumia", "kind": "article", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-033",
+      "type": "matchup",
+      "text": "Zathong (พ.ค. 2026): Extreme Threats = Nakroth, Kriknak, Murad, Hayate, Eland'orr; Ideal Synergies = Alice, TeeMee, Zip, Peura, Baldum",
+      "quote": "Extreme Threats: Nakroth, Kriknak, Murad, Hayate, Eland'orr. Ideal Synergies: Alice, TeeMee, Zip, Peura, Baldum",
+      "source": {"url": "https://zathong.com/aov-ilumia/", "kind": "article", "date": "2026-05-22", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-034",
+      "type": "matchup",
+      "text": "aov-builds (เคาน์เตอร์ ฉบับ AoV) ระบุตัวแพ้ทาง Ilumia: Lauriel (เลนกลาง), Rourke (ป่า), Riktor และ Kil'Groth (เลนบน/Dark Slayer), Chaugnar และ Toro (ซัพ), Laville (เลนมังกร); ไอเทม/สเปลล์: รองเท้าลด CC 35%, Purify, ไอเทมโล่ออกนอกสู้รบ (Guard), ไอเทมชุบชีวิต; เหตุผลคือ Ilumia ไม่มีสกิลพุ่ง พึ่ง CC เป็นหลัก",
+      "quote": "Ilumia's counters are Lauriel in the mid lane, Rourke in the jungle, Riktor, Kil'Groth in the Dark Slayer lane, Chaugnar, Toro as support and Laville in the Abyssal Dragon lane.",
+      "source": {"url": "https://aov-builds.com/en/counters/ilumia/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-035",
+      "type": "playstyle",
+      "text": "เคาน์เตอร์ 1v1 (aov-builds): หลบแนวลูกแสงด้วยการเดินสไลด์ข้าง, นับสกิลของ Ilumia (ใช้ 2 สกิลแล้ว Q เสริมพลังอยู่ 3 วินาที), ล่อให้ใช้ Banish ก่อนค่อยเข้า, เรียกทีมแกงค์เพราะไม่มีสกิลพุ่ง",
+      "quote": "Bait out Banish before engaging ... Ilumia has no dash, so every time she overextends is a chance for your jungler or support to come catch her.",
+      "source": {"url": "https://aov-builds.com/en/counters/ilumia/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "ilumia-036",
+      "type": "playstyle",
+      "text": "บทความเก่า (Zathong 2021) ระบุ Role: Mage, Lane: Mid, ไอเทมแนะนำ Orb of the Magi, Enchanted Kicks, Boomstick, Staff of Nuul, Hecates Diadem, Holy of Holies; รูน Violate/Benevolence/Hex; พลังแฝง Sacred Bead, Holy Verdic, Holy Thunder / Mark of Frost, Minion Kill; counter Nakroth, Kriknak",
+      "quote": "Ilumia - Role: Mage - Lane: Mid",
+      "source": {"url": "https://zathong.com/ilumia-rov/", "kind": "article", "date": "2021-04-04", "transcript": true, "stale": true}
+    }
+  ],
+  "notes": "ไม่พบใน src/guide-data.mjs HANDCRAFTED_GUIDES รายการของ ilumia (grep ไม่พบ) จึงค้นตามเกณฑ์ทั่วไป: หน้าฮีโร่ทางการ, rovguide, rovmeta, ไกด์ชุมชน. ไม่ได้เปิดหน้าประกาศแพตช์ทางการ rov.in.th/patch-notes ตรง ๆ จึงอ้างข้อมูลแพตช์ผ่าน rovguide. ไม่พบวิดีโอ YouTube/ทรานสคริปต์ของ Ilumia ที่เข้าถึงได้ (rovmeta มีส่วน 'วิดีโอไกด์จากมือโปร' แต่เนื้อหาดึงไม่ได้; BiliBili ปี 2022 มีเพียงชื่อคลิป ไม่ได้บันทึกเป็น claim, transcript: false). หน้าทางการไม่มีตัวเลข/ไอเทม/รูน/พลังแฝง. ความไม่สอดคล้องระหว่างแหล่ง: (1) ข้อความพาสซีฟของ rovguide (สแตก 2 ขั้น, 5 วินาที, ทะลุศัตรู) ต่างจากหน้าทางการ/rovmeta (3 วินาที); (2) Banish สโลว์ 1 วินาที (ทางการ/rovmeta) กับ 2 วินาที (rovguide); (3) ฟื้นมานานอกสู้ 1% กับ 2%; (4) ตารางอัปสกิลของ rovmeta กับ aov-builds ต่างกัน; (5) เทียร์ A กับ B ในหน้าเดียวกันของ rovmeta; (6) Zathong 2026 ให้ตัวเลขสกิล 1 (350/410/470/590/650, 1.6 เท่า) ต่างจาก rovguide (ไม่ได้บันทึกเป็น claim เพราะดูล้าสมัย); (7) aov-builds เป็นไกด์ฝั่ง AoV ไอเทม/อาร์คานา/พลังแฝงบางส่วนอาจไม่ตรงกับ RoV ไทย. ชื่อสกิล 3 สะกด Catalysm (ทางการ) vs Cataclysm."
+}

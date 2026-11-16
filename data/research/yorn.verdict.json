@@ -1,0 +1,106 @@
+{
+  "hero": "yorn",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "yorn-001",
+      "verdict": "verified",
+      "reason": "ตรงกับหน้าฮีโร่ทางการ rov.in.th/hero/yorn (ดึงซ้ำวันนี้): สกิล Explosive Arrow ลงท้ายว่า 'หลังจากนั้นการโจมตีปกติครั้งต่อไปจะติด Fierce Shot'; ชื่อสกิล Explosive Arrow และ Fierce Shot มีใน src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-002",
+      "verdict": "verified",
+      "reason": "ตรงกับ rov.in.th/hero/yorn: Heavenly Barrage ลงท้าย 'หลังจากนั้นการโจมตีปกติครั้งต่อไปจะติด Fierce Shot'; ชื่อ Heavenly Barrage มีใน src/hero-details.json",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-003",
+      "verdict": "unverifiable",
+      "reason": "แหล่งเดียว (rovguide.com/th/updates/beta55) ไม่ใช่ทางการ และ stale:true (ก่อน Hotfix 4 พ.ย. 2026); ไม่พบ URL ต้นฉบับ Garena ของ Beta 55 ตามบันทึกผู้วิจัย จึงเทียบตัวเลขกับเอกสารทางการไม่ได้ (กฎข้อ 3, 6)",
+      "confidence": 0.4,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-004",
+      "verdict": "unverifiable",
+      "reason": "แหล่งเดียวไม่ใช่ทางการ (RoVGuide Beta 55) และ stale; หน้าฮีโร่ทางการไม่ยืนยัน/หักล้างเรื่องการเปิดวิสัยทัศน์ของ Explosive Arrow (กฎข้อ 3)",
+      "confidence": 0.4,
+      "needsInGameTest": true
+    },
+    {
+      "id": "yorn-005",
+      "verdict": "unverifiable",
+      "reason": "แหล่งเดียวไม่ใช่ทางการ (RoVGuide Beta 55) และ stale; หน้าทางการไม่ยืนยันกลไกเปิดวิสัยทัศน์ของ Precise Shot (กฎข้อ 3)",
+      "confidence": 0.4,
+      "needsInGameTest": true
+    },
+    {
+      "id": "yorn-006",
+      "verdict": "verified",
+      "reason": "สอดคล้องข้อมูลทางการ 2 ทาง: src/hero-details.json ให้ Precise Shot แท็ก 'ผลักถอยหลัง' (ตรงกับผลักระยะประชิด) และ rov.in.th/hero/yorn ยืนยันส่วน 'ออโต้ครั้งต่อไปติด Fierce Shot' ในสกิลอื่นซ้ำ ชื่อ Precise Shot มีใน hero-details.json; RoVGuide เป็นแหล่งสนับสนุนไม่ stale (date:null)",
+      "confidence": 0.75,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-007",
+      "verdict": "unverifiable",
+      "reason": "ทริกกดจากประวัติการเปลี่ยนแปลงบน RoVGuide แหล่งเดียวไม่ใช่ทางการ เช็กจากเอกสารไม่ได้ ต้องทดสอบในเกม (เกณฑ์ unverifiable)",
+      "confidence": 0.3,
+      "needsInGameTest": true
+    },
+    {
+      "id": "yorn-008",
+      "verdict": "verified",
+      "reason": "กลไก 'ออโต้ถัดไปเป็น Fierce Shot หลังใช้สกิล' ตรงกับหน้าทางการ rov.in.th ทั้ง 3 สกิล (Explosive Arrow, Heavenly Barrage, Feel the Sun); ROV META (2026-11-12, ไม่ stale) เป็นแหล่งที่สองสนับสนุนคำแนะนำสอดออโต้",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-009",
+      "verdict": "contested",
+      "reason": "ชุดชื่อสกิลขัดกัน: rov.in.th/hero/yorn และ ROV META ใช้ Explosive Arrow / Heavenly Barrage / Feel the Sun (Q=Explosive, W=Heavenly ตาม ROV META) แต่ src/hero-details.json และ RoVGuide ใช้ Explosive Arrow / Precise Shot / Heavenly Barrage; ทำให้ mapping Q/W/R ใน claim ขัดข้อมูลทางการในโปรเจกต์ ส่วนลำดับอัป R > Q > W เป็นแหล่งเดียว",
+      "confidence": 0.5,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-010",
+      "verdict": "verified",
+      "reason": "ไอเทมทั้ง 6 ชิ้น (War Boots, Fafnir's Talon, Claves Sancti, Slikk's Sting, Muramasa, Death Sickle) มีใน src/items.json และตรงกับบิลด์ 'แนะนำ' ใน src/hero-details.json (review patch 'Garena ทางการ', checkedAt 2026-11-15) ตามลำดับเดียวกัน; ROV META เป็นแหล่งที่สองไม่ stale",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-011",
+      "verdict": "verified",
+      "reason": "รูน Awake (red), Spirit (purple), Dragon's Claw (green) ตรงกับ runes ใน src/hero-details.json ที่อ้าง Garena ทางการ; ROV META เป็นแหล่งที่สองไม่ stale",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-012",
+      "verdict": "unverifiable",
+      "reason": "คำแนะนำ matchup (Nakroth/Quillen/Murad เคาน์เตอร์ Yorn) มาจาก ROV META แหล่งเดียว ไม่มีแหล่งอิสระที่สองและไม่ใช่ข้อเท็จจริงที่เช็กกับข้อมูลทางการได้",
+      "confidence": 0.4,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-013",
+      "verdict": "verified",
+      "reason": "แม้ Gametimeprime stale (2020), รายการเอนแชนต์ Lokheim: Raging Inferno / Deadly Claw / Devil's Awakening และ Veda: Axe of Sacrifice ตรงกับ enchantments ใน src/hero-details.json (Garena ทางการ, checkedAt 2026-11-15) — ข้อเท็จจริงยังใช้ได้; 'Holy Verdic' ไม่พบใน hero-details.json ทำให้ verified เฉพาะส่วนที่ตรง",
+      "confidence": 0.7,
+      "needsInGameTest": false
+    },
+    {
+      "id": "yorn-014",
+      "verdict": "verified",
+      "reason": "ไอเทมทั้งหมดในสองชุด (War Boots, Claves Sancti, Slikk's Sting, Muramasa, Bow of Slaughter, Blade of Eternity, Fafnir's Talon) มีจริงใน src/items.json; ชุดที่สองตรงกับบิลด์ทางการ 5 ใน 6 ชิ้น (ต่างที่ Blade of Eternity vs Death Sickle); Zathong stale แต่ claim เป็นเพียงการรายงานบิลด์ที่หน้านั้นแสดง ไม่ใช่คำแนะนำปัจจุบัน",
+      "confidence": 0.7,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {"verified": 8, "contested": 1, "rejected": 0, "unverifiable": 5},
+  "safeToPublish": ["yorn-001", "yorn-002", "yorn-006", "yorn-008", "yorn-010", "yorn-011", "yorn-013", "yorn-014"]
+}

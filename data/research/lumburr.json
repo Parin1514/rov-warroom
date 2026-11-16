@@ -1,0 +1,148 @@
+{
+  "hero": "lumburr",
+  "gamePatch": "เป้าหมาย: เซิร์ฟเวอร์ไทย ณ 2026-11-16; หน้ารวมแพตช์ทางการที่ค้นพบแสดง Hotfix 4 พ.ย. 2026 และประกาศ Hotfix 17 พ.ย. 2026 ซึ่งยังเป็นอนาคต ณ วันค้น จึงยังไม่ยืนยันแพตช์ที่มีผลล่าสุด",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "lumburr-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Protect: เมื่อมีฮีโร่พันธมิตรอยู่ใกล้ Lumburr และพันธมิตรที่เลือดน้อยที่สุดได้รับเกราะป้องกัน",
+      "quote": "เมื่อมีฮีโร่พันธมิตรอยู่ใกล้ๆ Lumburr และฮีโร่พันธมิตรที่เลือดน้อยที่สุดจะได้รับ เกราะป้องกัน",
+      "source": {"url": "https://www.rov.in.th/hero/lumburr", "kind": "official", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Stone Shatter: ทุบพื้นด้านหน้า สร้างความเสียหายกายภาพ และลดพลังโจมตีศัตรูที่โดนเป็นเวลา 3 วินาที โดยเอฟเฟกต์อ่อนแรงมีผลกับฮีโร่เท่านั้น",
+      "quote": "ศัตรูที่ถูกโจมตีด้วยสกิลนี้จะได้รับเอฟเฟคอ่อนแรง ซึ่งทำให้พลังโจมตีลดลงเป็นเวลา 3 วินาที (มีผลกับฮีโร่เท่านั้น)",
+      "source": {"url": "https://www.rov.in.th/hero/lumburr", "kind": "official", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Rampage: พุ่งสร้างความเสียหายกายภาพ ยกศัตรูลอย 1 วินาที แล้วลดความเร็วเคลื่อนที่ 50% อีก 1 วินาที พันธมิตรที่พุ่งผ่านได้รับโล่และความเร็วเคลื่อนที่เพิ่ม 15% นาน 3 วินาที",
+      "quote": "ฮีโร่พันธมิตรที่ถูกพุ่งผ่านไป จะได้รับโล่ และความเร็วเคลื่อนที่เพิ่มขึ้น 15% เป็นเวลา 3 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/lumburr", "kind": "official", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการใช้ชื่อ Earth Spliiter: ทุบพื้นด้านหน้า ยกฮีโร่ศัตรูลอยและสร้างความเสียหายกายภาพ จากนั้นพื้นที่เป็นลาวาลดความเร็วและสร้างความเสียหายกายภาพต่อเนื่อง 5 วินาที",
+      "quote": "พื้นที่ถูกทุบจะกลายเป็นลาวา ลดความเร็วเคลื่อนที่และสร้างความเสียหายกายภาพแก่ศัตรูอย่างต่อเนื่องเป็นเวลา 5 วินาที",
+      "source": {"url": "https://www.rov.in.th/hero/lumburr", "kind": "official", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-005",
+      "type": "skill",
+      "text": "RoVGuide ระบุ Protect: เลือกพันธมิตร HP น้อยที่สุดในระยะ 8 เมตร ให้ทั้งพันธมิตรและ Lumburr ได้เกราะกายภาพและเกราะเวทอย่างละ 100 (+10 ต่อเลเวล)",
+      "quote": "When there are ally heroes within 8 meters, Lumburr and the ally with the least HP in range gain 100 (+ 10 per level) physical and 100 (+ 10 per level) magic defense.",
+      "source": {"url": "https://rovguide.com/heroes/lumburr", "kind": "article", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-006",
+      "type": "skill",
+      "text": "RoVGuide ใช้ชื่อ Shattered Earth: สร้างความเสียหายกายภาพ 275 (+100% AD) และผลักศัตรูที่ใกล้ที่สุด หากชนศัตรูอื่นจะทำให้เป้าหมายที่ถูกชนลอย 1 วินาทีและรับความเสียหายเท่ากัน คูลดาวน์ตามระดับสกิล 12/11.4/10.8/10.2/9.6/9 วินาที",
+      "quote": "Enemies hit by the knocked back enemy will be knocked up for 1 second while taking the same amount of damage.",
+      "source": {"url": "https://rovguide.com/heroes/lumburr", "kind": "article", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-007",
+      "type": "skill",
+      "text": "RoVGuide ระบุ Rampage: พุ่งสร้างความเสียหายกายภาพ 300 (+61% AD) และลดความเสียหายที่ศัตรูสร้าง 20% ตารางระบุเอฟเฟกต์อ่อนแรง 20/22/24/26/28/30 และคูลดาวน์ 8/7.6/7.2/6.8/6.4/6 วินาที",
+      "quote": "Lumburr charges in the indicated direction, dealing 300 (+ 61% of AD) physical damage and weakening enemies, reducing their damage dealt by 20%.",
+      "source": {"url": "https://rovguide.com/heroes/lumburr", "kind": "article", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-008",
+      "type": "skill",
+      "text": "RoVGuide ระบุ Earth Splitter: ชาร์จ 1 วินาทีและได้รับ iron body ระหว่างชาร์จ ยกศัตรูลอย 1.5 วินาที ทำความเสียหายเวท 300 (+8% Max HP) ทิ้งพื้นที่ 5 วินาทีซึ่งสโลว์ 50% และสร้างความเสียหายเวท 75 (+2% Max HP) คูลดาวน์ 40/35/30 วินาที",
+      "quote": "After charging up for 1 second (during which he gains iron body), Lumburr knocks up enemies in his path for 1.5 seconds, deals 300 (+ 8% of max HP) magic damage",
+      "source": {"url": "https://rovguide.com/heroes/lumburr", "kind": "article", "date": null, "transcript": null, "stale": null}
+    },
+    {
+      "id": "lumburr-009",
+      "type": "patch-change",
+      "text": "ประวัติบน RoVGuide ระบุ Beta31 วันที่ 27 เม.ย. 2021 เพิ่มระยะโจมตีปกติของ Lumburr 0.5 เมตร วันที่นี้เป็นวันที่แพตช์ที่บทความอ้าง ไม่ใช่วันที่เผยแพร่บทความ",
+      "quote": "Lumburr basic-attack range +0.5m.",
+      "source": {"url": "https://rovguide.com/heroes/lumburr", "kind": "article", "date": "2021-04-27", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-010",
+      "type": "skill",
+      "text": "aov-builds ระบุอัปสกิล 1 ที่เลเวล 1,3,5,7,9,11; สกิล 2 ที่เลเวล 2,6,10,13,14,15; อัลติเมตที่เลเวล 4,8,12 เป็นคำแนะนำจากไกด์ Liên Quân Mobile",
+      "quote": "Chiêu 1: 1 3 5 7 9 11; Chiêu 2: 2 6 10 13 14 15; Chiêu 3: 4 8 12",
+      "source": {"url": "https://aov-builds.com/tuong/lumburr/", "kind": "article", "date": "2026-10-09", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-011",
+      "type": "combo",
+      "text": "aov-builds แนะนำสกิล 2 พุ่งผ่านศัตรู ตามด้วยสกิล 1 ผลักศัตรูไปตำแหน่งเสียเปรียบ แล้วใช้อัลติเมตยกเป้าหมายและทำความเสียหาย",
+      "quote": "Dùng chiêu 2 Bất khả cản phá lao qua người địch.",
+      "source": {"url": "https://aov-builds.com/tuong/lumburr/", "kind": "article", "date": "2026-10-09", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-012",
+      "type": "combo",
+      "text": "aov-builds ระบุว่าสามารถใช้อัลติเมตก่อนเมื่อศัตรูยืนรวมกัน หรือใช้สกิล 2 ประชิดก่อนเพื่อเพิ่มโอกาสสกิลโดน และระหว่างชาร์จอัลติสามารถใช้ Tốc Biến เปลี่ยนทิศปล่อยสกิลให้ศัตรูตั้งตัวไม่ทัน",
+      "quote": "Trong quá trình tụ lực có thế kết hợp với Tốc Biến để đổi hướng tung chiêu khiến địch bất ngờ.",
+      "source": {"url": "https://aov-builds.com/tuong/lumburr/", "kind": "article", "date": "2026-10-09", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-013",
+      "type": "item",
+      "text": "aov-builds แนะนำไอเทมตามลำดับชื่อเวียดนาม: Đại địa hồi huyết, Giày kiên cường, Khiên thất truyền, Huân chương Troy, Nham thuẫn, Phù chú trường sinh ยังไม่จับคู่กับชื่อไอเทมเซิร์ฟเวอร์ไทย",
+      "quote": "Đại địa hồi huyết Giày kiên cường Khiên thất truyền Huân chương Troy Nham thuẫn Phù chú trường sinh",
+      "source": {"url": "https://aov-builds.com/tuong/lumburr/", "kind": "article", "date": "2026-10-09", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-014",
+      "type": "item",
+      "text": "aov-builds แนะนำเปลี่ยน Nham thuẫn เป็น Giáp Gaia หากทีมศัตรูมีความเสียหายเวทมาก และเลือกไอเทมซัพพอร์ตให้เหมาะกับแต่ละเกม",
+      "quote": "Nếu team địch có quá nhiều sát thường phép hãy lên Giáp Gaia thay cho Nham thuẫn .",
+      "source": {"url": "https://aov-builds.com/tuong/lumburr/", "kind": "article", "date": "2026-10-09", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-015",
+      "type": "rune",
+      "text": "aov-builds แนะนำรูนแดงระดับ III จำนวน 10 เม็ดแบบความเร็วโจมตี/พลังชีวิต/เกราะ; ม่วงระดับ III จำนวน 10 เม็ดแบบพลังชีวิต/ฟื้นฟู/ความเร็วเคลื่อนที่; เขียวระดับ III จำนวน 10 เม็ดแบบพลังชีวิตสูงสุด/ลดคูลดาวน์",
+      "quote": "x10 Đỏ III Tốc Đánh-Máu-Giáp x10 Tím III Máu-Hồi máu-Tốc chạy x10 Xanh III Máu tối đa-Giám hồi chiêu",
+      "source": {"url": "https://aov-builds.com/tuong/lumburr/", "kind": "article", "date": "2026-10-09", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-016",
+      "type": "enchant",
+      "text": "aov-builds แนะนำพลังแฝงโดยใช้ชื่อต้นฉบับ: Rừng nguyên sinh เลือก Nhạy bén, Sinh tồn, Mộc giáp; Thành khởi nguyên เลือก Mật ngữ; Vực hỗn mang เลือก Hấp huyết ยังไม่ยืนยันชื่อเทียบภาษาไทย",
+      "quote": "Rừng nguyên sinh: Nhạy bén, Sinh tồn, Mộc giáp; Thành khởi nguyên: Mật ngữ; Vực hỗn mang: Hấp huyết",
+      "source": {"url": "https://aov-builds.com/tuong/lumburr/", "kind": "article", "date": "2026-10-09", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-017",
+      "type": "item",
+      "text": "ROV META แนะนำ Poseidon Emblem ตามด้วย Gilded Greaves แล้ว Gaia's Standard เป็นไอเทมใหญ่ชิ้นแรก จากนั้น The Aegis, Rock Shield และ Amulet of Longevity",
+      "quote": "Core path is Poseidon Emblem into Gilded Greaves, then Gaia's Standard as your first major item.",
+      "source": {"url": "https://rovmeta.com/heroes/lumburr", "kind": "article", "date": "2026-10-30", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-018",
+      "type": "rune",
+      "text": "ROV META ระบุรูนหลัก Golden Body, Protect, Prowess โดยไม่ได้ระบุจำนวนเม็ดในข้อความที่อ่านได้",
+      "quote": "Core Runes: Golden Body, Protect, Prowess",
+      "source": {"url": "https://rovmeta.com/heroes/lumburr", "kind": "article", "date": "2026-10-30", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-019",
+      "type": "matchup",
+      "text": "ROV META จัด Lumburr ไว้ในกลุ่มแพ้ทาง Butterfly, Murad, Alice, Grakk และได้เปรียบ Diao Chan, Krixi, Ilumia, Tel'Annas, Azzen'Ka, Yorn เป็นการจัดคู่ของบทความ ไม่ใช่ข้อสรุปที่ตรวจสอบแล้ว",
+      "quote": "Weak Against: Butterfly, Murad, Alice, Grakk; Strong Against: Diao Chan, Krixi, Ilumia, Tel'Annas, Azzen'Ka, Yorn",
+      "source": {"url": "https://rovmeta.com/heroes/lumburr", "kind": "article", "date": "2026-10-30", "transcript": null, "stale": true}
+    },
+    {
+      "id": "lumburr-020",
+      "type": "combo",
+      "text": "Mustplay วันที่ 16 ก.พ. 2017 แนะนำเปิดอัลติเมตให้โดนศัตรูหลายคน แล้วพุ่งด้วยสกิล 2 ตามด้วยสกิล 1 หรือใช้สกิล 2 ตามด้วยสกิล 1 แล้วใช้อัลติเมตปิดทางหนี เป็นคำแนะนำเก่ากว่าแพตช์เป้าหมาย",
+      "quote": "เปิดด้วยการพุ่งเข้าไปกระแทก > ทุบท่า 1 > เปิดอัลติเมทยัดเพื่อปิดทางหนีของศัตรู",
+      "source": {"url": "https://www.mustplay.in.th/content/page/58a51c84f0cf0d7075db9fcf", "kind": "article", "date": "2017-02-16", "transcript": null, "stale": true}
+    }
+  ],
+  "notes": "บันทึกข้อกล่าวอ้างดิบ ยังไม่ตัดสินถูกผิด ต้องส่งต่อ rov-verifier ก่อนนำไปใช้ แหล่งทางการกับ RoVGuide อธิบาย Stone Shatter, Rampage และชนิดความเสียหายอัลติแตกต่างกัน จึงเก็บแยกโดยไม่รวมเป็นชุดสกิลเดียว วันที่ null หมายถึงตรวจหน้าแล้วไม่พบวันที่เผยแพร่หรืออัปเดตสกิล ไม่ใช้วันที่ snapshot สถิติแทน; stale null หมายถึงไม่ทราบอายุแหล่ง ไม่ใช่ยืนยันว่าปัจจุบัน; transcript null ใช้กับบทความที่ไม่ใช่วิดีโอ แหล่งที่มีวันที่เก่ากว่า Hotfix 4 พ.ย. 2026 ตั้ง stale true ทั้งหมด วันที่ 2026-10-30 ของ ROV META และ 2026-10-09 ของ aov-builds เป็นวันที่อัปเดตที่หน้าอ้าง ส่วน Exa ระบุวันเผยแพร่เดิมของ aov-builds เป็น 2024-08-19; aov-builds ยังระบุ patch 30/10 ทั้งที่วันอัปเดต 09/10 จึงต้องให้ verifier ตรวจบริบทวันที่และเซิร์ฟเวอร์ ไม่พบประกาศทางการที่อ่านได้และยืนยันการเปลี่ยนแปลง Lumburr ล่าสุด ประวัติ Beta31 เป็นเพียงรายการที่พบใน RoVGuide ไม่อ้างว่าเป็นการเปลี่ยนแปลงล่าสุดทั้งหมด หน้ารวมทางการ https://www.rov.in.th/patch-notes แสดงชื่อ Hotfix 17 พ.ย. 2026 ใต้วันรายการ 12 Nov 2026 ไม่ควรเรียกเป็นแพตช์ 12 พ.ย. แยกต่างหาก และยังไม่นับ Hotfix 17 พ.ย. เป็นแพตช์ที่มีผล ณ วันค้น วิดีโอ https://www.youtube.com/watch?v=1uFT0Y44Wtg ชื่อ RoV ตัวแม่ EP.4 : สอนเล่น Lumburr โดย Miffy จาก IT. City Bacon ผลค้นระบุวันที่ 2018-05-14, transcript: false, stale: true, claims: [] เพราะได้เพียงชื่อและข้อมูลหน้า ไม่ได้ทรานสคริปต์ วิดีโอ https://www.bilibili.tv/video/2043180537 ชื่อ [ ROV : Lumburr ] 5 เทคนิค ตบ-ปลิว-ตาย ผลค้นระบุวันที่ 2022-07-05, transcript: false, stale: true, claims: [] เช่นกัน ชื่อคลิป Best Ryouta ปรากฏใน ROV META แต่ไม่พบ URL และวันที่ต้นฉบับ ไม่มีข้อกล่าวอ้างจากคลิปนี้ ไม่ได้ดูภาพวิดีโอ การเรียก fetch เพิ่มเติมท้ายงานถูกหยุดชั่วคราวเพราะตัวตรวจความปลอดภัยเครื่องมือไม่พร้อมใช้งาน จึงไม่ถือว่าอ่านแหล่งเพิ่มสำเร็จ ชื่อไอเทมและพลังแฝงเวียดนามเก็บต้นฉบับเพื่อไม่เดาชื่อไทย"
+}

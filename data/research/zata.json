@@ -1,0 +1,134 @@
+{
+  "hero": "zata",
+  "gamePatch": "ค้น ณ 2026-11-16; แพตช์เซิร์ฟเวอร์จริงล่าสุดที่พบและถึงวันมีผลแล้ว: Hotfix 4 พ.ย. 2026; พบประวัติ Zata ใน B54 08.27 Patch Note (2026-08-27) แต่ไม่ได้ยืนยันว่าเป็นการปรับ Zata ครั้งล่าสุด",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "zata-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุว่า Windstorm เกิดเมื่อสกิลของ Zata ชนกัน ทำให้การโจมตีปกติครั้งถัดไปเป็นการโจมตีพิเศษ เมื่อ Windstorm โดนศัตรูลดคูลดาวน์ Ascend 1 วินาที หรือ 2 วินาทีหากโดนฮีโร่; หากกำลังใช้ Ascend จะเริ่มลดหลังสกิลสิ้นสุด",
+      "quote": "เมื่อ Windstorm โดนศัตรูจะลดคูลดาวน์สกิล Ascend ลง 1 วิ จะลด 2 วิหากโดนฮีโร่",
+      "source": {"url": "https://www.rov.in.th/hero/zata", "kind": "official", "date": null, "transcript": false, "stale": null}
+    },
+    {
+      "id": "zata-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุว่า Ascend พุ่งซ้ำได้ภายใน 3 วินาทีเมื่อพุ่งโดนฮีโร่ศัตรูหรือสกิลตัวเอง; พุ่งครบ 3 ครั้งจะบินขึ้นโจมตี และนับคูลดาวน์ตามจำนวนพุ่ง 1/2/3 ครั้งเป็น 25%/50%/75%",
+      "quote": "จะสามารถพุ่งซ้ำได้ภายใน 3 วิ และหากพุ่งครบ 3 ครั้งเขาจะบินขึ้นโจมตีศัตรูทั้งหมดในระยะ",
+      "source": {"url": "https://www.rov.in.th/hero/zata", "kind": "official", "date": null, "transcript": false, "stale": null}
+    },
+    {
+      "id": "zata-003",
+      "type": "patch-change",
+      "text": "ประกาศ B54 08.27 Patch Note ระบุ Zata (Nerf): ปรับความเสียหายสกิล 3 จาก 350(+100/LV)(+0.55AP) เป็น 300(+150/LV)(+0.5AP) โดยผู้พัฒนาระบุว่าต้องการลดดาเมจต้นเกมและคงดาเมจเลทเกม",
+      "quote": "ความเสียหายสกิล 3: 350(+100/LV)(+0.55AP) → 300(+150/LV)(+0.5AP)",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260827", "kind": "official", "date": "2026-08-27", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-004",
+      "type": "combo",
+      "text": "บทความแนะนำคอมโบพื้นฐาน: ใช้ Eagle Screech หรือ Twister ไปทางศัตรู แล้วกด Ascend พุ่งไปทางเดียวกับสกิลก่อนหน้าให้ครบ 3 สแตกเพื่อบินขึ้น",
+      "quote": "กดสกิล 3 Ascend แล้วพุ่งไปทางเดียวกับสกิลก่อนหน้าเพื่อให้ครบ 3 สแตกและบินขึ้น",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-005",
+      "type": "combo",
+      "text": "บทความเรียกคอมโบขั้นสูงว่าพุ่ง 5 ครั้ง: เตรียมทุกสกิลให้พร้อม ใช้ Twister แล้ว Eagle Screech ตำแหน่งเดียวกันทันที กด Ascend พุ่งไปทางเดียวกันหนึ่งครั้งแล้วปล่อยปุ่มเคลื่อนที่ ใช้ Twister ครั้งที่สองแล้วพุ่งตามเพื่อบินขึ้น; บทความแนะนำสอดการโจมตีปกติเสริมพลังระหว่างพุ่งเพื่อสะสมการพุ่งเพิ่ม",
+      "quote": "ใช้สกิล 2 Twister ไปทางเป้าหมาย แล้วกดสกิล 1 Eagle Screech ที่ตำแหน่งเดียวกันทันที",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-006",
+      "type": "item",
+      "text": "บทความเสนอเต็มบิลด์ดาเมจ: Flashy Boots, Orb of the Magi, Hecate's Diadem, Boomstick, Arcane Robe, Holy of Holies",
+      "quote": "Flashy Boots Orb of the Magi Hecate's Diadem Boomstick Arcane Robe Holy of Holies",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-007",
+      "type": "item",
+      "text": "บทความเสนอเซมิบิลด์: Gilded Greaves, Berith's Agony, Skadi's Frost Ring, Staff of Nuul, Rhea's Blessing, Arctic Orb",
+      "quote": "Gilded Greaves Berith's Agony Skadi's Frost Ring Staff of Nuul Rhea's Blessing Arctic Orb",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-008",
+      "type": "item",
+      "text": "บทความแนะนำเปลี่ยน Flashy Boots เป็น Gilded Greaves เมื่อศัตรูมีสกิลควบคุมมาก; เปลี่ยน Boomstick เป็น Staff of Nuul เมื่อศัตรูต้านเวทสูง หรือเป็น Shield of the Lost เมื่อดาเมจกายภาพแรง หรือ Medallion of Troy เมื่อดาเมจเวทแรง",
+      "quote": "หากทีมศัตรูมีต้านทานเวทสูง ให้ออก Staff of Nuul แทน Boomstick",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-009",
+      "type": "rune",
+      "text": "บทความแนะนำรูนแดง III พลังเวท/เจาะเกราะเวท 10 เม็ด ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่ 10 เม็ด และเขียว III ความเร็วโจมตี/เจาะเกราะเวท 10 เม็ด โดยข้อความที่ดึงไม่ได้ระบุชื่อรูน",
+      "quote": "x10 รูนแดง III พลังเวท / เจาะเกราะเวท x10 รูนม่วง III ความเร็วโจมตี / ความเร็วเคลื่อนที่ x10 รูนเขียว III ความเร็วโจมตี / เจาะเกราะเวท",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-010",
+      "type": "enchant",
+      "text": "ข้อความบทความใต้ส่วนพลังแฝงระบุ Tower of Radiance: Sacred Bead, Penetrating Heart, Holy Shield และ Chaos Abyss: Hellfire; ข้อมูลที่ดึงได้ไม่ครบพอระบุช่องรองทั้งหมด",
+      "quote": "Holy Shield",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-011",
+      "type": "enchant",
+      "text": "ไกด์ Zathong แนะนำ Lokheim: Raging Inferno, Deadly Claw, Curse of Death; Human: Mark of Frost, Gunslinger",
+      "quote": "Curse of Death",
+      "source": {"url": "https://zathong.com/zata-rov/", "kind": "article", "date": "2021-04-04", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-012",
+      "type": "rune",
+      "text": "ไกด์ Zathong แนะนำ Violate x10, Guerrilla x10, Flurry x10; เก็บชื่อภาษาอังกฤษตามแหล่งโดยไม่แปลงชื่อเป็นรูนไทย",
+      "quote": "Violate x 10",
+      "source": {"url": "https://zathong.com/zata-rov/", "kind": "article", "date": "2021-04-04", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-013",
+      "type": "matchup",
+      "text": "ไกด์ Zathong จัด Zill, Nakroth, Omen, Alice, TeeMee และ Zip ในกลุ่ม Extreme Threats ต่อ Zata โดยข้อความที่อ่านได้ไม่อธิบายกลไกแต่ละคู่",
+      "quote": "Extreme Threats",
+      "source": {"url": "https://zathong.com/zata-rov/", "kind": "article", "date": "2021-04-04", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-014",
+      "type": "matchup",
+      "text": "ผู้แสดงความคิดเห็น Penguin อ้างว่า Zata รับมือการควบคุมหนักหรือเบิร์สต์เร็วได้ยาก เช่น Veera ช่วงท้ายเกม และ Arum/Aleister ตอนปะทะ; Hayate พร้อม Flicker หลบตามหน้าผาหรือพุ่มไม้ รวมถึง Toro, Kaine และ Quillen ก็รบกวน Zata ได้",
+      "quote": "Zata ไม่ได้กลัวแค่ฮีโร่ที่คล่องตัว แต่ยังรับมือกับการควบคุมหนัก ๆ หรือเบิร์สต์เร็ว ๆ ได้ยาก เช่น Veera ช่วงท้ายเกม หรือ Arum/Aleister ตอนปะทะ",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "community", "date": "2025-08-28", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-015",
+      "type": "playstyle",
+      "text": "บทความแนะนำต้นเกมเคลียร์มินเนี่ยนเร็วและจำกัดการแลกสกิลก่อนเลเวล 4 เพราะยังไม่มี Ascend; ใช้สกิล 1 ระเบิดสุดระยะเพื่อเคลียร์มินเนี่ยนและโพค",
+      "quote": "เน้นเคลียร์มินเนี่ยนให้เร็วและจำกัดการแลกสกิลกับฮีโร่ศัตรูก่อนเลเวล 4",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-016",
+      "type": "playstyle",
+      "text": "บทความแนะนำท้ายเกมเคลื่อนที่พร้อมทีม โพคด้วยสกิล 1/2 จากระยะไกล รอศัตรูกระจายตัวและแครี่เผยตัวก่อนพุ่งคอมโบ; ระวังถูกเบิร์สต์ระหว่างพุ่งก่อนบินขึ้น",
+      "quote": "อย่าพุ่งเข้าปะทะอย่างบ้าบิ่น เพราะศัตรูอาจเบิร์สต์คุณลงได้ง่ายขณะที่กำลังพุ่งและยังไม่ได้บินขึ้นด้วยอัลติ Ascend",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-017",
+      "type": "skill",
+      "text": "บทความแนะนำดูแถบสีเหลืองเพื่อจับเวลาพุ่งที่เหลือและเลข 3 เหนือหัวเพื่อดูจำนวนพุ่งที่เหลือ; ใช้ Ascend พุ่ง 1 หรือ 2 ครั้งข้ามภูมิประเทศเพื่อเคลื่อนที่โดยไม่บิน โดยบทความอ้างว่าพุ่งน้อยคูลดาวน์รีเซ็ตเร็วกว่า",
+      "quote": "เมื่อกดสกิล ให้ดูแถบสีเหลืองซึ่งเป็นเวลาที่เหลือในการพุ่ง และเลข 3 เหนือหัว Zata ซึ่งเป็นจำนวนการพุ่งที่เหลือ",
+      "source": {"url": "https://aov-builds.com/th/heroes/zata/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "zata-018",
+      "type": "patch-change",
+      "text": "RoVGuide บันทึกประวัติ Beta47 วันที่ 16 ต.ค. 2567 ว่า Zata ลดคูลดาวน์อัลติจาก 50-5/Lv เป็น 40-4/Lv และปรับความเร็วขึ้นบินจาก 30% เป็น 20%; เก็บเป็นประวัติแพตช์ ไม่ใช่ข้อยืนยันค่าปัจจุบัน",
+      "quote": "Zata: ลดคูลดาวน์อัลติจาก 50-5/Lv เป็น 40-4/Lv และปรับความเร็วขึ้นบินจาก 30% เป็น 20%",
+      "source": {"url": "https://rovguide.com/th/heroes/zata", "kind": "article", "date": null, "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "ข้อกล่าวอ้างดิบ ยังไม่ตัดสินถูกผิดหรือรับรองว่าใช้ได้ในแพตช์ปัจจุบัน ส่งต่อ rov-verifier. ตรวจ https://www.rov.in.th/patch-notes และ https://www.rov.in.th/patch-notes/hotfix261104 พบ Hotfix 4 พ.ย. 2026; หน้ารวมระบุวันที่ประกาศ 3 พ.ย. 2026. พบ Hotfix 17 พ.ย. 2026 ประกาศล่วงหน้าวันที่ 12 พ.ย. แต่ยังไม่ถึงวันมีผล ณ วันที่ค้น จึงไม่นับเป็นแพตช์ใช้งานปัจจุบัน. วันที่ของ aov-builds เป็นวันอัปเดตที่หน้าแสดง ไม่ใช่วันตีพิมพ์ครั้งแรก; วันที่ Zathong มาจาก metadata. หน้า official hero ไม่แสดงวันเผยแพร่ จึง date:null และ stale:null (ไม่ทราบ ไม่ใช่ยืนยันว่าทันสมัย). RoVGuide มีวันที่สถิติ 19 ต.ค. 2569 ซึ่งไม่ใช่วันที่บทความ; จึงไม่ใช้เป็น source.date และทำ stale:true สำหรับ claim ประวัติปี 2567. แหล่งที่ลงวันที่ก่อนแพตช์ปัจจุบันตั้ง stale:true แม้ข้อกล่าวอ้างเป็นประวัติทางการ. transcript:false หมายถึงไม่มีทรานสคริปต์วิดีโอที่เข้าถึง; claims ทั้งหมดมาจากข้อความหน้าเว็บ. พบชื่อวิดีโอฝังใน aov-builds เช่น RoV : สอนบิน Zata หลังบัฟ และ Rov สอนเล่น Zata บินยังไงไม่ให้ตก | เชี่ยว(เดี๋ยว)ชาญ Ep.15 แต่ไม่ทราบวันเผยแพร่/URL วิดีโอจากข้อความที่ดึงได้ และอ่านทรานสคริปต์ไม่ได้ จึงไม่มี claims จากวิดีโอ. การค้น YouTube แยกได้ผลลัพธ์ไม่เกี่ยวข้องและไม่นำมาใช้. ไม่ได้ลำดับอัปสกิลครบ: ข้อความ Eagle Screech แสดง 2 6 10 13 14 15 แต่ช่องสกิลอื่นไม่ครบ จึงไม่ตีความว่าให้อัปสกิล 1 เป็นหลัก. ไม่พบคู่ชนะที่มีคำอธิบายจากแหล่งที่อ่านได้. รูน/พลังแฝงจากหน้า official ไม่ครบ. ค่าลดคูลดาวน์ Windstorm และช่วงต่อ Ascend ใน official hero กับ RoVGuide ต่างกัน ต้องให้ verifier ตรวจแยก ไม่เลือกค่าหนึ่งเป็นข้อเท็จจริงปัจจุบัน. ไม่ได้ยืนยันชื่อไอเทมหรือชื่อพลังแฝงข้ามภูมิภาค และไม่ถือหัวข้อพลังแฝง Tower of Radiance/Chaos Abyss เป็นไอเทม. แหล่ง https://gametimeprime.com/zata-rov/ (2020-10-01) และบทความ 4Gamers (2020-06-05) พบข้อมูลเก่า ไม่เพิ่ม claims ซ้ำ; รูปไอเทมใน 4Gamers ไม่ถูกตีความ."
+}

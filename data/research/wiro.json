@@ -1,0 +1,302 @@
+{
+  "hero": "wiro",
+  "gamePatch": "ค้นเมื่อแพตช์ 12 พ.ย. 2026 + Hotfix 17 พ.ย. 2026 (การเปลี่ยนแปลง Wiro ล่าสุดที่พบคือ Hotfix B54 27 ส.ค. 2026 ใน rovguide; rovmeta ระบุ Patch 1.64 อัปเดต 26 ต.ค. 2026)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "wiro-001",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Wiro เป็น Tank Fighter",
+      "quote": "Tank Fighter",
+      "source": {"url": "https://www.rov.in.th/hero/wiro", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิลติดตัว 212 Pinnacle: เกราะและเกราะเวทเพิ่มขึ้น เมื่อใกล้ตายฟื้นฟู HP 60% และอัมพาต 4.5 วิ แต่เกราะ/เกราะเวทลดลง 25% มีสัญลักษณ์รอบตัว ฮีโร่ที่วิ่งมาเก็บทำให้เขากับ Wiro ฟื้นฟู HP 10% เมื่อเก็บหมดหรือครบ 4.5 วิ สร้างความเสียหายเวท 150 (+100% AD) ทำให้วิ่งช้าลง จากนั้นโจมตีเร็วขึ้น 50% วิ่งเร็วขึ้น 30% นาน 5 วิ (CD 120 วิ) (ข้อความหน้าเว็บมีตัวอักษรเพี้ยนบางจุด)",
+      "quote": "ฟื้นฟู HP 60% และอัมพาต 4.5 วิ ... (CD 120 วิ)",
+      "source": {"url": "https://www.rov.in.th/hero/wiro", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ 212 Pummel (สกิล 1): เพิ่มพลังโจมตีปกติ 3 ครั้ง ครั้งละความเสียหายกายภาพ 80 (+10% AD) ครั้งที่ 3 ทำให้เป้าหมายลอย 0.75 วิ",
+      "quote": "80 (+10% AD) ... ลอยขึ้น 0.75 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/wiro", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ 212 Maelstrom (สกิล 2): พุ่งไปทิศที่กำหนด หยุดทันทีหากชนสิ่งกีดขวาง ความเสียหายกายภาพ 100 (+40% AD) ผลักศัตรูถอยหลัง ถ้าถูกผลักชนสิ่งกีดขวางได้โบนัสความเสียหาย 50% และติดสตัน 1 วิ ถ้าพุ่งชนสิ่งปลูกสร้างศัตรูสร้างความเสียหายกายภาพ 250 (+100% AD) แก่สิ่งปลูกสร้าง",
+      "quote": "100 (+40% AD) ... 50% และติดสตัน 1 วิ ... 250 (+100% AD)",
+      "source": {"url": "https://www.rov.in.th/hero/wiro", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ 212 Landslide (อัลติเมต): ชาร์จโจมตี (ยกเลิกชาร์จได้) ความเสียหายกายภาพ 300 (+150% AD) ทำให้ลอย ชาร์จนานขึ้นระยะกว้างและแรงขึ้น สูงสุด 1000 (+150% AD) ศัตรูที่ตกพื้นสร้างความเสียหายกายภาพอีก 50% แก่ศัตรูอื่น เมื่อเรียนสกิลนี้ สกิลและการโจมตีพิเศษมีโบนัสความเสียหายเวท 38 (+25% AD)",
+      "quote": "300 (+150% AD) ... สูงสุด 1000 (+150% AD) ... 38 (+25% AD)",
+      "source": {"url": "https://www.rov.in.th/hero/wiro", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-006",
+      "type": "playstyle",
+      "text": "rovguide จัดคลาส Wiro เป็น Tank / Fighter / Support เลน Support Lane / Slayer Lane จุดเด่น Control; ค่าประเมิน Survivability 5, Damage 2, Function 5, Difficulty 3 (จาก 5); สถิติแรงก์ไทย 19 ต.ค. 2026 อัตราชนะ 52.45% พิก 1.13% แบน 0.10%",
+      "quote": "Tank / Fighter / Support ... Win rate 52.45%",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-007",
+      "type": "skill",
+      "text": "rovguide ระบุสกิลติดตัว 212 Pinnacle: เมื่อโดนดาเมจถึงตาย ฟื้นฟู HP 60% ทันที ขยับไม่ได้และอมตะต่อ CC 4.5 วิ มีเครื่องหมาย 3 อัน ที่เพื่อนแตะฟื้น HP 10% ของทั้งสองฝ่าย เมื่อเก็บหมดหรือครบเวลา ส่งเสียงคำราม สร้างดาเมจเวท 150 (+100% AD) ลดความเร็วเคลื่อนที่ จากนั้นได้ความเร็วโจมตี 50% ความเร็วเคลื่อนที่ 30% นาน 5 วิ (คูลดาวน์ภายใน 120 วิ) เมื่อเลเวลอัป เกราะและเกราะเวทเพิ่มขึ้น (หายไปเมื่อติดคูลดาวน์)",
+      "quote": "60% of his HP is instantly restored ... internal cooldown of 120 seconds",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-008",
+      "type": "skill",
+      "text": "rovguide ระบุ 212 Pummel (สกิล 1): มานา 60 รีเซ็ตโจมตีปกติและเสริมพลัง 3 ครั้ง เพิ่มระยะ สองครั้งแรกโบนัสกายภาพ 100 (+15% AD) (+2% HP สูงสุด) ครั้งที่ 3 100 (+15% AD) (+4% HP สูงสุด) ลอย 0.75 วิ โจมตีเสริมที่โดนฮีโร่ฟื้น HP 70 (+14 ต่อเลเวลสกิล) (+1.5% โบนัส HP) ดาเมจฐานเลเวล 1-6: 100/140/180/220/260/300 คูลดาวน์ 7.5/7.2/6.9/6.6/6.3/6 วิ",
+      "quote": "restores 70 (+ 14 per skill level) (+ 1.5% of bonus HP) HP",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": "2026-08-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-009",
+      "type": "skill",
+      "text": "rovguide ระบุสกิล 2 ชื่อ Tornado Fist: มานา 80 พุ่งไปทิศเป้าหมาย ความเสียหายกายภาพ 100 (+40% AD) ผลักถอย ฮีโร่ที่โดนแต่ละคนเพิ่มความเร็วโจมตี 25% นาน 5 วิ ซ้อนได้ 2 ครั้ง ดาเมจฐาน 100/130/160/190/220/250 คูลดาวน์ 10/9.6/9.2/8.8/8.4/8 วิ",
+      "quote": "Each Hero hit increases his attack speed by 25% for 5 seconds. This buff stacks up to 2 times.",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-010",
+      "type": "skill",
+      "text": "rovguide ระบุอัลติเมต Sunray Fist: มานา 120 ชาร์จได้ระหว่างเดินและคืนคูลดาวน์ 80% ถ้ายกเลิก กระแทกขวานสร้างกายภาพ 300 (+150% AD) ลอย 1 วิ ชาร์จนานสุด 1000 (+150% AD) ศัตรูที่ตกพื้นสร้างดาเมจเพิ่ม 50% แก่ศัตรูรอบข้าง ดาเมจฐานเลเวล 1-3: 300/375/450 คูลดาวน์ 50/45/40 วิ พาสซีฟ AOE 38/42/46 (+25% AD) นาน 3 วิ ใส่ศัตรูและสิ่งปลูกสร้าง",
+      "quote": "up to a maximum of 1000 (+ 150% of AD) physical damage",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-011",
+      "type": "patch-change",
+      "text": "B54 Hotfix (27 ส.ค. 2026): 212 Pummel สกิล 1 เพิ่มการฟื้นฟู 70 (+14/LV) (+1.5% โบนัสพลังชีวิต) เมื่อโจมตีปกติโดนฮีโร่",
+      "quote": "Skill 1: Added healing of 70 (+14/LV) (+1.5% โบนัสพลังชีวิต) when a basic attack hits a hero.",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": "2026-08-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-012",
+      "type": "patch-change",
+      "text": "Beta54 (7 ก.ค. 2026): แก้บั๊ก Sunray Fist ของ Wiro ใช้ไม่ออกเมื่อใช้ต่อเร็วหลังสกิล 2",
+      "quote": "Fixed Wiro's ultimate failing when used rapidly after Skill 2.",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": "2026-07-07", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-013",
+      "type": "patch-change",
+      "text": "Beta47 (16 ต.ค. 2024): ปรับพื้นที่อัลติเมตจากวงกลมเป็นแคปซูล",
+      "quote": "Wiro: Changed the Ultimate area from a circle to a capsule.",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": "2024-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-014",
+      "type": "patch-change",
+      "text": "Beta38 (28 ก.ย. 2022) แก้ดาเมจอัลติเมตผิดและพาสซีฟโดนดาเมจก่อน Wiro ลงพื้น; Beta37 (5 ก.ค. 2022) แก้สกิล 1 สตันป้อมหลังโจมตีปกติครบ 3 ครั้ง; Beta31 (27 เม.ย. 2021) บัฟ: พาสซีฟไม่ลดเกราะเมื่อทำงานอีกต่อไป และคูลดาวน์อัลติเมตจาก 60-5/lv เป็น 50-5/lv",
+      "quote": "Wiro: Passive no longer reduces defenses when activated; Ultimate CD 60-5/lv → 50-5/lv.",
+      "source": {"url": "https://rovguide.com/heroes/wiro", "kind": "article", "date": "2021-04-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-015",
+      "type": "matchup",
+      "text": "rovmeta (Patch 1.64 อัปเดต 26 ต.ค. 2026) จัด Wiro เป็น C Tier โรม/ซัพพอร์ต ความยากปานกลาง สถิติโปร (RoV Pro League 2026 Summer ฯลฯ) 23 พิก อัตราชนะ 60.9% พิก 3.9% แบน 0.5% และระบุว่าเมต้าโปรอาจต่างจากแรงก์",
+      "quote": "C TIER tank Support / Roam Medium Patch 1.64",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-016",
+      "type": "playstyle",
+      "text": "rovmeta จุดแข็ง: พาสซีฟบีบให้ศัตรูใช้ดาเมจสองรอบ, สตันชนกำแพงของ W เป็น CC เป้าเดียวที่ยาวที่สุดตัวหนึ่งของแทงค์โรม, R ชาร์จเต็มเด้งหลายตัวมีศักยภาพทีมไฟต์, ออร่าเวทของ R สเกลกับบิลด์แทงค์ จุดอ่อน: พาสซีฟอัมพาต 4.5 วิ อันตรายถ้าไม่มีเพื่อนใกล้, W ไม่สตันในที่โล่ง (มังกร มิดเลน), ชาร์จ R เห็นชัดและถูก CC ยกเลิกได้, ไม่มีโพก ฮีล ความเร็วไล่ตาม",
+      "quote": "212 Maelstrom produces no stun in open terrain",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-017",
+      "type": "matchup",
+      "text": "rovmeta ระบุ Wiro แพ้ทาง (Weak Against): Butterfly, Nakroth, Omen, Violet",
+      "quote": "Weak Against - Butterfly - Nakroth - Omen - Violet",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-018",
+      "type": "matchup",
+      "text": "rovmeta ระบุ Wiro ชนะทาง (Strong Against): Gildur, Xeniel, Maloch, Baldum, Lumburr, Ormarr; คู่เสริมที่ดี (Best Synergy): Allain, Tulen, Tel'Annas, Maloch",
+      "quote": "Strong Against ... Gildur ... Best Synergy ... Allain",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-019",
+      "type": "skill",
+      "text": "rovmeta ลำดับอัปสกิล: ลำดับความสำคัญ R > Q > W; ตาราง Q(212 Pummel) เลเวล 1,3,5,7,9,13; W(212 Maelstrom) เลเวล 2,4,8,10,12,14; R เลเวล 6,11,15 (เลเวล 15 ช่อง) โดยเลเวล 12 ช่องที่ 'Q' ว่าง",
+      "quote": "Priority: R > Q > W",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-020",
+      "type": "rune",
+      "text": "rovmeta Loadout: สเปล Flicker; Core Runes: Golden Body, Protect, Prowess",
+      "quote": "Flicker ... Core Runes Golden Body Protect Prowess",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-021",
+      "type": "item",
+      "text": "rovmeta (FAQ): บิลด์มาตรฐานแรงก์สูงคือ The Aegis ต่อด้วย Hermes' Select เพื่อโรมต้นเกม แล้ว Gaia's Standard เป็นไอเทมที่สามเพื่อกันดาเมจเวท ตามด้วย Mail of Pain, Shield of the Lost และ Amulet of Longevity (หน้าแสดงไอเทมเป็นไอคอน อ่านชื่อได้เฉพาะ Amulet of Longevity ช่องที่ 6)",
+      "quote": "The Aegis into Hermes' Select ... then Gaia's Standard as the priority third item",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-022",
+      "type": "combo",
+      "text": "rovmeta คอมโบ Wall Slam Standard: W (212 Maelstrom) ผลักศัตรูชนกำแพงให้สตัน แล้วกด Q (212 Pummel) เดินผ่านออโต้เสริม 3 ครั้ง ใช้เมื่อมีกำแพงและศัตรูเลือดราว 80% หรือต่ำกว่า",
+      "quote": "Angle W so the enemy bounces into terrain for the stun, immediately activate Q",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-023",
+      "type": "combo",
+      "text": "rovmeta คอมโบ Full Charge Wombo: W -> Q -> R เก็บชาร์จ R ไว้กับศัตรูที่รวมกลุ่มหลังสตันของ W เริ่มชาร์จทันทีที่ W โดน ปล่อยเมื่อเกือบเต็มพร้อมออโต้แรกของ Q จบ จับศัตรูที่ลอยตอนตกพื้นเพื่อดาเมจกระเด็น",
+      "quote": "Start charging R the moment W connects",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-024",
+      "type": "combo",
+      "text": "rovmeta คอมโบ Flicker Wall Pin: Flicker -> W -> Q ใช้เมื่อศัตรูยืนใกล้กำแพงแต่อยู่นอกระยะแดชปกติ; คอมโบ Passive Punish: หลังรอดอัมพาตพาสซีฟและเก็บออร์บ ต่อ Q ออโต้เสริมเข้า W ใส่ศัตรูที่ยังอยู่ในโซนสโลว์",
+      "quote": "Fl Flicker 2 212 Maelstrom 1 212 Pummel",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-025",
+      "type": "playstyle",
+      "text": "rovmeta Gameplan: จุดพีกแรกคือเลเวล 4 (มีครบ 3 สกิล) พีกที่สองคือ Gaia's Standard; เริ่มโรมที่เลเวล 2; เลเวล 1 บุกบัฟคู่ตรงข้ามกับจังเกิล; ไม่ผูกแก๊งเลนที่ไม่มีกำแพง; กลางเกมเป็นหน้าด่านรอศัตรูรวมกลุ่มก่อนปล่อย R ชาร์จ; ช่วงที่แข็งที่สุดคือนาทีที่ 8-15; ท้ายเกมยืนหน้าสุดกันสกิลให้ดาเมจเดลเลอร์ และหาจังหวะ W เข้าป้อมศัตรู (250 +100% AD)",
+      "quote": "Force extended brawls between the 8-15 minute window",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-026",
+      "type": "playstyle",
+      "text": "rovmeta Pro Tips: จัดตำแหน่งให้ออร์บพาสซีฟตกไปทางแครี่เรา; W หยุดที่สิ่งปลูกสร้างฝ่ายเราด้วย พุ่งเข้าป้อมตัวเองเพื่อหนีได้; ยกเลิกแอนิเมชันชาร์จ R ด้วย W เพื่อหลอกแล้วกด R ซ้ำ; การฟื้นเลือดของ Gaia's Standard ทำงานระหว่างอัมพาตพาสซีฟ",
+      "quote": "The W dash stops on allied structures too",
+      "source": {"url": "https://rovmeta.com/heroes/wiro", "kind": "article", "date": "2026-10-26", "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-027",
+      "type": "playstyle",
+      "text": "rovmeta แนบวิดีโอ 'Expert Video Guide' ชื่อ 'Rov : การเดินเกมของ Wiro อันดับ1ไทย พร้อมเทคนิคการเล่นและการคอมโบ! Season30' โดย ManueL (YouTube, เผยแพร่ 30 ก.ค. 2024) อ่านทรานสคริปต์ไม่ได้ จึงไม่มีเนื้อหาวิดีโอ",
+      "quote": "Rov : การเดินเกมของ Wiro อันดับ1ไทย พร้อมเทคนิคการเล่นและการคอมโบ! Season30",
+      "source": {"url": "https://www.youtube.com/watch?v=fsUiWPfle-Y", "kind": "video", "date": "2024-07-30", "transcript": false, "stale": true}
+    },
+    {
+      "id": "wiro-028",
+      "type": "item",
+      "text": "aov-builds.com บิลด์ Full Tank Support: Terra Unbind, Gilded Greaves, Shield of the Lost, Medallion of Troy, Rock Shield, Amulet of Longevity; บิลด์ Full Damage Top Lane: War Boots, Rankbreaker, Omni Arms, Claves Sancti, Fenrir's Tooth, Blade of Eternity",
+      "quote": "Terra Unbind Gilded Greaves Shield of the Lost Medallion of Troy Rock Shield Amulet of Longevity",
+      "source": {"url": "https://aov-builds.com/en/heroes/wiro/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-029",
+      "type": "item",
+      "text": "aov-builds.com ไอเทมตามสถานการณ์: ศัตรูเวทเยอะ สลับ Rock Shield เป็น Gaia's Standard; CC แรงเยอะ ใช้ Gilded Greaves แทน War Boots; ศัตรูแทงค์เยอะ Muramasa แทน Claves Sancti; ศัตรูฮีลแรง Curse of Death แทน Fenrir's Tooth; ท้ายเกมหมุน Blade of Eternity กับไอเทมเอาตัวรอด",
+      "quote": "If the enemy team has a lot of magic damage, swap in Gaia's Standard in place of Rock Shield.",
+      "source": {"url": "https://aov-builds.com/en/heroes/wiro/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-030",
+      "type": "rune",
+      "text": "aov-builds.com อาร์คานา Full Tank Support: x10 Red III Attack Speed-HP-Armor, x10 Purple III HP-HP Regen-Movement Speed, x10 Green III Max HP-Cooldown Reduction; Full Damage Top Lane: x10 Red III Attack Speed-Crit Chance, x10 Purple III Attack Speed-Movement Speed, x10 Green III Physical Attack-Armor Penetration; สเปล Flicker",
+      "quote": "x10 Red III Attack Speed-HP-Armor",
+      "source": {"url": "https://aov-builds.com/en/heroes/wiro/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-031",
+      "type": "combo",
+      "text": "aov-builds.com คอมโบพื้นฐาน: ใช้ Skill 1 เสริมออโต้ โจมตี 3 ครั้งให้ลอย แล้ว Skill 2 ผลักศัตรูเข้าที่ไม่ดี แล้ว Skill 3 ลอยอีกครั้งพร้อมออโต้และ Skill 1 ต่อ; คอมโบดักพุ่ม: ชาร์จ Skill 3 ตอนเป้าหมายวิ่งผ่าน -> Skill 2 -> Skill 1 + ออโต้; ผสม Flicker ชาร์จ Skill 3 แล้ว Flicker ติดลอย หรือ Flicker ผลักศัตรูเข้าระยะป้อมตัวเอง",
+      "quote": "Activate Skill 1 Shockwave Pummel to enhance your basic attack, then land it three times to knock up the target.",
+      "source": {"url": "https://aov-builds.com/en/heroes/wiro/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-032",
+      "type": "skill",
+      "text": "aov-builds.com ลำดับอัปสกิล (ตารางส่วนที่อ่านได้): Skill 1 เลเวล 1 3 5 7 9 11; Skill 2 เลเวล 2 6 10 13 14 15 (ส่วนของ Skill 3 ถูกตัดในผลค้น); หน้าเดียวกันระบุว่าสกิล 1 ตอนนี้ฟื้น HP เมื่อโดนฮีโร่ ช่วยให้ยืนเลนและแลกเลือดได้สบายกว่าเดิม",
+      "quote": "Maelstrom Punch Skill 2 2 6 10 13 14 15",
+      "source": {"url": "https://aov-builds.com/en/heroes/wiro/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "wiro-033",
+      "type": "item",
+      "text": "Zathong (AOV Wiro build 2026, 17 พ.ค. 2026) บิลด์ที่ดีที่สุด: Mantle of Ra, Gilded Greaves, The Aegis, Gaias Standard, Mail of pain, Blade of Eterenity; บิลด์โปร: Mantle of Ra, Gilded Greaves, The Aegis, Medallion of Troy, Mail of pain, Blade of Eterenity; สเปล Flicker",
+      "quote": "Wiro best build: Mantle of Ra, Gilded Greaves, The Aegis, Gaias Standard, Mail of pain, Blade of Eterenity",
+      "source": {"url": "https://zathong.com/aov-wiro/", "kind": "article", "date": "2026-05-17", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-034",
+      "type": "rune",
+      "text": "Zathong: อาร์คานา 10 Indomitable, 10 Assassinate, 10 Focus; รูน Afata: Tower Blessing, Nature's Gift, Explosive Shield; Human: Arcane Whisper, Minion Kill; ลำดับสกิล Skill 1 -> Skill 3 -> Skill 2 (หน้านี้ใช้ค่าสกิลรุ่นเก่า เช่น พาสซีฟคูลดาวน์ 90 วิ)",
+      "quote": "Best Arcana for Wiro are: 10 Indomitable, 10 Assassinate, 10 Focus.",
+      "source": {"url": "https://zathong.com/aov-wiro/", "kind": "article", "date": "2026-05-17", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-035",
+      "type": "item",
+      "text": "Gametimeprime (AOV S24, มี.ค. 2021) ระบุไอเทมและอาร์คานาชุดเดียวกับ Zathong: Mantle of Ra, Gilded Greaves, The Aegis, Gaias Standard, Mail of pain, Blade of Eterenity; อาร์คานา Indomitable x10, Assassinate x10, Focus x10",
+      "quote": "Indomitable x 10 ... Assassinate x 10 ... Focus x 10",
+      "source": {"url": "https://gametimeprime.com/wiro-aov/", "kind": "article", "date": "2021-03-11", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-036",
+      "type": "combo",
+      "text": "Daisukimag (19 พ.ย. 2018) คอมโบเปิดไฟต์: 212 Maelstrom > 212 Landslide > 212 Pummel; คอมโบกันแครี่/เมจ: 212 Landslide > 212 Maelstrom > 212 Pummel; จังหวะถอยใช้ 212 Maelstrom พุ่งออกจากวง (ระวังสิ่งกีดขวาง)",
+      "quote": "Combo Skill 1 : 212 Maelstrom > 212 Landslide > 212 Pummel (ใช้เพื่อเปิดไฟท์)",
+      "source": {"url": "https://www.daisukimag.com/rov-%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-wiro-%e0%b9%81%e0%b8%97%e0%b8%87%e0%b8%84%e0%b9%8c-2-%e0%b8%8a%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95-%e0%b8%9e%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%a1%e0%b8%97%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b9%81%e0%b8%99%e0%b8%a7%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%80%e0%b8%a5%e0%b9%88%e0%b8%99%e0%b9%81%e0%b8%a5%e0%b8%b0%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%82%e0%b8%ad%e0%b8%87/", "kind": "article", "date": "2018-11-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-037",
+      "type": "item",
+      "text": "Daisukimag (2018) Set 1 Full Tank: Gilded Greaves > Medallion of Troy > Frost Cape > The Aegis > Shield of the Lost > Amulet of Longevity รูน Golden Body 10 > Colossus 10 > Prowess 10 สกิลชาเลนเจอร์ Heal; Set 2 ไฟต์เตอร์กึ่งแทงค์: Gilded Greaves > Medallion of Troy > Omni Arms > Spear of Longinus > Odin's Will > Amulet of Longevity รูนและสกิลชุดเดียวกัน",
+      "quote": "Gilded Greaves >Medallion of Troy> Frost Cape > The Aegis > Shield of the Lost > Amulet of Longevity",
+      "source": {"url": "https://www.daisukimag.com/rov-%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-wiro-%e0%b9%81%e0%b8%97%e0%b8%87%e0%b8%84%e0%b9%8c-2-%e0%b8%8a%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95-%e0%b8%9e%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%a1%e0%b8%97%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b9%81%e0%b8%99%e0%b8%a7%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%80%e0%b8%a5%e0%b9%88%e0%b8%99%e0%b9%81%e0%b8%a5%e0%b8%b0%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%82%e0%b8%ad%e0%b8%87/", "kind": "article", "date": "2018-11-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-038",
+      "type": "playstyle",
+      "text": "Daisukimag (2018) ข้อควรระวัง: ไม่ควรออกไอเทมดาเมจตั้งแต่ต้นเกม (เช่น Mantle of Ra, Broken Spears) เดินช้าโจมตีระยะใกล้ ควรอยู่เลนมังกรหรือโรม ไม่ควรอยู่ Offlane (เลนคิงคอง) สกิล 2 ข้ามสิ่งกีดขวางไม่ได้และอาจผลักศัตรูหลุดวงสกิลเพื่อน สกิล 3 โดนเบรคง่ายและมีดีเลย์",
+      "quote": "ไม่ควรออกไอเทม (Items) ดาเมจ (Damage) ตั้งแต่ต้นเกมเช่น เกราะไฟ (Mantle of ra), Broken Spears",
+      "source": {"url": "https://www.daisukimag.com/rov-%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-wiro-%e0%b9%81%e0%b8%97%e0%b8%87%e0%b8%84%e0%b9%8c-2-%e0%b8%8a%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95-%e0%b8%9e%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%a1%e0%b8%97%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b9%81%e0%b8%99%e0%b8%a7%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%80%e0%b8%a5%e0%b9%88%e0%b8%99%e0%b9%81%e0%b8%a5%e0%b8%b0%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%82%e0%b8%ad%e0%b8%87/", "kind": "article", "date": "2018-11-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-039",
+      "type": "item",
+      "text": "Reddit r/arenaofvalor (12 ก.พ. 2022) Tank Genesis Support Build: Tank Genesis Sup Item, Gilded Greaves, Frost Cape, Medallion of Troy, Shield of the Lost, Mantle of Ra (ชิ้นที่ 6 เลือกได้); อาร์คานาแทงค์ดัดแปลง 10x Indomitable, 10x Valiance, 5x Benevolence, 5x Assassinate",
+      "quote": "Tank: Genesis Sup Item - Gilded Greaves - Frost Cape - Medallion of Troy - Shield of the Lost - Mantle of Ra",
+      "source": {"url": "https://www.reddit.com/r/arenaofvalor/comments/sr2hhr/the_212_warrior_wiro_item_builds/", "kind": "community", "date": "2022-02-12", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-040",
+      "type": "item",
+      "text": "Nekad Gamers (มี.ค. 2020) บิลด์ไฮบริด: Gilded Greaves (ต้านทาน CC 35%), Blitz Blade, Mantle of Ra, Frost Cape, Fenrir's Tooth, Blade of Eternity; อาร์คานา Onslaught x7 + Atrocity x3 (แดง), Guerrilla (ม่วง), Skewer (เขียว); รูน Lokheim (Devourer, Deadly Claw, Curse of Death) + Afata (River Treader, Nature's Gift)",
+      "quote": "I put Fenrir's Tooth and Blade of Eternity as my final items.",
+      "source": {"url": "https://nekadgamers.blogspot.com/2020/02/aov-build-guide-wiro-hero-with.html", "kind": "community", "date": "2020-03-09", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-041",
+      "type": "playstyle",
+      "text": "Mustplay (10 พ.ย. 2018) ระบุ Wiro เป็นไฟต์เตอร์ ยืนเลนคู่ โซโล่ หรือโรมได้ สกิลมีทั้งไถ สตัน ยก เหมาะยืนแนวหน้าเปิดไฟต์ เพราะสกิล 2 และอัลติเมตเป็นสกิลหมู่",
+      "quote": "Wiro เป็นฮีโร่ในตำแหน่งไฟต์เตอร์ สามารถยืนเลนคู่หรือเลนโซโล่ก็ได้ หรือแม้แต่จะเดินโรมก็ยังทำได้",
+      "source": {"url": "https://www.mustplay.in.th/content/page/5be6e39c061e392258ca5e20", "kind": "article", "date": "2018-11-10", "transcript": true, "stale": true}
+    },
+    {
+      "id": "wiro-042",
+      "type": "playstyle",
+      "text": "Andaplus (ไม่ระบุวันที่ เนื้อหาอิงรุ่นเก่า เช่นพาสซีฟคูลดาวน์ 90 วิ) แนะนำเล่นแนวความอึด ยืนเลนเดี่ยว/ออฟเลน/โรม สไตล์คล้าย Wonder Woman ไม่เน้นดาเมจ ใช้สกิล 1 และ 2 ตีป้อมได้ ให้เล่นแบบ Omen/Skud ออฟเลน; ควรตายท่ามกลางเพื่อนหรือในป้อมตัวเอง ไม่ตายนอกป้อมคนเดียว เพื่อให้พาสซีฟคุ้ม เพื่อนต้องไม่ทิ้ง Wiro ตอนชุบ",
+      "quote": "ควรยึดถือสไตล์การเล่นแบบ Omen เป็นหลัก",
+      "source": {"url": "https://www.andaplus.com/game/index.php/en/?catid=990&id=4645&view=article", "kind": "article", "date": null, "transcript": true, "stale": true}
+    }
+  ],
+  "notes": "ไม่มี HANDCRAFTED_GUIDES ของ wiro ใน src/guide-data.mjs จึงค้นตามแหล่งมาตรฐาน. อ่านหน้า https://www.rov.in.th/patch-notes ได้เพียงรายการหัวข้อ (Hotfix 17 พ.ย., แพตช์ 12 พ.ย., Hotfix 4 พ.ย., แพตช์ 3 พ.ย. 2026) ไม่ได้เปิดรายละเอียดแต่ละแพตช์ จึงไม่ยืนยันว่ามีการเปลี่ยนแปลง Wiro ในแพตช์ 12/17 พ.ย. หรือไม่ (rovguide ไม่แสดงการเปลี่ยนแปลง Wiro หลัง 27 ส.ค. 2026). หน้าฮีโร่ทางการไม่มีวันที่และไม่ระบุพลังฟื้นฟูของสกิล 1; ตัวเลขสกิลของหน้าทางการ/rovmeta (สกิล 1 = 80 +10% AD) ต่างจาก rovguide (100 +15% AD +2/4% HP สูงสุด) และหน้าทางการยังระบุเกราะลด 25% ขณะที่ rovguide บันทึก Beta31 ว่าพาสซีฟไม่ลดเกราะแล้ว ไม่ได้ตัดสินว่าอันใดถูก. ชื่อสกิล 2/3 ต่างกันระหว่างแหล่ง (212 Maelstrom/212 Landslide ทางการ vs Tornado Fist/Sunray Fist rovguide vs Maelstrom Punch/Landslide Hack aov-builds). ไอเทมในหน้า rovmeta เป็นไอคอนจึงอ่านได้บางชื่อ. ไม่พบทรานสคริปต์วิดีโอ (วิดีโอ ManueL ไม่มีเนื้อหา) และไม่พบวิดีโอภาษาไทยอื่นที่ใช้ได้; ไม่พบข้อมูลพลังแฝง/อาร์คานาทางการ หรือไกด์ภาษาไทยที่ปรับตามแพตช์ปัจจุบัน (แหล่งไทยที่พบเป็นปี 2018). วันที่ของ aov-builds.com และ Andaplus ไม่ระบุ. รูน/อาร์คานา/Afata-Human talents จัดเป็น type rune ทั้งหมดตามที่แหล่งเรียก."
+}

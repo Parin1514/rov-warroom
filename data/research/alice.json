@@ -1,0 +1,141 @@
+{
+  "hero": "alice",
+  "gamePatch": "ค้นเมื่อ 16 พ.ย. 2026 (cutoff). ไม่พบหน้าแพตช์ทางการที่ระบุการเปลี่ยน Alice. Hotfix 17 พ.ย. 2026 มีผลหลัง cutoff จึงไม่นับเป็นปัจจุบัน และเนื้อหาไม่ได้อ่าน. การเปลี่ยนแปลง Alice ล่าสุดที่พบ: Hotfix 13 ส.ค. 2026 (B54) ตาม rovguide",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "alice-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Role Support. พาสซีฟ Trot ใช้สกิลแล้วความเร็วเคลื่อนที่เพิ่ม 20% เป็นเวลา 1 วิ",
+      "quote": "การใช้สกิลจะทำให้ความเร็วเคลื่อนที่เพิ่มขึ้น 20% เป็นเวลา 1 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/alice", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Chrono Burst (สกิล 1) สร้างความเสียหายเวทและทำให้ศัตรูติดสตั๊น (ไม่มีตัวเลขในหน้านี้)",
+      "quote": "สร้างความเสียหายเวทและทำให้ศัตรูติดสตั๊น",
+      "source": {"url": "https://www.rov.in.th/hero/alice", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Chrono Shield (สกิล 2) สร้างโล่ให้พันธมิตร ดูดซับความเสียหาย เพิ่มความเร็วเคลื่อนที่ 30% เป็นเวลา 2 วิ",
+      "quote": "เพื่มความเร็วเคลื่อนที่ขึ้น 30% เป็นเวลา 2 วินาที",
+      "source": {"url": "https://www.rov.in.th/hero/alice", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ: Chrono Flow (อัลติ) ลดความเร็วเคลื่อนที่ 35% เป็นเวลา 2 วิ ลดต้านทานเวทศัตรู 30/40/50% สร้างความเสียหายเวททุก 0.5 วิ และใบ้ศัตรูที่เข้ามาในวงทีหลัง 1 วิ",
+      "quote": "ลดอัตราการป้องกันเวทของศัตรูออก 30/40/50%",
+      "source": {"url": "https://www.rov.in.th/hero/alice", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-005",
+      "type": "skill",
+      "text": "rovguide (ชื่อสกิลและตัวเลขไม่ตรงกับหน้าทางการ ดู notes): Passive 20% นาน 2 วิ; Sunshine (S1) เวท 375 (+86% AP) สตั๊น 1 วิ คูลดาวน์ 8s ถึง 6s; Friendship (S2) โล่ 550 (+95% AP) 3 วิ ความเร็ว 20% (+3% ต่อ 100 AP) คูลดาวน์ 11s ถึง 9s; Hissy Fit (R) 400 (+80% AP) ใบ้ 1 วิ สโลว์ 60% วงอยู่ 6 วิ ต่อเนื่องสโลว์ 20% และ 100 (+20% AP) ทุก 0.5 วิ คูลดาวน์ 40/35/30s",
+      "quote": "Alice summons a circle at the target location that deals 400 (+ 80% of MP) magic damage",
+      "source": {"url": "https://rovguide.com/heroes/alice", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-006",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026 (B54) Nerf Friendship (สกิล 2): โล่ 600 (+120/Lv) (+100% AP) เป็น 550 (+110/Lv) (+95% AP) และคูลดาวน์ 10s เป็น 11s",
+      "quote": "Nerf Friendship",
+      "source": {"url": "https://rovguide.com/heroes/alice", "kind": "article", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-007",
+      "type": "item",
+      "text": "build ใน src/hero-details.json (review checkedAt 2026-11-15, patch 'Garena ทางการ') 'แนะนำโดย Pro Player': Ring of Terror, Flashy Boots, Frosty's Revenge, Frost Cape, Soul Scroll, Blade of Eternity. หน้า rov.in.th/hero/alice ที่ดึงมาไม่แสดงรายการนี้ ยืนยันจากหน้าตรงไม่ได้",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/hero/alice", "kind": "official", "date": "2026-11-15", "transcript": false, "stale": false}
+    },
+    {
+      "id": "alice-008",
+      "type": "rune",
+      "text": "ชุดรูนใน src/hero-details.json: Golden Body (แดง), Protect (ม่วง), Prowess (เขียว ตามข้อมูลโปรเจกต์). สกิลชาเลนเจอร์: Heal. ยืนยันจากหน้า Garena ตรงไม่ได้",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/hero/alice", "kind": "official", "date": "2026-11-15", "transcript": false, "stale": false}
+    },
+    {
+      "id": "alice-009",
+      "type": "enchant",
+      "text": "พลังแฝงใน src/hero-details.json: Afata (River Treader, Regrowth, Nature's Rage), Human (Arcane Whisper), Veda (Sacred Bead). ยืนยันจากหน้า Garena ตรงไม่ได้",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/hero/alice", "kind": "official", "date": "2026-11-15", "transcript": false, "stale": false}
+    },
+    {
+      "id": "alice-010",
+      "type": "item",
+      "text": "rovmeta (แพตช์ 1.64 อัปเดต 27 ต.ค. 2026): เส้นทางที่เซิร์ฟเวอร์ไทยแนะนำคือ Ring of Terror, Flashy Boots, Frosty's Revenge, Frost Cape, Soul Scroll, Blade of Eternity ตรงกับ alice-007",
+      "quote": "Ring of Terror ไป Flashy Boots แล้ว Frosty's Revenge, Frost Cape, Soul Scroll และ Blade of Eternity",
+      "source": {"url": "https://rovmeta.com/th/heroes/alice", "kind": "article", "date": "2026-10-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-011",
+      "type": "combo",
+      "text": "rovmeta Standard Engage: ใส่ Chrono Shield ให้ตัวเอง/แนวหน้าก่อน แล้วสตั๊นเป้าสำคัญด้วย Q แล้วลง Chrono Flow ใส่กลุ่มเพื่อลดต้านเวท",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/alice", "kind": "article", "date": "2026-10-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-012",
+      "type": "combo",
+      "text": "rovmeta Anti-Channel Punish: ลง Chrono Flow ใส่แครี่ศัตรูตอนเริ่มร่ายอัลติ แล้วเข้าไปลง Q ขัดการร่าย. Escape & Peel: ร่าย W ใส่เพื่อนที่โดนไล่ (ทริก Trot และความเร็ว 30%) แล้วลง Q ใส่คนไล่",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/alice", "kind": "article", "date": "2026-10-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-013",
+      "type": "playstyle",
+      "text": "rovmeta: จุดแข็งคือลดต้านเวท Chrono Flow ช่วยทีมเมจ, Chrono Burst point-and-click, คุมโซนมังกร; จุดอ่อนคือศัตรูมีแดชออกจากวง Chrono Flow ได้, ระยะ Chrono Burst สั้น, ไม่มีฮีล. เทียร์ B (rovmeta) / C (Zathong) / B (CommonSenseGamer ตามที่ rovmeta อ้าง)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/alice", "kind": "article", "date": "2026-10-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-014",
+      "type": "matchup",
+      "text": "rovmeta: ฮีโร่ที่มีแดช/บลิงก์ออกจาก Chrono Flow ได้ เช่น Murad, Butterfly, Nakroth เคาน์เตอร์ Alice; ซัพอย่าง Arum และ Grakk ดึงแครี่ Alice ออกจากโซนได้; แพ้ศึกยืดระยะให้ Annette หรือ Sephera เพราะ Alice ไม่มีฮีล",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/alice", "kind": "article", "date": "2026-10-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-015",
+      "type": "matchup",
+      "text": "Zathong SS28: เคาน์เตอร์ Alice คือ Wukong, Nakroth, Hayate, Laville",
+      "quote": "",
+      "source": {"url": "https://zathong.com/alice-rov/", "kind": "article", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "alice-016",
+      "type": "item",
+      "text": "Zathong SS28 (ซีซัน 28 เก่า ใช้ชื่อสกิลเก่า): ไอเทม Mother Earth: Barrier, Hermes Select, Frostys Revenge, The Aegis, Tome Of The Reaper, Medallion of Troy. รูน Indomitable, Benevolence, Valiance. พลังแฝง Afata (River Treader, Regrowth, Forest Wanderer), Human/Veda (Sacred Bead, Arcane Whisper). สกิลชาเลนเจอร์ Flicker",
+      "quote": "",
+      "source": {"url": "https://zathong.com/alice-rov/", "kind": "article", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "alice-017",
+      "type": "item",
+      "text": "Andaplus (ไม่ระบุวันที่ อ้าง The Aegis/Berith's Agony/Gaia's Standard จึงอาจเก่า): ออกเน้นลดคูลดาวน์รวมราว 40%, Frosty's Revenge สำคัญ. รูนแท็งก์ Golden Body 10, Spirit 5/Protect 5, Herculean Power 10. ไม่แนะนำพลังแฝง Nature's Rage เพราะเอฟเฟกต์ทำงานเฉพาะศัตรูใกล้ตัว; ใช้ได้ Explosive Shield, Forest Wanderer, Alchemy, Sacred Protection, หรือ Alchemy + Minion Kill ตอนโซโล่",
+      "quote": "ห้ามใช้นะครับ เพราะมันไม่เหมาะกับ Alice",
+      "source": {"url": "https://andaplus.com/game/index.php/th/?catid=990&id=4621&view=article", "kind": "article", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "alice-018",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย ณ 19 ต.ค. 2026: win 51.75% pick 18.14% ban 7.15% อันดับ 7 จาก 39 ซัพพอร์ตตามวินเรต. rovmeta (ลีกโปร, อัปเดต 27 ต.ค. 2026): 64 เกม win 56.3%",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/heroes/alice", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "alice-019",
+      "type": "playstyle",
+      "text": "rovmeta ลิสต์วิดีโอไกด์ 'ROV : ALICE สอนเล่นอลิส เกมตาม เซ็ตเวทย์ล้วนแต่โคตรอึด เลือดเป็นบาร์โค้ด' (บอมคนป่า) เป็นชื่อคลิปเท่านั้น ไม่ได้อ่านทรานสคริปต์ ห้ามใช้เนื้อหา",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/alice", "kind": "video", "date": null, "transcript": false, "stale": false}
+    }
+  ],
+  "notes": "Slug garena: alice (src/heroes.json sourceSlug alice; hero-details.json garena https://www.rov.in.th/hero/alice). ไม่พบ/ไม่ได้ทำ: หน้า patch-notes ทางการแสดงแค่หัวข้อ Hotfix 17 พ.ย., 12 พ.ย., 4 พ.ย., 3 พ.ย. 2026 ไม่ได้เปิดเนื้อหา จึงยืนยันไม่ได้ว่ามีการแก้ Alice หรือไม่. Hotfix 17 พ.ย. 2026 มีผลหลัง cutoff 16 พ.ย. ไม่ใช่ปัจจุบัน. ตัวเลขดาเมจ/คูลดาวน์ทางการไม่มีในหน้า Garena. หน้า Garena ที่ดึงมาไม่มี build/รูน/พลังแฝง จึงต้องอิงข้อมูลใน hero-details.json. ไม่มีทรานสคริปต์วิดีโอใดเลย. ความขัดแย้ง: (1) ชื่อสกิล Chrono Burst/Shield/Flow (ทางการ) vs Sunshine/Friendship/Hissy Fit (rovguide/Zathong) ข้อความตรงกันบางส่วน; (2) Trot 1 วิ vs 2 วิ (rovguide); (3) Chrono Shield: ทางการ 30% ให้พันธมิตร vs rovguide 20% (+3%/100 AP) ตัวเองและพันธมิตร; (4) Chrono Flow: ทางการสโลว์ 35% และลดต้านเวท 30/40/50% vs rovguide สโลว์ 60%/20% ไม่มีการลดต้านเวท; (5) รูน: โปรเจกต์ Golden Body/Protect/Prowess vs Zathong Indomitable/Benevolence/Valiance vs Andaplus Golden Body/Spirit+Protect/Herculean Power; (6) Nature's Rage อยู่ในชุดโปรเจกต์แต่ Andaplus ไม่แนะนำ; (7) build Garena (Ring of Terror, Frost Cape, Blade of Eternity) ต่างจาก Zathong/Andaplus. สีรูน Prowess ในโปรเจกต์ 'เขียว' แต่ gametimeprime (2025-10-28) จัดเป็นรูนน้ำเงิน ให้ verifier ตรวจ. หมายเหตุ: เขียนไฟล์ในโฟลเดอร์ worktree (ไม่ใช่ root หลัก) เพราะถูกบล็อก ต้องย้ายไป data/research/alice.json ของ root หลักเอง"
+}

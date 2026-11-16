@@ -1,0 +1,162 @@
+{
+  "hero": "roxie",
+  "gamePatch": "ค้นตามแพตช์ปัจจุบัน ณ 2026-11-16 (rovmeta ระบุแพตช์ 1.64 อัปเดต 13 พ.ย. 2569; rovguide ระบุ Beta 55 วันที่ 28 ก.ย. 2026 เป็นการเปลี่ยนแปลง Roxie ล่าสุด) ฮอตฟิกซ์ 17 พ.ย. ที่มีผลอนาคตไม่นับเป็นปัจจุบัน",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "roxie-001",
+      "type": "skill",
+      "text": "พาสซีฟ Fire Spirit: ทุก 50 หน่วยของ HP สูงสุดเพิ่มพลังเวท 1 หน่วย การโจมตีปกติครั้งที่ 3 ฟื้นมานา 8% ของมานาสูงสุด และติดสัญลักษณ์ให้ศัตรู 5 วินาที",
+      "quote": "ทุก 50 หน่วยของ HP สูงสุด จะเพิ่มพลังเวทให้ Roxie 1 หน่วย นอกจากนี้การโจมตีปกติครั้งที่ 3 จะฟื้นฟู 8% ของมานาสูงสุด พร้อมกับติดสัญลักษณ์ให้ศัตรูเป็นเวลา 5 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/roxie", "kind": "official", "date": null, "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-002",
+      "type": "skill",
+      "text": "สกิล 1 Wild Fire: เผาไหม้จุดที่วิ่งผ่าน 2.5 วินาที ทำความเสียหายเวททุก 0.5 วินาที ถ้าเป้าหมายติดสัญลักษณ์ ฟื้น 1% ของ HP ที่เสียไป (ฮีโร่ 2%)",
+      "quote": "หากเป้าหมายติดสัญลักษณ์ จะทำให้เธอฟื้นฟู 1% ของ HP ที่เสียไป หากเป็นฮีโร่จะฟื้นฟู 2%",
+      "source": {"url": "https://www.rov.in.th/hero/roxie", "kind": "official", "date": null, "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-003",
+      "type": "skill",
+      "text": "สกิล 2 Blazing Shield: เกราะไฟดูดซับความเสียหาย เพิ่มความเร็วเคลื่อนที่ 20% นาน 3 วินาที ศัตรูที่ถูกวิ่งชนระหว่างสกิลถูกลดความเร็ว 50% นาน 1.5 วินาที",
+      "quote": "เพิ่มความเร็วเคลื่อนที่ 20% เป็นเวลา 3 วิ ... ลดความเร็วเคลื่อนที่ลง 50% เป็นเวลา 1.5 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/roxie", "kind": "official", "date": null, "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-004",
+      "type": "skill",
+      "text": "อัลติเมท Agnie's Grasp: ดึงศัตรูเข้าหาตัว 2.5 วินาที รีเซ็ตคูลดาวน์ Wild Fire ติดสัญลักษณ์ทันที เป้าหมายไม่ติดสิ่งกีดขวางและกันสถานะควบคุมอื่น ได้รับความเสียหายเวท",
+      "quote": "ดึงเข้าหาตัวเอง เป็นเวลา 2.5 วิ ขณะเดียวกันจะรีเซ็ตคูลดาวน์ของสกิล Wild Fire พร้อมกับทำให้เป้าหมายติดสัญลักษณ์ทันที",
+      "source": {"url": "https://www.rov.in.th/hero/roxie", "kind": "official", "date": null, "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-005",
+      "type": "patch-change",
+      "text": "Beta 55 (28 ก.ย. 2026): บัฟ Blazing Shield ดาเมจฐานจาก 100(+30/Lv)(+0.5AP) เป็น 180(+36/Lv)(+0.5AP) และปรับค่าโล่จาก 100(+60/LV)(+8% HP) เป็น 250(+50/LV)(+8% HP) ข้อมูลนี้มาจากเว็บรวบรวมที่อ้างบันทึกแพตช์ ยังไม่ได้ยืนยันกับประกาศแพตช์ทางการโดยตรง",
+      "quote": "Skill 2: increases base damage. Before 100(+30/Lv)(+0.5AP) After 180(+36/Lv)(+0.5AP)",
+      "source": {"url": "https://rovguide.com/heroes/roxie", "kind": "community", "date": "2026-09-28", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-006",
+      "type": "patch-change",
+      "text": "Beta51 (22 ต.ค. 2025): แก้บั๊กสกิล 1 มองเห็นได้โดยศัตรูเมื่อใช้ในพุ่มไม้; Beta38 (28 ก.ย. 2022): แก้ปฏิสัมพันธ์การล้างสถานะของอัลติ; Beta31 (27 เม.ย. 2021): nerf โล่สกิล 2 จาก 200+80/lv+10% HP เป็น 100+60/lv+8% HP",
+      "quote": "Roxie: Fixed Skill 1 being visible to enemies when used in brush.",
+      "source": {"url": "https://rovguide.com/heroes/roxie", "kind": "community", "date": "2026-09-28", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-007",
+      "type": "skill",
+      "text": "rovguide ให้ค่าสกิลต่างจากหน้าทางการ: พาสซีฟทุก 40 HP สูงสุดได้ 1 MP, ออโต้ที่ 3 ฟื้นมานา 4%, สัญลักษณ์ 3 วินาที; Wild Fire ดาเมจ 50-100 (+22% MP) ดาเมจเป็นสองเท่าถ้าติดสัญลักษณ์; Blazing Shield ความเร็ว +25% สโลว์ 2 วินาที; Agnie's Grasp ลาก 1.5 วินาที ดาเมจ 3-5% HP สูงสุดทุก 0.5 วินาที รีเซ็ตสกิล 1 และ 2 คูลดาวน์ 40/35/30 วินาที ขัดแย้งกับหน้าทางการหลายจุด ต้องให้ verifier ตัดสิน",
+      "quote": "Every 40 max HP grants Roxie 1 MP, and every 3rd normal attack hit restores 4% mana to her.",
+      "source": {"url": "https://rovguide.com/heroes/roxie", "kind": "community", "date": "2026-10-19", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-008",
+      "type": "playstyle",
+      "text": "rovguide ให้คะแนนฮีโร่: Survivability 5/5, Damage 2/5, Function 3/5, Difficulty 2/5; คลาส Fighter/Tank/Support เลน Slayer/Support; สถิติแรงค์ไทย ณ 19 ต.ค. 2026 win 51.75% pick 2.53% ban 0.38%",
+      "quote": "Thailand ranked snapshot · 19 October 2026",
+      "source": {"url": "https://rovguide.com/heroes/roxie", "kind": "community", "date": "2026-10-19", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-009",
+      "type": "playstyle",
+      "text": "rovmeta จัด Roxie เทียร์ C บทบาท tank เลนโซโลปานกลาง แพตช์ 1.64 (อัปเดต 13 พ.ย. 2569) สายโปร 8 พิก วินเรท 62.5% พิก/แบน 1.6% เว็บนี้อ้างว่า Zathong จัดเทียร์ B และ CommonSenseGamer จัด D",
+      "quote": "เทียร์ C tankเลนโซโลปานกลางแพตช์ 1.64อัปเดต 13 พฤศจิกายน 2569",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-010",
+      "type": "skill",
+      "text": "ลำดับอัปสกิลตาม rovmeta: ลำดับความสำคัญ R > Q > W ; Q(สกิล1) เลเวล 1,3,5,7,9,13 ; W(สกิล2) เลเวล 2,4,8,10,12,14 ; R เลเวล 6,11,15",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-011",
+      "type": "skill",
+      "text": "ลำดับอัปสกิลตาม aov-builds: สกิล1 เลเวล 1,3,5,7,9,11 ; สกิล2 เลเวล 2,6,10,13,14,15 ; อัลติ เลเวล 4,8,12 ขัดแย้งกับ roxie-010 เว็บนี้เป็นของ AoV ไม่ใช่ RoV ไทย ใช้เป็นเบาะแสเท่านั้น",
+      "quote": "Wild Fire 1 3 5 7 9 11 / Blazing Shield 2 6 10 13 14 15 / Agnie's Grasp 4 8 12",
+      "source": {"url": "https://aov-builds.com/th/heroes/roxie/", "kind": "community", "date": null, "transcript": null, "stale": true}
+    },
+    {
+      "id": "roxie-012",
+      "type": "combo",
+      "text": "คอมโบจบเกมตาม rovmeta: ออโต้ให้ติดตราก่อน, W เพื่อปิดระยะและสโลว์, กด R ทันทีที่เข้าระยะจับ เพื่อให้ตราติดพร้อมรีเซ็ต Wild Fire แล้วปล่อย Q ทั้งสองรอบใส่เป้าที่ถูกลาก",
+      "quote": "กด R ทันทีที่เข้าระยะจับ เพื่อให้ตราโปรคทันทีลงตัวพอดีกับรีเซ็ตของ Wild Fire แล้วปล่อยไฟ Q ทั้งสองรอบใส่เป้าที่ถูกลาก",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-013",
+      "type": "combo",
+      "text": "คอมโบเทรดตราไฟมาตรฐานตาม rovmeta: ใช้ในเลนสเลเยอร์ ลงตราก่อนบุก สองออโต้เข้าตราฮิตที่สาม แล้ว W ปิดระยะและสโลว์ จากนั้นลากไฟ Q ใต้ตัวเป้าหมายเพื่อฟื้นเลือด",
+      "quote": "สองออโต้เข้าตราฮิตที่สาม แล้ว W เพื่อปิดระยะและสโลว์",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-014",
+      "type": "combo",
+      "text": "rovmeta แนะนำสกิลผู้เรียก Sprint ปิดช่องว่างตอนศัตรูวิ่งพ้นระยะ W แล้วต่อ R และรีเซ็ต Q สองรอบ; และเมื่อศัตรูไดฟ์เข้ามาขณะเรามีตราติดอยู่ เปิดด้วย R ตามด้วย Q สองรอบ แล้วใช้ W หนีถ้าจำเป็น",
+      "quote": "ใช้สกิลผู้เรียก Sprint ปิดช่องว่างตอนศัตรูวิ่งเลยระยะชนของ W ไปแล้ว",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-015",
+      "type": "combo",
+      "text": "คอมโบพื้นฐานตาม aov-builds: เปิด Wild Fire แล้วใช้ Blazing Shield พุ่งเข้าสโลว์, ใช้ Agnie's Grasp ดึงเข้าตำแหน่งแย่ให้โดนรอยไฟ, ใช้ Blazing Shield ต่อ แล้วออโต้เก็บ ผสม Flicker; เว็บนี้เป็นของ AoV ใช้เป็นเบาะแสเท่านั้น",
+      "quote": "ใช้สกิล 3 Agnie's Grasp ดึงศัตรูไปอยู่ในตำแหน่งที่แย่ บังคับให้พวกเขาโดนดาเมจจากรอยไฟ",
+      "source": {"url": "https://aov-builds.com/th/heroes/roxie/", "kind": "community", "date": null, "transcript": null, "stale": true}
+    },
+    {
+      "id": "roxie-016",
+      "type": "rune",
+      "text": "rovmeta แนะนำอาร์คานาหลัก Golden Body, Spirit, Stain และสเปลล์ Sprint (ชื่ออาร์คานาแปลงมาจากเว็บ ต้องตรวจเทียบชื่อใน RoV)",
+      "quote": "สเปลล์ Sprint อาร์คานาหลัก Golden Body Spirit Stain",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-017",
+      "type": "rune",
+      "text": "aov-builds แนะนำรูน x10 แดง III ความเร็วโจมตี/พลังชีวิต/เกราะ, x10 ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่, x10 เขียว III พลังชีวิตสูงสุด/ลดคูลดาวน์ และสกิลเสริม Flicker (ระบบรูน AoV ไม่ตรง RoV)",
+      "quote": "x10 รูนเขียว III พลังชีวิตสูงสุด / ลดคูลดาวน์",
+      "source": {"url": "https://aov-builds.com/th/heroes/roxie/", "kind": "community", "date": null, "transcript": null, "stale": true}
+    },
+    {
+      "id": "roxie-018",
+      "type": "matchup",
+      "text": "rovmeta ระบุจุดแข็ง: Fire Spirit ช่วยชนะเทรด 1v1 ลากยาวกับบรูเซอร์สายแลกเลือด; Grasp เป็นซีซี 2.5 วินาที; สโลว์ 50% ของ Blazing Shield ช่วยติดเป้าที่มีแดชเดียว",
+      "quote": "ชนะเทรด 1v1 ที่ลากยาวกับบรูเซอร์สายแลกเลือดได้",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-019",
+      "type": "matchup",
+      "text": "rovmeta ระบุจุดอ่อน: Wild Fire ไร้ประโยชน์เมื่อเจอฮีโร่ที่มีสองแดชแล้วเดินหลุด; Grasp มีช่วงเตรียมที่อ่านออก ผู้เล่นระดับ Diamond แดชหลบล่วงหน้าได้; ไม่มีดาเมจก่อนตราจะติด; ไม่มีภูมิคุ้มกันซีซี เชนซีซีเดียวก่อน Wild Fire ลงจะตาย",
+      "quote": "ไม่มีภูมิคุ้มกันซีซีเลย เชนซีซีเดียวก่อน Wild Fire จะลง เธอตายทันที",
+      "source": {"url": "https://rovmeta.com/th/heroes/roxie", "kind": "community", "date": "2026-11-13", "transcript": null, "stale": false}
+    },
+    {
+      "id": "roxie-020",
+      "type": "playstyle",
+      "text": "Mustplay (2018): ให้ฟาร์มเลนโซโลยาวก่อน เพราะสกิลเพิ่มทั้งมานาและเลือดทำให้ยืนเลนนาน; จุดเสียคือ CC ต้นเกมหวังผลได้น้อย และอัลติต้องเล็งล่วงหน้าเพราะแอนิเมชันช้า ข้อมูลเก่ามาก ตัวเลขสกิลในบทความไม่ตรงปัจจุบัน",
+      "quote": "ข้อสำคัญในการเดินทีมไฟต์ เมื่อเริ่มเกมควรให้ Roxie ฟาร์มที่เลน Solo ไปยาวๆก่อน",
+      "source": {"url": "https://www.mustplay.in.th/content/page/5b9a968a7fea631821eee24e", "kind": "article", "date": "2018-09-13", "transcript": null, "stale": true}
+    },
+    {
+      "id": "roxie-021",
+      "type": "item",
+      "text": "กระทู้ Soccersuck (2018) ผู้เล่นออก Orb of the Magi / Gilded Greaves / Frosty's Revenge / Berith's Agony (The Aegis) / Reah's Blessing (Hecate's Diadem) / Staff of Nuul และผู้เล่นอีกคนบอกว่าไอเทมแกนคือ Frosty's Revenge ชื่อไอเทมบางชิ้นเป็นชื่อเก่า ข้อมูลล้าสมัย",
+      "quote": "Core มันผมว่าคือ Frosty's Revenge",
+      "source": {"url": "https://www.soccersuck.com/boards/topic/1666938", "kind": "community", "date": "2018-07-30", "transcript": null, "stale": true}
+    },
+    {
+      "id": "roxie-022",
+      "type": "item",
+      "text": "วิดีโอ BiliBili 'ROV ไกด์ - ออกของ รูน Roxie SS9 สูตร WPF.Chaser' (24 มิ.ย. 2022) พบเฉพาะชื่อและวันที่ ไม่มีทรานสคริปต์ จึงไม่บันทึกเนื้อหาการออกของหรือรูน",
+      "quote": "ROV ไกด์ - ออกของ รูน Roxie SS9 สูตร WPF.Chaser",
+      "source": {"url": "https://www.bilibili.tv/video/2042572979", "kind": "video", "date": "2022-06-24", "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "สรุปแหล่ง: official 4 (roxie-001..004; หน้าฮีโร่ rov.in.th ไม่มีวันที่เผยแพร่ ไม่มีไอเทม/รูน/ลำดับอัปสกิล), video 1 (roxie-022 ไม่มีทรานสคริปต์ stale), article 1 (roxie-020 stale), community 16 (rovguide/rovmeta/aov-builds/soccersuck). ไม่พบ: ประกาศแพตช์ทางการ rov.in.th/patch-notes ของ Roxie (Exa ติด rate limit HTTP 429 ระหว่างค้นรอบสอง จึงไม่ได้ดึงหน้าแพตช์ทางการ หน้า rovmeta ฉบับเต็ม และรายละเอียดฮอตฟิกซ์ 17 พ.ย.); วิดีโอที่มีทรานสคริปต์ของแพตช์ปัจจุบัน; ไอเทมหลัก/ตามสถานการณ์/แก้ทางของแพตช์ 1.64 (ไม่มีแหล่ง RoV ล่าสุดที่อ่านได้ ส่วน build ใน src/hero-details.json ไม่ได้ใช้เป็นหลักฐาน); รูน/พลังแฝงอย่างเป็นทางการ; คู่ชนะ/แพ้ทางรายตัวฮีโร่ (มีแต่ลักษณะทั่วไป roxie-018/019). ข้อขัดแย้ง: ค่าสกิลทางการต่างจาก rovguide (roxie-007; ทางการ 50 HP/8%/5s/ลาก 2.5s, rovguide 40 HP/4%/3s/ลาก 1.5s); ลำดับอัปสกิล rovmeta ต่างจาก aov-builds (roxie-010 vs 011); บทบาท: หน้าทางการ Tank Fighter, rovmeta tank เลนโซโล, src/heroes.json lane slayer role ไฟต์เตอร์. ฮอตฟิกซ์ 17 พ.ย. 2026 ไม่นำมาเป็นข้อมูลปัจจุบัน และไม่พบรายละเอียดใดๆ. garena slug ตรวจแล้ว: roxie (https://www.rov.in.th/hero/roxie)."
+}

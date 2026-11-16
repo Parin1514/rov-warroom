@@ -1,0 +1,211 @@
+{
+  "hero": "preyta",
+  "gamePatch": "ค้นเมื่อ 16 พ.ย. 2026 แพตช์ที่พบการเปลี่ยนแปลง Preyta ล่าสุดคือ Beta 55 'Abyssal Rift' (28 ก.ย. 2026) ซึ่งรีเวิร์ค Preyta; rovmeta ระบุแพตช์ 1.64 (อัปเดต 12 พ.ย. 2026)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "preyta-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ (rov.in.th) ยังแสดงชุดสกิลเก่าก่อนรีเวิร์ค: พาสซีฟ Infection เคลื่อนที่เร็วกว่าฮีโร่คนอื่น; Lethal Pethogen (สกิล 1) ชาร์จเชื้อโรค 2 วินาที ชาร์จนานระยะไกลขึ้น หลังเพิ่มพลังไม่ต้องยืนชาร์จ; Putrid Virus (สกิล 2) ระเบิดไวรัส ศัตรูกระเด็นถอยหลัง ช้าลง 50% นาน 2 วินาที หลังเพิ่มพลังติดสตั๊น 1 วินาที; Plague Tentacle (อัลติ) ได้โล่ รีเซ็ตคูลดาวน์สกิลทั้งหมด เพิ่มพลังสกิลถัดไป 1 ครั้ง ความเร็วเคลื่อนที่ +15% ความเร็วโจมตี +10% นาน 10 วินาที และการโจมตีปกติเป็นความเสียหายเวทวงกว้าง (ดู notes: ชุดนี้ไม่ตรงกับรีเวิร์ค Beta 55)",
+      "quote": "Preyta จะเคลื่อนที่เร็วกว่าฮีโร่คนอื่น ... ช้าลง 50% เป็นเวลา 2 วินาที ... ติดสตั๊น 1 วินาที ... ความเร็วโจมตีเพิ่มขึ้น 10% เป็นเวลา 10 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/preyta", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-002",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Preyta เป็น Mage (ไม่มีตัวเลขความเสียหาย/คูลดาวน์ในเนื้อหาที่ดึงได้)",
+      "quote": "Role Mage",
+      "source": {"url": "https://www.rov.in.th/hero/preyta", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-003",
+      "type": "patch-change",
+      "text": "Beta 55 'Abyssal Rift' (28 ก.ย. 2026) รีเวิร์ค Preyta: Toxic Mutation (พาสซีฟ) สกิลที่โดนสะสม Plague สร้างความเสียหายต่อเนื่อง ครบ 3 สแตกระเบิดเป็นวงกว้าง; สกิลที่โดนฮีโร่ศัตรูหรือฆ่าครีป/มอนสเตอร์ป่าให้ Plague Energy เพิ่มพลังเวทและวิวัฒนาการสกิลถาวร (ข้อมูลจากหน้าสรุปแพตช์ของ rovguide ไม่ได้อ่านหน้าแพตช์ทางการโดยตรง)",
+      "quote": "skill hits apply Plague, dealing damage over time and exploding for area damage at 3 stacks. Skill hits on enemy heroes or kills on minions and jungle monsters grant Plague Energy",
+      "source": {"url": "https://rovguide.com/updates/beta55", "kind": "article", "date": "2026-09-28", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-004",
+      "type": "patch-change",
+      "text": "Beta 55 (rovguide): Plague Enchanting (สกิล 1) เพิ่มความเร็วโจมตีและระยะให้การโจมตีปกติ 3 ครั้งถัดไป ครั้งที่ 3 เป็นความเสียหายวงกว้าง ที่ Plague Energy 25 ทั้ง 3 ครั้งเป็นวงกว้าง; Putrid Virus (สกิล 2) โจมตีตำแหน่งที่เลือก สร้างความเสียหายและช้า หลัง 1 วินาทีสร้างความเสียหายซ้ำและทำให้ลอย ที่ Plague Energy 75 พื้นที่กว้างขึ้น",
+      "quote": "At 25 Plague Energy, all 3 deal area damage. ... knocks up after 1 second. At 75 Plague Energy, the skill area increases.",
+      "source": {"url": "https://rovguide.com/updates/beta55", "kind": "article", "date": "2026-09-28", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-005",
+      "type": "patch-change",
+      "text": "Beta 55 (rovguide): Lethal Pathogen เป็นสกิล 3 (อัลติ) รวบรวม Plague Energy ปล่อยคลื่นพลังเวท 3 สาย ระยะเพิ่มตามเวลาชาร์จสูงสุด 1,800 หน่วย เคลื่อนที่หรือกดสกิล 3 ซ้ำจะปล่อยทันที ที่ Plague Energy 145 ร่ายขณะเคลื่อนที่และโจมตีไปพร้อมกันได้",
+      "quote": "Range increases with charge time up to 1,800 units. Moving or recasting skill 3 releases immediately. At 145 Plague Energy",
+      "source": {"url": "https://rovguide.com/updates/beta55", "kind": "article", "date": "2026-09-28", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-006",
+      "type": "patch-change",
+      "text": "หน้าไอเทมในหน้าสรุปแพตช์ Beta 55 และหน้ารายการ APKMirror ระบุว่าแพตช์นี้มี 'Preyta rework' (APKMirror: Hero Adjustments: Preyta rework and more) ยืนยันว่ามีการรีเวิร์คจริงจากอีกแหล่งหนึ่ง",
+      "quote": "Hero Adjustments: Preyta rework and more",
+      "source": {"url": "https://www.apkmirror.com/apk/garena-mobile-private-limited/garena-rov-mobile-moba/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-007",
+      "type": "skill",
+      "text": "rovguide (ตัวเลขหลัง Beta 55): ชุดสกิลคือ Toxic Mutation (พาสซีฟ), Plague Enchanting (1), Putrid Virus (2), Lethal Pathogen (3) ตามคำอธิบายใน preyta-003 ถึง 005 ไม่มีตัวเลขความเสียหาย/มานา/คูลดาวน์ในหน้า; ที่ Putrid Virus ลอยหลัง 1 วินาที (ต่างจากหน้าทางการที่เป็นกระเด็นถอย/สตั๊น)",
+      "quote": "damages and slows enemies at the chosen location, then damages again and knocks up after 1 second",
+      "source": {"url": "https://rovguide.com/heroes/preyta", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-008",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026): อัตราชนะ 53.17% อัตราเลือก 11.08% อัตราแบน 6.15% อันดับ 2 จาก 34 ในกลุ่ม Mage และ 2 จาก 31 ในมิดเลน; เรตติ้งทางการ ความอยู่รอด 3 ความเสียหาย 5 ฟังก์ชัน 3 ความยาก 2; Good at: Harass",
+      "quote": "53.17%",
+      "source": {"url": "https://rovguide.com/heroes/preyta", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-009",
+      "type": "playstyle",
+      "text": "rovmeta (แพตช์ 1.64 อัปเดต 12 พ.ย. 2026): เทียร์ C (Zathong เทียร์ C, CommonSenseGamer C-Tier) มิดเลน ยาก; แต่ FAQ ในหน้าเดียวกันระบุว่าอยู่เทียร์ B ในเมต้าไทย และข้อความท้ายกล่าวว่า 'เทียร์ B บอกไว้' (ภายในหน้าไม่สอดคล้องกัน) แนะนำผู้เล่น Diamond ขึ้นไป",
+      "quote": "เทียร์ C mageมิดเลนยากแพตช์ 1.64",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-010",
+      "type": "skill",
+      "text": "rovmeta (อิงชุดสกิลเก่า): ลำดับอัปสกิลให้ความสำคัญ R > Q > W; Q เลเวล 1/3/5/7/9, W เลเวล 2/4/8/10/12, R เลเวล 6/11/15",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-011",
+      "type": "combo",
+      "text": "rovmeta (ชุดสกิลเก่า): คอมโบหลัก W, Q ชาร์จไม่เต็ม, กด R ทันทีเพื่อรีเซ็ตและได้โล่, W บัฟสตัน, จบด้วย Q บัฟที่ยิงทันทีไม่ต้องชาร์จ ใช้กับตัวบางที่ไม่มีทางหนี",
+      "quote": "กด R ทันทีเพื่อรีเซ็ตและได้โล่ แล้วกด W บัฟซ้ำเพื่อสตัน จบด้วย Q บัฟที่ยิงทันที",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-012",
+      "type": "combo",
+      "text": "rovmeta (ชุดสกิลเก่า): เซตอัพแกงค์ด้วย Flicker เริ่มชาร์จ Q จากฝุ่นหรือหลังกำแพง Flicker ปิดระยะตอนชาร์จเกือบเต็มแล้วปล่อย ต่อ W แล้วกด R ซ้ำ W บัฟ และ Q บัฟ; และโพคแล้วจบ: Q ชาร์จเต็มกัดเลือดก่อน แล้ว W, R, Q บัฟ, W สตัน",
+      "quote": "เริ่มชาร์จ Q จากในฝุ่นหรือหลังกำแพง Flicker ปิดระยะตอนชาร์จเกือบเต็มแล้วปล่อย",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-013",
+      "type": "item",
+      "text": "rovmeta: บิลด์หลัก Orb of the Magi (ชิ้นแรกเสมอ) ต่อ Flashy Boots แล้ว Zweihander, Hecate's Diadem, Staff of Nuul, Holy of Holies; Staff of Nuul สำคัญเมื่อศัตรูมีแนวหน้าอึดตั้งแต่หนึ่งตัวขึ้นไป; ช่วงกลางเกมกล่าวถึง Broken Spear",
+      "quote": "Orb of the Magi ต่อ Flashy Boots แล้วตาม Zweihander, Hecate's Diadem, Staff of Nuul และ Holy of Holies",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-014",
+      "type": "rune",
+      "text": "rovmeta: สกิลชาเลนเจอร์ Flicker; อาร์คานาหลัก Desolate, Spirit, Stain (ไม่มีรายละเอียดจำนวนหรือค่าสถานะในหน้าที่อ่านได้)",
+      "quote": "Desolate Spirit Stain",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-015",
+      "type": "matchup",
+      "text": "rovmeta: Preyta กลัว Nakroth, Murad, Quillen, Butterfly; แข็งใส่ Kahlii, Ilumia, Krixi, Natalya, Diao Chan, Azzen'Ka; เข้าขาดีกับ Grakk, Baldum, Ormarr, Annette; FAQ แนะนำเคาน์เตอร์ด้วยอัสซาซินเคลื่อนที่เก่งที่ปิดระยะเร็วกว่าเวลาชาร์จ Q",
+      "quote": "กลัวเจอ Nakroth Murad Quillen Butterfly",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-016",
+      "type": "playstyle",
+      "text": "rovmeta: ช่วงพีคแรกเมื่อได้ Orb of the Magi พีคหลักเลเวล 4 ตอน R ใช้ได้; เลเวล 1-3 ฟาร์มปลอดภัยใต้ป้อม; ยืนข้างทีมตอนตีทีม เก็บ R หลังเพื่อนเปิดไฟต์; ออโต้วงกว้างหลัง R; อ่อนในเกมยืดเยื้อถ้าศัตรูต้านเวทพอ (อธิบายตามชุดสกิลเก่า)",
+      "quote": "จังหวะพีคหลักของเขาคือเลเวล 4 ตอน R เปิดใช้งานได้ครั้งแรก",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "preyta-017",
+      "type": "playstyle",
+      "text": "rovmeta ฝังวิดีโอโปรชื่อ '[ROV] วิธีเล่น Preyta เม็ดส้ม เริ่มตั้งเเต่88ดาวไป Immortal! ไกด์เมจTier S ที่คุณต้องรีบฝึก' ช่อง Ryu327 (เห็นเฉพาะชื่อ ไม่มีทรานสคริปต์ ไม่ทราบวันที่)",
+      "quote": "[ROV] วิธีเล่น Preyta เม็ดส้ม เริ่มตั้งเเต่88ดาวไป Immortal! ไกด์เมจTier S ที่คุณต้องรีบฝึก",
+      "source": {"url": "https://rovmeta.com/th/heroes/preyta", "kind": "video", "date": null, "transcript": false, "stale": false}
+    },
+    {
+      "id": "preyta-018",
+      "type": "item",
+      "text": "Zathong (aov-preyta, 29 พ.ย. 2025): ไอเทมแนะนำ Orb of the Magi, Enchanted Kicks, Two handed (Zweihander), Hecates Diadem, Staff of Nuul, Holy of Holies; เซ็ตโปร Orb of the Magi, Enchanted Kicks, Boomstick, Hecates Diadem, Berith's Agony, Rhea's Blessing; สกิลชาเลนเจอร์ Flicker; ลำดับอัปสกิลที่ระบุ Skill 1 > Skill 3 > Skill 2 (ก่อนรีเวิร์ค Beta 55)",
+      "quote": "Ability Order: Skill 1 -> Skill 3 -> Skill 2.",
+      "source": {"url": "https://zathong.com/aov-preyta/", "kind": "article", "date": "2025-11-29", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-019",
+      "type": "rune",
+      "text": "Zathong (aov-preyta, 29 พ.ย. 2025): อาร์คานา Violate x10 (พลังเวท +4.2 เจาะเกราะเวท +2.4), Guerrilla x10 (ความเร็วโจมตี +1% ความเร็วเคลื่อนที่ +1%), Flurry x10 (ความเร็วโจมตี +0.6% เจาะเกราะเวท +6.4)",
+      "quote": "Violate x 10 ... Guerrilla x 10 ... Flurry x 10",
+      "source": {"url": "https://zathong.com/aov-preyta/", "kind": "article", "date": "2025-11-29", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-020",
+      "type": "enchant",
+      "text": "Zathong (aov-preyta, 29 พ.ย. 2025): พลังแฝง Veda: Sacred Bead, Holy Verdic, Holy Thunder; Human - Afata: Mark of Frost, River Treader",
+      "quote": "Sacred Bead / Holy Verdic / Holy Thunder",
+      "source": {"url": "https://zathong.com/aov-preyta/", "kind": "article", "date": "2025-11-29", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-021",
+      "type": "matchup",
+      "text": "Zathong (aov-preyta, 29 พ.ย. 2025): ภัยคุกคามสูงมาก Nakroth, Kriknak, Murad, Hayate, Eland'orr; เข้ากันดี Alice, Helen, TeeMee, Zip, Baldum",
+      "quote": "Extreme Threats ... Ideal Synergies",
+      "source": {"url": "https://zathong.com/aov-preyta/", "kind": "article", "date": "2025-11-29", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-022",
+      "type": "item",
+      "text": "aov-builds.com (หน้าเผยแพร่ 19 ส.ค. 2024 แต่ข้อความอธิบายสกิลเป็นชุดหลังรีเวิร์ค มีชื่อ Plague/Plague Energy จึงน่าจะอัปเดตภายหลัง ไม่ทราบวันที่แน่ชัด): ไอเทม Gilded Greaves, Zweihander, Hecate's Diadem, Apocalypse, Staff of Nuul, Skadi's Frost Ring; ถ้าศัตรูไดฟ์เยอะใช้ Arctic Orb แทน Apocalypse; ถ้าศัตรูฮีลแรงใช้ Tome of the Reaper แทน Skadi's Frost Ring",
+      "quote": "If the enemy team has a lot of dive heroes, build Arctic Orb instead of Apocalypse",
+      "source": {"url": "https://aov-builds.com/en/heroes/preyta/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-023",
+      "type": "enchant",
+      "text": "aov-builds.com: พลังแฝง Tower of Radiance: Sacred Bead, Penetrating Heart, Holy Shield; Genesis City: Frost Orb, Intimidate; อาร์คานาแดง Magic Power-Magic Penetration x10, ม่วง Attack Speed-Movement Speed x10, เขียว Attack Speed-Magic Penetration x10; สกิลชาเลนเจอร์ Flicker",
+      "quote": "Tower of Radiance ... Sacred Bead ... Penetrating Heart ... Holy Shield",
+      "source": {"url": "https://aov-builds.com/en/heroes/preyta/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-024",
+      "type": "combo",
+      "text": "aov-builds.com (ชุดสกิลหลังรีเวิร์ค): คอมโบพื้นฐาน Skill 1 เสริมการโจมตีปกติ, Skill 2 วงเวทที่ช้า/ลอยหลัง 1 วินาที, ระหว่างศัตรูลอยชาร์จ Skill 3 ยิงคลื่น 3 สาย แล้วกด Skill 1 ซ้ำเมื่อพ้นคูลดาวน์; ในตีทีมใช้ Skill 2 ต่อเนื่องให้เป้าอยู่ในระยะ Skill 1 และโจมตีปกติเพื่อสแตก Plague; Skill 2 เป็น hard CC ตัดอัลติของ Gildur หรือ Aleister ได้",
+      "quote": "While the enemy is airborne, charge Skill 3 Plague to fire three shockwaves at them",
+      "source": {"url": "https://aov-builds.com/en/heroes/preyta/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-025",
+      "type": "playstyle",
+      "text": "aov-builds.com (ชุดสกิลหลังรีเวิร์ค): Skill 1 เพิ่มความเร็วโจมตี ระยะโจมตี และความเร็วเคลื่อนที่ 4 วินาที ครั้งที่ 3 เป็นวงกว้าง ใช้ความเร็วเคลื่อนที่ไคท์ ใช้กวาดเวฟ; Skill 3 ระยะไกลสูงสุด 1800 ใช้ป็อกแนวหลังอย่างปลอดภัย ที่ 145 Plague Energy ร่ายขณะเคลื่อนที่ได้",
+      "quote": "grants bonus attack speed, attack range and movement speed, and every third basic attack deals area damage",
+      "source": {"url": "https://aov-builds.com/en/heroes/preyta/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-026",
+      "type": "playstyle",
+      "text": "ytget.cc สรุปวิดีโอ (ช่อง Lobo ภาษาจีน, 23 ก.ย. 2026): Preyta รีโวร์คใหม่ เน้นสแตก Plague Energy ถึง 145 ให้อัลติร่ายขณะเคลื่อนที่ เล่นฟาร์มและโพคจนเต็มราว 10-11 นาที สกิลทั้งสามเสริมครบ; ระบุว่าสกิล 2 ลดความเร็วแล้วลอย และอัลติโจมตีป้อมได้; เซ็ตแนะนำ 'Arcane Blade' (秘咒之刃 ซึ่งน่าจะตรงกับ Orb of the Magi ตามชื่อจีน ไม่ยืนยัน) กับ 拘魂 (ไม่ทราบชื่อไอเทมเทียบ) (เป็นบันทึกสรุปที่เขียนโดยเว็บภายนอก ไม่ใช่ทรานสคริปต์ต้นฉบับ ทดสอบกับเซิร์ฟเวอร์จีน/AOV)",
+      "quote": "趕快把瘟疫能量疊到145層，讓大招進化成移動施法",
+      "source": {"url": "https://ytget.cc/entry/preyta-rework-guide-combo-builds", "kind": "video", "date": "2026-09-23", "transcript": false, "stale": false}
+    },
+    {
+      "id": "preyta-027",
+      "type": "item",
+      "text": "Gametimeprime (SS24, 8 มี.ค. 2021): ไอเทม Orb of the Magi, Flashy Boots, Zweihander, Hecate's Diadem, Staff of Nuul, Holy of Holies พร้อมคุณสมบัติไอเทมช่วงนั้น (เช่น Orb +140 AP, Staff of Nuul เจาะเวท 40%); อาร์คานา Violate/Guerrilla/Flurry x10; พลังแฝง Veda: Axe of Sacrifice, Holy Verdic, Sacred Protection; Lokheim: Devourer, Bone Cutter",
+      "quote": "Orb of the Magi / Flashy Boots / Zweihander / Hecate's Diadem / Staff of Nuul / Holy of Holies",
+      "source": {"url": "https://gametimeprime.com/preyta-aov/", "kind": "article", "date": "2021-03-08", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-028",
+      "type": "matchup",
+      "text": "Zathong (SS28, 4 เม.ย. 2021): ภัยคุกคามสูงมากต่อ Preyta ที่ดึงได้ Nakroth, Alice, Zip, Peura (รายการอาจถูกตัดทอนในผลค้นหา); ไอเทม/อาร์คานา/พลังแฝงชุดเดียวกับ Zathong aov-preyta",
+      "quote": "Extreme Threats : Nakroth : Alice : Zip : Peura",
+      "source": {"url": "https://zathong.com/preyta-rov/", "kind": "article", "date": "2021-04-04", "transcript": true, "stale": true}
+    },
+    {
+      "id": "preyta-029",
+      "type": "item",
+      "text": "aayyy.com (ไม่ระบุวันที่): บิลด์ Enchanted Kicks, Boomstick, Hecate's Diadem, Staff of Nuul (หรือ Spoopy Mask), Arctic Orb, Holy of Holies; อาร์คานา Violate/Guerrilla/Flurry x10 (หมายเหตุ: ชื่อสกิลในหน้านี้ Plague Path/Plague Bomb/Flying Plague ไม่ตรงกับชื่อทางการ จึงเชื่อถือได้ต่ำ)",
+      "quote": "Enchanted Kicks | Boomstick | Hecate's Diadem | Staff of Nuul (or Spoopy Mask) | Arctic Orb | Holy of Holies",
+      "source": {"url": "https://www.aayyy.com/arena-of-valor/preyta-revamp-mid-lane-build-combos/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    }
+  ],
+  "notes": "ไม่มี HANDCRAFTED_GUIDES.preyta ใน src/guide-data.mjs จึงค้นตามหน้าทางการ แพตช์ rovguide/rovmeta และไกด์ชุมชน. ข้อขัดแย้งสำคัญ (ยังไม่ตัดสิน ส่งให้ rov-verifier): (1) หน้าฮีโร่ทางการ rov.in.th, rovmeta และ Zathong SS28 ใช้ชุดสกิลเก่า (Infection / Lethal Pethogen / Putrid Virus / Plague Tentacle ที่รีเซ็ตคูลดาวน์) ขณะที่ rovguide และหน้าสรุป Beta 55 ระบุชุดใหม่หลังรีเวิร์ค (Toxic Mutation / Plague Enchanting / Putrid Virus / Lethal Pathogen เป็นสกิล 3 พร้อมระบบ Plague Energy 25/75/145) จึงไม่ทราบว่าชุดไหนเป็นปัจจุบันจริงในเซิร์ฟไทย; ลำดับอัปสกิล rovmeta (R>Q>W) และคอมโบ rovmeta อ้างอิง R=Plague Tentacle รีเซ็ต ซึ่งไม่มีในคำอธิบายหลังรีเวิร์ค. (2) เทียร์: rovmeta ระบุ C ในหัวหน้าแต่ FAQ ระบุ B ส่วน rovguide สถิติแรงก์ชนะ 53.17% อันดับ 2 ของ Mage. (3) ไม่พบหน้าแพตช์ Beta 55 ทางการที่ rov.in.th อ่านตรง (หน้า patch-notes แสดงเฉพาะรายการล่าสุด Hotfix 17 พ.ย., แพตช์ 12 พ.ย., 3-4 พ.ย. ไม่ได้เปิดอ่านเพื่อดูว่ามีการเปลี่ยน Preyta หลัง Beta 55) จึงยังไม่ทราบว่ามีบัฟ/เนิร์ฟ Preyta หลัง 28 ก.ย. 2026; หน้าแพตช์ 12 พ.ย. ไม่ได้อ่าน. (4) ไม่พบตัวเลขความเสียหาย/มานา/คูลดาวน์ของชุดสกิลใหม่ในแหล่งใดเลย. (5) ไอเทม/อาร์คานา/พลังแฝงจากแหล่งใหม่ล่าสุด (rovmeta, 12 พ.ย.) ใช้ชื่อต่างจากแหล่งเก่า (Desolate/Spirit/Stain vs Violate/Guerrilla/Flurry); ไม่พบรายการพลังแฝงจาก rovmeta. (6) วิดีโอ YouTube ทั้งหมดเข้าถึงได้เฉพาะชื่อหรือบทสรุปบุคคลที่สาม (transcript:false); ไม่ได้ค้นพบ URL วิดีโอ YouTube ของ Ryu327 โดยตรง. (7) ytget.cc อ้างถึง AOV/เซิร์ฟเวอร์จีนไม่ใช่ไทยโดยเฉพาะ; ชื่อไอเทมจีนสองชิ้นไม่ได้แปลงเป็นชื่อไทย/อังกฤษอย่างแน่ชัด. (8) กระทู้/บทความภาษาไทยของชุมชน (เช่น Facebook, Pantip) ไม่พบหลังรีเวิร์ค."
+}

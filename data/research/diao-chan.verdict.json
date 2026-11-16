@@ -1,0 +1,137 @@
+{
+  "hero": "diao-chan",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "diao-chan-001",
+      "verdict": "verified",
+      "reason": "ตรงคำต่อคำกับหน้าทางการ https://www.rov.in.th/hero/diao-chan (ดึงสด 2026-11-16): สัญลักษณ์เยือกแข็ง 5.5 วินาที และ Chilling Frost ซ้ำใส่เป้าหมายติดสัญลักษณ์ทำให้เคลื่อนที่ไม่ได้ 1 วิ ชื่อสกิล Chilling Frost ตรงกับ src/hero-details.json (สกิล 1)",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-002",
+      "verdict": "verified",
+      "reason": "ตรงคำต่อคำกับหน้าทางการ rov.in.th (ดึงสด 2026-11-16): สะสม 2 ครั้ง และแช่แข็งเป้าหมายเดิมภายใน 5 วิ มีผลเพียง 0.75 วิ หมายเหตุ: หน้าทางการตั้งชื่อสกิลนี้ว่า Absolute Zero แต่ src/hero-details.json และ rovguide.com ใช้ Diamond Dust — ชื่อขัดกันระหว่างแหล่งทางการ/ใกล้ทางการ ส่วนตัวเลขใน claim ตรงกับ rov.in.th",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-003",
+      "verdict": "verified",
+      "reason": "ตรงกับหน้า aov-builds.com/th/heroes/diaochan/ (ดึงสด 2026-11-16): ตารางอัปสกิลระบุ Chilling Frost ที่เลเวล 2 3 5 7 9 11, Absolute Zero ที่ 1 6 10 13 14 15, Blizzard ที่ 4 8 12 แหล่งเดียวแต่เป็นการอ้างว่า 'ไกด์ระบุ' ซึ่งตรวจยืนยันได้จากหน้านั้นโดยตรง",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-004",
+      "verdict": "verified",
+      "reason": "ตรงคำต่อคำกับส่วน 'วิธีคอมโบ Diaochan' ของ aov-builds.com (ดึงสด 2026-11-16): คอมโบพื้นฐาน 1-2-3 ใช้สกิล 1 สโลว์ สกิล 2 แช่แข็ง แล้วร่ายสกิล 3 เมื่อศัตรูถูกแช่แข็ง",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-005",
+      "verdict": "verified",
+      "reason": "ตรงกับ 'บิลด์เลนมิด' บน aov-builds.com (ดึงสด 2026-11-16) และไอเทมทั้ง 6 ชิ้น (Enchanted Kicks, Boomstick, Hecate's Diadem, Staff of Nuul, Arctic Orb, Holy of Holies) มีอยู่ใน src/items.json ทั้งหมด",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-006",
+      "verdict": "rejected",
+      "reason": "ข้อความตรงกับ aov-builds.com แต่ Tome of the Reaper และ Sage's Blade ไม่มีใน src/items.json — ไอเทมไม่อยู่ในข้อมูลทางการของโปรเจกต์ ตามกฎข้อ 1 ห้าม verified และถือว่าขัด/ไม่มีจริงในฐานข้อมูลอ้างอิง",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-007",
+      "verdict": "verified",
+      "reason": "ตรงกับหมายเหตุท้ายเกมบน aov-builds.com (ดึงสด 2026-11-16) และ Arctic Orb, Blade of Eternity, Death Sickle ทั้งสามมีใน src/items.json",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-008",
+      "verdict": "verified",
+      "reason": "ตรงกับส่วน 'รูน Diaochan' บน aov-builds.com (ดึงสด 2026-11-16): รูนแดง III พลังเวท/เจาะเกราะเวท x10, ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่ x10, เขียว III ความเร็วโจมตี/เจาะเกราะเวท x10 ไม่ระบุชื่อรูนจริงตามที่ claim ยอมรับ",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-009",
+      "verdict": "verified",
+      "reason": "ตรงคำต่อคำกับ aov-builds.com (ดึงสด 2026-11-16): ทริกวางสกิล 2 Absolute Zero ตรงตำแหน่งตัวเองแล้วร่ายสกิล 3 Blizzard ระหว่างปะทะ",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-010",
+      "verdict": "verified",
+      "reason": "ตรงกับส่วน 'วิธีเล่นช่วงท้ายเกม' บน aov-builds.com (ดึงสด 2026-11-16): เคลื่อนที่กับทีม อยู่หลังแนว ร่ายอัลติเมื่อศัตรูถูกแช่แข็ง โดนเพื่อนควบคุม หรือรวมตัวในพื้นที่แคบ",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-011",
+      "verdict": "verified",
+      "reason": "ตรงกับส่วน 'รูน Diao Chan' บน zathong.com/diao-chan-rov/ (ดึงสด 2026-11-16): Violate x10, Benevolence x10, Hex x10 พร้อมเอฟเฟกต์ เป็นการอ้างคำแนะนำของไกด์ ไม่ใช่ข้อเท็จจริงทางการ (รูนทางการใน hero-details.json คือ Desolate/Protect/Secret ต่างกัน แต่ claim ระบุชัดว่ามาจาก Zathong)",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-012",
+      "verdict": "verified",
+      "reason": "ตรงกับส่วน 'พลังแฝง Diao Chan' บน zathong.com (ดึงสด 2026-11-16): Veda: Mana Refill, Holy Verdic, Holy Thunder; Human – Lokheim: Reaper's Blessing, Devourer claim ระบุชัดว่าเก็บการสะกดตามแหล่ง ไม่ใช่ข้อเท็จจริงทางการ (พลังแฝงทางการใน hero-details.json มี Mana Refill/Holy Thunder ตรง แต่ไม่มี Holy Verdic/Reaper's Blessing/Devourer)",
+      "confidence": 0.75,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-013",
+      "verdict": "rejected",
+      "reason": "ขัดกับแหล่งที่อ้าง: zathong.com (ดึงสด 2026-11-16) จัด Extreme Threats คือ Zill, Murad, Nakroth, Paine, Dirak ส่วน Alice, TeeMee, Zip, Peura อยู่ใต้หัวข้อ 'Ideal Synergies' (ฮีโร่ที่เข้ากันดี) ไม่ใช่ภัยคุกคาม — claim รวมผิดกลุ่ม",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-014",
+      "verdict": "rejected",
+      "reason": "ข้อความตรงกับชุด 'ไอเทมแนะนำ' ชุดแรกบน zathong.com แต่ Tome Of The Reaper ไม่มีใน src/items.json ตามกฎข้อ 1 ไอเทมในบิลด์ต้องพบในฐานข้อมูลทางการก่อนจึงจะ verified ได้",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-015",
+      "verdict": "unverifiable",
+      "reason": "ตรงกับประวัติบน rovguide.com/heroes/diao-chan (ดึงสด 2026-11-16): B54 07.23 Hotfix เพิ่มผลลดความเร็วโจมตีของพาสซีฟ 20%–34% เป็น 25%–50% แต่ RoVGuide เป็นแหล่งชุมชนแหล่งเดียว ไม่พบประกาศทางการ (hotfix260723 คืน CRAWL_NOT_FOUND ตาม notes ของ researcher) ตัวเลขต้องการแหล่งตัวเลขจริงมากกว่าหนึ่งแหล่ง",
+      "confidence": 0.6,
+      "needsInGameTest": false
+    },
+    {
+      "id": "diao-chan-016",
+      "verdict": "unverifiable",
+      "reason": "ตรงกับ rovguide.com (ดึงสด 2026-11-16): คูลดาวน์ Chilling Frost 6-0.2/LV เป็น 5.5-0.2/LV และสอดคล้องกับตารางคูลดาวน์ 5.5s ที่เลเวล 1 บนหน้าเดียวกัน แต่ยังเป็นแหล่งชุมชนแหล่งเดียวโดยไม่มีประกาศทางการยืนยัน",
+      "confidence": 0.6,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 11,
+    "contested": 0,
+    "rejected": 3,
+    "unverifiable": 2
+  },
+  "safeToPublish": [
+    "diao-chan-001",
+    "diao-chan-002",
+    "diao-chan-003",
+    "diao-chan-004",
+    "diao-chan-005",
+    "diao-chan-007",
+    "diao-chan-008",
+    "diao-chan-009",
+    "diao-chan-010",
+    "diao-chan-011",
+    "diao-chan-012"
+  ]
+}

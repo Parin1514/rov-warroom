@@ -1,0 +1,12 @@
+{
+  "hero": "ybneth",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {"id": "ybneth-001", "verdict": "contested", "reason": "Natural Affinity มีใน src/hero-details.json และข้อความบนหน้า rov.in.th/hero/ybneth ตรงคำต่อคำ (เข้าสู่พุ่มไม้, คูลดาวน์ 15 วิ, หยุดทันทีหากถูกโจมตี) แต่หน้านี้ไม่มีวันเผยแพร่จึงไม่ทราบความใหม่; hero-details.json ระบุ cooldown ว่างสำหรับพาสซีฟ; การค้นอิสระพบว่าหน้าทางการไม่ตรงกับ patch history ที่เกี่ยวข้องเสมอไป เช่น hotfix261104 ไม่มี Y'bneth แต่ beta53 กลับอ้างว่าบัฟความเสียหายและโล่ 8% สำหรับสกิล 1 แม้หน้าปัจจุบันระบุ 250 (+80% AD); ตัวเลข HP32 และมานา 10 ต่อวิ ยังไม่มีแหล่งตัวเลขปัจจุบันที่ไม่ขัดแย้ง", "confidence": 0.55, "needsInGameTest": true},
+    {"id": "ybneth-002", "verdict": "contested", "reason": "Wicked Thorns มีใน src/hero-details.json และคำในหน้าทางการตรง quote (ครบ 5 ครั้ง, 2 ครั้งถ้าโดนฮีโร่, พุ่งผลักศัตรู, เกราะ 8% HP สูงสุด) แต่ขัดกับหน้าแพตช์ทางการ beta53 ซึ่งระบุสกิล 1 ใช้สูตร 5% HP สูงสุด +1%/LV +0.8AD และโล่ 8% HP สูงสุด ไม่ใช่ 250 (+80% AD); ยังไม่ทราบวันมีผลของ beta53 และการค้นประวัติแพตช์ไม่ครบ จึงยืนยันไม่ได้ว่าหน้าฮีโร่ปัจจุบันเท่า cutoff", "confidence": 0.55, "needsInGameTest": true},
+    {"id": "ybneth-003", "verdict": "contested", "reason": "Branching Out มีใน src/hero-details.json แท็กสตั้นตรงกับกลไก 2 เป้าหมาย/สตัน 1 วิ แต่คำอ้างทั้งหมดมาจากหน้า rov.in.th/hero/ybneth ที่ไม่มีวันเผยแพร่เพียงแหล่งเดียว; ไม่พบแหล่งอิสระยืนยันโบนัส 50% หรือสตัน 1 วิ แบบไม่ลอกกัน จึงไม่พอสำหรับ verified ตาม cutoff", "confidence": 0.5, "needsInGameTest": true},
+    {"id": "ybneth-004", "verdict": "contested", "reason": "Nature's Realm มีใน src/hero-details.json และหน้าทางการระบุทั้งเกราะ 20% HP สูงสุด, ลดความเร็ว 60%, เมล็ดพันธุ์, ฟื้นฟู HP 2%, สตัน 1 วิหากโดนเกิน 8 ครั้ง ตรงกับ claim; แต่แหล่งเดียวนี้ไม่มีวันเผยแพร่และไม่ทราบความใหม่ ไม่มีแหล่งตัวเลขอิสระรองรับรายละเอียดทั้งหมด จึงยังต้องทดสอบกลไกในเกมก่อนเผยแพร่", "confidence": 0.55, "needsInGameTest": true}
+  ],
+  "summary": {"verified": 0, "contested": 4, "rejected": 0, "unverifiable": 0},
+  "safeToPublish": []
+}

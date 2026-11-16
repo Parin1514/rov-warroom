@@ -1,0 +1,281 @@
+{
+  "hero": "amily",
+  "gamePatch": "ค้นเมื่อแพตช์ 12 พ.ย. 2026 + Hotfix 17 พ.ย. 2026 (การเปลี่ยนแปลง Amily ล่าสุดที่พบคือ Beta 55 'Abyssal Rift' 28 ก.ย. 2026)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "amily-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิลติดตัว Duel: เมื่อโจมตีปกติหรือสกิล Combo โดนเป้าหมายเดียว สร้างความเสียหายเพิ่ม 50% (หมายเหตุ: ตัวเลขสกิลในหน้านี้ต่างจากที่ rovguide ระบุสำหรับ Beta 55 ดู notes)",
+      "quote": "50%",
+      "source": {"url": "https://www.rov.in.th/hero/amily", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Kickblade (สกิล 1): มีดเด้งไปหาศัตรูอีก 4 ครั้ง ความเสียหายกายภาพ 150 (+60% AD) ลดความเร็วเคลื่อนที่ 30% (เป้าหมายแรก 50%) เมื่อมีดกลับมาวิ่งเร็วขึ้น 20% ฟื้นฟู HP 125 (+50% AD) และลดคูลดาวน์สกิลนี้ 30%",
+      "quote": "150 (+60% AD) ... HP 125(+50% AD) ... 30%",
+      "source": {"url": "https://www.rov.in.th/hero/amily", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Combo (สกิล 2): กระโดดเตะต่อเนื่อง ความเสียหายกายภาพ 80 (+30% AD) ครั้งที่ 2 ทำให้ลอย จากนั้นการโจมตีปกติครั้งถัดไปพุ่งโจมตีสร้างโบนัสความเสียหาย 80 (+30% AD) สกิลติดตัว: ฟื้นฟู 1% ของ HP และมานาสูงสุดต่อวินาที และวิ่งเร็วขึ้น 10 หน่วยเมื่อออกจากการต่อสู้",
+      "quote": "80 (+30% AD)",
+      "source": {"url": "https://www.rov.in.th/hero/amily", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Enrage (สกิล 3): หลัง 1 วินาทีสร้างความเสียหายเวท 300 จากนั้นได้พลังโจมตี +100 ความเร็วเคลื่อนที่ +40 ต้านทานความเสียหาย 40 และสร้างความเสียหายเวท 60 เป็นระยะ",
+      "quote": "300 ... +100 ... +40",
+      "source": {"url": "https://www.rov.in.th/hero/amily", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Amily เป็น Fighter / Assassin (เนื้อหาหน้าเว็บบางส่วนแสดงผลเพี้ยนจาก encoding จึงอ้างเฉพาะส่วนที่อ่านได้)",
+      "quote": "Fighter Assassin",
+      "source": {"url": "https://www.rov.in.th/hero/amily", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-006",
+      "type": "patch-change",
+      "text": "Beta 55 'Abyssal Rift' (28 ก.ย. 2026): Amily บัฟสกิล 2 Combo - โจมตีปกติที่ถูกเสริมสามารถเคลื่อนที่ไปข้างหน้าได้แม้ไม่มีเป้าหมาย (ข้อมูลจาก rovguide ที่สรุปแพตช์ ไม่ได้อ่านหน้าแพตช์ทางการโดยตรง)",
+      "quote": "Skill 2: the enhanced attack can move forward without a target.",
+      "source": {"url": "https://rovguide.com/updates/beta55", "kind": "article", "date": "2026-09-28", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-007",
+      "type": "patch-change",
+      "text": "Beta 54 (7 ก.ค. 2026): แก้บั๊ก Skill 2 ของ Amily สร้างความเสียหายสองเท่าเมื่อใช้ใกล้จบอัลติเมต",
+      "quote": "Fixed Amily's Skill 2 dealing double damage when used near the end of her ultimate.",
+      "source": {"url": "https://rovguide.com/heroes/amily", "kind": "article", "date": "2026-07-07", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-008",
+      "type": "patch-change",
+      "text": "Beta 50 (9 ก.ค. 2025): บัฟความเสียหายสกิล 2 จาก 60+10/Lv+0.4AD เป็น 75+15/Lv+0.45AD",
+      "quote": "Increased Skill 2 damage from 60+10/Lv+0.4AD to 75+15/Lv+0.45AD.",
+      "source": {"url": "https://rovguide.com/heroes/amily", "kind": "article", "date": "2025-07-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-009",
+      "type": "patch-change",
+      "text": "ประวัติเก่าที่ rovguide ลงไว้: Beta 39 (29 พ.ย. 2022) แก้พื้นที่โดนของสกิล 2 และ Beta 38 (28 ก.ย. 2022) แก้บั๊กอัลติเมตลบบัฟโจมตีเสริมพลังของสกิล 2",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/th/heroes/amily", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-010",
+      "type": "skill",
+      "text": "rovguide (ตัวเลขหลัง Beta 55): Duel - โจมตีปกติและ Chain Attacks ที่โดนเป้าหมายเดียวสร้างความเสียหายเพิ่ม 50%",
+      "quote": "deals 50% additional damage",
+      "source": {"url": "https://rovguide.com/heroes/amily", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-011",
+      "type": "skill",
+      "text": "rovguide: Kickblade มานา 50 เด้งได้สูงสุด 4 ครั้ง ความเสียหายกายภาพ 120 (+75% AD) (เลเวลสกิล 120-210) ลดความเร็วเคลื่อนที่ 30% นาน 2 วินาที เป้าหมายแรกลดเพิ่ม 50% เมื่อมีดกลับมาได้ความเร็วเคลื่อนที่ +20% และความเร็วโจมตี +15% นาน 3 วินาที ฟื้นฟู HP 6% ของ HP สูงสุด (+1% ต่อ 100 AD) และลดคูลดาวน์สกิลนี้ 30% คูลดาวน์ 9 วินาทีลดเหลือ 7 วินาที",
+      "quote": "120 (+ 75% of AD) ... restored by 6% of her max HP (+ 1% for every 100 attack damage)",
+      "source": {"url": "https://rovguide.com/heroes/amily", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-012",
+      "type": "skill",
+      "text": "rovguide: Combo มานา 40 ความเสียหายกายภาพ 75 (+45% AD) (เลเวลสกิล 75-150) ครั้งที่สองลอยเป้าหมาย และให้การโจมตีครั้งถัดไปโบนัส 72 (+54% AD) พร้อมเอฟเฟกต์พุ่ง คูลดาวน์ 6 วินาทีลดเหลือ 5 วินาที สกิลติดตัวฟื้นฟู 1% HP และ 1% MP และวิ่งเร็ว +10 เมื่อออกจากการต่อสู้ การโจมตีเสริมพลังเคลื่อนที่ไปข้างหน้าได้โดยไม่มีเป้าหมาย",
+      "quote": "75 (+ 45% of AD) ... additional 72 (+ 54% of AD)",
+      "source": {"url": "https://rovguide.com/heroes/amily", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-013",
+      "type": "skill",
+      "text": "rovguide: Enrage มานา 100 หลัง 1 วินาทีสร้างความเสียหายเวท 150/225/300 (+40% AD) ได้พลังโจมตี +100/150/200 ความเร็วเคลื่อนที่ +50 กันความเสียหาย 60/100/140 และสร้างความเสียหายเวท 30/45/60 (+8% AD) ทุก 0.5 วินาทีนาน 8 วินาที คูลดาวน์ 45/37.5/30 วินาที",
+      "quote": "150 (+ 40% of AD) magic damage ... gaining 100 attack damage and 50 movement speed, and blocks 60 damage",
+      "source": {"url": "https://rovguide.com/heroes/amily", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-014",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026): อัตราชนะ 47.02% อัตราเลือก 3.50% อัตราแบน 0.16% อันดับที่ 37 จาก 39 ในกลุ่ม Fighter และ 35 จาก 37 ในเลน Slayer; เรตติ้งทางการ ความอยู่รอด 3 ความเสียหาย 3 ฟังก์ชัน 2 ความยาก 1",
+      "quote": "47.02%",
+      "source": {"url": "https://rovguide.com/heroes/amily", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-015",
+      "type": "playstyle",
+      "text": "rovmeta (อัปเดต 12 พ.ย. 2026): เทียร์ A ตาม Zathong และ B ตาม CommonSenseGamer; FAQ ระบุว่าเป็นตัวเลือกเทียร์ B ที่นิ่ง",
+      "quote": "tier B stable pick",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-016",
+      "type": "skill",
+      "text": "rovmeta: ลำดับอัปสกิลให้ความสำคัญ อัลติ > สกิล 1 > สกิล 2; Kickblade เลเวล 1/3/5/7/9/13, Combo เลเวล 2/4/8/10/12/14, Enrage เลเวล 6/11/15; อัป Kickblade สุดก่อน แล้วค่อย Combo (หมายเหตุ: ตัวเลขสกิลบนหน้านี้เป็นชุดเก่า)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-017",
+      "type": "combo",
+      "text": "rovmeta: คอมโบเทรดในเลนมาตรฐาน คือ Kickblade แล้ว Combo แล้วโจมตีปกติที่เสริมพลัง",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-018",
+      "type": "combo",
+      "text": "rovmeta: คอมโบ all-in เมื่อศัตรูเลือดต่ำกว่า 60%: Kickblade, Combo, กด Enrage ระหว่างศัตรูลอย, โจมตีปกติเสริมพลัง แล้วโจมตีปกติต่อในร่าง Enrage",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-019",
+      "type": "combo",
+      "text": "rovmeta: คอมโบเข้าด้วย Flicker: Combo, Enrage, Kickblade (ระบุเป็นลำดับ 2, R, 1)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-020",
+      "type": "combo",
+      "text": "rovmeta: ตอดเลือดอย่างปลอดภัยด้วยการวน Kickblade และยืนบนเส้นทางที่มีดบินกลับ",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-021",
+      "type": "item",
+      "text": "rovmeta: ลำดับออกของ Gilded Greaves, Broken Spear, Hercules's Madness, Omni Arms, Fenrir's Tooth (ชิ้นที่ 5) และ Blade of Eternity (ชิ้นสุดท้าย)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-022",
+      "type": "rune",
+      "text": "rovmeta: รูน (arcana) Onslaught, Assassinate, Dragon's Claw; สกิลชาเลนเจอร์ Flicker",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-023",
+      "type": "matchup",
+      "text": "rovmeta: Amily กลัว Butterfly, Murad, Florentino, Allain",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-024",
+      "type": "matchup",
+      "text": "rovmeta: Amily เด่นเมื่อเจอ Skud, Kil'Groth, Taara, Ormarr, Arduin, Zanis; เข้ากับ Baldum, Annette, Grakk, Ormarr",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-025",
+      "type": "matchup",
+      "text": "rovmeta (วิธีสู้ Amily): รวมกลุ่มเพื่อปิด Duel (ความเสียหายลดเหลือราวสองในสาม) โดย Butterfly และ Murad รับมือได้ดี",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-026",
+      "type": "playstyle",
+      "text": "rovmeta: เลเวล 1 เล่นเซฟ ได้ Combo เลเวล 2; Broken Spear ราว 8-10 นาที; Hercules's Madness ราว 13-16 นาทีคือจุดพีก; อ่อนลงหลังนาทีที่ 25; ฟื้นฟูนอกการต่อสู้ทำให้ไม่ต้องกลับฐาน; กด Enrage ก่อนเข้าปะทะ; เก็บ Flicker ไว้ใช้หลังโดน CC แบบคลิกจาก Baldum, Grakk, Lumburr",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "amily-027",
+      "type": "playstyle",
+      "text": "rovmeta ฝังวิดีโอโปรของ HBX ชื่อ 'สอนเล่น Amily เบื้องต้น+เทคนิคคอมโบสกิล' (เห็นเฉพาะชื่อในหน้าเว็บ ไม่มีทรานสคริปต์)",
+      "quote": "สอนเล่น Amily เบื้องต้น+เทคนิคคอมโบสกิล",
+      "source": {"url": "https://rovmeta.com/th/heroes/amily", "kind": "video", "date": "2026-11-12", "transcript": false, "stale": false}
+    },
+    {
+      "id": "amily-028",
+      "type": "item",
+      "text": "Gametimeprime (SS16): ไอเทมแนะนำ Gilded Greaves, Rankbreaker (ชื่อเดิมในตารางคือ Broken Spear), Hercules Madness, Omni Arms, Fenrir's Tooth, Blade of Eternity",
+      "quote": "Gilded Greaves / Rankbreaker / Hercules Madness / Omni Arms / Fenrirs Tooth / Blade of Eterenity",
+      "source": {"url": "https://gametimeprime.com/amily-rov/", "kind": "article", "date": "2020-10-10", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-029",
+      "type": "rune",
+      "text": "Gametimeprime (SS16): รูน Onslaught x10 (พลังโจมตี +2 เจาะเกราะ +3.6), Assassinate x10 (พลังโจมตี +1.6 ความเร็วเคลื่อนที่ +1%), Dragon's Claw x10 (พลังโจมตี +0.9 เจาะเกราะ +6.4)",
+      "quote": "",
+      "source": {"url": "https://gametimeprime.com/amily-rov/", "kind": "article", "date": "2020-10-10", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-030",
+      "type": "enchant",
+      "text": "Gametimeprime (SS16): พลังแฝง Lokheim ลำดับ Shadow Blade, Deadly Claw, Devil's Awakening; อีกชุดคือ Afata-Veda: River Treader, Axe of Sacrifice; สกิลชาเลนเจอร์ Flicker",
+      "quote": "Shadow Blade / Deadly Claw / Devil's Awakening",
+      "source": {"url": "https://gametimeprime.com/amily-rov/", "kind": "article", "date": "2020-10-10", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-031",
+      "type": "enchant",
+      "text": "Gametimeprime (SS16): Devil's Awakening เมื่อใช้อัลติเมตจะลดคูลดาวน์สกิลธรรมดา 50% (คูลดาวน์ 30 วินาที) ลดความเสียหายที่ได้รับ 10%; Deadly Claw ให้พลังโจมตี 12-40 และพลังเวท 18-60",
+      "quote": "",
+      "source": {"url": "https://gametimeprime.com/amily-rov/", "kind": "article", "date": "2020-10-10", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-032",
+      "type": "item",
+      "text": "Zathong (SS28): ไอเทมแนะนำ Mantle of Ra, Sonic Boots, Rankbreaker, Frost Cape, Gaia's Standard, Blade of Eternity, Gilded Greaves, Hercules Madness, Omni Arms, Fenrir's Tooth; สกิลชาเลนเจอร์ Flicker และ Execute",
+      "quote": "",
+      "source": {"url": "https://zathong.com/amily-rov/", "kind": "article", "date": "2021-04-02", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-033",
+      "type": "rune",
+      "text": "Zathong (SS28): รูน Onslaught x10, Assassinate x10, Skewer x10 (Skewer: พลังโจมตี +0.9 เจาะเกราะ +6.4)",
+      "quote": "",
+      "source": {"url": "https://zathong.com/amily-rov/", "kind": "article", "date": "2021-04-02", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-034",
+      "type": "enchant",
+      "text": "Zathong (SS28): พลังแฝง Lokheim: Devourer, Deadly Claw, Desperate Duel; Human: Arcane Whisper, Gunslinger",
+      "quote": "",
+      "source": {"url": "https://zathong.com/amily-rov/", "kind": "article", "date": "2021-04-02", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-035",
+      "type": "matchup",
+      "text": "Zathong (SS28): ฮีโร่ที่จัดเป็นภัยคุกคามสูงมากต่อ Amily คือ Zephys, Lu Bu, Maloch, Xeniel, Omen, Alice, TeeMee, Zip, Peura, Baldum",
+      "quote": "Extreme Threats",
+      "source": {"url": "https://zathong.com/amily-rov/", "kind": "article", "date": "2021-04-02", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-036",
+      "type": "item",
+      "text": "4Gamers (Doyser, สายคริ): ไอเทมหลัก Broken Spear, Mantle of Ra, Frost Cape, Cleave Sancti (ชุดเซ็ตอื่นเป็นรูปภาพ อ่านไม่ได้)",
+      "quote": "",
+      "source": {"url": "https://4gamers.co.th", "kind": "article", "date": "2019-12-17", "transcript": false, "stale": true}
+    },
+    {
+      "id": "amily-037",
+      "type": "item",
+      "text": "aov-news (2023): Rankbreaker เป็นไอเทมหลัก Fenrir's Tooth ช่วงท้ายเกม และมีชุดที่ใช้ Soulreaver, Omni Arms, Blade of Eternity, Mantle of Ra, Aegis, Medallion of Troy, Frost Cape, Muramasa",
+      "quote": "",
+      "source": {"url": "https://aov-news.com", "kind": "article", "date": "2023-03-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "amily-038",
+      "type": "playstyle",
+      "text": "วิดีโอ Hutton 'Amily เอมิลี่บัฟใหม่ สอนเล่นพร้อมเซ็ทลงแรงก์สายผสม' (ดึงได้เฉพาะชื่อคลิป ไม่มีคำอธิบายหรือทรานสคริปต์ จึงไม่อ้างเนื้อหาเพิ่ม)",
+      "quote": "Amily เอมิลี่บัฟใหม่ สอนเล่นพร้อมเซ็ทลงแรงก์สายผสม",
+      "source": {"url": "https://www.youtube.com/watch?v=oC38UuRN03o", "kind": "video", "date": "2025-02-21", "transcript": false, "stale": true}
+    },
+    {
+      "id": "amily-039",
+      "type": "playstyle",
+      "text": "วิดีโอ 'สอนเล่น Amily เบื้องต้น+เทคนิคคอมโบสกิล' (ดึงได้เฉพาะชื่อคลิป ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหาเพิ่ม)",
+      "quote": "สอนเล่น Amily เบื้องต้น+เทคนิคคอมโบสกิล",
+      "source": {"url": "https://www.youtube.com/watch?v=nGWnJs4TT70", "kind": "video", "date": "2024-11-16", "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "ครอบคลุมที่ guide-data.mjs (HANDCRAFTED_GUIDES.amily) อ้าง; รายการที่ไม่พบในแหล่งใด: (1) ไอเทม 'Spear of Longinus' - แหล่งทั้งหมดใช้ Broken Spear/Rankbreaker; (2) รูน 'Spirit' - แหล่งใช้ Assassinate/Skewer/Dragon's Claw; (3) ไอเทมแก้ทาง Curse of Death, Soul Scroll, Shield of the Lost, The Aegis (ยกเว้น Aegis ที่ aov-news ใช้ในชุดเล่น Amily ไม่ใช่ชุดแก้ทาง) และคำแนะนำตัดฮีลสู้ Amily ไม่พบในแหล่งใด; (4) Medallion of Troy ปรากฏเฉพาะใน aov-news (2023) ในชุดเล่น; (5) Desperate Duel ปรากฏเฉพาะใน Zathong (SS28) ส่วนชื่อ Devourer/Shadow Blade/Devil's Awakening อยู่ในแหล่งเก่า; (6) ตัวเลขฮีล Kickblade ต่างกันระหว่างแหล่ง: guide ระบุ 10% HP สูงสุด, rovguide (Beta 55) 6% (+1%/100 AD), หน้าทางการ/Zathong 125 (+50% AD); (7) guide ระบุ 'ลดความเร็ว 50%' และ Duel ใช้กับ 'สกิล 2' ตรงกับบางแหล่งเท่านั้น (ทางการ/rovguide ใช้ 50% เฉพาะเป้าหมายแรก 30% เป้าอื่น). ข้อขัดแย้งของตัวเลข: หน้าฮีโร่ทางการ rov.in.th/hero/amily ยังแสดงตัวเลขชุดเก่า (เช่น Kickblade 150 +60% AD, Combo 80 +30% AD, Enrage 300) ส่วน rovguide แสดงชุดปัจจุบันหลัง Beta 55 (120 +75% AD, 75 +45% AD ฯลฯ) และ rovmeta ใช้ตัวเลขชุดเก่า ยังไม่ตัดสินว่าชุดไหนถูก ส่งให้ rov-verifier. หน้าแพตช์ทางการที่อ่านแล้วและไม่พบการเปลี่ยนแปลง Amily: Hotfix 17 พ.ย. 2026 (มีวันที่หลังวันค้น 16 พ.ย. ซึ่งผิดปกติ), Hotfix 4 พ.ย. 2026, เซิร์ฟเวอร์ทดสอบ 3 พ.ย. 2026, Hotfix 30 ต.ค. 2026. หน้าแพตช์ 12 พ.ย. 2026 อ่านไม่ได้ (URL เดาแล้ว CRAWL_NOT_FOUND ไม่พบ URL จริง) จึงยืนยันไม่ได้ว่ามีการเปลี่ยน Amily ในแพตช์นั้นหรือไม่. หน้าแพตช์ Beta 55 ทางการยังไม่ได้อ่านโดยตรง ใช้ rovguide อ้างแทน (kind article). วิดีโอ YouTube ทั้งสองเข้าถึงได้เฉพาะชื่อคลิป (transcript:false). แหล่ง 4gamers/aov-news อ้างเฉพาะระดับโดเมน ไม่ได้ระบุ URL บทความเต็ม ควรให้ rov-verifier ตรวจ URL ก่อนใช้."
+}

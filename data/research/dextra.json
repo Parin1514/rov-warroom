@@ -1,0 +1,288 @@
+{
+  "hero": "dextra",
+  "gamePatch": "ค้นเมื่อ 16 พ.ย. 2026 การเปลี่ยนแปลง Dextra ล่าสุดที่พบคือ Hotfix B54 13 ส.ค. 2026 (rovmeta ระบุแพตช์ 1.64 อัปเดต 10 พ.ย. 2026)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "dextra-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Dextra เป็น Fighter / Tank และสกิลติดตัว Blood Curse ขโมยพลังโจมตี 1% ทุกครั้งที่โจมตีปกติ สูงสุด 8 ครั้งต่อฮีโร่ 1 เป้าหมาย รวมทั้งหมด 20 ครั้งในทุกเป้าหมาย",
+      "quote": "ขโมยพลังโจมตี 1% ทุกครั้งที่โจมตีปกติ โดยสูงสุด 8 ครั้งต่อฮีโร่ 1 เป้าหมาย และรวมทั้งหมด 20 ครั้ง ในทุกเป้าหมาย",
+      "source": {"url": "https://www.rov.in.th/hero/dextra", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ (Blood Curse - Bloodlines): หาก Sinestrea ใช้ Blood Ghost ใส่ Dextra จะวาร์ปไปที่ Dextra ทันทีพร้อมฟื้นฟู HP; (Blood Ritual): เมื่อ Sinestrea ใช้ Blood Ritual Dextra จะสังเวย HP ทั้งหมดแทน หากอัลติเมตพร้อมจะถูกใช้อัตโนมัติ หากไม่มีอัลติเมตจะตายทันที (ข้อความนี้เป็นชุดก่อนรีเวิร์ค 13 ส.ค. 2026 ดู notes)",
+      "quote": "Bloodlines : หาก Sinestrea ใช้ Blood Ghost ใส่จะวาร์ปไปที่ Dextra ทันทีพร้อมฟื้นฟู HP",
+      "source": {"url": "https://www.rov.in.th/hero/dextra", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ Saw Storm (สกิล 1): วิ่งเร็วขึ้นพร้อมกันสถานะสโลว์ วิ่งผ่านศัตรูสร้างความเสียหายกายภาพ เมื่อสิ้นสุดการวิ่งยังได้วิ่งเร็วต่ออีก 3 วินาที และการโจมตีครั้งต่อไปสร้างความเสียหายกายภาพเพิ่มพร้อมสโลว์",
+      "quote": "ทำให้การโจมตีครั้งต่อไปสร้างความเสียหายกายภาพเพิ่มพร้อมทั้งสโลว์",
+      "source": {"url": "https://www.rov.in.th/hero/dextra", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ Saw Cut (สกิล 2): สร้างความเสียหายกายภาพใส่ศัตรูรอบตัว และฟื้นฟู HP 4% ของที่เสียไป ทำให้การโจมตีครั้งต่อไปสร้างความเสียหายกายภาพเพิ่ม",
+      "quote": "ฟื้นฟู HP 4% ของที่เสียไป",
+      "source": {"url": "https://www.rov.in.th/hero/dextra", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ Demon's Gift (อัลติเมต): ในระยะ 3 วินาที ความเสียหายที่ได้รับจะแปรเปลี่ยนเป็นการฟื้นฟู HP แทน ฟื้นฟูได้สูงสุด 20% ของ Max HP ต่อการโดนโจมตี 1 ครั้ง (ตัวเลข 20% เป็นชุดก่อนบัฟ 13 ส.ค. 2026)",
+      "quote": "ฟื้นฟูได้สูงสุด 20% ของ Max HP ต่อการโดนโจมตี 1 ครั้ง",
+      "source": {"url": "https://www.rov.in.th/hero/dextra", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-006",
+      "type": "patch-change",
+      "text": "Hotfix B54 13 ส.ค. 2026 (หน้าแพตช์ทางการ) Dextra บัฟ: สกิลติดตัวจำนวนชั้นสูงสุด 16 เป็น 12; เอฟเฟกต์ต่อชั้น 3% (+1% ทุก 4 เลเวล) เป็น 4% (+1% ทุก 3 เลเวล); สกิล 3 คูลดาวน์ 80 (-7.5/Lv) เป็น 70 (-7.5/Lv); อัตราการแปลงผลสกิล 3 จาก 20% เป็น 30%",
+      "quote": "สกิลติดตัว: จำนวนชั้นสูงสุด: 16 → 12 ... สกิล 3: อัตราการแปลงผล: 20% → 30%",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-007",
+      "type": "patch-change",
+      "text": "Hotfix B54 13 ส.ค. 2026 (หน้าแพตช์ทางการ) รีเวิร์คสกิลคู่ Sacrifice ของ Dextra กับ Sinestrea: Dextra เข้าสถานะสละชีพ 3.5 วินาที เสีย HP ปัจจุบัน 99% เพื่อมอบ Dextra's Wish ให้ Sinestrea 10 วินาที ระหว่างนั้น Sinestrea ได้เอฟเฟกต์เหมือนอัลติเมตของ Dextra (เปลี่ยนความเสียหายถึงตายเป็น HP) และความเสียหายที่ Sinestrea ทำต่อฮีโร่ศัตรูฟื้นฟู HP ให้ Dextra นักพัฒนาระบุว่าต้นทุนการสละชีวิตเดิมสูงเกินไปจึงลดและเพิ่มเอฟเฟกต์ใหม่",
+      "quote": "Sacrifice: Dextra จะเข้าสู่สถานะสละชีพเเป็นเวลา 3.5 วิและเสียพลังชีวิตปัจจุบัน 99% เพื่อมอบสถานะ Dextra's Wish ให้กับ Sinestrea เป็นเวลา 10 วิ",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-008",
+      "type": "patch-change",
+      "text": "Beta 49 (23 เม.ย. 2025) ตามที่ rovguide สรุป: Dextra เมื่อโจมตีได้ความเร็วโจมตี 4% (+1% ทุก 3 เลเวล) นาน 5 วินาที โดนฮีโร่ให้ 2 ชั้น สูงสุด 16 ชั้น เมื่อเต็มโจมตีปกติและสกิลเพิ่มความเสียหายจริง 60+12 ต่อเลเวล; สกิล 1 คูลดาวน์ 8-0.4/Lv ล้างสโลว์ เสริมโจมตีถัดไป 150+100% bonus AD สโลว์ 50% 1 วินาที ให้วิ่งเร็ว +50 ทุก 0.5 วินาทีสูงสุด 6 ครั้ง; สกิล 2 โดน 3 ฮิต ฮิตละ 100+25% bonus AD พร้อมดึง ฮีล 2% max HP ต่อยูนิต หรือ 3% ต่อฮีโร่; อัลติเมต คูลดาวน์ 80-10/Lv ล้าง CC กันความเสียหาย 2.5 วินาที แปลง 20% เป็นฮีล และทำงานอัตโนมัติเมื่อโดนความเสียหายถึงตายหากพร้อม",
+      "quote": "Hits grant 4% attack speed plus 1% every 3 levels for 5 seconds, hero hits grant 2 stacks, up to 16",
+      "source": {"url": "https://rovguide.com/heroes/dextra", "kind": "article", "date": "2025-04-23", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-009",
+      "type": "patch-change",
+      "text": "Beta 51 (22 ต.ค. 2025): แก้บั๊กอัลติเมตของ Dextra ฮีลสูงผิดปกติ; Beta 37 (5 ก.ค. 2022): แก้ระยะของโจมตีเสริมสกิล 1 ผิดปกติและไม่สโลว์ รวมถึงอัลติเมตฮีลน้อยเกินไป",
+      "quote": "Dextra: Fixed abnormally high Ultimate healing.",
+      "source": {"url": "https://rovguide.com/heroes/dextra", "kind": "article", "date": "2025-10-22", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-010",
+      "type": "skill",
+      "text": "rovguide (หน้าสกิล สแนปช็อต 19 ต.ค. 2026): Blood Curse ให้ความเร็วโจมตีต่อชั้น 4% (+1% ทุก 4 เลเวล) นาน 5 วินาที โดนฮีโร่ได้ 2 ชั้น สูงสุด 16 ชั้น เมื่อความเร็วโจมตีเต็ม โจมตีปกติและสกิลสร้างความเสียหายจริงเพิ่ม 100 (+10 ต่อเลเวล) (ตัวเลข 16 ชั้นและ +1%/4 เลเวลบนหน้านี้ขัดกับหน้าแพตช์ 13 ส.ค. 2026 ดู notes)",
+      "quote": "each stack increases attack speed by 4% (+ 1% every 4 levels) for 5 s. Up to 16 stacks can be gained.",
+      "source": {"url": "https://rovguide.com/heroes/dextra", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-011",
+      "type": "skill",
+      "text": "rovguide: Saw Storm มานา 0 ลบสโลว์ทั้งหมดทันที โจมตีปกติถัดไปเป็นโจมตีเสริม 150-300 (+100% AD) สโลว์เป้าหมาย 50% นาน 1 วินาที ระหว่างชาร์จได้ super armor และวิ่งเร็ว +50 ทุก 0.5 วินาที สูงสุด 6 ชั้น ชนศัตรูสร้างความเสียหายกายภาพ 50-100 (+25% AD) วิ่งเร็วต่อ 3 วินาทีหลังชาร์จจบ คูลดาวน์ 8s ถึง 6s",
+      "quote": "deals 150 (+ 100% of AD) physical damage and slows the target by 50% for 1 s",
+      "source": {"url": "https://rovguide.com/heroes/dextra", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-012",
+      "type": "skill",
+      "text": "rovguide: Saw Cut มานา 0 เลื่อยตกจากฟ้าสร้างความเสียหายกายภาพ 100-200 (+25% AD) จากนั้นกลิ้งกลับหา Dextra ลากศัตรูตามทางและสร้างความเสียหายอีก 100-200 (+25% AD) เมื่อกลับถึงตัวจะระเบิดอีก 100-200 (+25% AD) ฟื้นฟู 2% max HP ต่อยูนิตที่โดน และเพิ่มอีก 3% max HP เมื่อโดนฮีโร่ คูลดาวน์ 10s ถึง 8s",
+      "quote": "For each enemy unit hit, Dextra restores 2% of her max HP, and additionally restores 3% of her max HP when hitting enemy heroes.",
+      "source": {"url": "https://rovguide.com/heroes/dextra", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-013",
+      "type": "skill",
+      "text": "rovguide: Demon's Gift ล้างเอฟเฟกต์ควบคุม ได้ภูมิคุ้มกันความเสียหาย 2.5 วินาที และแปลง 20% ของความเสียหายที่ได้รับเป็นฮีล เมื่อโดนความเสียหายถึงตายและสกิลไม่ติดคูลดาวน์จะทำงานอัตโนมัติ คูลดาวน์ 70s/62.5s/55s (หน้านี้ยังแสดง 20% ขัดกับหน้าแพตช์ 13 ส.ค. 2026 ที่ระบุ 30%)",
+      "quote": "Dextra removes control effects on her, gaining damage immunity for 2.5 s, and converts 20% of the damage taken into healing.",
+      "source": {"url": "https://rovguide.com/heroes/dextra", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-014",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026): Fighter / Tank เลน Slayer; อัตราชนะ 53.49% อัตราเลือก 1.42% อัตราแบน 0.10% อันดับ 2 จาก 39 ใน Fighter, อันดับ 1 จาก 24 ใน Tank, อันดับ 2 จาก 37 ในเลน Slayer; เรตติ้งความอยู่รอด 3 ความเสียหาย 4 ฟังก์ชัน 2 ความยาก 3",
+      "quote": "53.49%",
+      "source": {"url": "https://rovguide.com/heroes/dextra", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-015",
+      "type": "playstyle",
+      "text": "rovmeta (แพตช์ 1.64 อัปเดต 10 พ.ย. 2026): เทียร์ A; Zathong จัดเทียร์ S, CommonSenseGamer และ FPTShop จัดเทียร์ D (เทียบ C); FAQ ระบุว่า A บนเซิร์ฟไทย ไม่ใช่ S เพราะโซ่ CC ที่ประสานกันเคาน์เตอร์ได้ชัด; ความยากปานกลาง; เลนโซโลปานกลาง",
+      "quote": "ใช่ เธออยู่เทียร์ A บนเซิร์ฟไทยในแพตช์นี้",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-016",
+      "type": "skill",
+      "text": "rovmeta: จุดสำคัญ - Saw Storm ให้อิมมูนสโลว์ทันทีที่กด; โจมตีที่เสริมหลัง Saw Storm มีดาเมจกายภาพโบนัสพร้อมสโลว์ ต้องลงให้ติดก่อนกด W; Saw Cut ฮีล 4% ของ HP ที่หายไปต่อการตี ตีได้หลายเป้า; Demon's Gift แปลงดาเมจเป็นฮีล สูงสุด 20% ของ HP ต่อการโดน 1 ครั้ง 3 วินาที ต้องกดก่อนโดนเบิร์สต์ ไม่ใช่หลัง (ตัวเลขเป็นชุดข้อความสกิลทางการเก่า)",
+      "quote": "Demon's Gift แปลงดาเมจที่รับเป็นฮีล สูงสุด 20% ของ HP ต่อการโดนหนึ่งครั้ง เป็นเวลา 3 วินาที ต้องกดก่อนโดนเบิร์สต์ ไม่ใช่หลัง",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-017",
+      "type": "skill",
+      "text": "rovmeta: ลำดับอัปสกิลให้ความสำคัญ R > Q (สกิล 1) > W (สกิล 2); Saw Storm เลเวล 1/3/5/7/9/13, Saw Cut เลเวล 2/4/8/10/12/14, Demon's Gift เลเวล 6/11/15",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-018",
+      "type": "combo",
+      "text": "rovmeta คอมโบบุกมาตรฐาน: Saw Storm (Q) ทะลุตัวศัตรู ลงโจมตีเสริมจาก Q ต่อด้วย Saw Cut (W) ทันทีเพื่อโดนหลายตัวและฮีล แล้วสตาก Blood Curse ด้วยโจมตีต่อ ใช้ชนะการแลกหมัดยาวตั้งแต่เลเวล 4",
+      "quote": "ใช้ท่านี้ชนะการแลกหมัดยาวๆ ตั้งแต่เลเวล 4 เป็นต้นไป",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-019",
+      "type": "combo",
+      "text": "rovmeta คอมโบล่อแล้วฮีล (Bait-and-Heal): Saw Storm เดินเข้าหาศัตรูเหมือนแลกหมัดปกติ ปล่อยให้ศัตรูยิงสกิลเบิร์สต์ แล้วกด R (Demon's Gift) ทันทีเพื่อแปลงเป็นฮีล จากนั้น W เข้าโจมตีต่อเนื่อง ใช้กับอัสซาซินที่มีช่วงเบิร์สต์ใหญ่ครั้งเดียว",
+      "quote": "แล้วกด R ทันทีเพื่อแปลงเป็นฮีล จากนั้น W เข้าออโต้ต่อเนื่อง",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-020",
+      "type": "combo",
+      "text": "rovmeta คอมโบสปรินท์เข้าปะทะ: ใช้ Sprint ปิดระยะก่อน Q, ใช้ Flicker กลางแดชถ้าศัตรูแฟลชหนี แล้วซ้อน R เพื่อให้เบิร์สต์ที่ศัตรูสวนกลับกลายเป็นฮีลระหว่างสตากโจมตี ใช้ตอนเข้าตีทีมให้เป็นแนวหน้า",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-021",
+      "type": "item",
+      "text": "rovmeta: บิลด์หลัก Gilded Greaves, Fafnir's Talon, Mail of Pain, Omni Arms, Medallion of Troy, Blade of Eternity ตามลำดับ; Fafnir's Talon เป็นไอเทมใหญ่ตัวแรกที่ปลดล็อกพลังต่อสู้ ไม่ควรเบี่ยงไปบิลด์แทงค์เต็มตัวเร็ว; เมื่อได้ Medallion of Troy กับ Blade of Eternity จะมีชีวิตสำรองเพิ่มในไฟต์ยาว; ช่วงพีคคือ Fafnir's Talon + Mail of Pain",
+      "quote": "Gilded Greaves ต่อด้วย Fafnir's Talon แล้ว Mail of Pain ต่อ Omni Arms ต่อ Medallion of Troy แล้วปิดด้วย Blade of Eternity",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-022",
+      "type": "rune",
+      "text": "rovmeta: อาร์คานาหลัก Awake, Spirit, Dragon's Claw; สกิลชาเลนเจอร์/สเปลล์ Sprint (ระบุว่าเป็นสกิลผู้เรียกที่ห้ามต่อรอง) (หน้านี้ไม่ระบุจำนวน x10 และไม่ระบุพลังแฝง)",
+      "quote": "Sprint ต้องเป็นสกิลผู้เรียกที่ห้ามต่อรอง",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-023",
+      "type": "matchup",
+      "text": "rovmeta: Dextra กลัว Maloch, Ormarr, Butterfly, Lauriel; แข็งใส่ Kil'Groth, Skud, Zanis, Taara, Lu Bu, Toro; เข้าขาดีสุดกับ Sinestrea, Baldum, Annette, RI Riktor",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-024",
+      "type": "matchup",
+      "text": "rovmeta (วิธีสู้ Dextra): ซีซีแรงที่ลงก่อนเธอกด Demon's Gift ทันคือตัวเคาน์เตอร์ที่ได้ผลสุด ฮีโร่อย่าง Ormarr, Maloch, Baldum ล็อกแล้วฆ่าในช่องว่างระหว่างอัลติ; ถ้าเลนด้วยให้โพคระยะไกลและห้ามลงคอมโบเบิร์สต์เต็มตอน R ของเธอไม่ติดคูลดาวน์ (ไม่พบคำแนะนำให้ออกไอเทมตัดฮีลในหน้านี้)",
+      "quote": "ซีซีแรงๆ ที่ลงก่อนที่เธอจะกด Demon's Gift ทันคือตัวเคาน์เตอร์ที่ได้ผลสุด",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-025",
+      "type": "playstyle",
+      "text": "rovmeta จุดอ่อน: ซีซีแรงก่อน Demon's Gift ปิดเธอได้เกลี้ยง; สแตก Blood Curse รีเซ็ตเมื่อสลับเป้า; ไม่มีโพคระยะไกล แพ้แลกหมัดช่วงต้นให้ Ryoma หรือ Rourke จนถึงเลเวล 4; คูลดาวน์ยาวของ Demon's Gift ทำให้มีช่วงเปราะบางที่เดาง่าย",
+      "quote": "คูลดาวน์ยาวของ Demon's Gift ทำให้มีช่วงเปราะบางที่เดาได้ง่าย",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-026",
+      "type": "playstyle",
+      "text": "rovmeta แผนการเล่น: พีคแรกที่เลเวล 4 (มีสกิลแอคทีฟครบ); ต้นเกมเก็บครีปใต้ป้อมถ้าแมตช์อัปเสียเปรียบ แลกหมัดสั้นเลเวล 2-3 ด้วย Q เข้า W แล้วถอย ไม่บีบแลกก่อนเลเวล 4; ช่วงตีทีมอยู่ท่ามกลางศัตรู 2 ตัวขึ้นไปตอน Demon's Gift เปิดเพื่อให้ Mail of Pain สะท้อนดาเมจโดนทุกตัว; ในสถานการณ์ 1v2 สตาก Blood Curse ให้เต็ม 8 จากศัตรูตัวเดียวก่อนสลับ; ท้ายเกมถ้าไม่ได้แต้มต่อจะร่วงเทียบกับตัวอื่น; ซ่อนเอฟเฟกต์ปลอมถอยหลัง Saw Storm จบ (วิ่งเร็ว 3 วินาที) ล่อให้ศัตรูเดินเข้ามาแล้วหันกลับกด W; Maloch/Baldum ในทีมศัตรูบล็อกการสตากพาสซีฟ",
+      "quote": "หน่วงครึ่งวินาทีก่อนกด R ให้เบิร์สต์มาหาเรา ไม่ใช่เราวิ่งเข้าไปหามัน",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "community", "date": "2026-11-10", "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-027",
+      "type": "playstyle",
+      "text": "rovmeta ฝังวิดีโอโปรของ Jayop ชื่อ 'ROV : รีวิว+สอนเล่น Dextra เร่งตีเร็ว200%แบบมาไว ฟาดรัวๆนกกระจิบเด้งยับๆ!!!' (เห็นเฉพาะชื่อในหน้าเว็บ ไม่มีทรานสคริปต์)",
+      "quote": "ROV : รีวิว+สอนเล่น Dextra เร่งตีเร็ว200%แบบมาไว ฟาดรัวๆนกกระจิบเด้งยับๆ!!!",
+      "source": {"url": "https://rovmeta.com/th/heroes/dextra", "kind": "video", "date": "2026-11-10", "transcript": false, "stale": false}
+    },
+    {
+      "id": "dextra-028",
+      "type": "item",
+      "text": "aov-builds.com (AoV สากล เนื้อหาอ้าง 12 สแตกและแปลง 30% จึงน่าจะอัปเดตหลังแพตช์ 13 ส.ค. 2026): บิลด์ Gilded Greaves, Spear of Longinus, Omni Arms, Claves Sancti, Fenrir's Tooth, Blade of Eternity; สลับ Rankbreaker แทน Spear of Longinus เมื่อทีมศัตรูเปราะ; สลับ Fafnir's Talon แทน Claves Sancti เมื่อสู้แทงค์/ไฟต์เตอร์เลือดเยอะ (โจมตีปกติเพิ่ม 8% HP ปัจจุบันเป้าหมาย ดูดเลือด 10%); สลับ Medallion of Troy แทน Fenrir's Tooth เมื่อศัตรูมีเมจเบิร์สต์หลายตัว; สลับ Sonic Boots แทน Gilded Greaves เมื่อศัตรู CC น้อยแต่มีมาร์คแมน/ไฟต์เตอร์ตีปกติแรง; ท้ายเกมสลับ Blade of Eternity กับ Arctic Orb หรือ Death Sickle",
+      "quote": "Gilded Greaves Spear of Longinus Omni Arms Claves Sancti Fenrir's Tooth Blade of Eternity",
+      "source": {"url": "https://aov-builds.com/en/heroes/dextra/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-029",
+      "type": "rune",
+      "text": "aov-builds.com: อาร์คานา x10 สีแดงขั้น III (คริ), x10 สีม่วงขั้น III (ดูดเลือด), x10 สีเขียวขั้น III (พลังโจมตีกายภาพ-เจาะเกราะ); สกิลผู้เรียก Sprint (แนะนำ), Flicker (เพิ่มความคล่อง), Execute (เพิ่มดาเมจจบ)",
+      "quote": "x10 Red III Crit Chance x10 Purple III Lifesteal x10 Green III Physical Attack-Armor Penetration",
+      "source": {"url": "https://aov-builds.com/en/heroes/dextra/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-030",
+      "type": "enchant",
+      "text": "aov-builds.com (ระบบพลังแฝงฝั่ง AoV สากล): Chaos Abyss - Bloodthirst, Empower, Curse; Tower of Radiance - Contrast, Penetrating Heart",
+      "quote": "Bloodthirst / Empower / Curse",
+      "source": {"url": "https://aov-builds.com/en/heroes/dextra/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-031",
+      "type": "playstyle",
+      "text": "aov-builds.com: ต้นเกมอ่อนเมื่อเทียบไฟต์เตอร์เลนบนอื่น ควรเล่นถอยหลังและฟาร์มอย่างปลอดภัย ใช้สกิล 1 ล้างสโลว์เพื่อถอยหรือหนีแกงค์; กลางเกมอย่าเล่นก้าวร้าวเกิน หาจังหวะคอมโบดาเมจหลักฝั่งศัตรูแล้วใช้สกิล 3 ถอยออกอย่างปลอดภัย; ท้ายเกมศัตรูมักมีไอเทมชุบชีวิต เช่น Blade of Eternity ทำให้ฆ่ายาก ให้เก็บสกิล 3 ไว้ยืดไฟต์; กดสกิล 3 ดีที่สุดเมื่อ HP ต่ำกว่า 80% และสกิลคงอยู่ 3 วินาที (ใช้ซับไอทีมหอได้) ตัวเลขชุดนี้ขัดกับสกิลทางการที่ล้างเอฟเฟกต์ควบคุมและกันความเสียหาย 2.5 วินาที",
+      "quote": "It’s best to use Skill 3 when Dextra ‘s health is below 80%.",
+      "source": {"url": "https://aov-builds.com/en/heroes/dextra/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-032",
+      "type": "combo",
+      "text": "aov-builds.com คอมโบพื้นฐาน: สกิล 1 เร่งความเร็วเข้าหาเป้าหมาย, โจมตีเสริมใส่ฮีโร่ศัตรูเพื่อโบนัสดาเมจและสโลว์, สกิล 2 กับโจมตีต่อเนื่อง, กดสกิล 3 ตอนศัตรูเบิร์สต์เพื่อฮีลแล้วโจมตีต่อ; ใช้ร่วมกับ Sprint ได้",
+      "quote": "Time it for when the opponent bursts you down, then use Skill 3 Demon's Gift to heal yourself and keep attacking",
+      "source": {"url": "https://aov-builds.com/en/heroes/dextra/", "kind": "article", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "dextra-033",
+      "type": "item",
+      "text": "Zathong (AoV, ตีพิมพ์ 28 พ.ย. 2025 ก่อนแพตช์ 13 ส.ค. 2026): ไอเทมแนะนำ Spear of Longinus, Gilded Greaves, Frost Cape, Omni Arms, Medallion of Troy, Blade of Eternity (ไม่มี Fafnir's Talon หรือ Mail of Pain); สกิลผู้เรียก Punish/Sprint/Flicker; ลำดับอัปสกิล สกิล 2 แล้ว 3 แล้ว 1",
+      "quote": "Spear of Longinus, Gilded Greaves, Frost Cape, Omni Arms, Medallion of Troy, Blade of Eterenity",
+      "source": {"url": "https://zathong.com/aov-dextra/", "kind": "article", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-034",
+      "type": "rune",
+      "text": "Zathong (AoV 2025): อาร์คานา Indomitable x10 (ความเร็วโจมตี +1% HP +33.7 เกราะ +2.3), Assassinate x10 (พลังโจมตี +1.6 วิ่งเร็ว +1%), Valiance x10 (HP +37.5 ลดคูลดาวน์ +0.6%)",
+      "quote": "Indomitable x 10 ... Assassinate x 10 ... Valiance x 10",
+      "source": {"url": "https://zathong.com/aov-dextra/", "kind": "article", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-035",
+      "type": "enchant",
+      "text": "Zathong (AoV 2025): พลังแฝง Lokheim - Shadow Blade, Deadly Claw, Desperate duel; Afata - Tower Blessing, Regrowth",
+      "quote": "Shadow Blade / Deadly Claw / Desperate duel",
+      "source": {"url": "https://zathong.com/aov-dextra/", "kind": "article", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-036",
+      "type": "matchup",
+      "text": "Zathong (AoV 2025): ภัยคุกคามสูงมากต่อ Dextra คือ Hayate, Eland'orr, Fennik, Capheny, Laville; เข้ากันดีกับ Alice, TeeMee, Zip, Peura",
+      "quote": "Extreme Threats",
+      "source": {"url": "https://zathong.com/aov-dextra/", "kind": "article", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-037",
+      "type": "rune",
+      "text": "Gametimeprime (SS16 AoV): ชุดรูน Golden Body x10 / Spirit x10 / Dragon's Claw x10 สำหรับสายอึดต้นเกม และชุด Awake x10 (ความเร็วโจมตี +1.6% คริ +0.5%) / Spirit x10 / Dragon's Claw x10 (พลังโจมตี +0.9 เจาะเกราะ +6.4) สำหรับสายดุต้นเกม; สกิลผู้เรียก Execute, Flicker",
+      "quote": "Awake x 10 | Spirit x 10 | Dragon’s Claw x 10",
+      "source": {"url": "https://gametimeprime.com/dextra-aov/", "kind": "article", "date": "2020-09-30", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-038",
+      "type": "enchant",
+      "text": "Gametimeprime (SS16 AoV): พลังแฝง Lokheim - Devourer, Deadly Claw, Desperate duel; Human - Reaper's Blessing, Gunslinger",
+      "quote": "Devourer / Deadly Claw / Desperate duel",
+      "source": {"url": "https://gametimeprime.com/dextra-aov/", "kind": "article", "date": "2020-09-30", "transcript": true, "stale": true}
+    },
+    {
+      "id": "dextra-039",
+      "type": "playstyle",
+      "text": "Tigerder (ไทย 30 ก.ย. 2020) รีวิวฮีโร่ใหม่: คัดลอกคำอธิบายสกิลชุดเปิดตัว (ไฟต์เตอร์/แทงค์) และอ้างวิดีโอ แต่ไม่ได้อ่านเนื้อหาไอเทมรูนในส่วนที่ดึงได้ จึงไม่อ้างเพิ่ม",
+      "quote": "",
+      "source": {"url": "https://tigerder.com/dextra-rov-%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%AE%E0%B8%B5%E0%B9%82%E0%B8%A3%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%94%E0%B8%B9%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99/", "kind": "article", "date": "2020-09-30", "transcript": false, "stale": true}
+    },
+    {
+      "id": "dextra-040",
+      "type": "playstyle",
+      "text": "วิดีโอ BiliBili 'ROV : DEXTRA สอนเล่นเดกตร้าโรมสายโหด เซ็ตใหม่ล่าสุด ... ใช้ได้ทั้งออฟป่าโรม(โซโล่ 72ดาว)' และ 'RoV: Dextra สอนเล่นและรีวิวออฟเลนสุดโหดอย่าง Dextra มันยังโหดอยู่นะ!!' (ดึงได้เฉพาะชื่อคลิป ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหา)",
+      "quote": "ROV : DEXTRA สอนเล่นเดกตร้าโรมสายโหด เซ็ตใหม่ล่าสุด",
+      "source": {"url": "https://www.bilibili.tv/video/2002232320", "kind": "video", "date": "2022-02-16", "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "ครอบคลุมที่ guide-data.mjs (HANDCRAFTED_GUIDES.dextra) อ้าง. รายการที่พบในแหล่ง: Blood Curse ขโมยพลังโจมตี/สแตกและประสานกับ Sinestrea (001-002, 016), Saw Storm วิ่งเร็วกันสโลว์ + โจมตีเสริมสโลว์ 50% (003, 011, 016), Saw Cut ฮีลตามจำนวนเป้า (004, 012; ฮีโร่ฮีลมากกว่ามินเนี่ยน ตรงกับ rovguide 2%/3%), Demon's Gift แปลงดาเมจเป็นฮีล (005, 013), คอมโบ 2 แบบ (018-020, 032), ลำดับออกของ Gilded Greaves/Fafnir's Talon/Mail of Pain/Omni Arms/Medallion of Troy/Blade of Eternity (021), รูน Awake/Spirit/Dragon's Claw (022, 037), พลังแฝง Lokheim Devourer/Deadly Claw/Desperate Duel (038). รายการที่ไม่พบในแหล่งใด: (1) ไอเทม 'Frost Cape' เป็นของเล่นใน Zathong 2025 (033) แต่ไม่อยู่ในชุดบิลด์ rovmeta ปัจจุบัน; (2) 'Rampage' และ 'Throne' ในรูน ไม่พบในแหล่งใด (แหล่งใช้ Awake/Spirit/Dragon's Claw, Golden Body, Indomitable, Assassinate, Valiance); (3) สกิล 3 ระบุ 'เข้าสู่สภาวะตื่นรู้ 3 วินาที ดาเมจทั้งหมดถูกแปลงเป็นฮีล' ตรงกับหน้าทางการเก่าที่ระบุ 3 วินาทีและแปลงสูงสุด 20% HP ต่อครั้ง แต่ rovguide ระบุภูมิคุ้มกันความเสียหาย 2.5 วินาที + แปลง 20% และหน้าแพตช์ 13 ส.ค. 2026 ระบุแปลง 30% ซึ่งต่างกัน; (4) guide ระบุอัลติ 'กดเมื่อเลือด 20-30%' และ 'ห้ามกดตอนเลือดเต็ม' ไม่พบตัวเลขเหล่านี้ในแหล่งใด (aov-builds ระบุ HP ต่ำกว่า 80%, rovmeta ระบุให้กดก่อนศัตรูเบิร์สต์); (5) 'เลเวล 4 ได้เปรียบการดวลเลนอย่างมากเพราะมีอัลติเมตชุบชีวิตเทียม' - rovmeta ระบุพีคแรกที่เลเวล 4 แต่ aov-builds ระบุว่าต้นเกมอ่อน ขัดกันบางส่วน; (6) ไอเทมแก้ทาง Curse of Death, Soul Scroll, Glided Greaves (เป็นไอเทมเล่นเอง ไม่ใช่แก้ทางในแหล่งใด) และคำแนะนำ 'หยุดตีเมื่อ Dextra เปิดอัลติ 3 วินาที' ไม่ปรากฏเป็นข้อความตรงในแหล่งใด (rovmeta แนะนำใช้ CC ก่อนเธอกด R และโพคระยะไกล); (7) ไอเทมเล่นเอง 'Glided Greaves' สะกดต่างจากแหล่งที่ใช้ 'Gilded Greaves'. ข้อขัดแย้งของตัวเลข (ยังไม่ตัดสิน ส่งให้ rov-verifier): หน้าฮีโร่ทางการ rov.in.th/hero/dextra ยังแสดงพาสซีฟเป็นขโมยพลังโจมตี 1% (สูงสุด 8 ต่อเป้า รวม 20) ขณะที่ rovguide และหน้าแพตช์ 13 ส.ค. 2026 อธิบายเป็นความเร็วโจมตีต่อชั้น 16 เป็น 12 ชั้น (ต่างกันที่ชนิดโบนัสและจำนวนชั้น); rovguide หน้าสกิลยังแสดง 16 ชั้น, 4% (+1%/4 Lv), แปลง 20%, คูลดาวน์ 70s/62.5s/55s (คูลดาวน์ 70 ตรงกับหลังบัฟ แต่ 20% ตรงกับก่อนบัฟ) ส่วน rovmeta แสดงข้อความทางการเก่า; ข้อความทางการเรื่อง Sacrifice (หน้าฮีโร่) ยังเป็นเวอร์ชันก่อนรีเวิร์ค (ตายทันที) ขณะที่แพตช์ 13 ส.ค. 2026 เปลี่ยนเป็นเสีย 99% HP ปัจจุบัน 3.5 วินาที. ค้นแพตช์ทางการอ่านได้เฉพาะ Hotfix 13 ส.ค. 2026 (https://www.rov.in.th/patch-notes/hotfix260813) ส่วนหน้าแพตช์ Beta 54/55 และแพตช์ 12 พ.ย. 2026 และ Hotfix 17 พ.ย. 2026 ไม่ได้เปิดอ่านเต็มเพื่อตรวจว่ามีการเปลี่ยน Dextra หรือไม่ (หน้ารวมแพตช์แสดงรายการแพตช์ถึง 17 พ.ย. 2026 โดยวันที่ 17 พ.ย. เป็นวันหลังวันค้น ผิดปกติ). aov-builds.com ไม่แสดงวันที่เผยแพร่ชัดเจนในส่วนที่ดึงได้ (metadata ระบุ 2024-08-19 แต่เนื้อหาอ้างตัวเลขหลังแพตช์ ส.ค. 2026 จึงตั้ง date: null) และเป็นข้อมูล AoV สากลซึ่งระบบพลังแฝงและรูนอาจต่างจาก RoV ไทย. วิดีโอทุกตัวเข้าถึงได้เฉพาะชื่อคลิป (transcript:false). ไม่พบประกาศเนิร์ฟ/บัฟ Dextra ใน Beta 54/55 จากหน้าที่อ่านโดยตรง."
+}

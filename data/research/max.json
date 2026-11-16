@@ -1,0 +1,288 @@
+{
+  "hero": "max",
+  "gamePatch": "ค้นเมื่อ 16 พ.ย. 2026 (rovmeta ระบุแพตช์ 1.64 อัปเดต 12 พ.ย. 2026 / ฉบับไทย 9 พ.ย. 2026; rovguide สถิติแรงค์ไทย 19 ต.ค. 2026; หน้า patch-notes ทางการแสดงแพตช์ล่าสุด 12 พ.ย. 2026 และ Hotfix 17 พ.ย. 2026)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "max-001",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Max เป็น Fighter Tank",
+      "quote": "Fighter Tank",
+      "source": {"url": "https://www.rov.in.th/hero/max", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ สกิลติดตัว Static Shock: ทุกครั้งที่โจมตีศัตรู สร้างความเสียหายจริงเป็นระยะเวลา และลดความสามารถในการฟื้นฟูของศัตรู 25% เป็นเวลา 3 วิ",
+      "quote": "จะสร้างความเสียหายจริงเป็นระยะเวลา พร้อมกับทำให้ความสามารถในการฟื้นฟูของศัตรูลดลง 25% เป็นเวลา 3 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/max", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ สกิล 1 Bionic Blender: หมุนแขนกลสร้างความเสียหายกายภาพ ทุกครั้งที่โจมตีโดนศัตรูเพิ่มความเร็วเคลื่อนที่ (สูงสุด 50%) นาน 4 วิ",
+      "quote": "ความเร็วเคลื่อนที่ของเขาจะเพิ่มขึ้น (ได้สูงสุด 50%) เป็นเวลา 4 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/max", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ สกิล 2 Smooth Moves: พุ่งเข้าหาเป้าหมายและตีลังกาข้ามไปด้านหลัง ได้รับโล่ป้องกันความเสียหาย 15% นาน 1 วินาที ใช้ซ้ำได้อีกครั้งภายใน 4 วิ",
+      "quote": "ได้รับโล่ที่ป้องกันความเสียหาย 15% เป็นเวลา 1 วินาที (สกิลนี้สามารถใช้ซ้ำได้อีกครั้งภายใน 4 วิ)",
+      "source": {"url": "https://www.rov.in.th/hero/max", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ สกิล 3 Liftoff: ยิงกระสวยติดตามให้เพื่อนร่วมทีมเห็นตำแหน่งศัตรู กดซ้ำเพื่อล็อกและพุ่งไปยังเป้าหมาย (กดซ้ำขณะบินเพื่อหยุด) สร้างความเสียหายกายภาพพร้อมผลักถอยหลัง จากนั้นได้โล่และเพิ่มการต้านทานสถานะ 30% พร้อมช็อตศัตรูรอบตัว",
+      "quote": "หาก Max ใช้สกิลอีกครั้ง เขาจะสามารถล็อค และพุ่งไปยังจุดที่เป้าหมายอยู่ (ใช้สกิลนี้อีกครั้งขณะบินเพื่อหยุด)",
+      "source": {"url": "https://www.rov.in.th/hero/max", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-006",
+      "type": "skill",
+      "text": "rovguide (สถิติเวอร์ชันอังกฤษ) ระบุ Static Shock สร้างความเสียหายจริง 70 (+35% bonus AD) ต่อวินาที และลดการฟื้นฟู HP 40% นาน 3 วิ (ไม่สแตกกับเอฟเฟกต์ Soul Prison)",
+      "quote": "70 (+ 35% of bonus AD) true damage per second and have their HP regeneration reduced by 40% for 3 seconds (does not stack with Soul Prison effect)",
+      "source": {"url": "https://rovguide.com/heroes/max", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-007",
+      "type": "skill",
+      "text": "rovguide ระบุ Bionic Blender คูลดาวน์ 5 วิ มานา 55 ดาเมจพื้นฐานเลเวล 1-6 = 480/576/672/768/864/960 (+150% bonus AD) เพิ่มความเร็ว 10% ต่อการโดน สูงสุด 30% นาน 4 วิ",
+      "quote": "Every time he hits an enemy, he increases his movement speed by 10% (up to a maximum of 30%) for 4 seconds.",
+      "source": {"url": "https://rovguide.com/heroes/max", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-008",
+      "type": "skill",
+      "text": "rovguide ระบุ Smooth Moves มานา 65 คูลดาวน์ 12/11.6/11.2/10.8/10.4/10 วิ ลดดาเมจ 15-20% นาน 3 วิ ใช้ซ้ำได้ใน 4 วิ และมีช่วงจับเป้า 0.5 วิก่อนลงอีกด้าน",
+      "quote": "landing on their opposite side after grabbing for 0.5 seconds",
+      "source": {"url": "https://rovguide.com/heroes/max", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-009",
+      "type": "skill",
+      "text": "rovguide ระบุ Liftoff มานา 140 ดาเมจ 700/950/1200 (+200% bonus AD) คูลดาวน์ 70/65/60 วิ ศัตรูถูกเปิดเผยและขัดการกลับบ้าน 6 วิ ต้านทานสถานะ 30% นาน 10 วิ มี iron body ระหว่างบิน กดซ้ำขณะบินเพื่อยกเลิก",
+      "quote": "He gains iron body effect during the flight. Using the skill again while Max is in flight will cancel his attack.",
+      "source": {"url": "https://rovguide.com/heroes/max", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-010",
+      "type": "playstyle",
+      "text": "rovguide ระบุ Max เป็น Tank/Support เลน Slayer Lane / Support Lane จุดเด่น Initiator เรตติ้ง: ความอึด 2/5 ดาเมจ 4/5 ฟังก์ชัน 2/5 ความยาก 3/5",
+      "quote": "Class Tank / Support Lane Slayer Lane / Support Lane Good at Initiator",
+      "source": {"url": "https://rovguide.com/heroes/max", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-011",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงค์ไทย (19 ต.ค. 2026): Win rate 53.02% Pick rate 2.35% Ban rate 0.16% อันดับ Tank #3/24, Support #2/39, Slayer Lane #3/37, Support Lane #2/39 ตามอัตราชนะ",
+      "quote": "Win rate 53.02% Pick rate 2.35% Ban rate 0.16%",
+      "source": {"url": "https://rovguide.com/heroes/max", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-012",
+      "type": "patch-change",
+      "text": "rovguide Change history ของ Max มีเพียง bug fix 2 รายการ: Beta37 (5 ก.ค. 2022) แก้เอฟเฟกต์ฟื้นฟูผิดปกติ; Beta38 (28 ก.ย. 2022) แก้ Passive ที่เรียกเอฟเฟกต์ไอเทมของการโจมตีปกติผิดพลาด ไม่พบรายการปรับค่าสกิลของ Max ในประวัติหลังจากนั้น",
+      "quote": "Max: fixed Passive incorrectly triggering basic-attack item effects.",
+      "source": {"url": "https://rovguide.com/heroes/max", "kind": "article", "date": "2022-09-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-013",
+      "type": "playstyle",
+      "text": "rovmeta จัด Max เป็น C Tier, class warrior, Solo Lane, ความยากปานกลาง, แพตช์ 1.64 (อัปเดต 12 พ.ย. 2026) ban rate 0.2% โปรเพลย์ 1 pick WR 0.0%",
+      "quote": "C TIER warrior Solo Lane Medium Patch 1.64 Updated November 12, 2026",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-014",
+      "type": "skill",
+      "text": "rovmeta ระบุลำดับอัปสกิล: ลำดับความสำคัญ R > 1 > 2 ตารางเลเวล 1-15: สกิล 1 อัปเลเวล 1,3,5,7,9,13; สกิล 2 อัปเลเวล 2,4,8,10,12,14; Liftoff อัปเลเวล 6,11,15",
+      "quote": "Priority: R > Q > W",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-015",
+      "type": "item",
+      "text": "rovmeta Standard Build: Sonic Boots, (ช่อง 2 ไม่ได้ระบุชื่อในหน้าที่ดึงได้ แต่ข้อความกลางเกมอ้าง Broken Spear), Omni Arms, Fenrir's Tooth, Muramasa, Blade of Eternity",
+      "quote": "1 Sonic Boots 2 3 Omni Arms 4 Fenrir's Tooth 5 Muramasa 6 Blade of Eternity",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-016",
+      "type": "item",
+      "text": "rovmeta แนะนำเก็บ Sonic Boots ก่อน เพราะช่วงก่อนมี Broken Spear ยังอ่อน และ Broken Spear คือ power spike แรก (เลเวล 4) ตามด้วย Omni Arms ที่ 2 ไอเทม",
+      "quote": "Rush Sonic Boots first to cover the mobility gap before Broken Spear arrives",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-017",
+      "type": "item",
+      "text": "rovmeta ระบุ Static Shock ลดฮีลถาวรไม่ต้องออกไอเทมลดฮีล (จุดแข็ง)",
+      "quote": "Static Shock permanently suppresses healing with no anti-heal item needed.",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-018",
+      "type": "rune",
+      "text": "rovmeta ระบุพลังแฝง (Core Runes): Golden Body, Assassinate, Dragon's Claw",
+      "quote": "Core Runes Golden Body Assassinate Dragon's Claw",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-019",
+      "type": "enchant",
+      "text": "rovmeta ระบุสกิลเสริม (Summoner Spell): Flicker",
+      "quote": "Summoner Spell Flicker",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-020",
+      "type": "combo",
+      "text": "rovmeta Standard Dive Combo: ยิง Liftoff ติดตาม, กดสกิล 1 กลางอากาศให้บัฟสปีดต่อเนื่องถึงตอนลง, ลงพื้นแล้วสกิล 2 ไปด้านหลังทันที, สอดโจมตีปกติเพื่อคง Static Shock (ใช้เมื่อเป้าอยู่เดี่ยว)",
+      "quote": "Fire Liftoff to track, activate Q mid-flight so the speed buff carries into landing, W behind them immediately on touchdown, then weave autos",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-021",
+      "type": "combo",
+      "text": "rovmeta Lane Burst Combo: ข้ามอัลติ ใช้สกิล 2 กระโดดไปด้านหลังตัดทางหนี แล้วสกิล 1 สร้างดาเมจและสแตกสปีด ต่อด้วยโจมตีปกติ (ออลอินในเลน Slayer)",
+      "quote": "Skip the ultimate entirely for quick all-ins in the slayer lane.",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-022",
+      "type": "combo",
+      "text": "rovmeta Flicker Cancel Dive: ยิงจรวด Liftoff รอให้ศัตรูใช้สกิลหนี แล้ว Flicker ปิดระยะ ลงสกิล 2 + สกิล 1 (ใช้กับศัตรูที่มีสกิลหนี คูลดาวน์สั้น)",
+      "quote": "Fire Liftoff's rocket, wait for them to burn their escape skill, then Flicker the gap and land W+Q",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-023",
+      "type": "combo",
+      "text": "rovmeta Double-W Pursuit: ในทีมไฟต์ใช้สกิล 2 ข้ามแนวหน้า สแตกสปีดด้วยสกิล 1 แล้วรีคาสต์สกิล 2 ใส่แครี่แนวหลังก่อนหน้าต่าง 4 วิหมด",
+      "quote": "Vault the front-liner, proc Q speed, then immediately recast W onto the backline carry before the 4-second window runs out.",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-024",
+      "type": "matchup",
+      "text": "rovmeta ระบุ Max แพ้ทาง: Butterfly, Allain, Violet, Nakroth",
+      "quote": "Weak Against Butterfly Allain Violet Nakroth",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-025",
+      "type": "matchup",
+      "text": "rovmeta ระบุ Max ชนะทาง: Grakk, Skud, Maloch, Ormarr, Baldum, Arduin",
+      "quote": "Strong Against Grakk Skud Maloch Ormarr Baldum Arduin",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-026",
+      "type": "matchup",
+      "text": "rovmeta ระบุคู่เสริมที่ดีที่สุด: Annette, Lauriel, Grakk, Elsu",
+      "quote": "Best Synergy Annette Lauriel Grakk Elsu",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-027",
+      "type": "playstyle",
+      "text": "rovmeta จุดอ่อน: กด Liftoff ครั้งที่สองพลาดเวลาแล้วค้างกลางทีมศัตรู, ไม่มีดาเมจเปอร์เซ็นต์เลือด แทงค์เกราะหนาสู้ได้ถ้าทีมไม่ตาม, ก่อนมี Broken Spear อ่อน ถูกตัวระยะไกลโพค, ซีซีที่โดนก่อน Liftoff เปิดโล่ดับการดีฟ",
+      "quote": "Pre-Broken Spear laning is weak; range pokes him out before items come online.",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-028",
+      "type": "playstyle",
+      "text": "rovmeta Gameplan: เล่นเซฟถึงเลเวล 3, สปีคแรกเลเวล 4 พร้อม Broken Spear, ช่วงกลางเกมไปมังกรได้เมื่อมี Broken Spear, ปลายเกมเน้นตีเก็บแครี่เดี่ยว ไม่ปะทะแทงค์เดี่ยว ๆ และใช้การยกเลิก Liftoff กลางอากาศเป็นเหยื่อล่อซีซี",
+      "quote": "Use Liftoff's mid-flight cancel (third R press) as a deliberate bait",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-029",
+      "type": "playstyle",
+      "text": "rovmeta Pro Tip: เจอทีมที่มีตัวโพคระยะไกลในเลน Slayer ให้ซื้อ Sonic Boots ก่อน ใช้สกิล 2 หลบสกิลช็อต และเก็บรีคาสต์ไว้หนีแทนใช้เปิดอีกครั้ง",
+      "quote": "Saving the recast for escape instead of burning it as an opener is usually the right call in bad matchups.",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "article", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "max-030",
+      "type": "playstyle",
+      "text": "rovmeta แนบวิดีโอไกด์ผู้เชี่ยวชาญ: 'ROV : มะเร็งตัวต่อไป! สอนเล่นแมกซ์แพทช์ใหม่ล่าสุด โคตรโหด โคตรโกง แรงจัด' โดย บอมคนป่า ไม่ได้ดึงทรานสคริปต์ ไม่ทราบเนื้อหา",
+      "quote": "ROV : มะเร็งตัวต่อไป! สอนเล่นแมกซ์แพทช์ใหม่ล่าสุด โคตรโหด โคตรโกง แรงจัด — บอมคนป่า",
+      "source": {"url": "https://rovmeta.com/heroes/max", "kind": "video", "date": null, "transcript": false, "stale": false}
+    },
+    {
+      "id": "max-031",
+      "type": "item",
+      "text": "aov-builds.com (AoV สากล) แนะบิลด์: Gilded Greaves, Spear of Longinus, Berith's Agony, Omni Arms, Fenrir's Tooth, Blade of Eternity; vs ทรูดาเมจ สลับ Omni Arms เป็น Frost Cape; vs เวทมนตร์ สลับเป็น Medallion of Troy; เจอแทงค์เกราะหนาให้ Muramasa แทน Fenrir's Tooth; ถูกล็อกบ่อยให้ Voidsteel Blade แทน Omni Arms; ไม่ควรออก Curse of Death/Tome of the Reaper เพราะสกิลลดฮีลในตัว",
+      "quote": "This skill already has built-in healing reduction, so you shouldn't build Curse of Death or Tome of the Reaper on this hero.",
+      "source": {"url": "https://aov-builds.com/en/heroes/max/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-032",
+      "type": "rune",
+      "text": "aov-builds.com แนะ Arcana (รูน): แดง III Physical Attack-Armor Penetration x10, ม่วง III Physical Attack-Movement Speed x10, เขียว III Physical Attack-Armor Penetration x10; สกิลเสริม Execute",
+      "quote": "x10 Red III Physical Attack-Armor Penetration x10 Purple III Physical Attack-Movement Speed x10 Green III Physical Attack-Armor Penetration",
+      "source": {"url": "https://aov-builds.com/en/heroes/max/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-033",
+      "type": "skill",
+      "text": "aov-builds.com ลำดับสกิล: สกิล 1 อัปเลเวล 1,3,5,7,9,11; สกิล 2 อัปเลเวล 2,6,10,13,14,15; ส่วนสกิล 3 ข้อมูลที่ดึงได้ไม่ครบ",
+      "quote": "1 3 5 7 9 11",
+      "source": {"url": "https://aov-builds.com/en/heroes/max/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-034",
+      "type": "combo",
+      "text": "aov-builds.com Basic combo: กด Liftoff ครั้งแรกเปิดเผยศัตรู, กดซ้ำเลือกเป้าพุ่งเข้าไป, ถึงแล้วใช้สกิล 1, ตามด้วยสกิล 2 ตัดทางหนีและโจมตีปกติต่อเนื่อง; ยกเลิก Liftoff ได้โดยกดซ้ำระหว่างบิน",
+      "quote": "Once you arrive, use Skill 1 Bionic Blender for damage. Then use Skill 2 Smooth Moves to cut off the enemy's path",
+      "source": {"url": "https://aov-builds.com/en/heroes/max/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-035",
+      "type": "playstyle",
+      "text": "aov-builds.com: ก่อนมีอัลติให้เน้นฟาร์มและคุมเลน Max ค่อนข้างอ่อนเทียบฮีโร่อื่น และเคลื่อนที่แย่เมื่อโดนแก๊งค์ จึงไม่ควรดันเลนไกล",
+      "quote": "Before you have your ultimate, focus on farming and holding your lane, since Max is fairly weak compared to other heroes.",
+      "source": {"url": "https://aov-builds.com/en/heroes/max/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-036",
+      "type": "item",
+      "text": "zathong.com (ฉบับไทย SS28) แนะไอเทม: Mantle of Ra, Sonic Boots, Frost Cape, Mail of pain, Medallion of Troy, Blade of Eternity; บิลด์โปร: Mantle of Ra, Gilded Greaves, Frost Cape, Shield Of The Lost, Gaias Standard, Medallion of Troy",
+      "quote": "ไอเทมแนะนำ : Mantle of Ra : Sonic Boots : Frost Cape : Mail of pain : Medallion of Troy : Blade of Eternity",
+      "source": {"url": "https://zathong.com/max-rov/", "kind": "community", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-037",
+      "type": "rune",
+      "text": "zathong.com (SS28) แนะรูน: Onslaught x10, Benevolence x10, Skewer x10; พลังแฝง Lokheim (Raging Inferno, Deadly Claw, Desperate duel) และ Afata (River Treader, Nature's Gift); สกิลเสริม Flicker, Execute",
+      "quote": "รูน : Onslaught : Benevolence : Skewer",
+      "source": {"url": "https://zathong.com/max-rov/", "kind": "community", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-038",
+      "type": "skill",
+      "text": "zathong.com (aov-max, 28 พ.ย. 2025) ระบุลำดับสกิล: สกิล 1 -> สกิล 3 -> สกิล 2",
+      "quote": "Ability Order: Skill 1 -> Skill 3 -> Skill 2.",
+      "source": {"url": "https://zathong.com/aov-max/", "kind": "community", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-039",
+      "type": "matchup",
+      "text": "zathong.com (aov-max) ระบุภัยคุกคามสูง: Omen, Lu Bu, Maloch, Zephys, Xeniel; คู่เสริม: Zephys, Iggy, Tulen, Helen",
+      "quote": "Extreme Threats: Omen: Lu Bu: Maloch: Zephys: Xeniel",
+      "source": {"url": "https://zathong.com/aov-max/", "kind": "community", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "max-040",
+      "type": "matchup",
+      "text": "Arena of Valor fandom wiki ระบุตัวสวนทาง: Xeniel, Joker, Lauriel; ตำแหน่ง Slayer Lane; ข้อดี: ult ระดับแผนที่ ซีซีกวนใจ ทรูดาเมจ; Arcana: Indomitable, Benevolence, Skewer",
+      "quote": "Counter: Xeniel, Joker, Lauriel",
+      "source": {"url": "https://arenaofvalor.fandom.com/wiki/Max", "kind": "community", "date": null, "transcript": true, "stale": true}
+    }
+  ],
+  "notes": "หน้าฮีโร่ทางการให้ข้อความสกิลเท่านั้น ไม่มีบิลด์/รูน/ตัวเลข. patch-notes ทางการ (rov.in.th/patch-notes): อ่านเฉพาะรายการ Hotfix 17 พ.ย. 2026 (ปรับ Butterfly, Arduin, Grakk และอื่น ๆ ที่ดึงมาไม่ครบ) ไม่พบการปรับ Max ในส่วนที่ดึงได้ แต่ไม่ได้อ่านครบทุกแพตช์/เนื้อหาเต็ม จึงยืนยันไม่ได้ว่ามีหรือไม่มีการเปลี่ยน Max ล่าสุด. rovguide ไม่มีบันทึกเปลี่ยนแปลง Max หลังปี 2022. ค่าที่ต่างกันระหว่างแหล่ง (บันทึกตามที่เห็น ไม่ตัดสิน): Static Shock ลดฮีล 25% (ทางการ/rovmeta) เทียบ 40% (rovguide); Bionic Blender สปีดสูงสุด 50% (ทางการ/rovmeta) เทียบ 30% (rovguide). rovmeta ช่อง item ที่ 2 ในบิลด์ไม่แสดงชื่อ. rovmeta TH (https://rovmeta.com/th/heroes/max อัปเดต 9 พ.ย. 2026) เนื้อหาตรงกับฉบับอังกฤษ ไม่ได้นับซ้ำ. วิดีโอ YouTube: พบเฉพาะชื่อคลิปจาก rovmeta ไม่ได้ค้นทรานสคริปต์. ไม่พบรายการ Max ใน HANDCRAFTED_GUIDES ของ src/guide-data.mjs จึงค้นครอบคลุมทั่วไป (ทางการ, patch notes, rovguide/rovmeta, ไกด์ชุมชน). แหล่ง zathong/gametimeprime/aov-builds/fandom/hthgaming เก่าหรือเป็น AoV สากล (ชื่อรูน Arcana ต่างจาก RoV ปัจจุบัน) จึงทำ stale: true; gametimeprime (2021) และ hthgaming (2018) ไม่ได้บันทึกเป็น claim แยก."
+}

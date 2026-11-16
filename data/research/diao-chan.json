@@ -1,0 +1,128 @@
+{
+  "hero": "diao-chan",
+  "gamePatch": "Hotfix 4 พ.ย. 2026 (แพตช์เซิร์ฟเวอร์หลักล่าสุดที่พบซึ่งมีวันมีผลไม่เกินวันที่ค้น; ยังไม่ยืนยันหมายเลขเวอร์ชัน)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "diao-chan-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุว่า Chilling Frost มอบสัญลักษณ์ 5.5 วินาที และเมื่อใช้ซ้ำใส่ศัตรูที่ติดสัญลักษณ์จะทำให้เคลื่อนที่ไม่ได้ 1 วินาที",
+      "quote": "หากใช้สกิล Chilling Frost ใส่ศัตรูที่ติดสัญลักษณ์ จะทำให้ศัตรูเคลื่อนที่ไม่ได้เป็นเวลา 1 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/diao-chan", "kind": "official", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุว่า Absolute Zero สะสมได้ 2 ครั้ง แต่การแช่แข็งเป้าหมายเดิมภายใน 5 วินาทีจะมีผลเพียง 0.75 วินาที",
+      "quote": "สกิลนี้สามารถเก็บสะสมได้ 2 ครั้ง และหากแช่แข็งเป้าหมายเดิมภายใน 5 วิ จะทำให้สกิลมีผลเพียง 0.75 วิ เท่านั้น",
+      "source": {"url": "https://www.rov.in.th/hero/diao-chan", "kind": "official", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-003",
+      "type": "skill",
+      "text": "ไกด์ AOV Builds ให้อัปสกิล 2 ที่เลเวล 1, 6, 10, 13, 14, 15; สกิล 1 ที่เลเวล 2, 3, 5, 7, 9, 11; อัลติที่เลเวล 4, 8, 12",
+      "quote": "Chilling Frostสกิล 1 2 3 5 7 9 11",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-004",
+      "type": "combo",
+      "text": "ไกด์ AOV Builds แนะนำคอมโบสกิล 1 สโลว์ ตามด้วยสกิล 2 แช่แข็ง แล้วร่ายสกิล 3 หลังศัตรูถูกแช่แข็ง",
+      "quote": "เมื่อศัตรูถูกแช่แข็งแล้ว ให้ร่ายสกิล 3 Blizzard เพื่อเก็บพวกเขา",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-005",
+      "type": "item",
+      "text": "ไกด์ AOV Builds เสนอชุดเลนกลาง Enchanted Kicks, Boomstick, Hecate's Diadem, Staff of Nuul, Arctic Orb และ Holy of Holies",
+      "quote": "Enchanted Kicks Boomstick Hecate's Diadem Staff of Nuul Arctic Orb Holy of Holies",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-006",
+      "type": "item",
+      "text": "ไกด์ AOV Builds แนะนำซื้อ Tome of the Reaper แต่เนิ่น ๆ แทน Holy of Holies หรือ Sage's Blade เมื่อเจอทีมที่มีฮีโร่ฟื้นฟูแรงหลายตัว",
+      "quote": "หากเจอทีมที่มีฮีโร่ฟื้นฟูแรงหลายตัว ให้จัด Tome of the Reaper แทน Holy of Holies หรือ Sage's Blade แต่เนิ่น ๆ เพื่อเคาน์เตอร์",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-007",
+      "type": "item",
+      "text": "ไกด์ AOV Builds แนะนำสลับ Arctic Orb กับ Blade of Eternity หรือ Death Sickle เมื่อมีทองเหลือช่วงท้ายเกมเพื่อเอาตัวรอด",
+      "quote": "เมื่อมีทองเหลือช่วงท้ายเกม ให้สลับ Arctic Orb กับ Blade of Eternity หรือ Death Sickle เพื่อเอาตัวรอดได้นานขึ้น",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-008",
+      "type": "rune",
+      "text": "ไกด์ AOV Builds ระบุรูนแดง III พลังเวท/เจาะเกราะเวท 10 ชิ้น รูนม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่ 10 ชิ้น และรูนเขียว III ความเร็วโจมตี/เจาะเกราะเวท 10 ชิ้น โดยข้อความที่อ่านได้ไม่ระบุชื่อรูน",
+      "quote": "x10 รูนแดง III พลังเวท / เจาะเกราะเวท x10 รูนม่วง III ความเร็วโจมตี / ความเร็วเคลื่อนที่ x10 รูนเขียว III ความเร็วโจมตี / เจาะเกราะเวท",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-009",
+      "type": "playstyle",
+      "text": "ไกด์ AOV Builds เสนอวางสกิล 2 ตรงตำแหน่งตัวเองก่อนร่ายอัลติ เพื่อทำให้ศัตรูที่เข้าประชิดระหว่างร่ายโจมตีได้ลำบาก",
+      "quote": "ทริกหนึ่งคือวางสกิล 2 Absolute Zero ตรงตำแหน่งของตัวเอง แล้วร่ายสกิล 3 Blizzard",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-010",
+      "type": "playstyle",
+      "text": "ไกด์ AOV Builds แนะนำท้ายเกมเคลื่อนที่กับทีม อยู่หลังแนว และเลือกร่ายอัลติเมื่อศัตรูถูกแช่แข็ง ถูกเพื่อนควบคุม หรือรวมตัวในพื้นที่แคบ",
+      "quote": "ให้เคลื่อนที่ไปกับทีมเสมอและอยู่หลังแนวเพื่อสแปมสกิล",
+      "source": {"url": "https://aov-builds.com/th/heroes/diaochan/", "kind": "article", "date": "2026-10-09", "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-011",
+      "type": "rune",
+      "text": "ไกด์ Zathong ชื่อ SS28 แนะนำ Violate 10 ชิ้น, Benevolence 10 ชิ้น และ Hex 10 ชิ้น",
+      "quote": "Violate x 10",
+      "source": {"url": "https://zathong.com/diao-chan-rov/", "kind": "article", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-012",
+      "type": "enchant",
+      "text": "ไกด์ Zathong ระบุพลังแฝง Veda: Mana Refill, Holy Verdic, Holy Thunder และ Human – Lokheim: Reaper’s Blessing, Devourer โดยเก็บการสะกดตามแหล่ง",
+      "quote": "Holy Thunder",
+      "source": {"url": "https://zathong.com/diao-chan-rov/", "kind": "article", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-013",
+      "type": "matchup",
+      "text": "ไกด์ Zathong จัด Zill, Murad, Nakroth, Alice, TeeMee, Zip และ Peura ในกลุ่ม Extreme Threats ต่อ Diao Chan โดยไม่ให้เหตุผลรายคู่ในข้อความที่อ่านได้",
+      "quote": "Extreme Threats",
+      "source": {"url": "https://zathong.com/diao-chan-rov/", "kind": "article", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-014",
+      "type": "item",
+      "text": "ไกด์ Zathong เสนอชุด Enchanted Kicks, Boomstick, Hecates Diadem, Tome Of The Reaper, Beriths Agony และ Arctic Orb",
+      "quote": "Beriths Agony",
+      "source": {"url": "https://zathong.com/diao-chan-rov/", "kind": "article", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-015",
+      "type": "patch-change",
+      "text": "ประวัติการเปลี่ยนแปลงบน RoVGuide อ้างว่า B54 07.23 Hotfix วันที่ 23 กรกฎาคม 2026 เพิ่มผลลดความเร็วโจมตีของ Ice Queen จาก 20%–34% เป็น 25%–50%; ยังไม่ได้อ่านประกาศต้นฉบับทางการของการเปลี่ยนแปลงนี้",
+      "quote": "Passive: Increased the attack-speed reduction.",
+      "source": {"url": "https://rovguide.com/heroes/diao-chan", "kind": "community", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "diao-chan-016",
+      "type": "patch-change",
+      "text": "ประวัติการเปลี่ยนแปลงบน RoVGuide อ้างว่า B54 07.23 Hotfix วันที่ 23 กรกฎาคม 2026 ลดคูลดาวน์ Chilling Frost จาก 6-0.2/LV เป็น 5.5-0.2/LV; ยังไม่ได้อ่านประกาศต้นฉบับทางการของการเปลี่ยนแปลงนี้",
+      "quote": "Skill 1: Reduced cooldown.",
+      "source": {"url": "https://rovguide.com/heroes/diao-chan", "kind": "community", "date": null, "transcript": false, "stale": true}
+    }
+  ],
+  "sourcesWithoutClaims": [
+    {
+      "source": {"url": "https://www.bilibili.tv/en/video/2048358369", "kind": "video", "date": "2022-06-25", "transcript": false, "stale": true},
+      "title": "ROV ไกด์ - ออกของ รูน พลังแฝง Diao Chan สูตร BRUTD NV",
+      "claims": [],
+      "notes": "เข้าถึงได้เฉพาะชื่อคลิปและวันที่ ไม่พบทรานสคริปต์หรือคำอธิบายที่ระบุบิลด์ จึงไม่อนุมานเนื้อหาจากชื่อหรือภาพวิดีโอ"
+    }
+  ],
+  "notes": "รวบรวมข้อกล่าวอ้าง ยังไม่ตัดสินความถูกต้องหรือเลือกบิลด์ใช้งานจริง ต้องส่ง rov-verifier ต่อ ตรวจรายการแพตช์ที่ https://www.rov.in.th/patch-notes และผลค้นหา https://www.rov.in.th/patch-notes/hotfix261104 ซึ่งหัวข้อระบุ 4 พ.ย. 2026 แต่รายการระบุวันเผยแพร่ 3 พ.ย. 2026; รายการยังมี Hotfix 17 พ.ย. 2026 เผยแพร่ 12 พ.ย. 2026 ซึ่งวันมีผลอยู่หลังวันที่ค้น 16 พ.ย. จึงไม่ใช้เป็นแพตช์ปัจจุบัน และไม่รวมเซิร์ฟเวอร์ทดสอบ 3 พ.ย. แหล่งวันที่ null ไม่แสดงวันเผยแพร่/อัปเดตที่ยืนยันได้ จึงไม่ใช้วันค้นแทนวันเผยแพร่ ตั้ง stale:true แบบระวังไว้สำหรับแหล่งไม่ทราบวัน ส่วนบทความวันที่ 9 ต.ค. 2026 และวิดีโอปี 2022 เก่ากว่าแพตช์เป้าหมายแน่นอน วันที่ AOV Builds คือวันอัปเดตที่หน้าเว็บแสดง ไม่ใช่วันที่เผยแพร่ครั้งแรก วัน 23 ก.ค. ใน RoVGuide คือวันเหตุการณ์แพตช์ ไม่ใช่วันเผยแพร่หน้าเว็บ จึงคง source.date เป็น null ข้อมูลสกิลของหน้าทางการและ RoVGuide มีรายละเอียดต่างกัน เก็บแยกแหล่งโดยไม่ผสานเป็นคำแนะนำ ไม่พบประกาศทางการของการปรับ Diao Chan เดือน ก.ค. จากการค้นครั้งนี้; URL ที่ลอง https://www.rov.in.th/patch-notes/hotfix260723 คืน CRAWL_NOT_FOUND ไม่พบคู่ที่ Diao Chan ชนะพร้อมเหตุผลที่ชัดเจน ไม่พบคำแนะนำจากทรานสคริปต์วิดีโอที่อ่านได้ ไม่มีการยืนยันบิลด์ รูน หรือพลังแฝงสำหรับแพตช์เป้าหมาย ข้อความ quote บางรายการเป็นช่วงสั้นจากหัวข้อ/รายการ และอาจรวมช่องว่างจากการดึงข้อความ"
+}

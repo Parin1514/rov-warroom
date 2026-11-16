@@ -1,0 +1,267 @@
+{
+  "hero": "sinestrea",
+  "gamePatch": "ค้นเมื่อ 2026-11-16 (แพตช์ 12 พ.ย. 2026 + Hotfix 17 พ.ย. 2026 อยู่ในรายการ patch-notes) การเปลี่ยนแปลง Sinestrea ล่าสุดที่พบคือ Hotfix B54 13 ส.ค. 2026 (รีเวิร์ค Blood Ritual) ยังไม่ได้เปิดอ่านเนื้อหาแพตช์ 12 พ.ย./17 พ.ย. ว่ามี Sinestrea หรือไม่",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "sinestrea-001",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026 (ทางการ): รีเวิร์ค Blood Ritual ของ Sinestrea ย้ายจากปุ่ม Recall ไปช่องไอเทมกดใช้ เมื่อใช้เสีย HP ปัจจุบัน 50% เข้าสถานะชาร์จพลัง ไม่ตกเป็นเป้าโจมตี ลดความเร็วศัตรูรอบตัว 15% เมื่อชาร์จเสร็จระเบิดสตั๊นฮีโร่ศัตรู 0.5 วินาที และแบ่ง HP ของ Sinestrea กับศัตรูให้เท่ากัน",
+      "quote": "ย้ายตำแหน่งสกิล Blood Ritual ของ Sinestrea จากปุ่ม Recall ไปยังช่องไอเทมกดใช้ ... เสียพลังชีวิตปัจจุบัน 50% ... ลดความเร็วศัตรูรอบๆ ลง 15% ... สตั๊นฮีโร่ศัตรูในระยะ 0.5 วิ ... แบ่งพลังชีวิต ... ให้เท่ากัน",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-002",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026 (ทางการ): สกิล 2 ร่างประชิด ความเสียหายพื้นฐาน 250 (+50/LV) (+0.65AD) เป็น 275 (+55/LV) (+0.7AD)",
+      "quote": "250 (+50/LV) (+0.65AD) → 275 (+55/LV) (+0.7AD)",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-003",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026 (ทางการ): สกิล 2 ร่างไกล จากความเสียหาย 2 เท่าของร่างประชิด เป็นเท่าร่างประชิด + 10% HP ที่เป้าหมายเสียไป (สูงสุด 500 สำหรับเป้าหมายที่ไม่ใช่ฮีโร่)",
+      "quote": "ความเสียหายเท่ากับระยะประชิด + 10% HP ที่เป้าหมายเสียไป (สูงสุด 500 สำหรับเป้าหมายที่ไม่ใช่ฮีโร่)",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-004",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026 (ทางการ): สกิล 3 เข้าโหมดไกลทันที ได้ดูดเลือด 30% การโจมตีปกติยิงศรโลหิต 3 ครั้ง ความเสียหาย 100%/30%/30% เอฟเฟกต์โจมตีพิเศษทำงานเฉพาะศรดอกแรก นักพัฒนาระบุว่าปรับเพื่อสมดุลระหว่างไอเทมเอฟเฟกต์โจมตีพิเศษกับไอเทมคริติคอล",
+      "quote": "100%/30%/30% ซึ่งเอฟเฟกต์การโจมตีพิเศษจะทำงานเมื่อยิงศรโลหิตครั้งแรก",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-005",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026 (ทางการ): สกิล 1 ร่างไกล แก้บั๊กไม่สามารถโจมตีฮีโร่ในระยะประชิดได้",
+      "quote": "สกิล 1 (ระยะไกล): แก้ไขปัญหาไม่สามารถโจมตีฮีโร่ในระยะประชิดได้",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-006",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026 (ทางการ): รีเวิร์คสกิลคู่ Dextra Sacrifice: Dextra สละชีพ 3.5 วิ เสีย HP ปัจจุบัน 99% มอบ Dextra's Wish ให้ Sinestrea 10 วิ ได้เอฟเฟกต์เดียวกับอัลติของ Dextra (แปลงความเสียหายถึงตายเป็นพลังชีวิต) และความเสียหายที่ Sinestrea สร้างต่อฮีโร่ศัตรูฟื้นฟู HP ให้ Dextra",
+      "quote": "Dextra's Wish ให้กับ Sinestrea เป็นเวลา 10 วิ",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-007",
+      "type": "patch-change",
+      "text": "rovguide: change history ของ Sinestrea มีรายการแก้บั๊กว่า Passive ต่ำกว่า 7 สแตกไม่ลดคูลดาวน์การคืนชีพ (ไม่พบวันที่ชัดเจนในส่วนที่อ่านได้ ไม่พบในประกาศทางการที่เปิดอ่าน)",
+      "quote": "Sinestrea: fixed Passive below 7 stacks failing to reduce revival cooldown.",
+      "source": {"url": "https://rovguide.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-008",
+      "type": "patch-change",
+      "text": "i3siam สรุปแพตช์ 14 ส.ค. 2025 (เก่า): Sinestrea สกิล 2 ประชิดสตั๊น 0.5 วิ, ค่า AD สกิล 2 จาก 0.5 เป็น 0.65, สกิล 3 คูลดาวน์ 30-2.5/Lv เป็น 25-2.5/Lv, สกิล 3 ดาเมจต่อโจมตี 45% เป็น 60%, ดูดเลือดสกิล 3 เป็น 20% คงที่, Blood Ritual สลับเป็น Recall ทันทีหลังใช้",
+      "quote": "สกิล 3: ความเสียหายการโจมตีปกติแต่ละครั้งจาก 45% → 60%",
+      "source": {"url": "https://www.i3siam.com/rov-buff-nerf-update-august-2025/", "kind": "article", "date": "2025-08-14", "transcript": true, "stale": true}
+    },
+    {
+      "id": "sinestrea-009",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุบทบาท Assassin Fighter และสกิลติดตัว Blood Bramble: สกิลไอเทมกดใช้ถูกแทนที่ด้วย Blood Ritual กดแล้วระเบิดตัวเองตายภายใน 3 วิ สร้างความเสียหายกายภาพรอบตัว หากมีบัพ Blood Bramble 7 ครั้งจะคืนชีพ HP เต็ม (ได้จากการสังหารและช่วยเหลือ หายทั้งหมดเมื่อใช้) ข้อความนี้ตรงกับก่อนรีเวิร์ค 13 ส.ค. 2026 อาจไม่ตรงกับปัจจุบัน",
+      "quote": "จะระเบิดตัวเองตายภายใน 3 วิและสร้างความเสียหายกายภาพรอบตัว แต่หากมีบัพ Blood Bramble 7 ครั้งจะคืนชีพด้วย HP ที่เต็ม",
+      "source": {"url": "https://www.rov.in.th/hero/sinestrea", "kind": "official", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "sinestrea-010",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ สกิล 1 Blood Hide: พุ่งไปทิศที่เลือกและหายตัวอยู่กับที่ ทำให้การโจมตีครั้งต่อไปเป็นการพุ่งโจมตี สกิลติดตัว: ยืนนิ่ง 2.5 วินาทีเข้าโหมดหลับไหล (หายตัว)",
+      "quote": "เมื่อยืนนิ่งเป็นเวลา 2.5 วินาที จะเข้าสู่โหมดหลับไหล(หายตัว)",
+      "source": {"url": "https://www.rov.in.th/hero/sinestrea", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-011",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ สกิล 2 Blood Ghost: สลับโหมดโจมตีใกล้/ไกล ใกล้ = ความเสียหายกายภาพเพิ่ม 4% ของ HP ที่เป้าหมายเสีย + ดูดเลือด ไกล = โจมตีเสีย 4% HP ปัจจุบันพร้อมติด Bloodstain 6 วิ เมื่อยกเลิกโหมดไกลสามารถใช้ Bloodstain โจมตีจุดที่เลือก หรือใช้ใส่ตัวเองเพื่อฟื้นฟู HP",
+      "quote": "การโจมตีจะเสีย 4% ของ HP ปัจจุบันพร้อมติดสัญลักษณ์ Bloodstain เป็นเวลา 6 วินาที",
+      "source": {"url": "https://www.rov.in.th/hero/sinestrea", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-012",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ สกิล 3 Blood Samsara (ข้อความสกิลบนหน้านี้ ณ วันที่ค้น): สร้างพิธีกรรมเลือด 0.5 วิ นำ HP ตนเองและเป้าหมายมาแบ่งให้เท่ากัน และฟื้นฟู HP ตัวเองเพิ่ม สกิลติดตัว: HP ต่ำกว่า 40% เคลื่อนที่เร็วขึ้น 30% (ไม่ตรงกับคำอธิบายสกิล 3 หลังรีเวิร์คที่ rovguide และประกาศแพตช์ระบุว่าเป็นโหมดยิงศร 3 ดอก ดู notes)",
+      "quote": "นำ HP ของตนเองและเป้าหมายมาแบ่งให้เหลือเท่ากัน ... เมื่อ HP ต่ำกว่า 40% จะเคลื่อนที่เร็วขึ้น 30%",
+      "source": {"url": "https://www.rov.in.th/hero/sinestrea", "kind": "official", "date": null, "transcript": true, "stale": true}
+    },
+    {
+      "id": "sinestrea-013",
+      "type": "skill",
+      "text": "rovguide (ปัจจุบัน) สกิลติดตัว Blood Bramble: โจมตีปกติโดนเพิ่มระยะและความเร็วโจมตี 7%-14% ตามเลเวล ครบ 4 ครั้งติดกันเข้าโหมดไกล ทุกครั้งที่สลับโหมดสกิล 1 และ 2 รีเซ็ตคูลดาวน์ Blood Ritual: เสีย HP ปัจจุบัน 50% ดีเลย์สั้น สร้างความเสียหายกายภาพ 770 สตั๊น 0.5 วิ ไม่ตกเป็นเป้า ฟื้น 10% HP สูงสุดต่อฮีโร่ศัตรูที่โดน (ข้อความ rovguide เวอร์ชันอังกฤษ ส่วนนี้ต่างจากเวอร์ชันไทยและประกาศทางการ ดู notes)",
+      "quote": "After 4 consecutive normal attacks, she enters ranged state. The cooldown of skills 1 and 2 are refreshed whenever she changes state.",
+      "source": {"url": "https://rovguide.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-014",
+      "type": "skill",
+      "text": "rovguide (ไทย): สกิล 1 Blood Spike ค่าสกิลเลเวล 1-6 ความเสียหาย 250/300/350/400/450/500 คูลดาวน์ 10s ลดเหลือ 8s ที่เลเวล 6 ร่างไกลยิงศรผลักศัตรู หากมีกำแพงภายใน 4 เมตรด้านหลังจะกักขัง 3 วิ ร่างประชิดพุ่งแล้วการโจมตีถัดไปเป็นการพุ่งโจมตีเพิ่ม 250",
+      "quote": "หากภายในระยะ 4 เมตรด้านหลังศัตรูมีกำแพง จะสร้างกรงโลหิตกักขังศัตรู เป็นเวลา 3 วิ",
+      "source": {"url": "https://rovguide.com/th/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-015",
+      "type": "skill",
+      "text": "rovguide (ไทย): สกิล 2 Blood Ghost ร่างประชิด 275 (+70% AD) สตั๊น 0.5 วิ ร่างไกล 275 (+70% AD) + 10% HP ที่เป้าหมายเสีย (สูงสุด 500 ต่อมอนสเตอร์ป่า) ค่าตามเลเวลสกิล 275/330/385/440/495/550 คูลดาวน์ 10s-8s",
+      "quote": "275 (+ 70% AD) + 10% พลังชีวิตที่เป้าหมายเสีย (ความเสียหายสูงสุดต่อมอนสเตอร์ป่า 500 หน่วย)",
+      "source": {"url": "https://rovguide.com/th/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-016",
+      "type": "skill",
+      "text": "rovguide (ไทย): สกิล 3 Blood Propulsion เข้าโหมดไกล โจมตีปกติยิงศร 3 ครั้ง 100%/30%/30% ดูดเลือด 30% วิ่งเร็ว 30% ต้านทานการลดความเร็ว คูลดาวน์ 25s/22.5s/20s (เวอร์ชันอังกฤษของหน้าเดียวกันระบุ 55% ต่อดอก ดูดเลือด 20% ซึ่งขัดกัน ดู notes)",
+      "quote": "100%/ 30%/ 30% ... ดูดเลือด 30% โบนัสความเร็วเคลื่อนที่ 30% และต้านทานการลดความเร็ว",
+      "source": {"url": "https://rovguide.com/th/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-017",
+      "type": "playstyle",
+      "text": "rovguide: Sinestrea Assassin เลนป่า จุดเด่น Mobility สถิติ Win 52.35% Pick 9.82% Ban 18.80% (ไม่ระบุวันที่/แรงค์ของสถิติ)",
+      "quote": "Win rate 52.35% Pick rate 9.82% Ban rate 18.80%",
+      "source": {"url": "https://rovguide.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-018",
+      "type": "item",
+      "text": "aov-builds.com บิลด์พื้นฐาน: Soulreaver, War Boots, Claves Sancti, The Beast, Rankbreaker, Fafnir's Talon และบิลด์เบิร์สต์: Soulreaver, War Boots, Spear of Longinus, Claves Sancti, Fenrir's Tooth, Blade of Eternity (ชื่อไอเทมตามที่เว็บเขียน ไม่ได้ตรวจกับชื่อในเกม)",
+      "quote": "Soulreaver War Boots Claves Sancti The Beast Rankbreaker Fafnir's Talon",
+      "source": {"url": "https://aov-builds.com/en/heroes/sinestrea/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-019",
+      "type": "item",
+      "text": "rovmeta (เวอร์ชันอังกฤษ ผู้เขียน Danai) แนะนำ Loadout: Punish, ไอเทมแกนหลัก Soulreaver, War Boots, Broken Spear (ตัวที่ 3), Omni Arms, Claves Sancti, Blade of Eternity (ช่อง 4-6 ตามตาราง Dragon's Claw/Omni Arms/Claves Sancti/Blade of Eternity) Broken Spear เป็นพีคตัวที่ 3 เพราะลดเกราะ",
+      "quote": "Soulreaver into War Boots, then Broken Spear, Omni Arms, Claves Sancti, and Blade of Eternity as the six-item full build",
+      "source": {"url": "https://rovmeta.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-020",
+      "type": "item",
+      "text": "zathong (2026-05-23 ก่อนรีเวิร์ค) บิลด์ที่ดีที่สุด: Soulreaver, War Boots, Rankbreaker, Omni Arms, Fenrirs Tooth, Blade of Eterenity และบิลด์โปร: Soulreaver, War Boots, Claves Sancti, Rankbreaker, Omni Arms, Fenrirs Tooth สกิลเสริม Punish",
+      "quote": "Sinestrea best build: Soulreaver War Boots Rankbreaker Omni Arms Fenrirs Tooth Blade of Eterenity",
+      "source": {"url": "https://zathong.com/aov-sinestrea/", "kind": "community", "date": "2026-05-23", "transcript": true, "stale": true}
+    },
+    {
+      "id": "sinestrea-021",
+      "type": "item",
+      "text": "4Gamers (2020) อ้างคลิป Doyser: ถ้าไม่อยากตายฟรีตอนกด Blood Ritual ให้ออกไอเทมอย่าง Death Sickle (ข้อมูลก่อนรีเวิร์คหลายครั้ง)",
+      "quote": "ให้ออกไอเทมอย่าง Death Sickle มาสะ",
+      "source": {"url": "https://www.4gamers.co.th/news/detail/2898/rov-new-hero-sinestrea-guide-technical-aov-by-doyser-pro-player", "kind": "article", "date": "2020-08-26", "transcript": true, "stale": true}
+    },
+    {
+      "id": "sinestrea-022",
+      "type": "rune",
+      "text": "aov-builds.com รูน (Arcana): x10 แดง III คริติคอล, x5 ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่, x5 ม่วง III ดูดเลือด, x10 เขียว III พลังโจมตี/เจาะเกราะ",
+      "quote": "x10 รูนแดง III อัตราคริติคอล x5 รูนม่วง III ความเร็วโจมตี / ความเร็วเคลื่อนที่ x5 รูนม่วง III ดูดเลือด x10 รูนเขียว III พลังโจมตี / เจาะเกราะ",
+      "source": {"url": "https://aov-builds.com/th/heroes/sinestrea/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-023",
+      "type": "rune",
+      "text": "zathong (2026-05-23) รูน: Atrocity x10 (คริ +1.6%), Reave x10 (ดูดเลือด +1.6%), Skewer x10 (AD +0.9 เจาะเกราะ +6.4) ตรงกับชุดที่ gametimeprime (2020) ระบุ",
+      "quote": "Atrocity x 10 ... Reave x 10 ... Skewer x 10",
+      "source": {"url": "https://zathong.com/aov-sinestrea/", "kind": "community", "date": "2026-05-23", "transcript": true, "stale": true}
+    },
+    {
+      "id": "sinestrea-024",
+      "type": "enchant",
+      "text": "aov-builds.com พลังแฝง (Enchantment): Chaos Abyss ชุด Afterimage/Empower/Curse, Tower of Radiance ชุด Sacred Bead/Penetrating Heart(/Spirit), Genesis City ชุด Super Recovery/Hunter (ชื่อแต่ละโหมดตามที่เว็บเขียน)",
+      "quote": "Chaos Abyss I Afterimage II Empower Curse",
+      "source": {"url": "https://aov-builds.com/en/heroes/sinestrea/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-025",
+      "type": "enchant",
+      "text": "rovmeta แนะนำพลังแฝงแกนหลัก: Rampage, Spirit (ชื่อตามที่ตารางระบุ) ส่วน zathong (stale) ระบุ Lokheim: Shadow Blade/Deadly Claw/Curse of Death และ Human-Veda: Reaper's Blessing/Axe of Sacrifice",
+      "quote": "Core Runes Rampage Spirit",
+      "source": {"url": "https://rovmeta.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-026",
+      "type": "skill",
+      "text": "ลำดับอัปสกิล: rovmeta ระบุลำดับความสำคัญ R > Q > W (ตาราง: Q เลเวล 1,3,5,7,9,13 / W 2,4,8,10,12,14 / R 6,11,15) aov-builds ระบุสกิล 2 ก่อน (1,3,5,7,9,11) สกิล 1 (2,6,10,13,14,15) สกิล 3 (4,8,12) zathong (stale) ระบุ สกิล 2 -> สกิล 3 -> สกิล 1 ซึ่งทั้งสามแหล่งขัดกัน",
+      "quote": "Priority: R > Q > W",
+      "source": {"url": "https://rovmeta.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-027",
+      "type": "combo",
+      "text": "aov-builds.com คอมโบ: (1) จับตัวหลัก (ไม่ต้องสะสมพาสซีฟ) สกิล 1 -> 2 -> 3 -> 1 -> 2 (2) ผลักสองครั้ง ต้องสะสมพาสซีฟ 4 แต้มก่อน พาสซีฟ -> 1 -> 3 -> 1 -> 2 ผลักศัตรูเข้ากำแพงเพื่อตรึง (3) แม็กซ์ดาเมจ พาสซีฟ -> 1 -> 2 -> 3 -> 1 -> 2 ใช้อัลติรีเซ็ตสกิล 1 และ 2 เพื่อคอมโบสองรอบ (ลำดับจากรายการปุ่มที่อ่านได้ ชื่อสกิลบางช่องหาย)",
+      "quote": "Activating the ultimate instantly resets Skill 1 and Skill 2, so use it to combo twice.",
+      "source": {"url": "https://aov-builds.com/en/heroes/sinestrea/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-028",
+      "type": "combo",
+      "text": "rovmeta คอมโบมาตรฐานเข้าตีแครี่บาง: W ไกลติด Bloodstain ตอนเข้าหา -> Q ดาช -> รอสเตลธ์พาสซีฟให้ออโต้พุ่งเสริมพลัง -> R -> W ประชิดเก็บด้วยดาเมจเลือดที่หาย อีกคอมโบ: W ไกลติด Bloodstain -> Q ข้ามกำแพง -> ยกเลิกโหมดไกลยิง Bloodstain ใส่เป้าที่หนีผ่านกำแพง",
+      "quote": "Activate ranged W to apply Bloodstain on approach, Q-dash in and wait for passive stealth to trigger the empowered auto, then immediately R into melee W for the missing-HP finisher.",
+      "source": {"url": "https://rovmeta.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-029",
+      "type": "playstyle",
+      "text": "rovmeta: จังหวะแรงเริ่มที่ Soulreaver เลเวล 4, Broken Spear เป็นไอเทมที่สามคือพีคใหญ่, อ่อนในการเคลียร์ป่า 2 รอบแรกก่อนสแตกสร้าง, ต้นเกมเริ่ม Blue buff แล้ว Red เคลียร์เต็มถึงเลเวล 4 ก่อนแกงค์ (ขัดกับ aov-builds ที่แนะให้เริ่ม Red buff ก่อน), อย่าเข้าตีทีมท้ายเกมด้วยสแตกน้อยกว่า 5 ถ้าเลี่ยงได้ (เนื้อหาบางส่วนอ้างกลไกเก่าของ Blood Ritual 7 สแตก)",
+      "quote": "Sinestrea's first spike is Soulreaver at level 4",
+      "source": {"url": "https://rovmeta.com/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-030",
+      "type": "playstyle",
+      "text": "aov-builds.com: ต้นเกมเริ่มเส้นทางป่าจาก Red buff ก่อนเพราะไม่ใช้พลังงาน, ถึงเลเวล 4 รีบไปแกงค์ล่าเป้าเลือดบาง เลือกจังหวะที่เป้าอยู่ใกล้กำแพงเพื่อคอมโบตรึงด้วยสกิล 1 ร่างไกล, กลางเกมซ่อนตัวด้วยสเตลธ์ในพุ่มหรือบัฟศัตรูรอเก็บตัวเดี่ยว, ใช้สกิล 3 รีเซ็ตชุดสกิลเพื่อคอมโบแม็กซ์ดาเมจ, ท้ายเกมเลือดบางเหมือนกระดาษควรล่องหนซุ่มก่อนทีมไฟท์",
+      "quote": "เริ่มเส้นทางป่าจากบัฟแดงก่อน เพราะ Sinestrea ไม่ใช้พลังงาน",
+      "source": {"url": "https://aov-builds.com/th/heroes/sinestrea/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-031",
+      "type": "playstyle",
+      "text": "aov-builds.com ระบุสกิลเสริม Punish (เลนป่า) และ gametimeprime (2020) เสนอ Execute สำหรับเล่นเลนเดี่ยว",
+      "quote": "Sinestrea Support Spell Punish",
+      "source": {"url": "https://aov-builds.com/en/heroes/sinestrea/", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-032",
+      "type": "matchup",
+      "text": "rovmeta ระบุจุดอ่อน: สเตลธ์ Blood Hide ถูกเคาน์เตอร์แรงโดย Lauriel และ Krignach, Blood Samsara ร่าย 0.5 วิ ถูกซีซีตัวหนักจาก Maloch หรือ Baldum ขัดจังหวะได้ และเจอฮีโร่อัลติดีเลย์ (Tulen, Ilumia) แนะนำให้ปล่อยเลือดต่ำกว่า 40% ล่วงหน้าเพื่อได้สปีด 30% (ชื่อ Lauriel/Krignach ตามคำทับศัพท์ไทยในต้นฉบับ ควรตรวจกับ id จริง)",
+      "quote": "ซีซีตัวหนักจากมาลอคหรือบัลดัมยกเลิกท่านี้ได้ทั้งหมด",
+      "source": {"url": "https://rovmeta.com/th/heroes/sinestrea", "kind": "community", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-033",
+      "type": "matchup",
+      "text": "zathong (2026-05-23) ระบุ Extreme Threats ต่อ Sinestrea: Nakroth, Zill, Wukong, Quillen, Paine และ Ideal Synergies: Xeniel, Alice, Thane, TeeMee, Chaugnar",
+      "quote": "Extreme Threats: Nakroth Zill Wukong Quillen Paine",
+      "source": {"url": "https://zathong.com/aov-sinestrea/", "kind": "community", "date": "2026-05-23", "transcript": true, "stale": true}
+    },
+    {
+      "id": "sinestrea-034",
+      "type": "matchup",
+      "text": "Hotfix 13 ส.ค. 2026 ทางการ เพิ่มสกิลคู่กับ Dextra (Sacrifice -> Dextra's Wish) ซึ่งเป็นคู่ซินเนอร์จีที่ประกาศในแพตช์ ส่วน rovmeta และ aov-builds ไม่ได้อธิบายรายละเอียดคู่ Dextra ในหน้าฮีโร่ที่อ่านได้",
+      "quote": "รีเวิร์คสกิลคู่กับ Dextra",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260813", "kind": "official", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-035",
+      "type": "playstyle",
+      "text": "rovmeta (บล็อกแพตช์ 14 ส.ค. 2026): การรีเวิร์คทำให้ Sinestrea เล่นเป็นการเก็บศพเป้าเลือดน้อยมากขึ้น ร่างไกลสกิล 2 ไม่เหมาะเคลียร์เลนเพราะเพดานสูงสุด 500 กับเป้าที่ไม่ใช่ฮีโร่ และอย่าขึ้นคริหวังสามเด้งจากออโต้เดียวเพราะมีแค่ศรดอกแรกที่ทริกเกอร์เอฟเฟกต์โจมตีพิเศษ",
+      "quote": "อย่าขึ้นคริโดยหวังว่าจะได้สามเด้งจากออโต้ครั้งเดียว",
+      "source": {"url": "https://rovmeta.com/th/blog/arena-of-valor-august-patch-sinestrea-rework-thane-buff", "kind": "article", "date": "2026-08-14", "transcript": true, "stale": false}
+    },
+    {
+      "id": "sinestrea-036",
+      "type": "playstyle",
+      "text": "4Gamers (2020) อ้างคลิป Doyser: สกิล 2 สำคัญที่สุด, แนะนำสลับโหมดไกลไว้ก่อนแล้วสลับประชิดเข้าเบิร์สต์, ใช้สกิล 2 ปาดาบทิ้งไว้ก่อนแล้วเข้าบู๊เพื่อติดสแตกดูดเลือดคืน (ก่อนรีเวิร์คหลายครั้ง)",
+      "quote": "เริ่มต้นเลยคือแนะนำให้เปลี่ยนเป็นโหมดตีไกลไว้ตลอดเวลา",
+      "source": {"url": "https://www.4gamers.co.th/news/detail/2898/rov-new-hero-sinestrea-guide-technical-aov-by-doyser-pro-player", "kind": "video", "date": "2020-08-26", "transcript": false, "stale": true}
+    },
+    {
+      "id": "sinestrea-037",
+      "type": "playstyle",
+      "text": "พบคลิปวิดีโอ YouTube/ลิงก์วิดีโอที่ aov-builds และ rovmeta อ้างถึง เช่น 'Rov : การเดินเกมของ Sinestrea อันดับ1ไทย พร้อมเทคนิคการเล่น Season31' (โพสต์ 2024-09-03), 'RoV : สอนเล่น Sinestrea เบื้องต้น+เทคนิคการคอมโบสกิล' (HBX), 'RoV:Sinestrea แนวทางที่ถูกต้อง?Combo+Trick - Doyser' อ่านทรานสคริปต์ไม่ได้ จึงไม่อ้างเนื้อหา",
+      "quote": "Rov : การเดินเกมของ Sinestrea อันดับ1ไทย พร้อมเทคนิคการเล่นที่บางคนยังไม่รู้! Season31",
+      "source": {"url": "https://www.youtube.com/watch?v=hQ6gGpf3t7U", "kind": "video", "date": "2024-09-03", "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "ไม่มี entry Sinestrea ใน HANDCRAFTED_GUIDES (src/guide-data.mjs) จึงค้นตามแหล่งปกติ. ข้อมูลขัดแย้ง/ล้าสมัย: (1) หน้า rov.in.th/hero/sinestrea และ rovmeta ยังอธิบาย Blood Ritual แบบเดิม (ระเบิดตัวเอง 3 วิ, คืนชีพที่ 7 สแตก) และสกิล 3 แบบเดิม ซึ่งขัดกับ Hotfix 13 ส.ค. 2026 (HP 50%, สตั๊น, แบ่ง HP) จึงติด stale ในส่วนที่เกี่ยวข้อง. (2) rovguide เวอร์ชันอังกฤษมีตัวเลขสกิล 3 (55% ต่อดอก, ดูดเลือด 20%) และ Blood Ritual (770 dmg, ฟื้น 10% HP) ที่ต่างจากเวอร์ชันไทยและประกาศทางการ (100/30/30, ดูดเลือด 30%) และชื่อสกิลในหน้าเดียวกันสลับกัน (Blood Arrow/Blood Spike, Blood Sling/Blood Ghost); ชื่อใน src/hero-details.json คือ Blood Spike / Blood Ghost / Blood Propulsion. (3) ลำดับอัปสกิล 3 แหล่งขัดกัน (claim 026), จุดเริ่มป่า Blue vs Red ขัดกัน. (4) ไม่พบวันที่เผยแพร่ของ rovmeta/aov-builds/rovguide ในหน้าฮีโร่. (5) ยังไม่ได้เปิดอ่านประกาศแพตช์ 12 พ.ย. 2026 และ Hotfix 17 พ.ย. 2026 ว่ามีการเปลี่ยน Sinestrea หรือไม่ และไม่ได้อ่านการเปลี่ยนแปลงไอเทม/รูนที่เกี่ยวข้องในแพตช์หลังสุด. (6) ไม่พบทรานสคริปต์วิดีโอ ไม่มีคลิปให้อ้างเนื้อหาได้. (7) ไม่พบข้อมูลการออกของแก้ทาง/ตามสถานการณ์ (นอกจากบิลด์เบิร์สต์) และไม่พบข้อมูลรูน/พลังแฝงจากแหล่งทางการ."
+}

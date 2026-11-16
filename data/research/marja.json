@@ -1,0 +1,204 @@
+{
+  "hero": "marja",
+  "gamePatch": "ค้นเมื่อแพตช์ 12 พ.ย. 2026 + Hotfix 17 พ.ย. 2026 (การเปลี่ยนแปลง Marja ล่าสุดที่พบคือ B54 08.27 Hotfix 27 ส.ค. 2026; Beta 55 'Abyssal Rift' 28 ก.ย. 2026 ไม่มีการปรับ Marja)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "marja-001",
+      "type": "patch-change",
+      "text": "B54 08.27 Hotfix (27 ส.ค. 2026, อ่านจากหน้าแพตช์ทางการโดยตรง): Marja โดนเนิร์ฟ ความเสียหายสกิล 3 (Ghostwalk) ลดจาก 400(+200/LV)(+0.5AP) เหลือ 300(+150/LV)(+0.45AP); ผู้พัฒนาระบุว่า Marja เป็นหนึ่งในฮีโร่เมต้าประจำออฟเลน จึงลดความเสียหายตอนใช้อัลติ",
+      "quote": "ความเสียหายสกิล 3: 400(+200/LV)(+0.5AP) → 300(+150/LV)(+0.45AP)",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix260827", "kind": "official", "date": "2026-08-27", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-002",
+      "type": "patch-change",
+      "text": "เซิร์ฟเวอร์ทดสอบ (EXP) 4 ส.ค. 2026: ทดสอบเนิร์ฟ Marja ชุดเดียวกับที่ออกจริงใน Hotfix 27 ส.ค. 2026 พร้อมความเห็นผู้พัฒนาเรื่องเมต้าออฟเลน",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/patch-notes", "kind": "official", "date": "2026-08-04", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-003",
+      "type": "patch-change",
+      "text": "Beta 55 'Abyssal Rift' (28 ก.ย. 2026, อ่านสรุปจาก rovguide ไม่ได้อ่านหน้าแพตช์ทางการโดยตรง): ไม่มีการปรับ Marja (ปรับ 22 ฮีโร่ ได้แก่ Preyta, Yorn, Brunhilda, Eland'orr, Natalya, Lauriel, Aleister, Toro, Baldum, Krizzix, Ryoma, Ata, Amily, Roxie, D'Arcy และแก้บั๊ก Billow, Paine, Aoi, Hayate, Edras, Dolia, Florentino)",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/updates/beta55", "kind": "article", "date": "2026-09-28", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการ rov.in.th/hero/marja อธิบายสกิลชุดเก่า (ก่อนรีเวิร์ก 2024) และไม่มีตัวเลข; ไฟล์ src/hero-details.json ในโปรเจกต์ใช้ชื่อสกิลชุดรีเวิร์ก (Abyssal Might, Dark Pulse, Soul Devourer, Ghostwalk) แต่ข้อความหน้าเว็บทางการไม่ตรงกัน (ดู notes)",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/hero/marja", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-005",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Marja เป็น Mage Tank (เมจ/แทงก์)",
+      "quote": "Mage Tank",
+      "source": {"url": "https://www.rov.in.th/hero/marja", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-006",
+      "type": "skill",
+      "text": "rovguide (ชุดรีเวิร์ก): พาสซีฟ Abyssal Might - เมื่อใช้สกิล Marja เรียก Soul Devourer โจมตีศัตรูรอบตัวอัตโนมัติ ความเสียหายเวท 50 (+7% AP) ต่อครั้ง (ครีป 80 +14% AP, มอนสเตอร์ป่าลดครึ่ง) ฟื้น HP 20 (+4% AP) ได้ Shadow Force 30 หน่วย เพิ่มความเร็วเคลื่อนที่สูงสุด 30 และเอฟเฟกต์ฮีลสูงสุด 10% มี Soul Devourer ได้สูงสุด 6 ตัว เมื่อ Shadow Force เป็น 0 จะหายไปทีละตัว",
+      "quote": "50 (+ 7% AP) ... HP 20 (+ 4% AP) ... สูงสุด 6 ตัว",
+      "source": {"url": "https://rovguide.com/th/heroes/marja", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-007",
+      "type": "skill",
+      "text": "rovguide: Dark Pulse (สกิล 1) มานา 0 - ปล่อย Shadow Energy ความเสียหายเวท 175 (+30% AP) ตามเส้นทาง (เลเวลสกิล 175-350) กดซ้ำเพื่อวาร์ปไปหาพลังงานและสร้างความเสียหาย 175 (+30% AP) รอบตัว ถ้าโดนศัตรูเรียก Soul Devourer 1 ตัว คูลดาวน์ 10 วินาทีลดเหลือ 8 วินาที",
+      "quote": "175 (+ 30% AP) ... คูลดาวน์ 10s ... 8s",
+      "source": {"url": "https://rovguide.com/th/heroes/marja", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-008",
+      "type": "skill",
+      "text": "rovguide: Soul Devourer (สกิล 2) คูลดาวน์ 9 วินาที มานา 0 - ปล่อย Shadow Chain เชื่อมศัตรูตัวแรกสูงสุด 4 วินาที สโลว์เพิ่ม 2.5% ทุก 0.5 วินาที ดึงพลังโจมตี 10 (เลเวลสกิล 10-30) และพลังเวท 30 (30-105) สร้างความเสียหายเวท 25 (+7% AP) (25-80) พร้อมฟื้น HP 10 (+2% AP) (10-20) ระยะเกิน 1000 โซ่ขาด เชื่อมครบ 4 วินาทีเรียก Soul Devourer 1 ตัว; สกิลติดตัว: โจมตีปกติเสริมความเสียหายเวท 20 (+100% AD)(+20% AP) สโลว์ 10% ได้ Shadow Force 10",
+      "quote": "25 (+ 7% AP) ... HP 10 (+ 2% AP) ... 1000",
+      "source": {"url": "https://rovguide.com/th/heroes/marja", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-009",
+      "type": "skill",
+      "text": "rovguide: Ghostwalk (สกิล 3) มานา 0 - หายเข้าเงามืด ลบสถานะผิดปกติทั้งหมด วิ่งเร็ว +30% ไม่ตกเป็นเป้าหมาย 2 วินาที ตอนหายและปรากฏสร้างความเสียหายเวท 300 (+150/LV)(+45% AP) รอบตัว (ตัวเลขตามประกาศ Hotfix 27 ส.ค. 2026) ถ้าปรากฏโดนศัตรูเรียก Soul Devourer 1 ตัว คูลดาวน์ 24/22/20 วินาที",
+      "quote": "300 (+ 150 ต่อเลเวลสกิล) (+ 45% AP)",
+      "source": {"url": "https://rovguide.com/th/heroes/marja", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-010",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026): อัตราชนะ 52.18% อัตราเลือก 11.18% อัตราแบน 16.98% อันดับ 6 จาก 34 ในกลุ่มเมจ และอันดับ 6 จาก 37 ในเลนดาร์กสเลเยอร์; จุดเด่น 'ระยะไกล'; เรตติ้งทางการ เอาตัวรอด 3/5 พลังโจมตี 5/5 สกิล 1/5 ความยาก 2/5",
+      "quote": "52.18% ... 11.18% ... 16.98%",
+      "source": {"url": "https://rovguide.com/th/heroes/marja", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-011",
+      "type": "patch-change",
+      "text": "ประวัติเก่าที่ rovguide ลงไว้: Beta38 (28 ก.ย. 2022) แก้บั๊ก Marja โจมตีได้นอกระยะสกิล; Beta33 (26 ก.ย. 2021) เนิร์ฟสกิล 1 ดาเมจ 450+75/lv+0.6AP เหลือ 400+65/lv+0.55AP สโลว์ 3 เหลือ 2 วินาที; Beta30 (17 มี.ค. 2021) ปรับใหญ่ พาสซีฟลบโบนัสตาม HP ที่เสีย โจมตีปกติ 100%AD+30%AP สกิล1/อัลติให้ Abyss Mark ปรับดาเมจสกิล 1/2 และอัลติลบฮีล/สโลว์เพิ่มใบ้ 1 วินาที",
+      "quote": "",
+      "source": {"url": "https://rovguide.com/th/heroes/marja", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "marja-012",
+      "type": "playstyle",
+      "text": "ONE Esports (20 พ.ย. 2024, บทความรีเวิร์ก): หลังรีเวิร์ก Marja เหมาะกับเลนดาร์กสเลเยอร์และป่ามากขึ้น สกิลเปลี่ยนจาก AOE เป็นเป้าหมายเดี่ยว เทรดเลน 1-1 ชนะได้ทุกตัวแม้แต่ Florentino ฟื้นฟูเลือดได้ตลอด แต่ต้องระวังโดนรุมเพราะไม่มีสกิล AOE; เล่นกลางบทบาทลดลงเพราะต้องประชิดตัว; เล่นป่าฟาร์มไวเก็บออบเจกต์โดยไม่เสีย HP เยอะ",
+      "quote": "สามารถ 1-1 ในเลนชนะได้ทุกตัวละครแม้กระทั่ง Florentino",
+      "source": {"url": "https://www.oneesports.co.th/arena-of-valor/rov-marja-rework/", "kind": "article", "date": "2024-11-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "marja-013",
+      "type": "item",
+      "text": "ONE Esports (20 พ.ย. 2024): แนะนำรองเท้าลดคูลดาวน์ ไอเทมหลัก Zweihander ชิ้นแรก ตามด้วย Frostguard; เลทเกมเจาะเกราะเวท Staff of Nuul หรือ Soaring Aura, ความแรง Arctic Orb หรือ Hecate's Diadem, ความปั่นป่วน Gaia's Standard; ตำแหน่งป่าใช้ Loki's Curse + Gilded Greaves",
+      "quote": "Zweihander ... Frostguard ... Staff of Nuul",
+      "source": {"url": "https://www.oneesports.co.th/arena-of-valor/rov-marja-rework/", "kind": "article", "date": "2024-11-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "marja-014",
+      "type": "rune",
+      "text": "ONE Esports (20 พ.ย. 2024): รูนสายเวทเสริมความเร็วโจมตีและความเร็วเคลื่อนที่พร้อมเจาะเกราะเวท ใส่รูนคริติคอลเพิ่มเพื่อฟาร์มไว (ไม่ได้ระบุชื่อรูนรายตัว)",
+      "quote": "",
+      "source": {"url": "https://www.oneesports.co.th/arena-of-valor/rov-marja-rework/", "kind": "article", "date": "2024-11-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "marja-015",
+      "type": "enchant",
+      "text": "ONE Esports (20 พ.ย. 2024): พลังแฝงสายเหลือง Veda เน้นดาเมจ เจาะเกราะเวท โล่ และเวทแวมไพร์ สายรอง Afata ป้องกันโดนไดร์ฟป้อมและเพิ่มฟื้นฟู HP",
+      "quote": "Veda ... Afata",
+      "source": {"url": "https://www.oneesports.co.th/arena-of-valor/rov-marja-rework/", "kind": "article", "date": "2024-11-20", "transcript": true, "stale": true}
+    },
+    {
+      "id": "marja-016",
+      "type": "playstyle",
+      "text": "rovmeta (อัปเดต 12 พ.ย. 2026): Marja เทียร์ B (หมายเหตุ: FAQ ในหน้าเดียวกันกล่าวถึงเทียร์ S ขัดกันเอง ดู notes)",
+      "quote": "tier B",
+      "source": {"url": "https://rovmeta.com/th/heroes/marja", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-017",
+      "type": "skill",
+      "text": "rovmeta: ลำดับอัปสกิลให้ความสำคัญ อัลติ > สกิล 1 > สกิล 2 (R>Q>W) (หมายเหตุ: ข้อความสกิลบนหน้านี้บางส่วนเป็นชุดเก่าก่อนรีเวิร์ก ดู notes)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/marja", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-018",
+      "type": "item",
+      "text": "rovmeta: ชุดไอเทมแนะนำ (loadout) พร้อมไอเทมตามสถานการณ์และแก้ทาง ระบุเป็นภาพ/รายการบนหน้าเว็บ (รายละเอียดชื่อไอเทมอ่านได้ไม่ครบจากการดึงข้อความ ดู notes)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/marja", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-019",
+      "type": "combo",
+      "text": "rovmeta: มีคอมโบแนะนำและแผนการเล่น (gameplan) ตามช่วงเกม พร้อมเคล็ดลับและวิธีแก้ทาง Marja (รายละเอียดข้อความคอมโบอ่านได้ไม่ครบจากการดึงหน้าเว็บ ดู notes)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/marja", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-020",
+      "type": "matchup",
+      "text": "rovmeta: มีตารางคู่ชนะ/แพ้ทางของ Marja (รายชื่อฮีโร่รายตัวอ่านได้ไม่ครบจากการดึงหน้าเว็บ ดู notes)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/marja", "kind": "community", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-021",
+      "type": "item",
+      "text": "aov-builds (ต.ค. 2026): ชุดบิลด์ Marja ลงแรงก์ปัจจุบัน พร้อมพลังแฝง รูน สเปลล์ และลำดับอัปสกิล (หมายเหตุ: เนื้อหาบางส่วนกล่าวถึงสถานะใบ้และนกเรเวน ซึ่งเป็นชุดสกิลเก่า ขัดกับคิทรีเวิร์ก ดู notes)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/hero/marja", "kind": "community", "date": "2026-10-01", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-022",
+      "type": "combo",
+      "text": "aov-builds (ต.ค. 2026): มีคอมโบและเคล็ดลับการเล่น Marja ประจำแพตช์ (รายละเอียดเต็มอยู่ในหน้าเว็บ บางส่วนอ้างคิทเก่า)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/hero/marja", "kind": "community", "date": "2026-10-01", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-023",
+      "type": "playstyle",
+      "text": "วิดีโอ Doyser สองคลิปฝังในหน้า aov-builds (เห็นเฉพาะชื่อคลิป ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหาเพิ่ม)",
+      "quote": "",
+      "source": {"url": "https://aov-builds.com/hero/marja", "kind": "video", "date": "2026-10-01", "transcript": false, "stale": false}
+    },
+    {
+      "id": "marja-024",
+      "type": "item",
+      "text": "zathong (อัปเดต 21 พ.ค. 2026 / SS28): ชุดไอเทม รูน และพลังแฝงแนะนำสำหรับ Marja (รายละเอียดรายชื่ออ่านได้ไม่ครบจากการดึงหน้าเว็บ ดู notes)",
+      "quote": "",
+      "source": {"url": "https://zathong.com/marja-rov/", "kind": "article", "date": "2026-05-21", "transcript": true, "stale": false}
+    },
+    {
+      "id": "marja-025",
+      "type": "item",
+      "text": "gametimeprime (SS17/ซีซัน 24): ชุดไอเทมและรูน Marja ยุคเก่า (บทความเก่าก่อนรีเวิร์ก ใช้กับคิทเดิม)",
+      "quote": "",
+      "source": {"url": "https://gametimeprime.com/marja-rov/", "kind": "article", "date": "2021-01-15", "transcript": true, "stale": true}
+    },
+    {
+      "id": "marja-026",
+      "type": "playstyle",
+      "text": "บทความ Mustplay และ Millenium (2018): แนวทางเล่น Marja ยุคแรก (คิทเดิมก่อนรีเวิร์กทุกประการ)",
+      "quote": "",
+      "source": {"url": "https://www.mustplay.in.th", "kind": "article", "date": "2018-06-01", "transcript": true, "stale": true}
+    },
+    {
+      "id": "marja-027",
+      "type": "playstyle",
+      "text": "วิดีโอ Bilibili แนะนำ Marja (เห็นเฉพาะชื่อคลิป ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหาเพิ่ม)",
+      "quote": "",
+      "source": {"url": "https://www.bilibili.com", "kind": "video", "date": null, "transcript": false, "stale": true}
+    },
+    {
+      "id": "marja-028",
+      "type": "playstyle",
+      "text": "วิดีโอ YouTube ภาษาเวียดนาม (2018) แนะนำ Marja (เห็นเฉพาะชื่อคลิป ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหาเพิ่ม)",
+      "quote": "",
+      "source": {"url": "https://www.youtube.com", "kind": "video", "date": "2018-01-01", "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "guide-data.mjs ไม่มี HANDCRAFTED_GUIDES.marja จึงค้นจากแหล่งกว้างตามเงื่อนไขสำรอง. ข้อขัดแย้งที่พบ (ยังไม่ตัดสิน ส่งให้ rov-verifier): (1) หน้าฮีโร่ทางการ rov.in.th/hero/marja ยังแสดงคำอธิบายสกิลชุดเก่าก่อนรีเวิร์กและไม่มีตัวเลข ขณะที่ rovguide, ONE Esports และ src/hero-details.json ใช้คิทรีเวิร์ก (Abyssal Might/Dark Pulse/Soul Devourer/Ghostwalk); (2) บทบาท/เลนขัดกัน: หน้าทางการระบุ Mage Tank, rovguide จัดเลนดาร์กสเลเยอร์, ผู้พัฒนาใน Hotfix 27 ส.ค. 2026 เรียกว่าเมต้าออฟเลน, ONE Esports บอกเล่นกลางบทบาทลดลงหลังรีเวิร์ก; (3) เทียร์ขัดกัน: rovmeta ให้เทียร์ B แต่ FAQ ในหน้าเดียวกันกล่าวถึงเทียร์ S; (4) rovmeta มีข้อความสกิลชุดเก่าปนกับลำดับอัปสกิลใหม่, aov-builds กล่าวถึงสถานะใบ้และนกเรเวนซึ่งเป็นคิทก่อนรีเวิร์ก ทั้งที่หน้าอัปเดต ต.ค. 2026; (5) ไอเทม/รูนต่างกันตามยุค: ONE Esports (2024) ใช้ Zweihander/Frostguard, gametimeprime (2021) และ zathong ใช้ชุดอื่น อ่านรายชื่อเต็มไม่ครบ. ช่องว่าง: (ก) หน้าแพตช์ทางการ 12 พ.ย. 2026 และ Hotfix 17 พ.ย. 2026 ยังไม่ได้เปิดตรวจว่ามีการเปลี่ยน Marja หรือไม่ (Hotfix 17 พ.ย. มีวันหลังวันค้น 16 พ.ย. ซึ่งผิดปกติ); (ข) หน้าแพตช์ทางการ Beta 55 ไม่ได้อ่านโดยตรง ใช้สรุป rovguide แทน (พบว่าไม่มี Marja ในรายชื่อ 22 ฮีโร่ที่ปรับ); (ค) รายละเอียดไอเทม/รูน/คอมโบ/แมตช์อัปจาก rovmeta, zathong, aov-builds อ่านได้ไม่ครบจากการดึงข้อความหน้าเว็บ จึงอ้างเป็นระดับหัวข้อ; (ง) วิดีโอทั้งหมด (Doyser x2, Bilibili, YouTube เวียดนาม) ได้เฉพาะชื่อคลิป transcript:false; (จ) แหล่ง Mustplay/Millenium/Bilibili/YouTube อ้างเฉพาะระดับโดเมน ไม่ได้ระบุ URL บทความ/คลิปเต็ม ควรให้ rov-verifier ตรวจ URL ก่อนใช้. ส่งให้ rov-verifier."
+}

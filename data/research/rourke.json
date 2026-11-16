@@ -1,0 +1,176 @@
+{
+  "hero": "rourke",
+  "gamePatch": "Patch ปัจจุบัน ณ 2026-11-16 (Hotfix 4 พ.ย. 2026 ล่าสุดที่มีผล; Hotfix 17 พ.ย. 2026 / hotfix261117 ประกาศแล้วแต่ยังไม่มีผล)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "rourke-001",
+      "type": "skill",
+      "text": "พาสซีฟ Scattershot: หน้าไม้ของ Rourke ยิงกระสุนพิเศษ แต่ละดอกลดป้องกันกายภาพศัตรู 6 วินาที (สะสมสูงสุด 12 ครั้ง) มีเพียงกระสุน 2 นัดตรงกลางที่ติดคริติคอลได้ เป้าหมายได้รับ 50% ของความเสียหายทั้งหมด + (40% × ความเสียหายจากกระสุนที่โดน) (ไม่มีผลกับสิ่งปลูกสร้าง)",
+      "quote": "หน้าไม้ของ Rourke จะยิงกระสุนพิเศษ ที่แต่ละดอกจะลดป้องกันกายภาพศัตรูลงเป็นเวลา 6 วินาที (สะสมสูงสุด 12 ครั้ง)",
+      "source": {"url": "https://www.rov.in.th/hero/rourke", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-002",
+      "type": "skill",
+      "text": "สกิล 1 Charged Shot: ภายใน 1.5 วินาที Rourke วิ่งเร็วขึ้น 40% และการโจมตีต่อไปเป็นการโจมตีพิเศษ แต่ละนัดสร้างความเสียหายกายภาพ ฮีโร่ศัตรูถูกลดความเร็วหากกระสุนทั้งหมดโจมตีโดน",
+      "quote": "ภายใน 1.5 วิ Rourke จะวิ่งเร็วขึ้น 40% และการโจมตีต่อไปจะเป็นการโจมตีพิเศษ",
+      "source": {"url": "https://www.rov.in.th/hero/rourke", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-003",
+      "type": "skill",
+      "text": "สกิล 2 Bolt: Rourke พุ่งไปทิศที่กำหนด หยุดทันทีหากชนศัตรู สร้างความเสียหายกายภาพเป็นวงกว้าง พร้อมสตั๊นและผลักศัตรูถอยหลัง หากพุ่งโดนฮีโร่ศัตรูจะลดคูลดาวน์สกิลนี้ลงทันที 2 วิ",
+      "quote": "หากพุ่งโดนฮีโร่ศัตรู จะลดคูลดาวน์สกิลนี้ลงทันที 2 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/rourke", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-004",
+      "type": "skill",
+      "text": "อัลติ Determination: ลบสถานะควบคุมทั้งหมด ได้รับโล่กันความเสียหาย ไม่โดนสถานะควบคุมระหว่างนั้น เปลี่ยน 50% ของความเสียหายที่สร้างเป็นค่าโล่ (ครีป/มอนสเตอร์ป่า 20%) ค่าโล่เกิน 150% ของค่าเริ่มต้นไม่ได้ และได้รับพลังโจมตี+เกราะเพิ่ม 6 วิ",
+      "quote": "เปลี่ยน 50% ของความเสียหายที่เขาสร้างไปเพิ่มเป็นค่าโล่ (หากโจมตีครีป หรือมอนสเตอร์ป่าจะเปลี่ยนแค่ 20%) ซึ่งค่าโล่จะไม่สามารถเกิน 150% ของค่าเริ่มต้น",
+      "source": {"url": "https://www.rov.in.th/hero/rourke", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-005",
+      "type": "item",
+      "text": "หน้าฮีโร่ทางการแนะนำไอเทมชุด 'แนะนำ': Firestorm Bow, Glided Greaves, Broken Spear, Omni Arms, Fenrir's Tooth, Blade of Eternity",
+      "quote": "ไอเทมแนะนำ: Firestorm Bow / Glided Greaves / Broken Spear / Omni Arms / Fenrir's Tooth / Blade of Eternity",
+      "source": {"url": "https://www.rov.in.th/hero/rourke", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-006",
+      "type": "rune",
+      "text": "หน้าฮีโร่ทางการแสดงรูนแนะนำชุด Awake และพลังแฝง Spirit Dragon's Claw สำหรับ Rourke",
+      "quote": "รูน Awake ... พลังแฝง Spirit Dragon's Claw",
+      "source": {"url": "https://www.rov.in.th/hero/rourke", "kind": "official", "date": "2026-11-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-007",
+      "type": "patch-change",
+      "text": "Hotfix 17 พ.ย. 2026 (hotfix261117, ประกาศ 12 พ.ย.) ไม่มีการปรับ Rourke — ปรับ Butterfly (Rework), Arduin, Grakk, Dirak, Riktor, Fennik (บัฟ) และ Dyadia (เนิร์ฟ) พร้อมปรับสนามรบ/ครีป; แพตช์นี้ยังไม่มีผล ณ วันที่ค้น",
+      "quote": "ปรับสมดุลฮีโร่ Butterfly (Rework) ... Arduin (Buff) ... Grakk (Buff) ... Dirak (Buff) ... Riktor (Buff) ... Fennik (Buff) ... Dyadia (Nerf)",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261117", "kind": "official", "date": "2026-11-12", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-008",
+      "type": "patch-change",
+      "text": "Hotfix 4 พ.ย. 2026, 30 ต.ค. 2026 และ 15 ต.ค. 2026 ไม่มีการกล่าวถึง Rourke — ตัวเลขสกิลบนหน้าฮีโร่ทางการจึงยังเป็นแพตช์ปัจจุบัน",
+      "quote": "",
+      "source": {"url": "https://www.rov.in.th/patch-notes/hotfix261104", "kind": "official", "date": "2026-11-04", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-009",
+      "type": "item",
+      "text": "ครีเอเตอร์ (เจ, ต.ค. 2026) แนะนำเซตท็อปเซิร์ฟเวอร์: ถุงมือหายตัว (Wind Walk/ไอเทมหายตัว) ใช้พลิกแพลงกับ Rourke ได้; รองเท้าเลือกได้ระหว่างรองเท้าตีเร็วหรือรองเท้าลดคูลดาวน์ แล้วแต่ต้องการใช้สกิลบ่อยหรือตีเร็วฟาร์มเร็ว; แนะนำรัดไอเทม (ไม่แนะนำสับสน) ขึ้น Omni Arms ให้สกิล 1 ต่อยแรงขึ้นและลดคูลดาวน์ จากนั้นขึ้น Firestorm Bow; เรทเกมอาจเปลี่ยนเป็นรองเท้ากันซีซีเผื่อเปิดอัลติแล้วโล่หมด",
+      "quote": "แผ่นนี้เนี่ยการมาของถุงมือหายตัวเนี่ยผมมองว่ามันสามารถเอาไปใช้พลิกแพงกับรุคได้... รองเท้าครับก็จะเล่นได้ 2 รองเท้าครับจะเป็นรองเท้าตีเร็วหรือรองเท้าลดคูลดาวน์",
+      "source": {"url": "https://www.youtube.com/watch?v=540xwA6LiD8", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-010",
+      "type": "enchant",
+      "text": "ครีเอเตอร์ (เจ, ต.ค. 2026): พลังแฝงใช้ Devil Awakening 'ต้องมี' — กดสกิล 1 พุ่งสกิล 2 เปิดอัลติ แล้ว Devil Awakening ลดคูลดาวน์สกิล 1 และ 2 ทันที ทำให้ใช้สกิล 1-2 ต่อได้รัว ๆ; รูนใช้ชุดปกติ Onslaught / Assassinate / Dragon Claw",
+      "quote": "Devil Awakening ต้องมีครับ กดสกิล 1 พุ่งสกิล 2 เปิดอัลติ พอเปิดอัลติเสร็จปุ๊บ Devil Awakening จะทำการลดคูลดาวน์สกิล 1 และสกิล 2 ให้อย่างรวดเร็ว",
+      "source": {"url": "https://www.youtube.com/watch?v=540xwA6LiD8", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-011",
+      "type": "playstyle",
+      "text": "วิธีเล่นตามครีเอเตอร์ (ต.ค. 2026): ยิ่งตีใกล้ยิ่งแรงทุกสกิล — เวลาฟาร์มกดสกิล 1 วิ่งเข้าใกล้ครีปแล้วตีปกติ อย่าตีไกล; อัลติให้โล่สีขาวต้านสถานะ ถ้าโล่ยังไม่หายจะโดนซีซีไม่ได้ และการโจมตีปกติตอนเปิดอัลติช่วยเพิ่มค่าโล่; เปิดอัลติแล้วได้ดาเมจเวล 12 ประมาณ +150",
+      "quote": "ยิ่งตีใกล้ยิ่งแรงครับ... ตัวละครตัวนี้ครับวิ่งนัวไฟท์ วิ่งทะลุสตั้น วิ่งทะลุสโลว์ได้หมด แต่ถ้าโล่ขาวหายชิบหายแน่นอน",
+      "source": {"url": "https://www.youtube.com/watch?v=540xwA6LiD8", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-012",
+      "type": "rune",
+      "text": "ครีเอเตอร์ AD (ม.ค. 2026): แนะนำรูน Awake 10 เม็ด (รูนตีไว 26) เพราะช่วยให้ Rourke ฟาร์มเร็วขึ้น — Rourke ยิงช้า ตีไว 26 ช่วยได้มาก ใครจะพ่วง Assassinate สัก 2-5 เม็ดก็ได้ แต่ส่วนตัวแนะนำ ตีไว 26",
+      "quote": "รูนนะครับผมก็จะแนะนำเป็น Awake เลยนะ 10 เม็ดนะครับ ก็คือรูนตีไว 26 นั่นแหละ",
+      "source": {"url": "https://www.youtube.com/watch?v=Q40OaluoHkQ", "kind": "video", "date": "2026-01-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-013",
+      "type": "item",
+      "text": "ครีเอเตอร์ AD (ม.ค. 2026): ขึ้นธนูฟาร์ม (Firestorm Bow) ชิ้นแรก แล้วรองเท้าลดคูลดาวน์ (หรือรองเท้าเกราะถ้าเจอตัวตีแรง หรือรองเท้าตีไว) จากนั้นขึ้น Broken Spear ชิ้นสำคัญ ชิ้นที่ 4 ถ้าเล่นแรงเลยใช้ Omni Arms ชิ้นสุดท้ายอาจเป็นอเวคเกิด (Blade of Eternity) หรือดาบอึด — ไอเทมไม่ตายตัว ออกตามสถานการณ์",
+      "quote": "การขึ้นไอเทมของผมผมก็จะขึ้นธนูฟาร์มชิ้นแรกเลย... แล้วเราก็จะขึ้นเป็น Broken Spear... ถ้าเราเล่นแรงไปเลยก็จะเป็น Omni Arms",
+      "source": {"url": "https://www.youtube.com/watch?v=Q40OaluoHkQ", "kind": "video", "date": "2026-01-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-014",
+      "type": "enchant",
+      "text": "ครีเอเตอร์ AD (ม.ค. 2026): พลังแฝงแนะนำ Devil Awakening; ตัวเลือกสีเหลืองแรกเลือกระหว่างขวาน (ยิงแรง) หรือลูกแก้ว (ลดคูลดาวน์อัลติ 10%) — ส่วนตัวแนะนำลูกแก้วเพราะ Rourke ทีหลักคืออัลติ ต้องมีอัลติตลอด",
+      "quote": "ถ้าลูกแก้วเราจะได้ลดคูลดาวน์อัลติ 10%... ส่วนตัวผมก็แนะนำเป็นลูกแก้วนะครับ เพราะว่ารู้มันทีหลักมันคืออัลติ",
+      "source": {"url": "https://www.youtube.com/watch?v=Q40OaluoHkQ", "kind": "video", "date": "2026-01-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-015",
+      "type": "playstyle",
+      "text": "ครีเอเตอร์ AD (ม.ค. 2026): Rourke เล่นเน้นดาเมจเพราะมีอัลติให้เกราะ/ต้านซีซี; เก่งต้น-กลางเกม เรทเกมเล่นยากถ้าศัตรูอยู่รวมกันเยอะ (มีตัวค้ำแครี่/เมจ/แอสแซสซิน); สกิลของ Rourke ไม่ทะลุตัวแทงก์ที่ขวางหน้า",
+      "quote": "ต้นเกมกลางเกมโหดนะครับ เรทเกมโหดมั้ยโหดครับ แต่ว่าเวลาศัตรูมันอยู่รวมกันเยอะๆอ่ะเล่นยากอยู่",
+      "source": {"url": "https://www.youtube.com/watch?v=Q40OaluoHkQ", "kind": "video", "date": "2026-01-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-016",
+      "type": "patch-change",
+      "text": "ครีเอเตอร์ (คลิป ~พ.ย. 2026, ตีพิมพ์ 'ปรับใหม่'): สกิล 2 ของ Rourke ปรับให้ข้ามกำแพงได้แล้ว ทำให้เล่นง่ายขึ้นมาก — ดาเมจประชิดโหดอยู่แล้ว สิ่งที่ขาดคือการเข้าหา",
+      "quote": "ปรับใหม่สกิล 2 สามารถข้ามกำแพงได้แล้วนะครับ บอกเลยนะครับว่าเล่นง่ายขึ้นมาก",
+      "source": {"url": "https://www.youtube.com/watch?v=sCueBIyS-zg", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-017",
+      "type": "combo",
+      "text": "ครีเอเตอร์ (ต.ค. 2026): เสนอคอมโบ Rourke คู่ Aya — Aya ขี่หัว Rourke ให้เกราะ+สโลว์เพิ่ม ช่วยให้ตามศัตรูทัน คอมโบนี้เก่งถ้าไม่เจอ Arum; เจอทั้ง Florentino และ Hayate ยังไหว",
+      "quote": "ถ้ารูฟเล่นกับอาย่าน่าจะเก่ง... เรามีเกาะและมีสโลวเพิ่มครับผม คือเราตามทัน",
+      "source": {"url": "https://www.youtube.com/watch?v=sCueBIyS-zg", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-018",
+      "type": "rune",
+      "text": "สัมภาษณ์ Rourke อันดับ 1 ไทย (ต.ค. 2026, แรงค์ 101 เกม ชนะ 80%): รูนใช้สีแดง Onslaught 10 เม็ด สีม่วง Assassinate 10 เม็ด สีเขียว Dragon Claw 10 เม็ด เป็นรูนเจาะเกราะ 100; พลังแฝงใช้ Devil Awakening",
+      "quote": "สีแดงใช้เป็น Onslaught 10 เม็ด สีม่วง Assassinate 10 เม็ด ส่วนสีเขียวก็จะเป็น Dragon Claw 10 เม็ดนะครับ เป็นรูนเจาะเกาะ 100 นะครับ พลังแฝงน้องเก็จะใช้เป็น Devil Awakening",
+      "source": {"url": "https://www.youtube.com/watch?v=R3mhzDW-7Sc", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-019",
+      "type": "item",
+      "text": "สัมภาษณ์ Rourke อันดับ 1 ไทย (ต.ค. 2026): ไอเทมชิ้นแรก Firestorm Bow (ธนูป่า) ออกทุกเกม (เลิกใช้ไอเทมป่าดาบเพราะปรับใหม่ไม่ได้ดูดเลือดแล้ว ได้แค่ดาเมจกับลดคูลดาวน์) รองเท้าตีไว, Broken Spear, Omni Arms, ดาบแดง (Fenrir's Tooth) ปิดท้ายด้วยเกราะเกิด (Blade of Eternity); ถ้าเจอเวท 2 ตัวขึ้นไปเปลี่ยนเป็นรองเท้าต้านสถานะและออกของกันเวทแทน Omni Arms ชิ้นสุดท้ายอาจเป็นกันเวทใหญ่สำหรับเรทเกม",
+      "quote": "ชิ้นแรกใช้เป็น Firestorm หรือว่าธนูป่านะครับ รองเท้าตีไว Broken Spear โอมิอาร์ม ดาบแดง แล้วก็ปิดท้ายด้วยเกาะเกิด",
+      "source": {"url": "https://www.youtube.com/watch?v=R3mhzDW-7Sc", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-020",
+      "type": "skill",
+      "text": "Rourke อันดับ 1 ไทย: อัปสกิล 1 นำ เพราะดาเมจส่วนมากอยู่กับสกิล 1; Morning Star ออกได้เมื่อก่อนแต่หลังแพตช์ปรับใหม่ออกไม่ได้แล้ว (Rourke ตีไกล) ตามการถามตอบในคลิป",
+      "quote": "อัพ 1 นำเพราะว่าดาเมจส่วนมากจะอยู่กับสกิล 1 ครับผม",
+      "source": {"url": "https://www.youtube.com/watch?v=R3mhzDW-7Sc", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-021",
+      "type": "combo",
+      "text": "Rourke อันดับ 1 ไทย: คอมโบดักพุ่มใช้ 1 > 2 เพื่อสตั๊น > อัลติ เพื่อเอา Devil Awakening รีคูลดาวน์สกิล 1-2 ใช้สกิลต่อเนื่องไล่ศัตรูที่กำลังจะหนี; อัลติยังใช้สวนจังหวะอัลติฝ่ายตรงข้าม (เช่น Wonder Woman กำลังเปิดอัลติ) เพื่อป้องกันการถูกทำลายจังหวะ เพราะตัวเองต้านสถานะอยู่แล้ว",
+      "quote": "คอมโบผมจะใช้เป็นดักพุ้มนะ ผมจะใช้เป็น 1 แล้วก็ 2 เพื่อสตั้น แล้วก็อัลติเพื่อจะเอา Devil Awakening ครับผม เพื่อจะได้ใช้สกิลต่อเนื่อง",
+      "source": {"url": "https://www.youtube.com/watch?v=R3mhzDW-7Sc", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-022",
+      "type": "matchup",
+      "text": "Rourke อันดับ 1 ไทย: ชนะทางพวกไฟเตอร์ที่ต้องเข้าประชิด (ยิ่งใกล้เรายิ่งแรง); ต่อ Murad ไม่ชนะ 100% แต่ขัดจังหวะตอนเขากำลังสับด้วยสกิล 2 สตั๊นแล้วยิงสวนได้; แพ้ทางพวกสกิลต่อย/โจมตีไกล ๆ เช่น Tulen, Marja, Aya (พวกโป๊กดาเมจและฮีโร่เล่นระยะ)",
+      "quote": "ฮีโร่ที่เราชนะทาง... ก็จะมีพวกไฟเตอร์... พวกทูเลน มาอ (Marja) แล้วก็อายาครับผม ก็จะแบบพวกโป๊กดาเมจแล้วก็ฮีโร่เล่นระยะ",
+      "source": {"url": "https://www.youtube.com/watch?v=R3mhzDW-7Sc", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-023",
+      "type": "playstyle",
+      "text": "Rourke อันดับ 1 ไทย: ชอบเล่นออฟเลน เพราะสกิล 1 เบิร์สแรง ฟาร์มเสร็จมีอัลติมีสตั๊นแล้วไปทำเลนอื่นได้; ถ้าเข้าใกล้ศัตรูไม่ได้จะไม่ได้ดาเมจและไม่ได้เกราะ เพราะอัลติต้องทำดาเมจเพื่อเปลี่ยนเป็นค่าเกราะ",
+      "quote": "ถ้าเราแบบเข้าใกล้ศัตรูมันไม่ได้ เราจะไม่ได้ดาเมจเลย เราจะไม่ได้เกราะเลย เพราะว่าอัลติรุคถ้าเราเปิดใช้งานแล้วเราต้องทำดาเมจ",
+      "source": {"url": "https://www.youtube.com/watch?v=R3mhzDW-7Sc", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "rourke-024",
+      "type": "playstyle",
+      "text": "ครีเอเตอร์ (ต.ค. 2026): Rourke เก่งกับพวกตัวบางไม่มีของป้องกัน และพวกตัวสตั๊นเยอะ เพราะเปิดอัลติวิ่งทะลุทุกอย่าง; ไม่ค่อยกลัวตัวเมต้า; ระวัง Paine (เปต้า) — อย่ายืนรับอัลติเต็ม ๆ ถ้าหลบได้",
+      "quote": "รูคจะเก่งกับพวกแบบไม่มีของป้องกันนะครับ เป็นพวกแบบตัวละครบางๆ หรือว่าตัวละครสตั้นเยอะๆน่ารำคาญอะไรเงี้ย รู้เปิดอัลติวิ่งทะลุทุกอย่าง",
+      "source": {"url": "https://www.youtube.com/watch?v=540xwA6LiD8", "kind": "video", "date": "2026-10-16", "transcript": true, "stale": false}
+    }
+  ],
+  "notes": "Exa rate-limited; Google/Bing/DDG scraping blocked — ใช้ YouTube search HTML + youtube-transcript-api แทน. หา matchup แบบละเอียด (ชนะ/แพ้ทางรายตัว) จากแหล่งทางการไม่ได้ มีแต่จากวิดีโอ. คลิป OF9PhZBeYLA (แก้ทาง Murad, ~ส.ค. 2026) transcript สั้นมาก/อ่านไม่ได้เนื้อสำคัญ จึงไม่บันทึกเป็น claim. คลิป 90diECSsBeE (ต.ค. 2026, off-lane Rourke) เน้น gameplay ไม่มีรายละเอียดบิลด์ชัดเจนในทรานสคริปต์. ไม่พบวันที่แน่ชัดของแต่ละวิดีโอ (YouTube ให้แค่ '1 เดือนที่แล้ว') — กำหนดเป็น 2026-10-16 โดยประมาณ. หน้าฮีโร่ทางการไม่ระบุวันอัปเดต. ไม่ได้ตรวจ hotfix เก่ากว่า 15 ต.ค. 2026 — ไม่ทราบว่าแพตช์ไหนปรับสกิล 2 ให้ข้ามกำแพง (อ้างในคลิป sCueBIyS-zg เท่านั้น)."
+}

@@ -1,0 +1,253 @@
+{
+  "hero": "omega",
+  "gamePatch": "ค้นเมื่อแพตช์ 12 พ.ย. 2026 + Hotfix 17 พ.ย. 2026 (การเปลี่ยนแปลง Omega ล่าสุดที่พบคือ Beta 54 7 ก.ค. 2026 และ Hotfix 13 ส.ค. 2026 ตาม rovguide; rovmeta ระบุแพตช์ 1.64)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "omega-001",
+      "type": "playstyle",
+      "text": "หน้าฮีโร่ทางการจัดบทบาท Omega เป็น Tank Support",
+      "quote": "Tank Support",
+      "source": {"url": "https://www.rov.in.th/hero/omega", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุสกิลติดตัว Demolition Mode: สกิลของ Omega สร้างความเสียหายเต็มจำนวนให้กับสิ่งปลูกสร้าง",
+      "quote": "สกิลของ Omega สร้างความเสียหายเต็มจำนวนให้กับสิ่งปลูกสร้าง",
+      "source": {"url": "https://www.rov.in.th/hero/omega", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Vanguard Mode (สกิล 1): หลังเปิดใช้ Omega ดูดซับความเสียหายและเพิ่มความเร็วเคลื่อนที่ 25% นาน 5 วินาที และการโจมตีปกติครั้งถัดไปเพิ่มพลังโจมตี สร้างความเสียหายกายภาพและทำให้ศัตรูลอยขึ้น (หน้านี้ไม่แสดงตัวเลขดาเมจ/คูลดาวน์)",
+      "quote": "เพิ่มความเร็วเคลื่อนที่ 25% เป็นเวลา 5 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/omega", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Crash Mode (สกิล 2): Omega กระแทกใส่ศัตรูด้านหน้า สร้างความเสียหายกายภาพ และทำให้ติดสตั๊น",
+      "quote": "กระแทกใส่ศัตรูด้านหน้า สร้างความเสียหายกายภาพ และทำให้ติดสตั๊น",
+      "source": {"url": "https://www.rov.in.th/hero/omega", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-005",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Exterminate (อัลติเมต): Omega หมุนรอบตัวเองโจมตีศัตรูรอบๆ อย่างต่อเนื่อง แต่ละครั้งสร้างความเสียหายกายภาพ",
+      "quote": "หมุนรอบตัวเองเพื่อโจมตีศัตรูรอบๆ อย่างต่อเนื่อง",
+      "source": {"url": "https://www.rov.in.th/hero/omega", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-006",
+      "type": "patch-change",
+      "text": "Beta 54 (7 ก.ค. 2026): Omega บัฟสกิล 1 โดยเพิ่มการลดคูลดาวน์ตามเลเวล (10 เป็น 10-0.4/lv) และเพิ่มโล่รวมจาก 250+125/lv+10% HP สูงสุด เป็น 400+120/lv+10% HP สูงสุด (ข้อมูลจาก rovguide ซึ่งใช้ชื่อสกิลแบบ Redeploy ไม่ได้อ่านหน้าแพตช์ทางการโดยตรง)",
+      "quote": "Skill 1: Increased the overall shield. Before 250+125/lv+10%พลังชีวิตสูงสุด After 400+120/lv+10%พลังชีวิตสูงสุด",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2026-07-07", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-007",
+      "type": "patch-change",
+      "text": "Hotfix 13 ส.ค. 2026: แก้บั๊กที่ทำให้เลือก Omega ในตำแหน่ง Support ในหน้าเลือกฮีโร่ไม่ได้ (rovguide)",
+      "quote": "Fixed an issue that prevented Omega from being selected under Support on the hero-selection screen.",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2026-08-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-008",
+      "type": "patch-change",
+      "text": "ประวัติเก่าที่ rovguide ลงไว้: Beta 47 (16 ต.ค. 2024) แก้บั๊กสกิลไม่บล็อกคลื่น Slayer; Beta 37 (5 ก.ค. 2022) แก้สกิล 1 ไม่ทำดาเมจใส่ Abyssal Dragon/Slayer",
+      "quote": "Omega: Fixed skills no longer block the Slayer wave.",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2024-10-16", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-009",
+      "type": "skill",
+      "text": "rovguide (ชื่อสกิลชุดอื่น): Surviving Memory (ติดตัว) ทำดาเมจใส่ป้อม 50% ทุก 6 วินาทีเสริมการโจมตีปกติครั้งถัดไป สร้างความเสียหายกายภาพ 4% HP สูงสุด และเพิ่ม 150 (+6% HP สูงสุด) ใส่มินเนียน/มอนสเตอร์ป่า และทำให้ป้อมสตันได้ 2 วินาที",
+      "quote": "Omega's skill can deal 50% damage to towers. Every 6 seconds, Omega enhances his next normal attack",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-010",
+      "type": "skill",
+      "text": "rovguide: Redeploy (สกิล 1) มานา 50 เป็นโล่ 400 (+10% HP สูงสุด) (เลเวลสกิล 400-1000) ความเร็วเคลื่อนที่ +30% (30-50%) นาน 4 วินาที ชนศัตรูสร้างความเสียหายกายภาพ 100 (+50% AD) (100-300) และผลักออก 0.5 วินาที คูลดาวน์ 10 วินาที (10 ถึง 8 วินาที)",
+      "quote": "he gains a shield equal to 400 (+ 10% of his max HP) and an additional 30% movement speed",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-011",
+      "type": "skill",
+      "text": "rovguide: Veda Tech (สกิล 2) มานา 65 วัตถุบิน 5 ชิ้นหมุนรอบตัว ความเสียหายกายภาพ 1% HP สูงสุด (+25% AD) ต่อฮีโร่ เมื่อโดนฮีโร่ลดคูลดาวน์สกิล 1 ลง 0.5 วินาทีและพาสซีฟ 1 วินาที เมื่อโดนศัตรูคนเดียวครบ 5 ชิ้น การโจมตีปกติถัดไปสร้างความเสียหายกายภาพ 50 (+100% AD) (+4% HP สูงสุด) และสตัน 1 วินาที คูลดาวน์ 8 วินาที (8 ถึง 6 วินาที)",
+      "quote": "When all 5 flying objects hit the same enemy, Omega enhances his next normal attack ... stunning them for 1 second.",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-012",
+      "type": "skill",
+      "text": "rovguide: Land of the Saints (อัลติเมต) มานา 100 สร้างโล่กั้น 2.5 วินาที ศัตรูที่สัมผัสโดนความเสียหายกายภาพ 40 (+40% AD) (+2% HP สูงสุด) (40-80) และถูกผลักถอย (เป้าหมายเดียวกันถูกผลักได้สูงสุด 4 ครั้ง) โล่บล็อกกระสุนโจมตีปกติ คูลดาวน์ 50 วินาที (50/45/40)",
+      "quote": "The shield barrier also blocks normal attacks bullets.",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-013",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026): อัตราชนะ 53.19% อัตราเลือก 2.38% อัตราแบน 0.13% อันดับ 2 จาก 24 ในกลุ่ม Tank และ 1 จาก 39 ในกลุ่ม Support/เลน Support ตามอัตราชนะ; เรตติ้งทางการ ความอยู่รอด 4 ความเสียหาย 2 ฟังก์ชัน 5 ความยาก 2; เด่นด้าน Control",
+      "quote": "53.19%",
+      "source": {"url": "https://rovguide.com/heroes/omega", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-014",
+      "type": "playstyle",
+      "text": "rovmeta (แพตช์ 1.64 อัปเดต 11 พ.ย. 2026): เทียร์ C บทบาท Tank ซัพพอร์ต/โรมปานกลาง; สถิติลีกโปร 11 เกม วินเรต 45.5% พิก/แบนรวม 1.9%; ซาทองจัดเทียร์ B (สายแรงก์) CommonSenseGamer จัดเทียร์ C (หมายเหตุ: FAQ ในหน้าเดียวกันอ้างวินเรต 50% พิกเรต 1.4% ระดับ Diamond+ เซิร์ฟไทย ซึ่งไม่ตรงกับตัวเลขส่วนหัว ดู notes)",
+      "quote": "โอเมก้าอยู่เทียร์ C ในแพตช์นี้",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-015",
+      "type": "skill",
+      "text": "rovmeta: ลำดับอัปสกิลให้ความสำคัญ อัลติ > สกิล 1 > สกิล 2; Vanguard Mode เลเวล 1/3/5/7/9/13, Crash Mode เลเวล 2/4/8/10/12/14, Exterminate เลเวล 6/11/15",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-016",
+      "type": "skill",
+      "text": "aov-builds (อัปเดต 9 ต.ค. 2026): ลำดับอัป สกิล 1 เลเวล 1/3/5/7/9/11, สกิล 2 เลเวล 2/6/10/13/14/15 (ชื่อสกิลแบบ Rampage / Veda Tech / Land of the Saints; ไม่ระบุตำแหน่งสกิล 3 ในส่วนที่ดึงได้)",
+      "quote": "1 3 5 7 9 11 ... 2 6 10 13 14 15",
+      "source": {"url": "https://aov-builds.com/en/heroes/omega/", "kind": "community", "date": "2026-10-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-017",
+      "type": "combo",
+      "text": "rovmeta: คอมโบเปิดมาตรฐาน กด Q (สกิล 1) เอาสปีดกับโล่ ปิดระยะ ลงออโต้เสริมที่ทำให้ลอย แล้วกด W (Crash Mode) ทันทีตอนเป้ายังลอยเพื่อต่อสตัน ใช้กับแครี่ฝั่งตรงข้ามทุกการแกงค์",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-018",
+      "type": "combo",
+      "text": "rovmeta: คอมโบ Q, W แล้ว R (Exterminate) ทับเป้าหมาย ใช้เมื่อซีซีของเพื่อนลงด้วย ไม่งั้นศัตรูเดินออกจาก R ได้; ห้ามเปิดด้วย R",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-019",
+      "type": "combo",
+      "text": "rovmeta: คอมโบเปิดแข็งด้วย Flicker เข้ามุมข้ามกำแพง แล้วกด Q ปิดระยะ แล้วต่อชุดลอย-สตัน (ระบุเป็นลำดับ Q, 2 ต่อด้วย Crash Mode)",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-020",
+      "type": "combo",
+      "text": "rovmeta: คอมโบล้อมป้อม Q เข้าหาป้อม ลงออโต้เสริม สตันคนมาเฝ้าด้วย W แล้วหมุน Exterminate ผ่านป้อมเพื่อเก็บก่อนตัวช่วยมา; ทริค: ยกเลิก R ด้วยสตัน W ใส่คนเฝ้าคนแรก และ Demolition Mode ใช้กับดาเมจการพุ่งของ W ใส่ป้อมได้",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-021",
+      "type": "combo",
+      "text": "aov-builds: คอมโบพื้นฐาน สกิล 1 (Rampage) เร่งความเร็วและปิดระยะ, โจมตีปกติ 1 ครั้งเพื่อทริกเกอร์พาสซีฟ, สกิล 2 (Veda Tech), แล้วสกิล 3 (Land of the Saints) ต่อเนื่อง; กดสกิล 2 แล้วอยู่ติดเป้าหมายเดียวให้วัตถุบินทั้ง 5 ชิ้นโดน; ใช้สกิล 3 บล็อกกระสุนโจมตีปกติระยะไกลและคลื่นมินเนียน Caesar (Abyssal)",
+      "quote": "Use Skill 1 Rampage to speed up and close in on the target.",
+      "source": {"url": "https://aov-builds.com/en/heroes/omega/", "kind": "community", "date": "2026-10-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-022",
+      "type": "item",
+      "text": "rovmeta (หน้า FAQ/บิลด์คอร์): Gilded Greaves, Frost Cape, The Aegis, Gaia's Standard, Mail of Pain, Medallion of Troy โดย Frost Cape สำคัญสุด (สโลว์บนออโต้เสริม Q) และไม่ให้เบี่ยงไปออกไอเทมสายบุก; ในส่วน Loadout ตารางแสดง Gilded Greaves ชิ้นแรก Mail of Pain ชิ้นที่ 5 Medallion of Troy ชิ้นที่ 6",
+      "quote": "Core build is Gilded Greaves into Frost Cape into The Aegis into Gaia's Standard into Mail of Pain into Medallion of Troy.",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-023",
+      "type": "item",
+      "text": "rovmeta: ออก Frost Cape ก่อน Aegis แม้ Aegis ดูน่าออกกว่าด้านป้องกัน; ปลายเกมหากแครี่ศัตรูมีเกิน 4 ไอเทมใช้ Medallion of Troy กันดาเมจเวท; Frost Cape กับ Mail of Pain ลงโทษศัตรูที่โจมตีใกล้ป้อม",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-024",
+      "type": "item",
+      "text": "aov-builds (อัปเดต 9 ต.ค. 2026): Terra Recovery, Gilded Greaves, Shield of the Lost, Medallion of Troy, Mantle of Ra, Amulet of Longevity; ปลายเกมสลับ Amulet of Longevity กับ Rock Shield และ Death Sickle; ถ้าศัตรูดาเมจเวทเยอะใช้ Gaia's Standard แทน Mantle of Ra; หลังรีเวิร์ก Mail of Pain ให้พลังโจมตี +50 เกราะ +300 HP +700 จึงใช้ Mantle of Ra แทน",
+      "quote": "After its rework, Mail of Pain became an item with physical attack (+50 Physical Attack, +300 Armor, +700 HP), which does little for Omega",
+      "source": {"url": "https://aov-builds.com/en/heroes/omega/", "kind": "community", "date": "2026-10-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-025",
+      "type": "rune",
+      "text": "rovmeta: อาร์คานาหลัก Golden Body, Protect (หน้าอังกฤษของ rovmeta ระบุ Prowess เพิ่มเป็นตัวที่สาม); สกิลชาเลนเจอร์ Flicker",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-026",
+      "type": "rune",
+      "text": "aov-builds: อาร์คานา แดง III (ความเร็วโจมตี-HP-เกราะ) x10, ม่วง III (HP-ฟื้นฟู HP-ความเร็วเคลื่อนที่) x10, เขียว III (HP สูงสุด-ลดคูลดาวน์) x10; สกิลชาเลนเจอร์ Sprint",
+      "quote": "x10 Red III Attack Speed-HP-Armor x10 Purple III HP-HP Regen-Movement Speed x10 Green III Max HP-Cooldown Reduction",
+      "source": {"url": "https://aov-builds.com/en/heroes/omega/", "kind": "community", "date": "2026-10-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-027",
+      "type": "enchant",
+      "text": "aov-builds: พลังแฝง Primal Forest ลำดับ Vigilance, Vitality, Binding และชุด Chaos Abyss: Bloodthirst, Empower",
+      "quote": "Vigilance / Vitality / Binding ... Bloodthirst / Empower",
+      "source": {"url": "https://aov-builds.com/en/heroes/omega/", "kind": "community", "date": "2026-10-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-028",
+      "type": "matchup",
+      "text": "rovmeta: Omega กลัวเจอ Laville, Butterfly, Violet, Elsu; แข็งใส่ Kil'Groth, Skud, Ormarr, Taara, Arduin, Lu Bu; เข้าขากับ Nakroth, Allain, Annette, Murad",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-029",
+      "type": "matchup",
+      "text": "rovmeta (วิธีสู้ Omega ใน FAQ): เลือกแครี่ระยะไกลคล่องตัว เช่น Violet หรือ Laville โพคนอกระยะ W; สกิลผลักตัว (เช่นอัลติของ Violet) เคาน์เตอร์ Exterminate โดยขัดการร่าย; โรมตัวที่สองที่ฮีล (Annette) ยืนระยะเหนือแรงกดดันล้อมป้อม",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-030",
+      "type": "playstyle",
+      "text": "rovmeta: จุดแข็ง ดาเมจสิ่งปลูกสร้างเต็มทุกสกิล, ชุด Q-ออโต้เสริม-W ต่อลอยและสตัน, โล่ Vanguard Mode เก็บยากตอน 1v2; จุดอ่อน เปิดได้เฉพาะระยะประชิด, Exterminate เดินหนีได้ถ้าไม่มีซีซีเพื่อน, ไม่มีฮีล/โล่/ยูทิลิตี้ให้เพื่อน, พึ่งไอเทมหนักและอ่อนก่อนมี Frost Cape",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-031",
+      "type": "playstyle",
+      "text": "rovmeta: จังหวะเกม จุดพีคแรกคือเมื่อมี Frost Cape; ต้นเกมแย่งเส้นบัฟโรมศัตรู ได้เปรียบเลเวล 1-2 กับโรมเปิดช้าอย่าง Lumburr/Ormarr และแกงค์เลเวล 3 เมื่อมี Q และ W; กลางเกมหลังมี Frost Cape ดัน 4 คนใส่ป้อมนอกเลือดน้อยสุด พีคราว 8-12 นาที; ปลายเกมเป็นแนวหน้าคุมพื้นที่เมื่อศัตรูมีไอเทมเจาะเกราะ; กด Q ก่อนเข้าวิชั่นศัตรู ไม่ใช่กลางไฟต์",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-032",
+      "type": "playstyle",
+      "text": "aov-builds: ต้นเกมไปมิดช่วยเคลียร์มินเนียนและกดดันมิดศัตรู กลางเกมหมุนช่วยไฟต์ ตีมังกรและ Caesar ปลายเกมอยู่ติดและปกป้องตัวดาเมจหลัก ใช้สกิล 1 ลอยคนที่เข้าตีแครี่ และพังป้อมให้เร็ว; พาสซีฟสตันป้อมได้ 2 วินาที",
+      "quote": "Omega 's biggest strength is his ability to deal damage and stun turrets",
+      "source": {"url": "https://aov-builds.com/en/heroes/omega/", "kind": "community", "date": "2026-10-09", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-033",
+      "type": "playstyle",
+      "text": "Zathong (ทีเออร์ลิสต์ AOV 2026): จัด Omega ในกลุ่ม Tank ที่ระบุคู่กับ Roxie, Mina (ดึงได้เฉพาะตารางบทบาท ไม่เห็นป้ายเทียร์ของ Omega ชัดเจนในส่วนที่ดึงมา)",
+      "quote": "Tank | Roxie, Mina, Omega",
+      "source": {"url": "https://zathong.com/arena-of-valor-tier-list/", "kind": "community", "date": "2026-05-13", "transcript": true, "stale": false}
+    },
+    {
+      "id": "omega-034",
+      "type": "playstyle",
+      "text": "rovmeta ฝังวิดีโอไกด์ 'ROV OMEGA! กดโซโล่ยังไงให้ขึ้นคอน อธิบายละเอียดยิบ ดูจบขึ้นคอนได้ 100%' ของ บอมคนป่า (เห็นเฉพาะชื่อในหน้าเว็บ ไม่มีทรานสคริปต์)",
+      "quote": "ROV OMEGA! กดโซโล่ยังไงให้ขึ้นคอน อธิบายละเอียดยิบ ดูจบขึ้นคอนได้ 100%",
+      "source": {"url": "https://rovmeta.com/th/heroes/omega", "kind": "video", "date": "2026-11-11", "transcript": false, "stale": false}
+    },
+    {
+      "id": "omega-035",
+      "type": "playstyle",
+      "text": "aov-builds ฝังวิดีโอ 'Hero Spotlight | Omega - Sage | Arena of Valor - TiMi' และ 'NEW Omega REWORK is Insane! (Gameplay)' (เห็นเฉพาะชื่อในหน้าเว็บ ไม่มีทรานสคริปต์ ไม่ทราบวันเผยแพร่)",
+      "quote": "NEW Omega REWORK is Insane! (Gameplay) | Arena of Valor",
+      "source": {"url": "https://aov-builds.com/en/heroes/omega/", "kind": "video", "date": null, "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "ไม่พบรายการ HANDCRAFTED_GUIDES สำหรับ omega ใน src/guide-data.mjs (grep ไม่พบ) จึงครอบคลุมหน้าทางการ แพตช์ rovguide/rovmeta และไกด์ชุมชนตามคำสั่ง. ข้อขัดแย้ง/ข้อควรระวัง (ยังไม่ตัดสิน ส่งให้ rov-verifier): (1) ชื่อและตำแหน่งสกิลต่างกัน: หน้าทางการและ rovmeta ใช้ Demolition Mode / Vanguard Mode (1) / Crash Mode (2) / Exterminate (R) โดย Crash Mode เป็นสกิลพุ่งสตัน ส่วน rovguide และ aov-builds (เวอร์ชัน AoV) ใช้ Surviving Memory / Redeploy (Rampage) / Veda Tech / Land of the Saints โดย Veda Tech เป็นวัตถุบินหมุนรอบตัวและอัลติเป็นโล่กั้นผลักถอย ซึ่งอธิบายกลไกสกิล 2 และอัลติต่างจากหน้าทางการ/rovmeta โดยสิ้นเชิง ไม่ทราบว่าเป็นคนละเวอร์ชันเซิร์ฟเวอร์ (RoV ไทย vs AoV ทั่วโลก) หรือข้อมูลต่างกัน. (2) หน้าทางการไม่แสดงตัวเลขสกิล จึงยืนยันตัวเลขของ rovguide กับหน้าทางการไม่ได้. (3) rovmeta ขัดแย้งภายในหน้า: ส่วนหัวระบุเทียร์ C วินเรตโปร 45.5% พิก/แบน 1.9% ส่วน FAQ ระบุวินเรต 50% พิกเรต 1.4% ระดับ Diamond+; rovguide แรงก์ไทย 19 ต.ค. 2026 วินเรต 53.19% อันดับ 1 ในกลุ่ม Support; rovmeta ระบุเทียร์ C/Zathong B. (4) ไอเทมต่างกัน: rovmeta ออก Gilded Greaves, Frost Cape, The Aegis, Gaia's Standard, Mail of Pain, Medallion of Troy ส่วน aov-builds ใช้ Terra Recovery, Gilded Greaves, Shield of the Lost, Medallion of Troy, Mantle of Ra, Amulet of Longevity และระบุว่า Mail of Pain หลังรีเวิร์กไม่เหมาะกับ Omega ซึ่งขัดกับ rovmeta; rovmeta ระบุ Broken Spear ในข้อความช่วงกลางเกม ('หลังมี Broken Spear') แต่ไม่อยู่ในรายการบิลด์. (5) หน้า rovmeta บิลด์ Loadout ในฉบับอังกฤษแสดงรูน Golden Body, Protect, Prowess ส่วนฉบับไทยแสดง Golden Body, Protect เท่านั้น. (6) rovmeta ไม่ระบุพลังแฝง (enchant) ของ Omega; หาพลังแฝงเฉพาะ aov-builds (Primal Forest/Chaos Abyss ซึ่งเป็นระบบเวอร์ชัน AoV). (7) ไม่พบวิดีโอที่อ่านทรานสคริปต์ได้ (ทั้งสองแหล่งเห็นแค่ชื่อ). (8) หน้าแพตช์ทางการ rov.in.th/patch-notes ดึงได้เฉพาะรายการหัวข้อ (Hotfix 17 พ.ย., 4 พ.ย., เซิร์ฟเวอร์ทดสอบ 3 พ.ย. 2026 และแพตช์ 12 พ.ย. 2026) ไม่ได้อ่านเนื้อหารายละเอียดของแต่ละแพตช์ จึงยืนยันไม่ได้ว่ามีการเปลี่ยน Omega หรือไม่; การเปลี่ยนแปลงที่อ้างมาจาก rovguide ทั้งหมด (kind article). วันที่ rovmeta 'อัปเดต 11 พฤศจิกายน 2569' แปลงเป็น 2026-11-11. ไม่ได้ค้นเจาะวิดีโอ YouTube เพิ่มเติม."
+}

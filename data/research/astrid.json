@@ -1,0 +1,281 @@
+{
+  "hero": "astrid",
+  "gamePatch": "ค้นเมื่อ 16 พ.ย. 2026 (rovmeta ระบุแพตช์ 1.64 อัปเดต 11-13 พ.ย. 2026; รายการแพตช์ทางการล่าสุดคือแพตช์ 12 พ.ย. 2026 และ Hotfix 17 พ.ย. 2026; การเปลี่ยนแปลง Astrid ที่พบ: รีเวิร์ก 11 มี.ค. 2026 / Beta 53 (rovguide ลงวันที่ 23 เม.ย. 2026) และเนิร์ฟสกิล 1 ในแพตช์ 1.64)",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "astrid-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุบทบาท Fighter และสกิลติดตัว Martial Soul: เมื่อถูกโจมตีขณะ HP ต่ำกว่า 80% ได้รับโล่ 4 วินาที (คูลดาวน์ 24 วินาที) และทุกครั้งที่โจมตีหรือใช้สกิลโดนฮีโร่ศัตรูลดคูลดาวน์โล่ 3 วินาที (ครีปและมอนสเตอร์ป่าลด 1.5 วินาที)",
+      "quote": "พลังชีวิตต่ำกว่า 80% Astrid จะได้รับโล่ป้องกัน เป็นเวลา 4 วิ (คูลดาวน์ 24 วิ)",
+      "source": {"url": "https://www.rov.in.th/hero/astrid", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Spin Slash (สกิล 1): ควงดาบรอบตัวสร้างความเสียหายกายภาพ หากโดนศัตรูเพิ่มความเร็วโจมตี และถ้าโดนฮีโร่เพิ่ม 5% (สูงสุด 25%) นาน 3 วินาที (ข้อความทางการไม่มีตัวเลขดาเมจและไม่กล่าวถึงเอฟเฟกต์ embers/วิ่งเร็ว)",
+      "quote": "ถ้าโจมตีโดนฮีโร่จะเพิ่ม 5% (เพิ่มสูงสุด 25%) เป็นเวลา 3 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/astrid", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-003",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Fearless Charge (สกิล 2): พุ่งไปทิศทางที่กำหนด แล้วชาร์จการโจมตีปกติครั้งถัดไป สร้างความเสียหายกายภาพ ลดความเร็ว 1.5 วินาที ลดเกราะเป้าหมาย 30% นาน 4 วินาที และถ้าโจมตีปกติโดนฮีโร่ลดคูลดาวน์สกิลนี้ 1 วินาที (ไม่ซ้อนทับหากโดนหลายฮีโร่) (ข้อความทางการไม่กล่าวถึงระบบ ember ring 2 สแตกของรีเวิร์ก)",
+      "quote": "ลดเกราะของเป้าหมายลง 30% เป็นเวลา 4 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/astrid", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-004",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุ Dire Blow (อัลติเมต): อมตะ 2 วินาที ก่อนชาร์จดาบ 1.5 วินาทีแล้วฟาดแนวนอน สร้างความเสียหายกายภาพและลดคูลดาวน์สกิลติดตัวหากโดนฮีโร่ ถ้าเป้าหมาย HP สูงกว่าติดสตั๊น 1 วินาที ถ้า HP ต่ำกว่าสร้างความเสียหายจริงตามพลังชีวิตที่เสียไป (มอนสเตอร์ป่าสูงสุด 500)",
+      "quote": "อมตะ 2 วิ ก่อนชาร์จพลังไปที่ดาบเป็นเวลา 1.5 วิ",
+      "source": {"url": "https://www.rov.in.th/hero/astrid", "kind": "official", "date": null, "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-005",
+      "type": "skill",
+      "text": "rovguide (สแนปช็อตแรงก์ไทย 19 ต.ค. 2026): สกิลติดตัว Bladed Guardian - เมื่อโจมตีปกติโดนศัตรู (ไม่รวมการโจมตีปกติที่เสริมพลัง) ลดคูลดาวน์สกิล 1 และสกิล 2 ลง 1 วินาที (50% กับมอนสเตอร์ป่า) ชื่อและเนื้อหาต่างจากหน้าทางการที่ระบุ Martial Soul เป็นโล่",
+      "quote": "the cooldowns of skill 1 and skill 2 are reduced by 1 s (50% effect against wildlings)",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-006",
+      "type": "skill",
+      "text": "rovguide: Spin Slash คูลดาวน์ 8 วินาที มานา 25 สร้างความเสียหายกายภาพ 300 (+110% AD) (ตารางเลเวล 300-600) โดนศัตรูที่มี embers ได้ความเร็วเคลื่อนที่เพิ่มจาก 20% ถึง 60% นาน 2.5 วินาที และโดนศัตรูได้ความเร็วโจมตี 20% กับเจาะเกราะกายภาพ 50 ต่อสแตก (สูงสุด 3 สแตก) นาน 5 วินาที (ตารางเลเวล: เจาะเกราะ 50-100)",
+      "quote": "dealing 300 (+ 110% of AD) physical damage ... 20% attack speed and 50 physical penetration per stack, up to 3 stacks, for 5 s",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-007",
+      "type": "skill",
+      "text": "rovguide: Fearless Charge มานา 25 พุ่งแล้วได้ Ember Ring 5 วินาที สะสมได้ 2 ครั้ง; เป้าหมายที่มีวงแหวนถูกลดความเร็ว 15% (มอนสเตอร์ป่าลดเพิ่ม 50%); 1 สแตก: โจมตีปกติครั้งถัดไปพุ่งเข้าเป้า ย้ายวงแหวนไปให้เป้าหมาย และสร้างความเสียหายเพิ่ม 230 (+35% AD) เมื่อออกจากส่วนที่ไฮไลต์ของวงแหวนเก็บวงแหวนได้และสร้างความเสียหาย 25% ของดาเมจโจมตีเสริม วงแหวนย้ายได้เฉพาะฮีโร่หรือมอนสเตอร์ป่า; 2 สแตก: โจมตีปกติถัดไปชาร์จสั้น ๆ แล้วพุ่งฟัน ล้มเป้าหมาย 0.75 วินาที ดาเมจเพิ่ม 345 (+52.5% AD) ฟื้น HP 350 และถ้าโดนฮีโร่ฟื้นเพิ่ม 20% ของ HP ที่เสีย คูลดาวน์ 8.5 วินาที (ตารางเลเวล 8.5-7 วินาที)",
+      "quote": "knocking down the target for 0.75 s and dealing an additional 345 (+ 52.5% of AD) physical damage while restoring 350 HP",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-008",
+      "type": "skill",
+      "text": "rovguide: Dire Blow มานา 80 อมตะและ super armor ระหว่างชาร์จ 1 วินาที แล้วสร้างความเสียหายจริง 200 (+8% HP สูงสุดเป้าหมาย) (+1% ต่อ 100 พลังโจมตีกายภาพ) (สูงสุด 1000 กับมอนสเตอร์ป่า) ในรูปพัดด้านหน้า และสตั๊น 1 วินาที ดาเมจจริงที่โดนฮีโร่ให้ดูดเลือด 50% คูลดาวน์ 50/45/40 วินาที",
+      "quote": "deals 200 (+ 8% of the target's max HP) (+ 1% for every 100 physical attack) true damage",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-009",
+      "type": "playstyle",
+      "text": "rovguide สถิติแรงก์ไทย (สแนปช็อต 19 ต.ค. 2026): จัดเป็น Fighter / Assassin เลนหลัก Jungle / Slayer Lane อัตราชนะ 54.78% อัตราเลือก 11.07% อัตราแบน 5.72% อันดับ 1 ในกลุ่ม Fighter (39), Assassin (26), Jungle (34) และ Slayer Lane (37) ตามอัตราชนะ; เรตติ้งทางการ ความอยู่รอด 3 ความเสียหาย 4 ฟังก์ชัน 2 ความยาก 2",
+      "quote": "Win rate 54.78%",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2026-10-19", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-010",
+      "type": "patch-change",
+      "text": "rovguide Beta 53 (23 เม.ย. 2026): เปลี่ยนตำแหน่งหลักของ Astrid จากเลนนอก (off lane) เป็นป่า (jungle); สกิล 1 ดาเมจ 200+25/LV +0.8AD เป็น 300+60/LV +1.1AD, โบนัสความเร็วโจมตี 15%+2%/LV เป็น 20%+4%/LV, เจาะเกราะ 30+6/LV เป็น 50+10/LV; สกิล 2 วงแหวนคงอยู่เมื่อเป้าหมายที่ถูกมาร์กตาย ขนาดลดจาก 5300 เป็น 5000 ฮีลเพิ่มจาก 250+50/LV +15% HP ที่เสีย เป็น 350+70/LV +20% HP ที่เสีย และจำกัดระยะไล่",
+      "quote": "Changed the primary position from off lane to jungle; increased Skill 1 damage from 200+25/LV +0.8AD to 300+60/LV +1.1AD",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2026-04-23", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-011",
+      "type": "patch-change",
+      "text": "rovguide Beta 53 (23 เม.ย. 2026): แก้บั๊กโจมตีปกติเสริมพลังครั้งที่สองของ fire ring ทำให้ตึกสตั๊นได้",
+      "quote": "Fixed the second fire-ring empowered basic attack being able to stun towers.",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2026-04-23", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-012",
+      "type": "patch-change",
+      "text": "rovguide Beta 39 (29 พ.ย. 2022): แก้บั๊กอัลติเมตของ Astrid ไม่ให้ Iron Body (ประวัติเก่า)",
+      "quote": "fixed the Ultimate failing to grant Iron Body",
+      "source": {"url": "https://rovguide.com/heroes/astrid", "kind": "article", "date": "2022-11-29", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-013",
+      "type": "patch-change",
+      "text": "rovmeta (บันทึกแพตช์ 11 มี.ค. 2026) ระบุ Astrid รีเวิร์ก: สกิล 1 เพิ่มเอฟเฟกต์วิ่งเร็วจาก 20% ถึง 60% เมื่อโดนศัตรูที่มี embers และเจาะเกราะจาก 5%+1%/lv เป็น 30+6/lv; สกิล 2 ออกแบบใหม่เป็นระบบ ember ring สูงสุด 2 สแตก (1 สแตกย้ายวงแหวน 2 สแตกฟันล้มและฮีล); อัลติ ลดเวลาชาร์จจาก 1.5 เป็น 1 วินาที เอฟเฟกต์ Iron body อยู่จนกว่าสกิลจะโดน และดูดเลือดจากดาเมจจริงต่อฮีโร่ลดจาก 100% เป็น 50% (หมายเหตุ: ตัวเลขสกิล 1 ในบันทึกนี้ 30+6/lv ต่างจาก rovguide Beta 53 ที่ 50+10/lv และวันที่รีเวิร์กต่างจากที่ rovguide ลง ดู notes)",
+      "quote": "Charge time: 1.5 seconds → 1 second ... Life Steal when dealing true damage to heroes: 100% → 50%",
+      "source": {"url": "https://rovmeta.com/blog/patch-notes-march-11-2026", "kind": "community", "date": "2026-03-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-014",
+      "type": "patch-change",
+      "text": "rovmeta ระบุแพตช์ 1.64 เนิร์ฟ Astrid: ความเร็วโจมตีของ Spin Slash จาก 20% (+4%/เลเวล) เป็น 15% (+3%/เลเวล) และดาเมจพื้นฐานจาก 300 (+60/เลเวล) (+1.1AD) เป็น 275 (+55/เลเวล) (+1.0AD) (อ่านจากหน้าฮีโร่ rovmeta ไม่ได้อ่านหน้าแพตช์ทางการ)",
+      "quote": "Spin Slash base damage: 300 (+60 per level) (+1.1AD) to 275 (+55 per level) (+1.0AD).",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-015",
+      "type": "playstyle",
+      "text": "rovmeta (แพตช์ 1.64 อัปเดต 11 พ.ย. 2026): หน้าหัวเรื่องจัดเทียร์ C บทบาท warrior เลนโซโล; สถิติลีกโปร 38 เกม วินเรต 57.9% พิกเรต 6.5% แบนเรต 3.1% (อัตราพิกหรือแบนรวม 9.6%); ซาทองจัดเทียร์ C และคอมมอนเซนส์เกมเมอร์จัดเทียร์ B (ส่วน FAQ ในหน้าเดียวกันกลับเขียนว่าเทียร์ A ดู notes)",
+      "quote": "เทียร์ C warriorเลนโซโลปานกลางแพตช์ 1.64",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-016",
+      "type": "skill",
+      "text": "rovmeta: ลำดับอัปสกิลให้ความสำคัญ R > Q > W; Spin Slash เลเวล 1/3/5/7/9/13, Fearless Charge เลเวล 2/4/8/10/12/14, Dire Blow เลเวล 6/11/15",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-017",
+      "type": "combo",
+      "text": "rovmeta: เทรดมาตรฐาน เปิดด้วย Q (Spin Slash) เพื่อสแตกความเร็วออโต้ แดชด้วย W (Fearless Charge) ทันทีแล้วต่อออโต้บัฟก่อนเกราะที่เจาะหมดฤทธิ์ จากนั้นกด Q ซ้ำก่อนสแตกหมด (ลำดับในหน้า: 1, 2, 1)",
+      "quote": "เปิดด้วย Q เพื่อสแตกความเร็วออโต้ แดชด้วย W ทันทีแล้วต่อออโต้บัฟ",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-018",
+      "type": "combo",
+      "text": "rovmeta: คอมโบ all-in เมื่อศัตรูเลือดกลางถึงต่ำ: แดชด้วย W เจาะเกราะ ต่อออโต้บัฟ กด Q แล้วปิดด้วย Dire Blow เป็นทรูดาเมจ",
+      "quote": "แดชเข้าด้วย W เพื่อเจาะเกราะ ต่อออโต้บัฟ กด Q เพิ่มความเร็ว แล้วปิดท้ายด้วย Dire Blow",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-019",
+      "type": "combo",
+      "text": "rovmeta: สวนกลับตอนโดนเบิร์สต์ เก็บ R ไว้กดทันทีที่ศัตรูปล่อยอัลติ ใช้ช่วงอมตะกินดาเมจ แล้วต่อ Q และ W เมื่อสกิลศัตรูจบ; ปิดระยะด้วย Flicker กลางแดช W เมื่อศัตรูเคลื่อนที่เก่งเดินหลุดระยะ; Dire Blow เป็นเครื่องมือตอบโต้ ไม่ใช่ท่าเปิด",
+      "quote": "ใช้ช่วงอมตะกินดาเมจไว้ แล้วต่อด้วย Q กับ W",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-020",
+      "type": "item",
+      "text": "rovmeta (FAQ): คอร์มาตรฐานบนเซิร์ฟไทย Sonic Boots แล้ว Mantle of Ra แล้ว Broken Spear ตามลำดับ จากนั้น Hercules's Madness, Fenrir's Tooth (ดาเมจท้ายเกม) และ Blade of Eternity (ชีวิตสำรอง); เลี่ยงบิลด์กลาสแคนนอนเต็มสาย",
+      "quote": "Sonic Boots ต่อ Mantle of Ra ต่อ Broken Spear ตามลำดับนี้",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-021",
+      "type": "rune",
+      "text": "rovmeta: อาร์คานาหลัก Golden Body, Protect, Prowess; สกิลชาเลนเจอร์ Flicker",
+      "quote": "Golden Body / Protect / Prowess",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-022",
+      "type": "matchup",
+      "text": "rovmeta: Astrid กลัว Florentino, Butterfly, Allain, Quillen; แข็งใส่ Kil'Groth, Skud, Zanis, Taara, Ormarr, Maloch; เข้าขาดีกับ Baldum, Gildur, Annette, Maloch",
+      "quote": "",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-023",
+      "type": "matchup",
+      "text": "rovmeta (FAQ วิธีสู้ Astrid): ล่อให้เปิดอมตะ Dire Blow ก่อนปล่อยเบิร์สต์; Butterfly และ Quillen ทำได้เองด้วยเครื่องมือรีโพซิชัน; ใช้ตัวโพคระยะไกลในเลนสเลเยอร์ (Florentino, Allain) กัดเลือดช่วง Martial Soul ยังไม่พร้อม; สแตกซีซีล้อม Fearless Charge และกันไม่ให้ลงออโต้บัฟ",
+      "quote": "ล่อให้เปิดช่วงอมตะของ Dire Blow ก่อนปล่อยเบิร์สต์ตัวเอง",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-024",
+      "type": "playstyle",
+      "text": "rovmeta แผนการเล่น: ช่วงต้นเกม (เลเวล 1-6) เล่นเทรดสั้นจนกว่า Mantle of Ra ครบ กดเลือดตัวเองให้ต่ำกว่า 80% ก่อนเปิดเพื่อพรีโปรค Martial Soul; ช่วงพีคราว 12-15 นาทีหลังได้ Broken Spear; Hercules's Madness เพิ่มโล่ที่สแตกกับ Martial Soul; อ่อนลงในตีทีม 5v5 ช่วงท้ายเกมเพราะระยะสั้นและไม่มีทางถอย จึงเน้นสปลิทพุช; Dire Blow สตั๊นเฉพาะเป้าหมาย HP สูงกว่า ใช้ล็อกแนวหน้า",
+      "quote": "ช่วงแข็งที่สุดของเธอเปิดตอน Broken Spear มา ปกติราวนาทีที่ 12 ถึง 15",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "community", "date": "2026-11-11", "transcript": true, "stale": false}
+    },
+    {
+      "id": "astrid-025",
+      "type": "playstyle",
+      "text": "rovmeta ฝังวิดีโอ 'RoV : Astrid สอนเล่นแอสทริดปรับใหม่ การเก็บStackแบบง่ายโคตรอันตราย!' ของ Hutton (เห็นเฉพาะชื่อในหน้าเว็บ ไม่มี URL ทรานสคริปต์ หรือวันที่)",
+      "quote": "RoV : Astrid สอนเล่นแอสทริดปรับใหม่ การเก็บStackแบบง่ายโคตรอันตราย!",
+      "source": {"url": "https://rovmeta.com/th/heroes/astrid", "kind": "video", "date": "2026-11-11", "transcript": false, "stale": false}
+    },
+    {
+      "id": "astrid-026",
+      "type": "playstyle",
+      "text": "aov-builds.com (หน้า build 2026 ไม่ระบุแพตช์ตรงตัว เนื้อหาใช้ชื่อสกิล Sword Draw/Valor/Giant Sword/Knight's Mark ที่ต่างจากหน้าทางการ): คอมโบพื้นฐานคือสกิล 2 แล้วโจมตีปกติ (ย้ายมาร์ก) แล้วสกิล 1 แล้วโจมตีปกติ แล้วสกิล 3 จบ; ที่ 2 สแตกของมาร์ก โจมตีปกติถัดไปพุ่งฟันและฮีล; ช่วงอมตะของอัลติใช้ตอนศัตรูปล่อยดาเมจหรือ CC; เก็บ Skill 3 ไว้ใช้ตอบโต้ในทีมไฟต์ใหญ่",
+      "quote": "During the 1-second channel (and until the strike lands) you’re immune to all damage and crowd control",
+      "source": {"url": "https://aov-builds.com/en/heroes/astrid/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-027",
+      "type": "item",
+      "text": "aov-builds.com: บิลด์ป่า Soulreaver, Gilded Greaves, Spear of Longinus, Omni Arms, Fenrir's Tooth, Blade of Eternity; บิลด์เลนบน Gilded Greaves, Spear of Longinus, Omni Arms, Voidsteel Blade, Fenrir's Tooth, Blade of Eternity; ไม่มีแทงค์ฝั่งศัตรูให้ใช้ Rankbreaker แทน Spear of Longinus; เจอฮีลแรงใช้ Curse of Death แทน Fenrir's Tooth ช่วงต้น; ท้ายเกมหมุน Blade of Eternity กับ Arctic Orb / Death Sickle",
+      "quote": "If matched against strong healing heroes, build Curse of Death instead of Fenrir's Tooth early",
+      "source": {"url": "https://aov-builds.com/en/heroes/astrid/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-028",
+      "type": "rune",
+      "text": "aov-builds.com: อาร์คานา x5 แดง Attack Speed-Crit Chance, x5 แดง Physical Attack-Armor Penetration, x10 ม่วง Attack Speed-Movement Speed, x10 เขียว Physical Attack-Armor Penetration; สกิลชาเลนเจอร์ Flicker, Punish; พลังแฝง Chaos Abyss (Afterimage, Empower, Devilry) และ Tower of Radiance (Sacred Bead, Penetrating Heart)",
+      "quote": "Flicker Punish",
+      "source": {"url": "https://aov-builds.com/en/heroes/astrid/", "kind": "article", "date": "2024-08-19", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-029",
+      "type": "item",
+      "text": "Zathong (หน้า Astrid AoV): บิลด์ best Sonic Boots, Mantle of Ra, Frost Cape, Mail of Pain, Medallion of Troy, Blade of Eternity; บิลด์ pro Gilded Greaves, Mantle of Ra, Rankbreaker, Medallion of Troy, Fenrir's Tooth, Blade of Eternity (เนื้อหาสกิลบนหน้านี้เป็นชุดเก่า เช่น โล่ 500+75/เลเวล และอัลติ 400/600/800 +2.0AD)",
+      "quote": "Sonic Boots / Mantle of Ra / Frost Cape / Mail of pain / Medallion of Troy / Blade of Eterenity",
+      "source": {"url": "https://zathong.com/aov-astrid/", "kind": "article", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-030",
+      "type": "rune",
+      "text": "Zathong: อาร์คานา Indomitable x10, Benevolence x10, Valiance x10; พลังแฝง Lokheim: Devourer, Deadly Claw, Desperate Duel และ Afata: River Treader, Nature's Gift; ลำดับอัป Skill 3 > Skill 1 > Skill 2; สกิลชาเลนเจอร์ Flicker",
+      "quote": "Ability Order: Skill 3 -> Skill 1 -> Skill 2.",
+      "source": {"url": "https://zathong.com/aov-astrid/", "kind": "article", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-031",
+      "type": "matchup",
+      "text": "Zathong: ภัยคุกคามสูงมากต่อ Astrid คือ Lauriel, Lu Bu, Gildur, Omen, Maloch; เข้ากันดี Alice, Tel'Annas, Zip, Baldum, Valhein",
+      "quote": "Extreme Threats",
+      "source": {"url": "https://zathong.com/aov-astrid/", "kind": "article", "date": "2025-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-032",
+      "type": "item",
+      "text": "Gametimeprime (SS17): ไอเทมแนะนำ Sonic Boots, Mantle of Ra, Rankbreaker, Hercules Madness, Fenrir's Tooth, Blade of Eternity; สกิลชาเลนเจอร์ Flicker (คำอธิบายไอเทมในหน้านี้เป็นชุดเก่า)",
+      "quote": "Sonic Boots / Mantle of Ra / Rankbreaker / Hercules Madness / Fenrirs Tooth / Blade of Eterenity",
+      "source": {"url": "https://gametimeprime.com/astrid-rov/", "kind": "article", "date": "2020-10-15", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-033",
+      "type": "rune",
+      "text": "Gametimeprime (SS17): รูน/อาร์คานา Golden Body x10 (ความเร็วโจมตี +1% พลังชีวิต +33.7 เกราะ +2.3), Protect x10 (พลังชีวิต +45 ฟื้นฟู +5.2/5 วิ ความเร็วเคลื่อนที่ +0.4%), Prowess x10 (พลังชีวิต +37.5 ลดคูลดาวน์ +0.6%)",
+      "quote": "Golden Body x 10 | ความเร็วโจมตี+1% พลังชีวิต+33.7 เกราะ+2.3",
+      "source": {"url": "https://gametimeprime.com/astrid-rov/", "kind": "article", "date": "2020-10-15", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-034",
+      "type": "enchant",
+      "text": "Gametimeprime (SS17, ฉบับ AoV s24): พลังแฝง Veda: Sacred Bead, Holy Verdic, Sacred Protection และ Lokheim: Raging Inferno, Deadly Claw",
+      "quote": "Sacred Bead / Holy Verdic / Sacred Protection",
+      "source": {"url": "https://gametimeprime.com/astrid-aov/", "kind": "article", "date": "2020-11-04", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-035",
+      "type": "item",
+      "text": "Reddit r/arenaofvalor (u/ARC4N4, ไกด์ Slayer Lane): ไอเทมสามชิ้นแรกมักเป็น Gilded Greaves, Spear of Longinus, Omni Arms แล้วสลับ Fafnir Talon กับ Curse of Death แล้วจบด้วย Fenrir's Tooth (ถ้าศัตรูไม่มีฮีลเปลี่ยน Curse of Death เป็นของป้องกัน เช่น Shield of the Lost หรือ Medallion of Troy); อาร์คานา 10x Awake, 10x Spirit, 10x Dragon Claw; สกิล Execute หรือ Flicker",
+      "quote": "Gilded Greaves, Spear of Longinus, and Omni Arms",
+      "source": {"url": "https://www.reddit.com/r/arenaofvalor/comments/142hke5/glorious_ruler_guide_to_slayer_lane_astrid/", "kind": "community", "date": "2023-06-06", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-036",
+      "type": "item",
+      "text": "Metal Bridges (18 ก.ย. 2017 ฉบับเปิดตัว): ออก Mantle of Ra, Gilded Greaves, Frost Cape ท้ายเกม Medallion of Troy + Muramasa + Mail of Pain; รูน Onslaught, Colossus, Dragon's Claw; สกิลชาเลนเจอร์ Roar (ตัวเลขสกิลและกลไกเป็นชุดเก่ามาก)",
+      "quote": "",
+      "source": {"url": "https://www.metalbridges.com/astrid-rov-skill-tips/", "kind": "article", "date": "2017-09-18", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-037",
+      "type": "playstyle",
+      "text": "Reddit (u/Zeraviel, 2019): แนะนำ Rankbreaker แทน Muramasa และบอกว่า Aegis จำเป็น; เล่นป่าใช้ Curse of Death เล่นเลนใช้ Desperate Duel คู่ Regrowth; เก็บอัลติไว้ใช้ในทีมไฟต์ใหญ่ (เนื้อหาก่อนรีเวิร์ก)",
+      "quote": "I definitely recommend Rankbreaker over Muramasa",
+      "source": {"url": "https://www.reddit.com/r/arenaofvalor/comments/e2th2t/ive_been_playing_the_new_astrid_here_are_my/", "kind": "community", "date": "2019-11-28", "transcript": true, "stale": true}
+    },
+    {
+      "id": "astrid-038",
+      "type": "playstyle",
+      "text": "BiliBili: วิดีโอ 'ROV : ASTRID สอนเล่นแอสทริสโรมมิ่ง ตัวแก้ทางตัวเมต้าซีซั่นล่าสุด ไล่ฆ่าคาป้อม' (ดึงได้เฉพาะชื่อ ไม่มีทรานสคริปต์ จึงไม่อ้างเนื้อหาเพิ่ม)",
+      "quote": "ROV : ASTRID สอนเล่นแอสทริสโรมมิ่ง ตัวแก้ทางตัวเมต้าซีซั่นล่าสุด ไล่ฆ่าคาป้อม",
+      "source": {"url": "https://www.bilibili.tv/video/2004694845", "kind": "video", "date": "2022-02-18", "transcript": false, "stale": true}
+    },
+    {
+      "id": "astrid-039",
+      "type": "playstyle",
+      "text": "รายชื่อวิดีโอ 'พื้นฐานการเล่น Astrid คอมโบสกิล พลังแฝง และการจัดรูน ไอเท็ม Back to Basic | หลวงป๊า RoV' (เห็นเฉพาะชื่อในดัชนี Andaplus ไม่มีทรานสคริปต์ ไม่ระบุวันที่ จึงไม่อ้างเนื้อหา)",
+      "quote": "พื้นฐานการเล่น Astrid คอมโบสกิล พลังแฝง และการจัดรูน ไอเท็ม Back to Basic | หลวงป๊า RoV",
+      "source": {"url": "https://game.andaplus.com/th/?catid=1674&id=7935&view=article", "kind": "video", "date": null, "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "ไม่มี entry astrid ใน HANDCRAFTED_GUIDES ของ src/guide-data.mjs (grep ไม่พบ) จึงค้นตามแหล่ง: หน้าทางการ, บันทึกแพตช์, rovguide, rovmeta และไกด์ชุมชน. ข้อขัดแย้งที่ยังไม่ตัดสิน (ส่ง rov-verifier): (1) หน้าฮีโร่ทางการ rov.in.th/hero/astrid ยังใช้คำอธิบายชุดเก่า: ผ่านการอ่านผ่าน exa ไม่มีตัวเลข, สกิล 2 ไม่มีระบบ ember ring, Dire Blow ชาร์จ 1.5 วินาที และดาเมจจริงตามพลังชีวิตที่เสีย ส่วน rovguide (สแนปช็อต 19 ต.ค. 2026) อธิบายรีเวิร์ก: ชาร์จ 1 วินาที ดาเมจจริง 200 + 8% HP สูงสุดเป้าหมาย และสกิลติดตัวชื่อ Bladed Guardian (ลดคูลดาวน์สกิล 1/2) ต่างจาก Martial Soul (โล่) ของหน้าทางการ/rovmeta; (2) rovguide ลงวันที่แพตช์รีเวิร์กเป็น Beta 53 23 เม.ย. 2026 พร้อมบัฟสกิล 1 เป็น 300+60/LV +1.1AD แต่ rovmeta ลงบันทึกแพตช์ 11 มี.ค. 2026 ว่า Astrid รีเวิร์ก (เจาะเกราะสกิล 1 30+6/lv ต่างจาก 50+10/lv ของ rovguide) และบอกว่าแพตช์ 1.64 เนิร์ฟสกิล 1 เหลือ 275 (+55/เลเวล) (+1.0AD); rovguide สแนปช็อตลงวันที่ 19 ต.ค. จึงยังไม่สะท้อนแพตช์ 1.64 (ถ้าแพตช์ 1.64 อยู่หลังวันนั้น); (3) rovmeta ขัดแย้งภายใน: หัวหน้าและบรรทัดเทียร์ระบุเทียร์ C (ซาทอง C, คอมมอนเซนส์เกมเมอร์ B) แต่ FAQ ระบุ 'เทียร์ A แบบมั่นคง'; ข้อความ 'ก่อน Broken Spear / Mantle of Ra ไฟเผา' ของ rovmeta เป็นร้อยแก้วที่รวบรวมเอง; rovmeta หน้าอังกฤษอัปเดต 13 พ.ย. หน้าไทยอัปเดต 11 พ.ย.; (4) rovguide จัด Astrid เป็น Fighter / Assassin เลนป่า/Slayer ส่วนหน้าทางการจัดเป็น Fighter และ rovmeta จัดเป็นเลนโซโล; (5) สถิติ: rovguide เป็นแรงก์ไทย 54.78% WR, rovmeta เป็นลีกโปร 57.9% WR (38 เกม) ไม่ใช่ตัวเลขชุดเดียวกัน. ที่หาไม่พบ/อ่านไม่ได้: หน้าแพตช์ทางการ rov.in.th ของ 12 พ.ย. 2026 และ Hotfix 17 พ.ย. 2026 (ไม่ได้ดึงเนื้อหา มีเฉพาะรายการหัวข้อในหน้า /patch-notes จึงยืนยันไม่ได้ว่ามีการเปลี่ยน Astrid หรือไม่ รวมถึงไม่ได้อ่านหน้าแพตช์ทางการของ 11 มี.ค./Beta 53/1.64 โดยตรง ข้อมูลแพตช์ทั้งหมดมาจาก rovguide และ rovmeta เป็นแหล่งรอง); ไม่พบพลังแฝง (talent) ที่เป็นข้อมูลปัจจุบันของ Astrid (มีเฉพาะชุดเก่าใน Zathong, Gametimeprime, aov-builds); ไม่พบทรานสคริปต์วิดีโอ YouTube ของ Hutton (ได้เฉพาะชื่อจาก rovmeta ไม่มี URL) หรือวิดีโอหลวงป๊า RoV; ไม่พบคำอธิบายแบบทรานสคริปต์ที่ยืนยัน 'จังหวะกดคอมโบ' นอกจาก rovmeta/aov-builds; ไอเทมแก้ทาง/ตามสถานการณ์ที่ใหม่มีเฉพาะ aov-builds (2024) และ Reddit (2023) ที่ stale; 'Broken Spear' ใน rovmeta/Gametimeprime อ้างถึงไอเทมเดียวกับ Rankbreaker/Spear of Longinus ในแหล่งอื่นหรือไม่ ยังไม่ได้ตรวจ; ชื่ออาร์คานาต่างกันตามแหล่ง (Golden Body/Protect/Prowess ใน rovmeta/Gametimeprime, Indomitable/Benevolence/Valiance ใน Zathong ซึ่งน่าจะเป็นชื่อเดียวกันแต่แปลต่างกัน, Awake/Spirit/Dragon Claw ใน Reddit) ยังไม่ตัดสิน; URL 4gamers/aov-news ไม่ได้ใช้. ผลค้นเริ่มต้นจาก exa เท่านั้น (WebFetch/WebSearch ไม่ได้ใช้ในรอบนี้)."
+}

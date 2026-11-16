@@ -1,0 +1,184 @@
+{
+  "hero": "flowborn-dragon",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "flowborn-dragon-001",
+      "verdict": "verified",
+      "reason": "หน้าทางการ rov.in.th/patch-notes/beta53 มีหัวข้อ '2. New Hero: Flowborn' และ 'Flowborn: Carry' ชัดเจน; เวอร์ชัน 'Flow Strike Version' ตรง title หน้า; วันที่ 23 เม.ย. 2026 ไม่ปรากฏบนหน้าทางการ (ตรงที่ research ระบุ) แต่ rovguide ลงประวัติ 'Beta53 23 เม.ย. 2569 เพิ่ม Flowborn: Carry' ยืนยันร่วม",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-002",
+      "verdict": "verified",
+      "reason": "ตรงทุกประการกับ beta53 ทางการ (บ่อน้ำพุ, ความเร็วโจมตีตาม LV, 1 ใน 4: Vitality/Piercing Heart/Haste/Focus พร้อมคำอธิบายโบนัสตรงกัน) และชื่อสกิล 'Flow of the World' ตรง src/hero-details.json flowborn-dragon พาสซีฟ",
+      "confidence": 0.98,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-003",
+      "verdict": "verified",
+      "reason": "หน้าทางการ beta53 ระบุตรง: ใช้ Flow 1 ชั้น เสริมโจมตีปกติเป็นยิงธนูทะลุศัตรูบนเส้นทาง โบนัสความเสียหายกายภาพ และ '(ความเสียหายลดลง 30%)'",
+      "confidence": 0.98,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-004",
+      "verdict": "verified",
+      "reason": "ตรงกับ beta53 ทางการทุกจุด: ความเสียหายกายภาพรอบตัว + ผลักถอย, ฟื้นพลังชีวิต + Flow 5 ชั้น, ลดคูลดาวน์ Arrow of No Retreat/Arrowstorm 50%, พันธมิตรและครีปเพิ่มฟื้นฟูสูงสุด 100% และ Flow สูงสุด 9 ชั้น; ชื่อ 'Convergence' ตรง hero-details.json สกิล 1 (แท็ก กายภาพ/ผลักถอยหลัง สอดคล้อง)",
+      "confidence": 0.98,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-005",
+      "verdict": "verified",
+      "reason": "ตรงกับ beta53 ทางการ: ธนูใหญ่บล็อกโดยฮีโร่ศัตรูได้, ผลักเฉพาะยูนิตไม่ใช่ฮีโร่, พุ่งถอยหลังหลังยิง, ใช้ติดกัน 2 ครั้งได้ Arrow Barrage (+25%) แล้ว Arrow Rain (ลอย +50%), ใช้ Flow 4 ชั้น; ชื่อ 'Arrow of No Retreat' ตรง hero-details.json สกิล 2",
+      "confidence": 0.98,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-006",
+      "verdict": "verified",
+      "reason": "ตรงกับ beta53 ทางการ: ยิง 7 ครั้งลงพื้นที่ (ล็อกเป้า), ทุก 3 ดอกนับเป็นโจมตีปกติ 1 ครั้ง, โบนัสความเร็วเคลื่อนที่ 10%, กดซ้ำลอยขึ้นอากาศ, ใช้ Flow 5 ชั้น; ชื่อ 'Arrowstorm' ตรง hero-details.json สกิล 3 (อัลติเมท)",
+      "confidence": 0.98,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-007",
+      "verdict": "verified",
+      "reason": "beta53 ทางการมีหัวข้อ 'Flowborn: Mage' พร้อมชุดสกิล Flow Stream/Arcane Way จริง และ hero-details.json มี flowborn-mid แยก (สกิล 2 Stellar Flow, สกิล 3 Arcane Way) ยืนยันว่าเป็นคนละร่างกับ flowborn-dragon (Carry)",
+      "confidence": 0.97,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-008",
+      "verdict": "verified",
+      "reason": "rov.in.th/patch-notes/expserver261103 มีหัวข้อ 'ฮีโร่ใหม่: Flowborn: Tank' พร้อมสกิล 2 [Flesh Anchor] และสกิล 3 [Formation Dance] จริง; เป็นหน้าเซิร์ฟเวอร์ทดสอบ ไม่กระทบร่าง Carry",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-009",
+      "verdict": "verified",
+      "reason": "ยืนยันบนหน้าทางการ beta54 ได้เต็ม: หัวข้อ 'Flowborn: Carry (Nerf)' ระบุ 'สกิล 2: ความเสียหายพื้นฐาน 620+124/lv+1.56โบนัสad -> 550+110/lv+1.35โบนัสad' ตรงตัวเลขกับ rovguide; rovguide ลงวันที่ Beta54 7 ก.ค. 2569 ตรงกับวันที่ไฟล์รูปบนหน้าทางการ (20260707)",
+      "confidence": 0.97,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-010",
+      "verdict": "verified",
+      "reason": "คำกล่าวหลัก (การลดความเสียหายสกิล 2 ใน Beta54 ด้วยตัวเลข 620->550) ยืนยันโดยตรงบนหน้าทางการ beta54 แล้ว; ส่วน LDPlayer เป็นแหล่งสนับสนุนรายงานตรงกัน (ไม่ได้ fetch ซ้ำ แต่ไม่จำเป็นเพราะหลักฐานทางการมีแล้ว)",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-011",
+      "verdict": "verified",
+      "reason": "fetch rovguide สด 16 พ.ย. 2026 ตรงกับ claim ทุกตัวเลข: ติดตัว 80(+20% โบนัส AD), Vitality 300~594, Piercing Heart AD 30~58, Haste 3.5~7%, Focus 5~9.9%, ความเร็วโจมตี 10~19.9%; สกิล 1 100(+25% AD) ฟื้น 150(+4% HP) คูลดาวน์ 12.5s->10s; สกิล 2 550(+135% AD) คูลดาวน์ 7.5s->6s ฐาน 550/660/770/880/990/1100; สกิล 3 70(+28% AD) คูลดาวน์ 25/22.5/20s จำนวนธนู 7/10/13. ตัวเลขสกิล 2 หลังเนิร์ฟสอดคล้องกับหน้าทางการ beta54 (550 ฐานต้น)",
+      "confidence": 0.92,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-012",
+      "verdict": "verified",
+      "reason": "fetch rovguide สดยืนยันตรง: คะแนน อยู่รอด 2/5, โจมตี 4/5, สกิล 4/5, ความยาก 2/5; สถิติแรงค์ TH ณ 19 ต.ค. 2569: ชนะ 51.76% เลือก 19.38% แบน 43.08% อันดับ 2/20 แครี่; ตรง heroes.json (win 51.76, ban 43.08); research ติด stale ถูกต้อง (อายุ ~4 สัปดาห์) — claim ระบุ stale ไว้เองแล้วจึงไม่ใช้เป็นสถิติปัจจุบัน",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-013",
+      "verdict": "contested",
+      "reason": "fetch aov-builds สดยืนยันหน้านั้นแนะนำชุดนี้จริง แต่เทียบ src/items.json (ไอเทมปัจจุบันในโปรเจกต์): 'Godslayer Bow' ไม่พบ (มี Bow of Slaughter ซึ่งอาจเป็นชื่อใหม่/ตัวเดียวกันแต่ไม่ยืนยัน) และ claim นี้ใช้ชื่อไอเทมจากแหล่งไม่ระบุวัน; 5 ใน 6 ชิ้นพบใน items.json (Flashy Boots, Claves Sancti, Slikk's Sting, Fafnir's Talon, Blade of Eternity)",
+      "confidence": 0.55,
+      "needsInGameTest": true
+    },
+    {
+      "id": "flowborn-dragon-014",
+      "verdict": "contested",
+      "reason": "หน้า aov-builds มีคำแนะนำสถานการณ์นี้จริง (Gilded Greaves +35% ต้านทานสถานะ/+90 ต้านเวท แทน War Boots; Fafnir's Talon แทน Fenrir's Tooth; Medallion of Troy แทน Blade of Eternity) แต่ items.json ใช้ชื่อ 'Glided Greaves' (สะกดต่าง) ทำให้ 'Gilded Greaves' ไม่พบตรงตัว และตัวเลข +35%/+90 ไม่มีแหล่งทางการยืนยัน; ตัวแทนอย่าง Fenrir's Tooth/Medallion of Troy/Fafnir's Talon มีจริงใน items.json",
+      "confidence": 0.55,
+      "needsInGameTest": true
+    },
+    {
+      "id": "flowborn-dragon-015",
+      "verdict": "unverifiable",
+      "reason": "หน้า aov-builds แสดงรูน แดง III ความเร็วโจมตี/อัตราคริติคอล x10, ม่วง III ความเร็วโจมตี/ความเร็วเคลื่อนที่ x10, เขียว III พลังโจมตี/เจาะเกราะ x10 จริง แต่แหล่งเดียว ไม่ระบุชื่อรูน และไม่มีฐานรูนทางการในโปรเจกต์ให้เทียบ (hero-details.json มี runes รายฮีโร่แต่ไม่มี flowborn-dragon)",
+      "confidence": 0.5,
+      "needsInGameTest": true
+    },
+    {
+      "id": "flowborn-dragon-016",
+      "verdict": "verified",
+      "reason": "fetch aov-builds สดยืนยันตรง: เลือกพลังโจมตีกายภาพเป็นค่าเริ่มต้นเกือบทุกสถานการณ์, ความเร็วเคลื่อนที่เมื่อศัตรูระยะประชิดเยอะ, ลดคูลดาวน์เพื่อสแปมอัลติ, max HP เมื่อเลือดบาง; ตัวเลือกทั้ง 4 ตรงกับกลไกทางการ beta53 (Vitality/Piercing Heart/Haste/Focus) จึงเป็นเพียงคำแนะนำการเลือกบนกรอบทางการ",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-017",
+      "verdict": "verified",
+      "reason": "aov-builds ยืนยันตรง: พุ่ง 3 ครั้งต้องมีสแต็กขาว 8 อัน (สกิล 1 แล้วกดสกิล 2 ทันทีไม่โจมตีปกติคั่น), อัลติสองครั้งต้อง 5 สแต็ก; เพดาน Flow 9 ชั้นจากสกิล 1 สอดคล้องกับหน้าทางการ beta53 (สูงสุด 9 ชั้น) และลดคูลดาวน์ 50% ตรงทางการ",
+      "confidence": 0.85,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-018",
+      "verdict": "unverifiable",
+      "reason": "คำแนะนำจังหวะเกมจาก aov-builds แหล่งเดียว ไม่ใช่ทางการ ไม่มีตัวเลขให้เทียบ เป็นเพียงทริกการเล่น; หน้าเว็บมีเนื้อหาต้นเกมฟาร์มปลอดภัย/โพคจริง แต่ยืนยันแบบ 2 แหล่งอิสระไม่ได้",
+      "confidence": 0.5,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-019",
+      "verdict": "verified",
+      "reason": "fetch aov-builds สดยืนยัน: หน้านั้นใช้ชื่อสกิล Flow of Energy / Converging Flow / Sky-Piercing Crossbow / Chain Crossbow ซึ่งไม่ตรงชื่อทางการ (Flow of the World / Convergence / Arrow of No Retreat / Arrowstorm ตาม beta53 และ hero-details.json) — คำเตือนของ research ถูกต้อง",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-020",
+      "verdict": "verified",
+      "reason": "เป็นเมทา-claim เรื่องความน่าเชื่อถือของ rovmeta: การตัดสินใจไม่ใช้ rovmeta เป็นหลักฐานถูกต้องตามหลักฐานรอง — hero-details.json (flowborn-dragon/flowborn-mid) และหน้าทางการ beta53/expserver261103 ไม่มีชื่อสกิล Flow Bolt/Flow Surge/Tidal Reckoning/Flow Resonance และไม่มีร่างเมจชื่อเช่นนั้น; ชุดรูน Atrocity/Guerrilla/Skewer ก็ไม่ตรงแนวทาง rovguide/aov-builds",
+      "confidence": 0.8,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-021",
+      "verdict": "unverifiable",
+      "reason": "วิดีโอไม่มีทรานสคริปต์ ใช้เป็นหลักฐานไม่ได้ตามกฎ; claim เป็นเพียงการบันทึกว่าไม่ใช้เนื้อหา — ไม่มีสาระให้เผยแพร่",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    },
+    {
+      "id": "flowborn-dragon-022",
+      "verdict": "unverifiable",
+      "reason": "วิดีโอไม่มีทรานสคริปต์และเป็นร่างเมจ (ไม่ตรง flowborn-dragon); ใช้เป็นหลักฐานไม่ได้ ไม่มีสาระให้เผยแพร่",
+      "confidence": 0.9,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 15,
+    "contested": 2,
+    "rejected": 0,
+    "unverifiable": 5
+  },
+  "safeToPublish": [
+    "flowborn-dragon-001",
+    "flowborn-dragon-002",
+    "flowborn-dragon-003",
+    "flowborn-dragon-004",
+    "flowborn-dragon-005",
+    "flowborn-dragon-006",
+    "flowborn-dragon-007",
+    "flowborn-dragon-008",
+    "flowborn-dragon-009",
+    "flowborn-dragon-010",
+    "flowborn-dragon-011",
+    "flowborn-dragon-012",
+    "flowborn-dragon-016",
+    "flowborn-dragon-017",
+    "flowborn-dragon-019",
+    "flowborn-dragon-020"
+  ]
+}

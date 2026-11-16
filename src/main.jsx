@@ -1,9 +1,10 @@
 import React,{useEffect,useMemo,useRef,useState} from 'react'
 import {createRoot} from 'react-dom/client'
-import {Activity,ArrowDown,ArrowRight,ArrowUpRight,ChartNoAxesCombined,Check,Crosshair,Flame,Link2,Map,Plus,Search,Shield,Sparkles,Swords,Users,Waves,Wind,X} from 'lucide-react'
+import {Activity,ArrowDown,ArrowRight,ArrowUpRight,BookOpen,ChartNoAxesCombined,Check,Crosshair,Flame,Link2,Map,Plus,Search,Shield,Sparkles,Swords,Users,Waves,Wind,X} from 'lucide-react'
 import {BattleMap} from './map.jsx'
 import {DraftBoard,HeroCatalog,DraftAnalysis,HeroSheet,targetName} from './draft.jsx'
 import {CounterPick} from './matchup.jsx'
+import {HeroGuide} from './guide.jsx'
 import {HeroIntel} from './hero-intel.jsx'
 import {db,homeUrl,rpc,fetchRoom} from './backend.js'
 import rawHeroes from './heroes.json'
@@ -13,7 +14,7 @@ import heroTags from './hero-tags.json' with {type:'json'}
 import './styles.css'
 const ICONS={slayer:Shield,jungle:Flame,mid:Sparkles,dragon:Crosshair,roam:Waves}
 const allHeroes=rawHeroes
-const tabs=[['draft','ดราฟต์',Swords],['counter','เคาน์เตอร์',Crosshair],['team','ผู้เล่น',Users],['map','แผนที่',Map],['meta','เมต้า',ChartNoAxesCombined]]
+const tabs=[['draft','ดราฟต์',Swords],['counter','เคาน์เตอร์',Crosshair],['guide','คู่มือ',BookOpen],['team','ผู้เล่น',Users],['map','แผนที่',Map],['meta','เมต้า',ChartNoAxesCombined]]
 const read=(key,alt)=>{try{return JSON.parse(localStorage.getItem(key))??alt}catch{return alt}}
 const store=(key,value)=>localStorage.setItem(key,JSON.stringify(value))
 const asDate=d=>new Intl.DateTimeFormat('th-TH',{year:'numeric',month:'short',day:'numeric',timeZone:'Asia/Bangkok'}).format(new Date(d+'T12:00:00+07:00'))
@@ -247,6 +248,7 @@ function App(){
       <HeroSheet open={sheetOpen} stage={sheetStage} context={targetName(target)} side={target.side} onClose={()=>closePicker()} onBack={()=>setSheetStage('catalog')} renderCatalog={()=> <HeroCatalog {...catalogProps} compact/>} renderAnalysis={headingRef=> <DraftAnalysis {...analysisProps} compact headingRef={headingRef}/>}/>
     </>}
     {page==='counter'&&<CounterPick heroes={heroes} state={state} byId={byId} Portrait={Portrait} display={display} onIntel={showIntel} stamp={stamp} asDate={asDate} room={room} online={online} peers={peers} profiles={profiles} onAi={requestAi}/>}
+    {page==='guide'&&<HeroGuide heroes={heroes} byId={byId} Portrait={Portrait} display={display} asDate={asDate} stamp={stamp}/>}
     {page==='team'&&<Team players={players} heroes={heroes} byId={byId} save={saveProfile} coach={coach} session={session} room={room} slot={editSlot} setSlot={setEditSlot} makeInvite={createInvite} copy={copyLink} tell={tell} group={teamGroup} rosters={groupRosters} onPickGroup={chooseGroup} clearGroup={()=>setTeamGroup(null)}/>}
     {page==='map'&&<BattleMap state={state} apply={apply} coach={coach&&!pending}/>}
     {page==='meta'&&<section className="panel meta-panel">

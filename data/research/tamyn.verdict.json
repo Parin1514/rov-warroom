@@ -1,0 +1,286 @@
+{
+  "hero": "tamyn",
+  "verifiedAt": "2026-11-16",
+  "results": [
+    {
+      "id": "tamyn-001",
+      "verdict": "unverifiable",
+      "reason": "https://www.rov.in.th/patch-notes/beta54 ยืนยัน Tamyn ไฟต์เตอร์ แนะนำป่า/ออฟเลน และ src/hero-details.json มี tamyn แต่วันที่ 7 ก.ค. ยืนยันได้จาก https://rovguide.com/updates/beta54 เพียงแหล่งเดียว; เนื้อหาทางการที่อ่านไม่แสดงวันเริ่มแพตช์ชัดเจน จึงยังไม่ยืนยัน claim ทั้งประโยค ส่วน Hotfix 17 พ.ย. ใน gamePatch ของอินพุตเป็นอนาคตเมื่อเทียบวันตรวจ 16 พ.ย. ห้ามถือว่าใช้งานแล้ว",
+      "confidence": 0.88,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-002",
+      "verdict": "verified",
+      "reason": "สูตรตัวเลขทั้งห้าตรงข้อความทางการ https://www.rov.in.th/patch-notes/beta54 ตรวจเทียบ slot ใน src/hero-details.json แล้ว; ยืนยันเฉพาะค่าตอนเปิดตัวตามขอบเขต claim ไม่ใช่ค่าปัจจุบัน โดย passive ถูกแทนที่ใน https://www.rov.in.th/patch-notes/hotfix261030 ห้ามนำ 200 (+14/lv) (+0.3) ไปใช้เป็นค่าปัจจุบัน",
+      "confidence": 0.99,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-003",
+      "verdict": "unverifiable",
+      "reason": "อ่าน https://rovguide.com/updates/beta55 พบรายชื่อ 22 ฮีโร่ไม่รวม Tamyn ตาม claim จริง แต่เป็นหน้าสรุปที่ไม่ใช่ทางการเพียงแหล่งเดียว ไม่ใช่หลักฐานว่าไม่มีการเปลี่ยน Tamyn ทุกแพตช์; คง unverifiable ตามเกณฑ์แหล่งเดียว",
+      "confidence": 0.92,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-004",
+      "verdict": "verified",
+      "reason": "https://www.rov.in.th/patch-notes/hotfix261030 ระบุ Tamyn Nerf: 200~396 (+0.3 โบนัส AD) เป็น 182~364 (+0.28 โบนัส AD) ตรง https://tierlq.com/tuong/tamyn-jg/; จึงไม่ใช่ข้อมูลที่มีเฉพาะ VN ตรวจตัวตน/slot passive กับ src/hero-details.json แล้ว ยืนยันการเปลี่ยนวันที่ 30 ต.ค. ไม่รับรองว่าเป็นการปรับล่าสุดทุกเซิร์ฟเวอร์",
+      "confidence": 0.99,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-005",
+      "verdict": "rejected",
+      "reason": "https://rovguide.com/heroes/tamyn ยังแสดง 200-396 (+30% โบนัส AD) แต่ https://www.rov.in.th/patch-notes/hotfix261030 เปลี่ยนเป็น 182-364 (+28%) แล้ว จึงห้ามเผยแพร่เป็น passive ปัจจุบัน แม้ชื่อ Shadow Devourer ตรง src/hero-details.json; ค่าก่อน nerf เก็บได้เฉพาะประวัติที่ระบุช่วงเวลา",
+      "confidence": 0.99,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-006",
+      "verdict": "contested",
+      "reason": "กลไกฮีล/ความเร็วและสูตร 100 (+7/lv) (+2% โบนัส HP) สอดคล้อง https://www.rov.in.th/patch-notes/beta54 แต่ทางการเรียก passive From the Shadows ต่างจาก Shadow Devourer ใน src/hero-details.json และ https://rovguide.com/heroes/tamyn; ยังไม่มีหลักฐานเปลี่ยนชื่อยืนยัน ส่วนการรีคอลและค่าปัจจุบันต้องตรวจเพิ่ม ห้ามนับ repo กับ rovguide เป็นสองแหล่งอิสระ",
+      "confidence": 0.92,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-007",
+      "verdict": "contested",
+      "reason": "สูตร 350 (+70/lv) (+1.4 โบนัส AD), หอก 10 วิ และโบนัส 50% ตรง https://www.rov.in.th/patch-notes/beta54 แต่ชื่อทางการคือ Desolation Strike ต่างจาก Judgment Stab ใน src/hero-details.json และ Thrust of Judgment ที่ https://rovguide.com/heroes/tamyn; คูลดาวน์ 8 ถึง 7 วิพบเฉพาะ rovguide ยังยืนยันทั้ง claim ไม่ได้",
+      "confidence": 0.94,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-008",
+      "verdict": "contested",
+      "reason": "สูตร 300 (+60/lv) (+1.2 โบนัส AD), หอก 10 วิและสโลว์ 2 วิ ตรง https://www.rov.in.th/patch-notes/beta54 แต่ชื่อทางการ Sunfall ต่างจาก Sacred Spear ใน src/hero-details.json และ Spear Strike ที่ https://rovguide.com/heroes/tamyn; อัตราสโลว์ 15-30% และคูลดาวน์ 8-7 วิยังมีแหล่งตัวเลขเดียว",
+      "confidence": 0.94,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-009",
+      "verdict": "contested",
+      "reason": "src/hero-details.json ยืนยันชื่อ Scorching Light, cooldown 0s, cost 0 แต่ https://www.rov.in.th/patch-notes/beta54 ใช้ Infinite Recall และสูตร 150 (+150/lv) (+0.85 โบนัส AD); https://rovguide.com/heroes/tamyn แสดงคำบรรยายฐาน 150 แต่ตารางเลเวล 300/450/600 และเพิ่ม 5% HP เป้าหมายที่หายไป ควรระบุฐานกับการสเกลให้ชัด ตัวเลขชาร์จ 12/11/10 ยังไม่มีหลักฐานอิสระรองรับ",
+      "confidence": 0.93,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-010",
+      "verdict": "unverifiable",
+      "reason": "https://rovguide.com/heroes/tamyn แสดง 52.80%, 7.23%, 46.38% และอันดับตรง claim; src/hero-details.json ยืนยันได้เพียง specialty ว่องไว สถิติเป็น snapshot ไทย 19 ต.ค. แหล่งเดียว ไม่ใช่ค่าปัจจุบันและห้ามนำสถิติ VN คนละช่วงมาถือว่าขัดกันโดยตรง",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-011",
+      "verdict": "unverifiable",
+      "reason": "https://rovguide.com/heroes/tamyn มีเรตติ้ง 3/5, 4/5, 1/5, 5/5 จริง แต่ src/hero-details.json ไม่เก็บเรตติ้ง และยังไม่มีหลักฐานทางการรองรับคำว่าเรตติ้งทางการ",
+      "confidence": 0.94,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-012",
+      "verdict": "unverifiable",
+      "reason": "https://rovguide.com/th/meta มีแถว Tamyn อันดับ 10 T2 และโปร 2.12%/1.86%/0.27% พร้อมข้อความจำนวนเลือกน้อยเกินไปตรง claim แต่เป็นแหล่งเดียวกับหน้า hero ไม่ใช่หลักฐานอิสระอีกแหล่ง ตัวเลขใช้ได้เพียง snapshot ที่อ้าง ไม่ยืนยันเมต้าปัจจุบัน",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-013",
+      "verdict": "unverifiable",
+      "reason": "https://tierlq.com/tuong/tamyn-jg/ มีตัวเลข 54.63%/3.20%/22.36%, 45 เลือก/259 แบน/310 เกม/68.89% และระบุ S บรรณาธิการกับ T3 Garena คนละระบบตรง claim แต่ยังเป็นรายงานชุมชนแหล่งเดียว ไม่มีข้อมูลต้นทางให้ตรวจซ้ำ",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-014",
+      "verdict": "unverifiable",
+      "reason": "https://lienquanmobile.gg/champions/tamyn/build/jungle/ แสดง 62.32%/25.6%/3.8% จริง แต่ไม่ระบุช่วงเวลา ขนาดตัวอย่างหรือวิธีคำนวณ จึงตรวจความสดและเทียบกับ snapshot ไทย/VN อื่นไม่ได้",
+      "confidence": 0.97,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-015",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/en/heroes/tamyn/ มีชุดตรง claim และหน้าแสดง Updated November 2, 2026 ไม่ใช่มีแค่วันเผยแพร่ ก.ค.; src/items.json ไม่พบ Wrath Armor หรือ Voidsteel Blade จึงห้าม verified จนยืนยันชื่อเทียบเซิร์ฟเวอร์ การไม่พบในรายการท้องถิ่นไม่พิสูจน์ว่าไอเทมไม่มีจริง",
+      "confidence": 0.97,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-016",
+      "verdict": "unverifiable",
+      "reason": "ชุดตรง https://aov-builds.com/en/heroes/tamyn/ แต่ src/items.json ไม่พบ Frost Mace, Wrath Armor, Voidsteel Blade; ต้องมีหลักฐานจับคู่ชื่อและบิลด์ปัจจุบัน ไม่ตัดสิน rejected จากชื่อแปลที่หาไม่พบอย่างเดียว",
+      "confidence": 0.97,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-017",
+      "verdict": "unverifiable",
+      "reason": "https://tierlq.com/tuong/tamyn-jg/ แสดงชื่อเวียดนามหกชิ้นและ Trừng Trị ตรงข้อความต้นฉบับ แต่คำแปล Wizard's Boots, Complex Sword, Skyward Sword, Wrath Armor ไม่พบตรงตัวใน src/items.json; ไม่มีหลักฐานจับคู่ alias ทางการครบ ห้ามอนุมานว่าไม่มีไอเทมจริง",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-018",
+      "verdict": "unverifiable",
+      "reason": "https://lienquanmobile.gg/champions/tamyn/build/jungle/ มีชุดตามต้นฉบับ VN แต่ Resolute/Sturdy Boots และ Wrath Armor ไม่พบตรงชื่อใน src/items.json; แหล่งไม่ระบุวันและยังจับคู่ชื่อทางการไม่ครบ",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-019",
+      "verdict": "contested",
+      "reason": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan ระบุชิ้นสุดท้ายของชุดกึ่งแทงค์และป่าเป็น Giáp Hộ Mệnh แต่ claim แปลเป็น Aegis ซึ่งไม่ได้อยู่ในข้อความต้นฉบับ; ชุดดาเมจเต็มยังตก Giày Thuật Sĩ ไปหนึ่งชิ้น ส่วน Wizard's Boots/Skyward Sword/Frostbite Mace/Rankbreaker/Complex Sword/Resolute Boots/Leviathan Axe ต้องจับคู่กับ src/items.json ก่อนเผยแพร่",
+      "confidence": 0.99,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-020",
+      "verdict": "unverifiable",
+      "reason": "https://tenkly.com/how-to-play-tamyn-at-maximum-potential/ เสนอไอเทมเหล่านี้จริง แต่เป็นบทความก่อนเปิดตัวและใช้ถ้อยคำคาดการณ์; Gilded Greaves ไม่ตรงตัวกับ Glided Greaves ใน src/items.json ยังยืนยัน alias ไม่ได้ ไม่สรุปว่ามาจากเซิร์ฟเวอร์ทดสอบโดยไม่มีหลักฐาน",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-021",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/th/heroes/tamyn/ แนะนำไอเทมความเร็วจริง และ https://www.rov.in.th/patch-notes/beta54 รองรับกลไกโบนัสความเร็วเพิ่มดาเมจ แต่ยังไม่ได้พิสูจน์ข้อแนะนำการเลือกไอเทมทั้งหมดหรือความเหมาะสมกับแพตช์ปัจจุบัน",
+      "confidence": 0.9,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-022",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/th/heroes/tamyn/ มีรูนตาม claim แต่ src/hero-details.json ของ tamyn ไม่มีหน้ารูน และ src/items.json ไม่ใช่ฐานรูน จึงจับคู่ชนิด/จำนวนอย่างเป็นทางการไม่ได้; สูตรต่างจาก tierlq ไม่ใช่ความขัดแย้งโดยตัวมันเอง เพราะอาจเป็นทางเลือกบิลด์",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-023",
+      "verdict": "unverifiable",
+      "reason": "https://tierlq.com/tuong/tamyn-jg/ ระบุรูนแดง 5+5 ม่วง 10 เขียว 10 ตรง claim แต่ไม่มีหน้ารูน tamyn ใน src/hero-details.json ให้เทียบ; มีเพียงแหล่งแนะนำเดียว บิลด์ต่างจาก aov-builds ไม่ใช่หลักฐานผิด",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-024",
+      "verdict": "unverifiable",
+      "reason": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan ระบุ AD/เจาะเกราะครบสามสีจริง แต่ไม่มีฐานรูนทางการในไฟล์อ้างอิงยืนยันว่ารูนม่วงคุณสมบัตินี้มีอยู่; https://8congnghe.vn/2026/09/27/cach-choi-tamyn-lien-quan-quet-sach-moi-map/ มีโครงและบิลด์คล้ายมากจึงไม่นับเป็นหลักฐานอิสระเพิ่ม",
+      "confidence": 0.97,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-025",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/en/heroes/tamyn/ แสดงชื่อเหล่านี้ แต่ src/hero-details.json ใช้ชื่อระบบ Lokheim/Veda และไม่มีชุดพลังแฝง tamyn; Chaos Abyss/Tower of Radiance/Afterimage/Fortify/Contrast/Penetrating Heart ยังไม่มีหลักฐานจับคู่ชื่อครบ การแปลชื่อคนละภาษาไม่เพียงพอให้ rejected",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-026",
+      "verdict": "unverifiable",
+      "reason": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan มีสองชุดดังกล่าวในภาษา VN แต่ชื่อแปลหลายชื่อไม่ตรง src/hero-details.json และไม่มีชุด tamyn ให้ยืนยัน; 8congnghe มีโครง/รายละเอียดใกล้เคียงมาก ไม่ใช้เพิ่มจำนวนแหล่งอิสระ",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-027",
+      "verdict": "unverifiable",
+      "reason": "https://lienquanmobile.gg/champions/tamyn/build/jungle/ แสดง Vực hỗn mang กับ Tháp quang minh จริง แต่ Chaos Abyss/Tower of Radiance ไม่มีชื่อเทียบตรงใน src/hero-details.json และไม่มีวันอัปเดต ไม่ยืนยัน alias หรือความเหมาะสมปัจจุบันจากแหล่งนี้",
+      "confidence": 0.95,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-028",
+      "verdict": "contested",
+      "reason": "https://aov-builds.com/en/heroes/tamyn/ แนะนำอัปสกิล 1 ก่อนตาม claim แต่ https://lienquanmobile.gg/champions/tamyn/build/jungle/ แนะนำสกิล 2 ก่อนและสลับตาราง 1/2; เป็นข้อเสนอคนละบิลด์ไม่ใช่พิสูจน์ว่าสูตรใดเป็นไปไม่ได้ แต่ไม่มีหลักฐานทางการเลือกลำดับที่เหมาะกว่า จึงยังใช้เป็นคำแนะนำมาตรฐานไม่ได้",
+      "confidence": 0.9,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-029",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/en/heroes/tamyn/ มีคอมโบนี้ แต่จังหวะอัลติระหว่างพุ่งและการโจมตีเสริมพลังต้องทดสอบในเกม เอกสาร src/hero-details.json ไม่ยืนยันการต่ออินพุต",
+      "confidence": 0.98,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-030",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/en/heroes/tamyn/ ระบุรอคูลดาวน์ 1 วิแล้วโจมตีเสริมพลังสี่ครั้งจริง แต่ผลขึ้นกับจังหวะและสถานะหอก ต้องทดสอบในเกม ไม่มีหลักฐานเอกสารเพียงพอยืนยันสี่ครั้งต่อเนื่อง",
+      "confidence": 0.99,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-031",
+      "verdict": "unverifiable",
+      "reason": "https://tenkly.com/how-to-play-tamyn-at-maximum-potential/ ระบุคอมโบตรง claim แต่เป็นบทความก่อนเปิดตัวและไม่ได้แสดงเงื่อนไขเก็บหอกก่อนโจมตีเสริมพลัง ต้องทดสอบตามแพตช์จริง ไม่ถือว่าเป็นหลักฐานจากเซิร์ฟเวอร์ทดสอบโดยอัตโนมัติ",
+      "confidence": 0.98,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-032",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/en/heroes/tamyn/ มีคำแนะนำเหล่านี้และอัปเดต 2 พ.ย. แต่คำว่าแข็งแกร่งที่สุดในไฟต์ยาวและเงื่อนไขเข้าทีมไฟต์ยังเป็นคำแนะนำแหล่งเดียว; หลายหน้าภาษาของเว็บไซต์เดียวไม่นับเป็นอิสระ ต้องทดสอบสถานการณ์จริง",
+      "confidence": 0.95,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-033",
+      "verdict": "unverifiable",
+      "reason": "Alice/Krizzix/Maloch/Baldum/Mina พบใน src/hero-details.json แต่ https://tenkly.com/how-to-play-tamyn-at-maximum-potential/ ใช้คำว่า should work well ใน Clash Lane ไม่ได้พิสูจน์ว่าเหมาะที่สุดหรือ synergy ดีกว่าคู่อื่น เป็นคำแนะนำก่อนเปิดตัวแหล่งเดียว",
+      "confidence": 0.95,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-034",
+      "verdict": "unverifiable",
+      "reason": "https://cellphones.com.vn/sforum/cach-choi-tamyn-lien-quan แนะนำ Punish/Flicker/Sprint ตาม claim; aov-builds รองรับสองตัวแรกแต่ไม่ครบทั้ง claim ส่วน 8congnghe คล้าย cellphones มากจึงไม่นับเป็นอิสระ ยังไม่มีชุดสกิลเสริม tamyn ใน src/hero-details.json ให้ยืนยัน",
+      "confidence": 0.93,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-035",
+      "verdict": "unverifiable",
+      "reason": "อ่าน https://8congnghe.vn/2026/09/27/cach-choi-tamyn-lien-quan-quet-sach-moi-map/ พบคำแนะนำเคลียร์ป่า/แกงค์จริง แต่ claim นี้เป็นบันทึกแหล่งไม่ใช่ข้อเท็จจริงเกมที่จะเผยแพร่; เนื้อหาซ้ำแนว cellphones มาก ยังพิสูจน์ความเป็นอิสระไม่ได้",
+      "confidence": 0.96,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-036",
+      "verdict": "contested",
+      "reason": "https://aov-builds.com/en/counters/tamyn/ ระบุ Heroes That Counter Tamyn คือ Florentino/Omen/Charlotte/Marja/Gildur หมายถึงตัวที่เอาชนะหรือทำให้ Tamyn แพ้ทาง แต่ข้อความไทย claim ว่าผู้แพ้ทาง Tamyn ซึ่งกลับทิศความหมาย; ชื่อทั้งห้ามีใน src/hero-details.json แต่ผล matchup ยังเป็นข้อเสนอแหล่งเดียว",
+      "confidence": 0.99,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-037",
+      "verdict": "contested",
+      "reason": "https://aov-builds.com/en/counters/tamyn/ วาง Spirit Bind/Sentinel ในหัวข้อ Counter Items ไม่ใช่พลังแฝงตามคำแปล claim และเชื่อมกับ Shield of the Lost/The Aegis ซึ่งมีใน src/items.json; Sentinel ที่พบใน src/hero-details.json เป็นชื่อสกิลฮีโร่จึงใช้ยืนยัน passive ไอเทมไม่ได้ ส่วนตัวเลข 30%/5m และผลจริงต่อ Tamyn ยังไม่มีหลักฐานทางการรองรับครบ",
+      "confidence": 0.99,
+      "needsInGameTest": true
+    },
+    {
+      "id": "tamyn-038",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/th/heroes/tamyn/ แสดงชื่อวิดีโอ Hutton ตรง claim แต่ไม่มี transcript ให้ตรวจเนื้อหา ตามกฎห้ามใช้วิดีโอนี้เป็นหลักฐานเกม การเห็นชื่อคลิปไม่ยืนยันคอมโบ",
+      "confidence": 0.99,
+      "needsInGameTest": false
+    },
+    {
+      "id": "tamyn-039",
+      "verdict": "unverifiable",
+      "reason": "https://aov-builds.com/th/heroes/tamyn/ แสดงชื่อคลิปผมใช้เวลา 6 วันกับการวิจัย Tamyn จริง แต่ไม่มี transcript ให้ตรวจ จึงไม่ใช้เป็นหลักฐานเกมและไม่อนุมานรายละเอียดจากชื่อ",
+      "confidence": 0.99,
+      "needsInGameTest": false
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "contested": 8,
+    "rejected": 1,
+    "unverifiable": 28
+  },
+  "safeToPublish": ["tamyn-002", "tamyn-004"]
+}

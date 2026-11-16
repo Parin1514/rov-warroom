@@ -1,0 +1,106 @@
+{
+  "hero": "yorn",
+  "gamePatch": "กรอบค้นหา ณ 2026-11-16: รายการแพตช์ทางการระบุ Hotfix 4 พ.ย. 2026 เป็นแพตช์เซิร์ฟเวอร์หลักล่าสุดที่วันมีผลไม่เกินวันค้นหา; ยังไม่ได้ยืนยันเลขเวอร์ชันในเกม",
+  "searchedAt": "2026-11-16",
+  "claims": [
+    {
+      "id": "yorn-001",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุว่า หลังใช้ Explosive Arrow การโจมตีปกติครั้งต่อไปจะติด Fierce Shot",
+      "quote": "หลังจากนั้นการโจมตีปกติครั้งต่อไปจะติด Fierce Shot",
+      "source": {"url": "https://www.rov.in.th/hero/yorn", "kind": "official", "date": null, "transcript": false, "stale": null}
+    },
+    {
+      "id": "yorn-002",
+      "type": "skill",
+      "text": "หน้าฮีโร่ทางการระบุว่า หลังใช้ Heavenly Barrage การโจมตีปกติครั้งต่อไปจะติด Fierce Shot",
+      "quote": "หลังจากนั้นการโจมตีปกติครั้งต่อไปจะติด Fierce Shot",
+      "source": {"url": "https://www.rov.in.th/hero/yorn", "kind": "official", "date": null, "transcript": false, "stale": null}
+    },
+    {
+      "id": "yorn-003",
+      "type": "patch-change",
+      "text": "RoVGuide สรุป Beta 55 ลงวันที่อัปเดต 28 ก.ย. 2569 ว่า ความเสียหายสกิลติดตัวของ Yorn ต่อฮีโร่เปลี่ยนจาก 2% HP สูงสุดเป้าหมาย เป็น 28~56 (+1.5% HP สูงสุดของเป้าหมาย)",
+      "quote": "หลังปรับ 28~56 (+1.5% HP สูงสุดของเป้าหมาย)",
+      "source": {"url": "https://rovguide.com/th/updates/beta55", "kind": "community", "date": "2026-09-28", "transcript": false, "stale": true}
+    },
+    {
+      "id": "yorn-004",
+      "type": "patch-change",
+      "text": "RoVGuide สรุป Beta 55 ว่า Explosive Arrow เพิ่มการเปิดวิสัยทัศน์ของเป้าหมาย",
+      "quote": "สกิล 1: เพิ่มการเปิดวิสัยทัศน์ของเป้าหมาย",
+      "source": {"url": "https://rovguide.com/th/updates/beta55", "kind": "community", "date": "2026-09-28", "transcript": false, "stale": true}
+    },
+    {
+      "id": "yorn-005",
+      "type": "patch-change",
+      "text": "RoVGuide สรุป Beta 55 ว่า Precise Shot เปิดวิสัยทัศน์ตามทาง เมื่อโดนจะเปิดวิสัยทัศน์ของเป้าหมายและตัวเอง",
+      "quote": "สกิล 2: เปิดวิสัยทัศน์ตามทาง เมื่อโดนจะเปิดวิสัยทัศน์ของเป้าหมายและตัวเอง",
+      "source": {"url": "https://rovguide.com/th/updates/beta55", "kind": "community", "date": "2026-09-28", "transcript": false, "stale": true}
+    },
+    {
+      "id": "yorn-006",
+      "type": "skill",
+      "text": "หน้าฮีโร่ RoVGuide ระบุว่า Precise Shot สามารถผลักฮีโร่ศัตรูที่อยู่ระยะประชิดออก และทำให้การโจมตีปกติครั้งต่อไปเป็นการโจมตีพิเศษ",
+      "quote": "Yorn ชาร์จยิงลูกธนูระยะไกล ซึ่งจะสามารถผลักฮีโร่ศัตรูที่อยู่ระยะประชิดออกไปได้",
+      "source": {"url": "https://rovguide.com/th/heroes/yorn", "kind": "community", "date": null, "transcript": false, "stale": null}
+    },
+    {
+      "id": "yorn-007",
+      "type": "patch-change",
+      "text": "หน้าฮีโร่ RoVGuide แสดงประวัติการเปลี่ยนแปลงว่า การโจมตีปกติของ Yorn ต้องใช้ปุ่มบังคับด้านซ้ายจึงจะขัดจังหวะได้",
+      "quote": "Yorn: การโจมตีปกติต้องใช้ปุ่มบังคับด้านซ้ายจึงจะขัดจังหวะได้",
+      "source": {"url": "https://rovguide.com/th/heroes/yorn", "kind": "community", "date": null, "transcript": false, "stale": null}
+    },
+    {
+      "id": "yorn-008",
+      "type": "combo",
+      "text": "ROV META แนะนำสอดออโต้หนึ่งครั้งหลังทุกสกิล แทนการกดสกิลติดกัน โดยอ้างว่าการใช้ Q, W หรือ R ทำให้ออโต้ถัดไปเป็น Fierce Shot",
+      "quote": "สอดออโต้หนึ่งครั้งหลังทุกสกิล ไม่ใช่กดสกิลติดกันรัวๆ",
+      "source": {"url": "https://rovmeta.com/th/heroes/yorn", "kind": "article", "date": "2026-11-12", "transcript": false, "stale": false}
+    },
+    {
+      "id": "yorn-009",
+      "type": "skill",
+      "text": "ROV META ระบุลำดับอัปสกิล R > Q > W โดยหน้าเดียวกันเรียก Q ว่า Explosive Arrow, W ว่า Heavenly Barrage และ R ว่า Feel the Sun; เก็บคำเรียกตามแหล่งโดยไม่แปลงเป็นชุดสกิลของแหล่งอื่น",
+      "quote": "ลำดับความสำคัญ: R > Q > W",
+      "source": {"url": "https://rovmeta.com/th/heroes/yorn", "kind": "article", "date": "2026-11-12", "transcript": false, "stale": false}
+    },
+    {
+      "id": "yorn-010",
+      "type": "item",
+      "text": "ROV META แนะนำ War Boots, Fafnir's Talon, Claves Sancti, Slikk's Sting, Muramasa และ Death Sickle ตามลำดับ",
+      "quote": "แล้ว Claves Sancti และ Slikk's Sting เอาคริและแอตแทกสปีด",
+      "source": {"url": "https://rovmeta.com/th/heroes/yorn", "kind": "article", "date": "2026-11-12", "transcript": false, "stale": false}
+    },
+    {
+      "id": "yorn-011",
+      "type": "rune",
+      "text": "ROV META ระบุอาร์คานาหลัก Awake, Spirit และ Dragon's Claw โดยส่วนข้อความที่อ่านได้ไม่ระบุจำนวน",
+      "quote": "อาร์คานาหลัก Awake Spirit Dragon's Claw",
+      "source": {"url": "https://rovmeta.com/th/heroes/yorn", "kind": "article", "date": "2026-11-12", "transcript": false, "stale": false}
+    },
+    {
+      "id": "yorn-012",
+      "type": "matchup",
+      "text": "ROV META ยก Nakroth, Quillen และ Murad เป็นตัวแก้ทาง Yorn เพราะเข้าประชิดและเบิร์สต์ก่อนหนีด้วย Flicker พร้อมแนะนำกดดันเลนและแกงค์ช่วงต้นก่อนออก Fafnir's Talon",
+      "quote": "เคาน์เตอร์ที่คลีนสุดคืออัสซาซินสายเคลื่อนที่สูง นาครอท, ควิลเลน หรือ มูราด",
+      "source": {"url": "https://rovmeta.com/th/heroes/yorn", "kind": "article", "date": "2026-11-12", "transcript": false, "stale": false}
+    },
+    {
+      "id": "yorn-013",
+      "type": "enchant",
+      "text": "Gametimeprime ไกด์ SS16 แนะนำ Lokheim: Raging Inferno, Deadly Claw, Devil’s Awakening และ Veda: Axe of Sacrifice, Holy Verdic",
+      "quote": "Devil’s Awakening",
+      "source": {"url": "https://gametimeprime.com/yorn-rov/", "kind": "article", "date": "2020-10-11", "transcript": false, "stale": true}
+    },
+    {
+      "id": "yorn-014",
+      "type": "item",
+      "text": "Zathong แสดงบิลด์สองชุด: War Boots, Claves Sancti, Slikks Sting, Muramasa, Bow of Slaughter, Blade of Eternity; อีกชุดคือ War Boots, Fafnirs Talon, Claves Sancti, Slikks Sting, Muramasa, Blade of Eternity โดยข้อความที่อ่านได้ไม่ได้ให้เงื่อนไขเลือกชุดตามศัตรู",
+      "quote": "ไอเทมแนะนำ",
+      "source": {"url": "https://zathong.com/yorn-rov/", "kind": "article", "date": "2021-04-07", "transcript": false, "stale": true}
+    }
+  ],
+  "notes": "เก็บข้อกล่าวอ้างจากแหล่งโดยยังไม่ตัดสินถูกผิด. ตรวจรายการทางการ https://www.rov.in.th/patch-notes พบ Hotfix 4 พ.ย. 2026 (รายการเผยแพร่ 3 พ.ย.) และ Hotfix 17 พ.ย. 2026 (รายการเผยแพร่ 12 พ.ย.). อ่าน https://www.rov.in.th/patch-notes/hotfix261117 แล้วไม่พบชื่อ Yorn ในข้อความที่ได้รับ แต่วันมีผล 17 พ.ย. อยู่หลัง searchedAt จึงไม่นับเป็นแพตช์ที่ใช้งานแล้ว และไม่สรุปว่าไม่มีการเปลี่ยนแปลงอื่นหลัง Beta 55. ยังไม่พบ URL ต้นฉบับ Garena ของ Beta 55 จากการค้น จึงอ้างการเปลี่ยนแปลงนั้นเป็น community ไม่ใช่ official. date ของ RoVGuide Beta 55 เป็นวันที่อัปเดตแพตช์ที่หน้าแสดง ไม่ใช่การยืนยันวันเผยแพร่บทความ; date ของ ROV META เป็นวันอัปเดตที่หน้าแสดงและเลขแพตช์ 1.64 เป็นคำกล่าวของเว็บนั้น ไม่ได้ยืนยันว่าเท่ากับเวอร์ชันเซิร์ฟเวอร์ไทย. date ของ Zathong มาจาก metadata การค้นซึ่งระบุ 2021-04-07 แม้ชื่อหน้าเขียน SS28; ไม่มีวันแก้ไขล่าสุดที่ยืนยันได้. หน้าที่ไม่แสดงวันเผยแพร่ใช้ date:null และ stale:null เพื่อไม่แต่งวันหรือสถานะความใหม่; stale:true หมายถึงวันที่แหล่งเก่ากว่า Hotfix 4 พ.ย. ไม่ใช่ข้อสรุปว่าเนื้อหาผิด. transcript:false สำหรับข้อความเว็บหมายถึงไม่ได้ใช้ทรานสคริปต์. หน้าทางการและ ROV META เรียงชื่อ Explosive Arrow / Heavenly Barrage / Feel the Sun ขณะที่ RoVGuide และ src/hero-details.json ใช้ Explosive Arrow / Precise Shot / Heavenly Barrage; ยังไม่ตัดสินชุดใดถูก. วิดีโอ https://www.bilibili.tv/en/video/2047419745 ชื่อ ROV ไกด์ - ออกของ รูน Yorn เลนกลาง SS9 สูตร BZ.Difoxn แสดง Jun 25, 2022 แต่ metadata ระบุ 2022-06-26; transcript:false, stale:true, claims:[] เพราะอ่านได้เฉพาะชื่อและวัน. อีกวิดีโอ https://www.bilibili.tv/video/2045691484 แสดงชื่อ [ROV] อยู่ๆยอนก็เก่งขึ้น! Yornถูกบัฟทางอ้อมด้วยพลังแฝงHoly Summoner ยิงไกล9.5เมตร! และ Jul 3, 2022 (metadata 2022-07-04); transcript:false, stale:true, claims:[] ไม่อนุมานคำแนะนำจากชื่อคลิป. ROV META อ้างคลิป Krit Bad Blood แต่ยังไม่ได้ URL ต้นฉบับ วันเผยแพร่ หรือทรานสคริปต์ จึงไม่เก็บเป็น claim วิดีโอ. ไม่พบพลังแฝงใหม่ที่มีหลักฐานข้อความร่วมสมัยหรือเงื่อนไขไอเทมแก้ทางเฉพาะคู่ที่ยืนยันได้จากแหล่งที่อ่าน. ส่งต่อ rov-verifier เพื่อตรวจข้อขัดแย้งและความเข้ากันได้กับแพตช์ก่อนนำไปใช้."
+}
