@@ -37,6 +37,7 @@ test('getHeroGuide works for all 130 heroes without throwing or missing essentia
   for (const hero of rawHeroes) {
     const guide = getHeroGuide(hero, rawDetails, rawHeroes)
     assert.ok(guide, `Guide generated for ${hero.id}`)
+    assert.equal(guide.isHandcrafted, true, `Handcrafted guide exists for ${hero.id}`)
     assert.ok(guide.identity, `Identity exists for ${hero.id}`)
     assert.ok(guide.skills, `Skills exist for ${hero.id}`)
     assert.ok(guide.combos, `Combos exist for ${hero.id}`)
